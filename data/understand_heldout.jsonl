@@ -1,0 +1,179 @@
+{"text": "Utterance: hello", "label": 0}
+{"text": "Recognize this: hi", "label": 0}
+{"text": "Meaning check: hey", "label": 0}
+{"text": "hey there", "label": 0}
+{"text": "What does this mean? good morning", "label": 0}
+{"text": "Classify the intent: good evening", "label": 0}
+{"text": "What does this mean? good afternoon", "label": 0}
+{"text": "hello friend", "label": 0}
+{"text": "Meaning check: hi there", "label": 0}
+{"text": "Hello, how are you?", "label": 0}
+{"text": "hi, how are you?", "label": 0}
+{"text": "hey, how's it going?", "label": 0}
+{"text": "Utterance: good morning everyone", "label": 0}
+{"text": "What does this mean? hello Rosa", "label": 0}
+{"text": "Please detect meaning: bye", "label": 1}
+{"text": "Utterance: goodbye", "label": 1}
+{"text": "Meaning check: see you", "label": 1}
+{"text": "Classify the intent: see you later", "label": 1}
+{"text": "talk soon", "label": 1}
+{"text": "farewell", "label": 1}
+{"text": "goodbye for now", "label": 1}
+{"text": "Utterance: I have to go", "label": 1}
+{"text": "Please detect meaning: catch you later", "label": 1}
+{"text": "Meaning check: bye for now", "label": 1}
+{"text": "See you tomorrow", "label": 1}
+{"text": "Thanks", "label": 2}
+{"text": "Classify the intent: thank you", "label": 2}
+{"text": "thanks a lot", "label": 2}
+{"text": "Thank you so much", "label": 2}
+{"text": "Many thanks", "label": 2}
+{"text": "i appreciate it", "label": 2}
+{"text": "Classify the intent: thanks for your help", "label": 2}
+{"text": "Please detect meaning: thank you for explaining", "label": 2}
+{"text": "Please detect meaning: cheers thanks", "label": 2}
+{"text": "Utterance: thanks mate", "label": 2}
+{"text": "Recognize this: I really appreciate that", "label": 2}
+{"text": "Utterance: thanks, that helped", "label": 2}
+{"text": "Please detect meaning: what is this?", "label": 3}
+{"text": "where are you?", "label": 3}
+{"text": "Why did that happen?", "label": 3}
+{"text": "User said: how does it work?", "label": 3}
+{"text": "Please detect meaning: who said that?", "label": 3}
+{"text": "Recognize this: when does it start?", "label": 3}
+{"text": "Recognize this: why is the server slow?", "label": 3}
+{"text": "What went wrong?", "label": 3}
+{"text": "Utterance: how can I fix this?", "label": 3}
+{"text": "Please detect meaning: which file should I open?", "label": 3}
+{"text": "Is the API running?", "label": 3}
+{"text": "Classify the intent: can you tell me why it failed?", "label": 3}
+{"text": "Please help me", "label": 4}
+{"text": "What does this mean? can you explain", "label": 4}
+{"text": "could you summarize", "label": 4}
+{"text": "please open the file", "label": 4}
+{"text": "Utterance: help me understand", "label": 4}
+{"text": "Please detect meaning: please rewrite this", "label": 4}
+{"text": "Recognize this: could you check the logs", "label": 4}
+{"text": "Meaning check: please fix this bug", "label": 4}
+{"text": "Meaning check: can you show an example", "label": 4}
+{"text": "Please translate this", "label": 4}
+{"text": "the cat is on the sofa", "label": 5}
+{"text": "Classify the intent: I went to school yesterday", "label": 5}
+{"text": "Rosa trains the brain", "label": 5}
+{"text": "What does this mean? the sun rises in the east", "label": 5}
+{"text": "The report is ready", "label": 5}
+{"text": "Meaning check: training continues on the GPU", "label": 5}
+{"text": "Meaning check: the file has ten lines", "label": 5}
+{"text": "User said: the room is quiet", "label": 5}
+{"text": "i am happy", "label": 6}
+{"text": "What does this mean? this is wonderful", "label": 6}
+{"text": "What does this mean? I love this result", "label": 6}
+{"text": "Please detect meaning: great job", "label": 6}
+{"text": "Classify the intent: I feel joyful", "label": 6}
+{"text": "Meaning check: I am glad", "label": 6}
+{"text": "This makes me smile", "label": 6}
+{"text": "Utterance: excellent work", "label": 6}
+{"text": "Recognize this: I am delighted", "label": 6}
+{"text": "I am sad", "label": 7}
+{"text": "Classify the intent: I am sad today", "label": 7}
+{"text": "Meaning check: this is terrible", "label": 7}
+{"text": "I hate this bug", "label": 7}
+{"text": "Please detect meaning: I feel awful", "label": 7}
+{"text": "User said: this makes me angry", "label": 7}
+{"text": "I am frustrated", "label": 7}
+{"text": "I feel depressed", "label": 7}
+{"text": "Utterance: this is disappointing", "label": 7}
+{"text": "I am upset", "label": 7}
+{"text": "User said: I feel miserable", "label": 7}
+{"text": "It is Tuesday", "label": 8}
+{"text": "Classify the intent: the file has ten lines", "label": 8}
+{"text": "Please detect meaning: the room is quiet", "label": 8}
+{"text": "the meeting is at noon", "label": 8}
+{"text": "User said: water boils at one hundred degrees", "label": 8}
+{"text": "Classify the intent: the model has sixteen labels", "label": 8}
+{"text": "Classify the intent: The cat sat on the mat. So an animal sat on the mat.", "label": 9}
+{"text": "Please detect meaning: Rosa trains every day. Therefore Rosa practices regularly.", "label": 9}
+{"text": "Please detect meaning: All birds have wings. A sparrow is a bird, so a sparrow has wings.", "label": 9}
+{"text": "Please detect meaning: If it rains, the ground gets wet. It rained, so the ground is wet.", "label": 9}
+{"text": "the door is open. the door is closed.", "label": 10}
+{"text": "Classify the intent: He is happy. He is miserable.", "label": 10}
+{"text": "She is at home. She is not at home.", "label": 10}
+{"text": "The server is fast. The server is slow.", "label": 10}
+{"text": "the sky is blue. i like pizza.", "label": 11}
+{"text": "User said: She reads a book. Tomorrow might rain.", "label": 11}
+{"text": "Meaning check: The meeting starts at noon. Coffee is bitter.", "label": 11}
+{"text": "Recognize this: Training uses CUDA. Apples are red.", "label": 11}
+{"text": "Meaning check: kitchen table", "label": 12}
+{"text": "bedroom lamp", "label": 12}
+{"text": "Please detect meaning: home door window", "label": 12}
+{"text": "Recognize this: living room sofa", "label": 12}
+{"text": "I cleaned the house", "label": 12}
+{"text": "Meaning check: office meeting", "label": 13}
+{"text": "Meaning check: project deadline", "label": 13}
+{"text": "What does this mean? work email", "label": 13}
+{"text": "Recognize this: team standup", "label": 13}
+{"text": "ship the release today", "label": 13}
+{"text": "Recognize this: bread and tea", "label": 14}
+{"text": "What does this mean? rice for dinner", "label": 14}
+{"text": "Fresh fruit", "label": 14}
+{"text": "Please detect meaning: soup and salad", "label": 14}
+{"text": "What does this mean? I cooked pasta", "label": 14}
+{"text": "Please detect meaning: I feel calm", "label": 15}
+{"text": "Meaning check: she is worried", "label": 15}
+{"text": "Please detect meaning: they are excited", "label": 15}
+{"text": "What does this mean? he feels lonely", "label": 15}
+{"text": "Recognize this: my emotions are mixed", "label": 15}
+{"text": "User said: I feel anxious", "label": 15}
+{"text": "she feels proud", "label": 15}
+{"text": "سلام", "label": 0}
+{"text": "کاربر گفت: سلام خوبی؟", "label": 0}
+{"text": "درود", "label": 0}
+{"text": "معنی را تشخیص بده: صبح بخیر", "label": 0}
+{"text": "خداحافظ", "label": 1}
+{"text": "فعلاً", "label": 1}
+{"text": "معنی را تشخیص بده: بعداً می‌بینمت", "label": 1}
+{"text": "برچسب بزن: ممنون", "label": 2}
+{"text": "مرسی", "label": 2}
+{"text": "کاربر گفت: خیلی ممنون", "label": 2}
+{"text": "برچسب بزن: سپاس", "label": 2}
+{"text": "برچسب بزن: این چیست؟", "label": 3}
+{"text": "چرا کند است؟", "label": 3}
+{"text": "چطور کار می‌کند؟", "label": 3}
+{"text": "معنی را تشخیص بده: کی شروع می‌شود؟", "label": 3}
+{"text": "لطفا کمک کن", "label": 4}
+{"text": "برچسب بزن: لطفا توضیح بده", "label": 4}
+{"text": "برچسب بزن: می‌تونی کمکم کنی؟", "label": 4}
+{"text": "گربه روی مبل است", "label": 5}
+{"text": "معنی را تشخیص بده: امروز آموزش ادامه دارد", "label": 5}
+{"text": "برچسب بزن: من خوشحالم", "label": 6}
+{"text": "معنی را تشخیص بده: عالی بود", "label": 6}
+{"text": "کاربر گفت: خیلی خوبه", "label": 6}
+{"text": "برچسب بزن: من ناراحتم", "label": 7}
+{"text": "برچسب بزن: امروز غمگینم", "label": 7}
+{"text": "خیلی بد است", "label": 7}
+{"text": "کاربر گفت: امروز سه‌شنبه است", "label": 8}
+{"text": "کاربر گفت: فایل ده خط دارد", "label": 8}
+{"text": "احساس آرامش دارم", "label": 15}
+{"text": "برچسب بزن: نگرانم", "label": 15}
+{"text": "برچسب بزن: هیجان‌زده‌ام", "label": 15}
+{"text": "thank you so much", "label": 2}
+{"text": "Thanks!", "label": 2}
+{"text": "thank you", "label": 2}
+{"text": "I am sad today", "label": 7}
+{"text": "feeling sad", "label": 7}
+{"text": "why is the server slow?", "label": 3}
+{"text": "Why is the server slow", "label": 3}
+{"text": "hello, how are you?", "label": 0}
+{"text": "I feel terrible emotionally", "label": 15}
+{"text": "I am really happy about this", "label": 6}
+{"text": "goodbye for now", "label": 1}
+{"text": "bye for now", "label": 1}
+{"text": "goodbye", "label": 1}
+{"text": "see you later", "label": 1}
+{"text": "talk soon", "label": 1}
+{"text": "bye", "label": 1}
+{"text": "farewell", "label": 1}
+{"text": "I have to go now", "label": 1}
+{"text": "catch you later", "label": 1}
+{"text": "see you tomorrow", "label": 1}
+{"text": "goodbye friend", "label": 1}

@@ -1,0 +1,1285 @@
+MASTER ENGLISH: conversational meaning and everyday speech.
+
+Topic: home.
+The word kitchen belongs to the topic home.
+User: What does kitchen mean in everyday English?
+Brain: In everyday English, kitchen is commonly used when talking about home.
+User: Give me a sentence with kitchen.
+Brain: I used kitchen today when I talked about home.
+Text: She mentioned kitchen during a conversation about home.
+Question: What topic is this about?
+Answer: home.
+Meaning: The key idea is home, and kitchen supports that idea.
+The word bedroom belongs to the topic home.
+User: What does bedroom mean in everyday English?
+Brain: In everyday English, bedroom is commonly used when talking about home.
+User: Give me a sentence with bedroom.
+Brain: I used bedroom today when I talked about home.
+Text: She mentioned bedroom during a conversation about home.
+Question: What topic is this about?
+Answer: home.
+Meaning: The key idea is home, and bedroom supports that idea.
+The word bathroom belongs to the topic home.
+User: What does bathroom mean in everyday English?
+Brain: In everyday English, bathroom is commonly used when talking about home.
+User: Give me a sentence with bathroom.
+Brain: I used bathroom today when I talked about home.
+Text: She mentioned bathroom during a conversation about home.
+Question: What topic is this about?
+Answer: home.
+Meaning: The key idea is home, and bathroom supports that idea.
+The word living room belongs to the topic home.
+User: What does living room mean in everyday English?
+Brain: In everyday English, living room is commonly used when talking about home.
+User: Give me a sentence with living room.
+Brain: I used living room today when I talked about home.
+Text: She mentioned living room during a conversation about home.
+Question: What topic is this about?
+Answer: home.
+Meaning: The key idea is home, and living room supports that idea.
+The word door belongs to the topic home.
+User: What does door mean in everyday English?
+Brain: In everyday English, door is commonly used when talking about home.
+User: Give me a sentence with door.
+Brain: I used door today when I talked about home.
+Text: She mentioned door during a conversation about home.
+Question: What topic is this about?
+Answer: home.
+Meaning: The key idea is home, and door supports that idea.
+The word window belongs to the topic home.
+User: What does window mean in everyday English?
+Brain: In everyday English, window is commonly used when talking about home.
+User: Give me a sentence with window.
+Brain: I used window today when I talked about home.
+Text: She mentioned window during a conversation about home.
+Question: What topic is this about?
+Answer: home.
+Meaning: The key idea is home, and window supports that idea.
+The word chair belongs to the topic home.
+User: What does chair mean in everyday English?
+Brain: In everyday English, chair is commonly used when talking about home.
+User: Give me a sentence with chair.
+Brain: I used chair today when I talked about home.
+Text: She mentioned chair during a conversation about home.
+Question: What topic is this about?
+Answer: home.
+Meaning: The key idea is home, and chair supports that idea.
+The word table belongs to the topic home.
+User: What does table mean in everyday English?
+Brain: In everyday English, table is commonly used when talking about home.
+User: Give me a sentence with table.
+Brain: I used table today when I talked about home.
+Text: She mentioned table during a conversation about home.
+Question: What topic is this about?
+Answer: home.
+Meaning: The key idea is home, and table supports that idea.
+The word bed belongs to the topic home.
+User: What does bed mean in everyday English?
+Brain: In everyday English, bed is commonly used when talking about home.
+User: Give me a sentence with bed.
+Brain: I used bed today when I talked about home.
+Text: She mentioned bed during a conversation about home.
+Question: What topic is this about?
+Answer: home.
+Meaning: The key idea is home, and bed supports that idea.
+The word lamp belongs to the topic home.
+User: What does lamp mean in everyday English?
+Brain: In everyday English, lamp is commonly used when talking about home.
+User: Give me a sentence with lamp.
+Brain: I used lamp today when I talked about home.
+Text: She mentioned lamp during a conversation about home.
+Question: What topic is this about?
+Answer: home.
+Meaning: The key idea is home, and lamp supports that idea.
+Topic: food.
+The word bread belongs to the topic food.
+User: What does bread mean in everyday English?
+Brain: In everyday English, bread is commonly used when talking about food.
+User: Give me a sentence with bread.
+Brain: I used bread today when I talked about food.
+Text: She mentioned bread during a conversation about food.
+Question: What topic is this about?
+Answer: food.
+Meaning: The key idea is food, and bread supports that idea.
+The word rice belongs to the topic food.
+User: What does rice mean in everyday English?
+Brain: In everyday English, rice is commonly used when talking about food.
+User: Give me a sentence with rice.
+Brain: I used rice today when I talked about food.
+Text: She mentioned rice during a conversation about food.
+Question: What topic is this about?
+Answer: food.
+Meaning: The key idea is food, and rice supports that idea.
+The word water belongs to the topic food.
+User: What does water mean in everyday English?
+Brain: In everyday English, water is commonly used when talking about food.
+User: Give me a sentence with water.
+Brain: I used water today when I talked about food.
+Text: She mentioned water during a conversation about food.
+Question: What topic is this about?
+Answer: food.
+Meaning: The key idea is food, and water supports that idea.
+The word tea belongs to the topic food.
+User: What does tea mean in everyday English?
+Brain: In everyday English, tea is commonly used when talking about food.
+User: Give me a sentence with tea.
+Brain: I used tea today when I talked about food.
+Text: She mentioned tea during a conversation about food.
+Question: What topic is this about?
+Answer: food.
+Meaning: The key idea is food, and tea supports that idea.
+The word coffee belongs to the topic food.
+User: What does coffee mean in everyday English?
+Brain: In everyday English, coffee is commonly used when talking about food.
+User: Give me a sentence with coffee.
+Brain: I used coffee today when I talked about food.
+Text: She mentioned coffee during a conversation about food.
+Question: What topic is this about?
+Answer: food.
+Meaning: The key idea is food, and coffee supports that idea.
+The word fruit belongs to the topic food.
+User: What does fruit mean in everyday English?
+Brain: In everyday English, fruit is commonly used when talking about food.
+User: Give me a sentence with fruit.
+Brain: I used fruit today when I talked about food.
+Text: She mentioned fruit during a conversation about food.
+Question: What topic is this about?
+Answer: food.
+Meaning: The key idea is food, and fruit supports that idea.
+The word vegetables belongs to the topic food.
+User: What does vegetables mean in everyday English?
+Brain: In everyday English, vegetables is commonly used when talking about food.
+User: Give me a sentence with vegetables.
+Brain: I used vegetables today when I talked about food.
+Text: She mentioned vegetables during a conversation about food.
+Question: What topic is this about?
+Answer: food.
+Meaning: The key idea is food, and vegetables supports that idea.
+The word meat belongs to the topic food.
+User: What does meat mean in everyday English?
+Brain: In everyday English, meat is commonly used when talking about food.
+User: Give me a sentence with meat.
+Brain: I used meat today when I talked about food.
+Text: She mentioned meat during a conversation about food.
+Question: What topic is this about?
+Answer: food.
+Meaning: The key idea is food, and meat supports that idea.
+The word breakfast belongs to the topic food.
+User: What does breakfast mean in everyday English?
+Brain: In everyday English, breakfast is commonly used when talking about food.
+User: Give me a sentence with breakfast.
+Brain: I used breakfast today when I talked about food.
+Text: She mentioned breakfast during a conversation about food.
+Question: What topic is this about?
+Answer: food.
+Meaning: The key idea is food, and breakfast supports that idea.
+The word dinner belongs to the topic food.
+User: What does dinner mean in everyday English?
+Brain: In everyday English, dinner is commonly used when talking about food.
+User: Give me a sentence with dinner.
+Brain: I used dinner today when I talked about food.
+Text: She mentioned dinner during a conversation about food.
+Question: What topic is this about?
+Answer: food.
+Meaning: The key idea is food, and dinner supports that idea.
+Topic: work.
+The word meeting belongs to the topic work.
+User: What does meeting mean in everyday English?
+Brain: In everyday English, meeting is commonly used when talking about work.
+User: Give me a sentence with meeting.
+Brain: I used meeting today when I talked about work.
+Text: She mentioned meeting during a conversation about work.
+Question: What topic is this about?
+Answer: work.
+Meaning: The key idea is work, and meeting supports that idea.
+The word email belongs to the topic work.
+User: What does email mean in everyday English?
+Brain: In everyday English, email is commonly used when talking about work.
+User: Give me a sentence with email.
+Brain: I used email today when I talked about work.
+Text: She mentioned email during a conversation about work.
+Question: What topic is this about?
+Answer: work.
+Meaning: The key idea is work, and email supports that idea.
+The word project belongs to the topic work.
+User: What does project mean in everyday English?
+Brain: In everyday English, project is commonly used when talking about work.
+User: Give me a sentence with project.
+Brain: I used project today when I talked about work.
+Text: She mentioned project during a conversation about work.
+Question: What topic is this about?
+Answer: work.
+Meaning: The key idea is work, and project supports that idea.
+The word deadline belongs to the topic work.
+User: What does deadline mean in everyday English?
+Brain: In everyday English, deadline is commonly used when talking about work.
+User: Give me a sentence with deadline.
+Brain: I used deadline today when I talked about work.
+Text: She mentioned deadline during a conversation about work.
+Question: What topic is this about?
+Answer: work.
+Meaning: The key idea is work, and deadline supports that idea.
+The word team belongs to the topic work.
+User: What does team mean in everyday English?
+Brain: In everyday English, team is commonly used when talking about work.
+User: Give me a sentence with team.
+Brain: I used team today when I talked about work.
+Text: She mentioned team during a conversation about work.
+Question: What topic is this about?
+Answer: work.
+Meaning: The key idea is work, and team supports that idea.
+The word boss belongs to the topic work.
+User: What does boss mean in everyday English?
+Brain: In everyday English, boss is commonly used when talking about work.
+User: Give me a sentence with boss.
+Brain: I used boss today when I talked about work.
+Text: She mentioned boss during a conversation about work.
+Question: What topic is this about?
+Answer: work.
+Meaning: The key idea is work, and boss supports that idea.
+The word office belongs to the topic work.
+User: What does office mean in everyday English?
+Brain: In everyday English, office is commonly used when talking about work.
+User: Give me a sentence with office.
+Brain: I used office today when I talked about work.
+Text: She mentioned office during a conversation about work.
+Question: What topic is this about?
+Answer: work.
+Meaning: The key idea is work, and office supports that idea.
+The word task belongs to the topic work.
+User: What does task mean in everyday English?
+Brain: In everyday English, task is commonly used when talking about work.
+User: Give me a sentence with task.
+Brain: I used task today when I talked about work.
+Text: She mentioned task during a conversation about work.
+Question: What topic is this about?
+Answer: work.
+Meaning: The key idea is work, and task supports that idea.
+The word plan belongs to the topic work.
+User: What does plan mean in everyday English?
+Brain: In everyday English, plan is commonly used when talking about work.
+User: Give me a sentence with plan.
+Brain: I used plan today when I talked about work.
+Text: She mentioned plan during a conversation about work.
+Question: What topic is this about?
+Answer: work.
+Meaning: The key idea is work, and plan supports that idea.
+The word report belongs to the topic work.
+User: What does report mean in everyday English?
+Brain: In everyday English, report is commonly used when talking about work.
+User: Give me a sentence with report.
+Brain: I used report today when I talked about work.
+Text: She mentioned report during a conversation about work.
+Question: What topic is this about?
+Answer: work.
+Meaning: The key idea is work, and report supports that idea.
+Topic: feelings.
+The word happy belongs to the topic feelings.
+User: What does happy mean in everyday English?
+Brain: In everyday English, happy is commonly used when talking about feelings.
+User: Give me a sentence with happy.
+Brain: I used happy today when I talked about feelings.
+Text: She mentioned happy during a conversation about feelings.
+Question: What topic is this about?
+Answer: feelings.
+Meaning: The key idea is feelings, and happy supports that idea.
+The word sad belongs to the topic feelings.
+User: What does sad mean in everyday English?
+Brain: In everyday English, sad is commonly used when talking about feelings.
+User: Give me a sentence with sad.
+Brain: I used sad today when I talked about feelings.
+Text: She mentioned sad during a conversation about feelings.
+Question: What topic is this about?
+Answer: feelings.
+Meaning: The key idea is feelings, and sad supports that idea.
+The word angry belongs to the topic feelings.
+User: What does angry mean in everyday English?
+Brain: In everyday English, angry is commonly used when talking about feelings.
+User: Give me a sentence with angry.
+Brain: I used angry today when I talked about feelings.
+Text: She mentioned angry during a conversation about feelings.
+Question: What topic is this about?
+Answer: feelings.
+Meaning: The key idea is feelings, and angry supports that idea.
+The word tired belongs to the topic feelings.
+User: What does tired mean in everyday English?
+Brain: In everyday English, tired is commonly used when talking about feelings.
+User: Give me a sentence with tired.
+Brain: I used tired today when I talked about feelings.
+Text: She mentioned tired during a conversation about feelings.
+Question: What topic is this about?
+Answer: feelings.
+Meaning: The key idea is feelings, and tired supports that idea.
+The word excited belongs to the topic feelings.
+User: What does excited mean in everyday English?
+Brain: In everyday English, excited is commonly used when talking about feelings.
+User: Give me a sentence with excited.
+Brain: I used excited today when I talked about feelings.
+Text: She mentioned excited during a conversation about feelings.
+Question: What topic is this about?
+Answer: feelings.
+Meaning: The key idea is feelings, and excited supports that idea.
+The word worried belongs to the topic feelings.
+User: What does worried mean in everyday English?
+Brain: In everyday English, worried is commonly used when talking about feelings.
+User: Give me a sentence with worried.
+Brain: I used worried today when I talked about feelings.
+Text: She mentioned worried during a conversation about feelings.
+Question: What topic is this about?
+Answer: feelings.
+Meaning: The key idea is feelings, and worried supports that idea.
+The word calm belongs to the topic feelings.
+User: What does calm mean in everyday English?
+Brain: In everyday English, calm is commonly used when talking about feelings.
+User: Give me a sentence with calm.
+Brain: I used calm today when I talked about feelings.
+Text: She mentioned calm during a conversation about feelings.
+Question: What topic is this about?
+Answer: feelings.
+Meaning: The key idea is feelings, and calm supports that idea.
+The word confused belongs to the topic feelings.
+User: What does confused mean in everyday English?
+Brain: In everyday English, confused is commonly used when talking about feelings.
+User: Give me a sentence with confused.
+Brain: I used confused today when I talked about feelings.
+Text: She mentioned confused during a conversation about feelings.
+Question: What topic is this about?
+Answer: feelings.
+Meaning: The key idea is feelings, and confused supports that idea.
+The word proud belongs to the topic feelings.
+User: What does proud mean in everyday English?
+Brain: In everyday English, proud is commonly used when talking about feelings.
+User: Give me a sentence with proud.
+Brain: I used proud today when I talked about feelings.
+Text: She mentioned proud during a conversation about feelings.
+Question: What topic is this about?
+Answer: feelings.
+Meaning: The key idea is feelings, and proud supports that idea.
+The word grateful belongs to the topic feelings.
+User: What does grateful mean in everyday English?
+Brain: In everyday English, grateful is commonly used when talking about feelings.
+User: Give me a sentence with grateful.
+Brain: I used grateful today when I talked about feelings.
+Text: She mentioned grateful during a conversation about feelings.
+Question: What topic is this about?
+Answer: feelings.
+Meaning: The key idea is feelings, and grateful supports that idea.
+Topic: time.
+The word today belongs to the topic time.
+User: What does today mean in everyday English?
+Brain: In everyday English, today is commonly used when talking about time.
+User: Give me a sentence with today.
+Brain: I used today today when I talked about time.
+Text: She mentioned today during a conversation about time.
+Question: What topic is this about?
+Answer: time.
+Meaning: The key idea is time, and today supports that idea.
+The word tomorrow belongs to the topic time.
+User: What does tomorrow mean in everyday English?
+Brain: In everyday English, tomorrow is commonly used when talking about time.
+User: Give me a sentence with tomorrow.
+Brain: I used tomorrow today when I talked about time.
+Text: She mentioned tomorrow during a conversation about time.
+Question: What topic is this about?
+Answer: time.
+Meaning: The key idea is time, and tomorrow supports that idea.
+The word yesterday belongs to the topic time.
+User: What does yesterday mean in everyday English?
+Brain: In everyday English, yesterday is commonly used when talking about time.
+User: Give me a sentence with yesterday.
+Brain: I used yesterday today when I talked about time.
+Text: She mentioned yesterday during a conversation about time.
+Question: What topic is this about?
+Answer: time.
+Meaning: The key idea is time, and yesterday supports that idea.
+The word morning belongs to the topic time.
+User: What does morning mean in everyday English?
+Brain: In everyday English, morning is commonly used when talking about time.
+User: Give me a sentence with morning.
+Brain: I used morning today when I talked about time.
+Text: She mentioned morning during a conversation about time.
+Question: What topic is this about?
+Answer: time.
+Meaning: The key idea is time, and morning supports that idea.
+The word night belongs to the topic time.
+User: What does night mean in everyday English?
+Brain: In everyday English, night is commonly used when talking about time.
+User: Give me a sentence with night.
+Brain: I used night today when I talked about time.
+Text: She mentioned night during a conversation about time.
+Question: What topic is this about?
+Answer: time.
+Meaning: The key idea is time, and night supports that idea.
+The word week belongs to the topic time.
+User: What does week mean in everyday English?
+Brain: In everyday English, week is commonly used when talking about time.
+User: Give me a sentence with week.
+Brain: I used week today when I talked about time.
+Text: She mentioned week during a conversation about time.
+Question: What topic is this about?
+Answer: time.
+Meaning: The key idea is time, and week supports that idea.
+The word month belongs to the topic time.
+User: What does month mean in everyday English?
+Brain: In everyday English, month is commonly used when talking about time.
+User: Give me a sentence with month.
+Brain: I used month today when I talked about time.
+Text: She mentioned month during a conversation about time.
+Question: What topic is this about?
+Answer: time.
+Meaning: The key idea is time, and month supports that idea.
+The word always belongs to the topic time.
+User: What does always mean in everyday English?
+Brain: In everyday English, always is commonly used when talking about time.
+User: Give me a sentence with always.
+Brain: I used always today when I talked about time.
+Text: She mentioned always during a conversation about time.
+Question: What topic is this about?
+Answer: time.
+Meaning: The key idea is time, and always supports that idea.
+The word never belongs to the topic time.
+User: What does never mean in everyday English?
+Brain: In everyday English, never is commonly used when talking about time.
+User: Give me a sentence with never.
+Brain: I used never today when I talked about time.
+Text: She mentioned never during a conversation about time.
+Question: What topic is this about?
+Answer: time.
+Meaning: The key idea is time, and never supports that idea.
+The word soon belongs to the topic time.
+User: What does soon mean in everyday English?
+Brain: In everyday English, soon is commonly used when talking about time.
+User: Give me a sentence with soon.
+Brain: I used soon today when I talked about time.
+Text: She mentioned soon during a conversation about time.
+Question: What topic is this about?
+Answer: time.
+Meaning: The key idea is time, and soon supports that idea.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (0).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (1).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (2).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (3).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (4).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (5).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (6).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (7).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (8).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (9).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (10).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (11).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (12).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (13).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (14).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (15).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (16).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (17).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (18).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (19).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (20).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (21).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (22).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (23).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (24).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (25).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (26).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (27).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (28).
+Brain: You are welcome.
+User: Can you say that simpler?
+Brain: Yes. I will use shorter sentences.
+User: Thanks (29).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (0).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (1).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (2).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (3).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (4).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (5).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (6).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (7).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (8).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (9).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (10).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (11).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (12).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (13).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (14).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (15).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (16).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (17).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (18).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (19).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (20).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (21).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (22).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (23).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (24).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (25).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (26).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (27).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (28).
+Brain: You are welcome.
+User: What do you mean?
+Brain: I mean the main idea behind those words.
+User: Thanks (29).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (0).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (1).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (2).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (3).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (4).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (5).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (6).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (7).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (8).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (9).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (10).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (11).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (12).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (13).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (14).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (15).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (16).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (17).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (18).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (19).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (20).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (21).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (22).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (23).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (24).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (25).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (26).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (27).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (28).
+Brain: You are welcome.
+User: Summarize please.
+Brain: Sure. Here is the short version.
+User: Thanks (29).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (0).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (1).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (2).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (3).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (4).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (5).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (6).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (7).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (8).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (9).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (10).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (11).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (12).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (13).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (14).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (15).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (16).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (17).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (18).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (19).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (20).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (21).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (22).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (23).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (24).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (25).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (26).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (27).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (28).
+Brain: You are welcome.
+User: Give an example.
+Brain: Okay. Here is a concrete example.
+User: Thanks (29).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (0).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (1).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (2).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (3).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (4).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (5).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (6).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (7).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (8).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (9).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (10).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (11).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (12).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (13).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (14).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (15).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (16).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (17).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (18).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (19).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (20).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (21).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (22).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (23).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (24).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (25).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (26).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (27).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (28).
+Brain: You are welcome.
+User: Why does that matter?
+Brain: Because it changes what we should do next.
+User: Thanks (29).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (0).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (1).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (2).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (3).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (4).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (5).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (6).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (7).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (8).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (9).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (10).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (11).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (12).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (13).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (14).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (15).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (16).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (17).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (18).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (19).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (20).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (21).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (22).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (23).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (24).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (25).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (26).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (27).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (28).
+Brain: You are welcome.
+User: How sure are you?
+Brain: I am partly sure based on the text I learned.
+User: Thanks (29).
+Brain: You are welcome.
+I can understand clearly.
+I should understand before answering.
+Why does I understand? To communicate meaning.
+I can explain clearly.
+I should explain before answering.
+Why does I explain? To communicate meaning.
+I can listen clearly.
+I should listen before answering.
+Why does I listen? To communicate meaning.
+I can answer clearly.
+I should answer before answering.
+Why does I answer? To communicate meaning.
+I can practice clearly.
+I should practice before answering.
+Why does I practice? To communicate meaning.
+I can remember clearly.
+I should remember before answering.
+Why does I remember? To communicate meaning.
+You can understand clearly.
+You should understand before answering.
+Why does you understand? To communicate meaning.
+You can explain clearly.
+You should explain before answering.
+Why does you explain? To communicate meaning.
+You can listen clearly.
+You should listen before answering.
+Why does you listen? To communicate meaning.
+You can answer clearly.
+You should answer before answering.
+Why does you answer? To communicate meaning.
+You can practice clearly.
+You should practice before answering.
+Why does you practice? To communicate meaning.
+You can remember clearly.
+You should remember before answering.
+Why does you remember? To communicate meaning.
+He can understand clearly.
+He should understand before answering.
+Why does he understand? To communicate meaning.
+He can explain clearly.
+He should explain before answering.
+Why does he explain? To communicate meaning.
+He can listen clearly.
+He should listen before answering.
+Why does he listen? To communicate meaning.
+He can answer clearly.
+He should answer before answering.
+Why does he answer? To communicate meaning.
+He can practice clearly.
+He should practice before answering.
+Why does he practice? To communicate meaning.
+He can remember clearly.
+He should remember before answering.
+Why does he remember? To communicate meaning.
+She can understand clearly.
+She should understand before answering.
+Why does she understand? To communicate meaning.
+She can explain clearly.
+She should explain before answering.
+Why does she explain? To communicate meaning.
+She can listen clearly.
+She should listen before answering.
+Why does she listen? To communicate meaning.
+She can answer clearly.
+She should answer before answering.
+Why does she answer? To communicate meaning.
+She can practice clearly.
+She should practice before answering.
+Why does she practice? To communicate meaning.
+She can remember clearly.
+She should remember before answering.
+Why does she remember? To communicate meaning.
+We can understand clearly.
+We should understand before answering.
+Why does we understand? To communicate meaning.
+We can explain clearly.
+We should explain before answering.
+Why does we explain? To communicate meaning.
+We can listen clearly.
+We should listen before answering.
+Why does we listen? To communicate meaning.
+We can answer clearly.
+We should answer before answering.
+Why does we answer? To communicate meaning.
+We can practice clearly.
+We should practice before answering.
+Why does we practice? To communicate meaning.
+We can remember clearly.
+We should remember before answering.
+Why does we remember? To communicate meaning.
+They can understand clearly.
+They should understand before answering.
+Why does they understand? To communicate meaning.
+They can explain clearly.
+They should explain before answering.
+Why does they explain? To communicate meaning.
+They can listen clearly.
+They should listen before answering.
+Why does they listen? To communicate meaning.
+They can answer clearly.
+They should answer before answering.
+Why does they answer? To communicate meaning.
+They can practice clearly.
+They should practice before answering.
+Why does they practice? To communicate meaning.
+They can remember clearly.
+They should remember before answering.
+Why does they remember? To communicate meaning.

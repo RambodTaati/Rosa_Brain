@@ -1,0 +1,5 @@
+Q: What does PRIMARY KEY do? A: Uniquely identifies each row and usually implies NOT NULL and an index.
+Q: How do you prevent SQL injection in app code? A: Use parameterized queries, never concatenate user input into SQL.
+Q: What is a transaction for? A: Keep multi-step writes atomic; commit or rollback together.
+Q: When add an index? A: On columns used often in WHERE/JOIN with enough selectivity.
+Q: What is pg_dump for? A: Logical backup of database objects and data.

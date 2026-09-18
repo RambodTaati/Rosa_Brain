@@ -1,0 +1,110 @@
+{
+  "skills": [
+    {
+      "id": "a0295563-fc58-4b27-bcfe-72130517dd21",
+      "ts": 1789665822.6333046,
+      "action": "generate",
+      "success": true,
+      "lesson": "When doing 'generate', it worked. Note: �f+k�\u0000��▸|��0h�\u0004i�� z\u0012�=�\u001a������,\u001f�%��A_��\u0011�Y�v�E���G�HI6�`��;A\u001ap,V�SGૺ��\n\n(recall_hits=0, device=cpu). Tip: repeat this pattern."
+    },
+    {
+      "id": "2569cadb-1bb9-4855-8749-9408f182b8fa",
+      "ts": 1789665828.575622,
+      "action": "web_learn_test",
+      "success": true,
+      "lesson": "When doing 'web_learn_test', it worked. Note: fetched local page. Tip: repeat this pattern."
+    },
+    {
+      "id": "578946ab-2d2e-4a55-a04c-7407dfdccba2",
+      "ts": 1789665828.8485029,
+      "action": "tool",
+      "success": true,
+      "lesson": "When doing 'tool', it worked. Note: Tool `list_dir` OK:\n{'path': '/workspace/Rosa_Brain/workspace', 'items': [{'name': '.gitkeep', 'is_dir': False, 'size': 0}, {'name': 'note.txt', 'is_dir': False, 'size': 13}, {'name': 'site', 'is_dir': True, 'size': None}]}. Tip: repeat this pattern."
+    },
+    {
+      "id": "850b8e44-1cc0-442f-85b9-c3f9fab582a0",
+      "ts": 1789665829.6660533,
+      "action": "unit_test",
+      "success": true,
+      "lesson": "When doing 'unit_test', it worked. Note: api ok. Tip: repeat this pattern."
+    },
+    {
+      "id": "3fd4d4dd-ede6-4bac-aa71-6685ba80da7b",
+      "ts": 1789670462.600958,
+      "action": "generate",
+      "success": true,
+      "lesson": "When doing 'generate', it worked. Note: �H�1(\"Ht45���-\u00038[��\u0002��\u001dc\u001as������L��8��\u0013�������D\u0018�\t<]��3+��[��.S�\u001bh|\u0011�`��=�\u0010�t��\n\n(recall_hits=0, device=cuda). Tip: repeat this pattern."
+    },
+    {
+      "id": "b555875d-0ca6-4553-839d-e3ea6951f7df",
+      "ts": 1789670466.3983164,
+      "action": "web_learn_test",
+      "success": true,
+      "lesson": "When doing 'web_learn_test', it worked. Note: fetched local page. Tip: repeat this pattern."
+    },
+    {
+      "id": "37e5ab1e-37c7-4fd1-8ec6-f623ee14980c",
+      "ts": 1789670466.6517107,
+      "action": "tool",
+      "success": true,
+      "lesson": "When doing 'tool', it worked. Note: Tool `list_dir` OK:\n{'path': 'D:\\\\Rosa_Brain\\\\workspace', 'items': [{'name': '.gitkeep', 'is_dir': False, 'size': 0}, {'name': 'api_note.txt', 'is_dir': False, 'size': 7}, {'name': 'note.txt', 'is_dir': False, 'size': 13}, {'name': 'site', . Tip: repeat this pattern."
+    },
+    {
+      "id": "ea143464-74f0-4773-842f-aacc61992ad7",
+      "ts": 1789670467.391461,
+      "action": "unit_test",
+      "success": true,
+      "lesson": "When doing 'unit_test', it worked. Note: api ok. Tip: repeat this pattern."
+    },
+    {
+      "id": "a347343c-cb62-45c2-84b2-9b19c2d353e6",
+      "ts": 1789670711.3079035,
+      "action": "generate",
+      "success": true,
+      "lesson": "When doing 'generate', it worked. Note: من Rosa_Brain هستم — شبکهٔ کوچک از صفر، بدون مدل از پیش‌آموزش‌دیده. I am a from-scratch tiny net; ask me to /ls, /learn <url>, or /train.\n\n(recall_hits=3, device=cuda). Tip: repeat this pattern."
+    },
+    {
+      "id": "7dce75b3-07f6-4dc8-ae97-3551fde477a1",
+      "ts": 1789671106.6382806,
+      "action": "generate",
+      "success": true,
+      "lesson": "When doing 'generate', it worked. Note: ea_Brougea_Brndgealeath th th Teald.\n\n(recall_hits=3, device=cuda). Tip: repeat this pattern."
+    },
+    {
+      "id": "863e3b3e-afa8-47a6-a2fb-1a6a68c77fe1",
+      "ts": 1789684638.311444,
+      "action": "generate",
+      "success": true,
+      "lesson": "When doing 'generate', it worked. Note: nd ngI livechechis: ngs: => ns ched Cans: LA: Lin => onhend anghenHeven mes L: =\n\n(recall_hits=3, device=cuda). Tip: repeat this pattern."
+    },
+    {
+      "id": "37f7c7f6-06ed-4ae2-9b43-8a8d01e6bfbf",
+      "ts": 1789686018.623093,
+      "action": "generate",
+      "success": true,
+      "lesson": "When doing 'generate', it worked. Note: Ros: as: o s: brenirelaliviven: => is: lithalived Ensh aledalis: fenshed ts: fen\n\n(recall_hits=3, device=cuda). Tip: repeat this pattern."
+    },
+    {
+      "id": "17ea94df-cf5e-49cd-a40e-54f346494f0c",
+      "ts": 1789686227.551622,
+      "action": "meaning_reply",
+      "success": true,
+      "lesson": "When doing 'meaning_reply', it worked. Note: سلام! من Rosa_Brain هستم. می‌توانی با من حرف بزنی، پروژه بسازی، یا از تب‌های آموزش / Skills / MCP استفاده کنی.. Tip: repeat this pattern."
+    },
+    {
+      "id": "6b540b9f-2391-455e-8ccd-ce8a4c9292a7",
+      "ts": 1789686343.0925066,
+      "action": "meaning_reply",
+      "success": true,
+      "lesson": "When doing 'meaning_reply', it worked. Note: سلام! من Rosa_Brain هستم. می‌توانی با من حرف بزنی، پروژه بسازی، یا از تب‌های آموزش / Skills / MCP استفاده کنی.. Tip: repeat this pattern."
+    },
+    {
+      "id": "4fbdb9b0-bbbe-4ea3-bdc6-3c755bff98da",
+      "ts": 1789686377.9624472,
+      "action": "meaning_reply",
+      "success": true,
+      "lesson": "When doing 'meaning_reply', it worked. Note: سلام! من Rosa_Brain هستم. می‌توانی با من حرف بزنی، پروژه بسازی، یا از تب‌های آموزش / Skills / MCP استفاده کنی.. Tip: repeat this pattern."
+    }
+  ],
+  "updated_ts": 1789686377.9624472
+}

@@ -1,0 +1,79 @@
+# C# essentials (original)
+
+C# is a modern OOP language on .NET, popular for web APIs (ASP.NET Core) and tools.
+Console: Console.WriteLine("hi");
+Types: int, long, double, bool, string, decimal (money). nullable reference types in modern projects (string?).
+var for local inference when obvious. const for compile-time constants; readonly for runtime-set fields.
+Classes, structs, records. record Person(string Name, int Age); for immutable data.
+Properties: public string Email { get; init; }
+LINQ: users.Where(u => u.Active).Select(u => u.Email).ToList();
+async Task / await for asynchronous IO — same idea as JS async.
+Namespaces and using directives organize code. NuGet packages add libraries.
+Exceptions: try/catch/finally; throw; prefer specific exception types.
+Pattern matching: switch expressions and is patterns narrow types.
+ASP.NET Core conceptual map: controllers/minimal APIs, dependency injection, middleware pipeline, configuration via appsettings and env vars.
+Entity Framework or raw ADO.NET with parameters for SQL — never concatenate user input into queries.
+Practice: LINQ filter + project a list of products.
+Practice: async method that returns Task<string> simulating IO with Task.Delay (teaching only).
+Q: Why decimal for money? A: Base-10 precision avoids binary floating-point surprises.
+Q: What does await do in C#? A: Yields until the awaited Task completes without blocking a thread the same way a sync wait would.
+
+## Drill block csharp-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 1.
+Q: What does await do in C#? A: Yields until the awaited Task completes without blocking a thread the same way a sync wait would.
+
+## Drill block csharp-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 2.
+Q: Why decimal for money? A: Base-10 precision avoids binary floating-point surprises.
+
+## Drill block csharp-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 3.
+Q: What does await do in C#? A: Yields until the awaited Task completes without blocking a thread the same way a sync wait would.
+
+## Drill block csharp-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 4.
+Q: Why decimal for money? A: Base-10 precision avoids binary floating-point surprises.
+
+## Drill block csharp-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 5.
+Q: What does await do in C#? A: Yields until the awaited Task completes without blocking a thread the same way a sync wait would.
+
+## Drill block csharp-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 6.
+Q: Why decimal for money? A: Base-10 precision avoids binary floating-point surprises.
+
+## Drill block csharp-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 7.
+Q: What does await do in C#? A: Yields until the awaited Task completes without blocking a thread the same way a sync wait would.
+
+## Drill block csharp-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 8.
+Q: Why decimal for money? A: Base-10 precision avoids binary floating-point surprises.
+
+## Drill block csharp-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 9.
+Q: What does await do in C#? A: Yields until the awaited Task completes without blocking a thread the same way a sync wait would.
+
+## Drill block csharp-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 10.
+Q: Why decimal for money? A: Base-10 precision avoids binary floating-point surprises.
+
+## Drill block csharp-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 11.
+Q: What does await do in C#? A: Yields until the awaited Task completes without blocking a thread the same way a sync wait would.
+
+## Drill block csharp-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 12.
+Q: Why decimal for money? A: Base-10 precision avoids binary floating-point surprises.
+
+## Drill block csharp-13
+Review point 13: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 13.
+Q: What does await do in C#? A: Yields until the awaited Task completes without blocking a thread the same way a sync wait would.
+
+## Drill block csharp-14
+Review point 14: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 14.
+Q: Why decimal for money? A: Base-10 precision avoids binary floating-point surprises.
+
+## Drill block csharp-15
+Review point 15: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: csharp. Iteration 15.
+Q: What does await do in C#? A: Yields until the awaited Task completes without blocking a thread the same way a sync wait would.

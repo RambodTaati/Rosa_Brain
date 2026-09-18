@@ -1,0 +1,77 @@
+# CSS basics (original)
+
+CSS styles the DOM. A rule is selector { property: value; }.
+Cascading: origin, specificity, and order decide which declaration wins. !important is a last resort.
+Specificity rough guide: inline > id > class/attribute/pseudo-class > element/pseudo-element. Equal specificity: later wins.
+
+Selectors: .class #id element [attr=value] :hover :focus :focus-visible :nth-child() ::before ::after.
+Prefer classes for reusable styling. Avoid over-specific selectors that fight each other.
+Box model: content + padding + border + margin. box-sizing: border-box makes width include padding and border — set it globally early.
+Display: block, inline, inline-block, none. (Flex and grid in the layout lesson.)
+Units: rem for typography tied to root; em relative to parent font; % relative to containing block; px for hairlines/borders; vh/vw for viewport; ch for character-based widths.
+Colors: #rgb, #rrggbb, rgb(), hsl(), and named colors. Prefer CSS variables for themes.
+:root { --bg: #0f172a; --fg: #e2e8f0; --accent: #38bdf8; }
+body { background: var(--bg); color: var(--fg); }
+Typography: font-family stacks with a generic fallback (sans-serif, serif, monospace). line-height around 1.5 for body text. font-weight 400/700 commonly.
+text-align, text-decoration, letter-spacing, word-break for wrapping long URLs carefully.
+Backgrounds: background-color, background-image, background-size: cover/contain, background-position.
+Borders and radius: border: 1px solid #334155; border-radius: 8px;
+Shadows: box-shadow for elevation; text-shadow sparingly.
+Overflow: visible, hidden, auto, scroll. Prefer auto for scrollable panels.
+Opacity vs rgba: opacity affects the whole element including children; rgba/hsla color only the paint.
+Transitions: transition: color 160ms ease, background 160ms ease; keep motion short and optional via prefers-reduced-motion.
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+Pseudo-elements ::before/::after need content. Use for decorative icons, not essential text.
+Lists: list-style to customize bullets; padding-inline-start for indentation in RTL-friendly way.
+Logical properties: margin-inline, padding-block, inset-inline-start — better for RTL than left/right alone.
+Cascade layers (@layer) help large codebases order concerns (reset, base, components, utilities).
+Reset/normalize: a small reset (box-sizing, margin 0 on body) beats huge abandoned resets.
+Debugging: browser DevTools computed styles show why a rule lost. Strike-through means overridden.
+Practice: theme a card with padding, radius, shadow, and a CSS variable accent for the title.
+Practice: style a focus-visible ring that is clearer than the default outline.
+Q: What does border-box do? A: Width and height include padding and border, easing layout math.
+Q: Why CSS variables? A: Centralize theme tokens and switch themes without hunting hex values.
+
+## Drill block css_basics-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_basics. Iteration 1.
+Q: Why CSS variables? A: Centralize theme tokens and switch themes without hunting hex values.
+
+## Drill block css_basics-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_basics. Iteration 2.
+Q: What does border-box do? A: Width and height include padding and border, easing layout math.
+
+## Drill block css_basics-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_basics. Iteration 3.
+Q: Why CSS variables? A: Centralize theme tokens and switch themes without hunting hex values.
+
+## Drill block css_basics-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_basics. Iteration 4.
+Q: What does border-box do? A: Width and height include padding and border, easing layout math.
+
+## Drill block css_basics-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_basics. Iteration 5.
+Q: Why CSS variables? A: Centralize theme tokens and switch themes without hunting hex values.
+
+## Drill block css_basics-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_basics. Iteration 6.
+Q: What does border-box do? A: Width and height include padding and border, easing layout math.
+
+## Drill block css_basics-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_basics. Iteration 7.
+Q: Why CSS variables? A: Centralize theme tokens and switch themes without hunting hex values.
+
+## Drill block css_basics-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_basics. Iteration 8.
+Q: What does border-box do? A: Width and height include padding and border, easing layout math.
+
+## Drill block css_basics-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_basics. Iteration 9.
+Q: Why CSS variables? A: Centralize theme tokens and switch themes without hunting hex values.
+
+## Drill block css_basics-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_basics. Iteration 10.
+Q: What does border-box do? A: Width and height include padding and border, easing layout math.
+
+## Drill block css_basics-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_basics. Iteration 11.
+Q: Why CSS variables? A: Centralize theme tokens and switch themes without hunting hex values.

@@ -1,0 +1,18 @@
+{
+  "0": "intent_greeting",
+  "1": "intent_goodbye",
+  "2": "intent_thanks",
+  "3": "intent_question",
+  "4": "intent_request",
+  "5": "intent_statement",
+  "6": "sentiment_positive",
+  "7": "sentiment_negative",
+  "8": "sentiment_neutral",
+  "9": "nli_entail",
+  "10": "nli_contradict",
+  "11": "nli_neutral",
+  "12": "topic_home",
+  "13": "topic_work",
+  "14": "topic_food",
+  "15": "topic_feelings"
+}

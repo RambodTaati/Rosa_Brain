@@ -1,0 +1,99 @@
+# Idiomatic Python 3.12 for professional full-stack work
+Prefer clear names, small functions, and explicit types at public boundaries.
+Use from __future__ import annotations for postponed evaluation of hints.
+Typing: list[str], dict[str, int], | None unions, TypedDict for JSON shapes, Protocol for duck types.
+dataclasses: @dataclass(slots=True, frozen=True) for immutable value objects; kw_only fields when order is noisy.
+Enums for closed sets of states; StrEnum when values are strings.
+Pathlib over os.path for filesystem work; never assume cwd.
+Context managers: with path.open() as f; custom via contextlib.contextmanager or __enter__/__exit__.
+asyncio: async def, await, asyncio.TaskGroup (3.11+) for structured concurrency; avoid fire-and-forget without tracking.
+Never block the event loop with heavy sync I/O; use asyncio.to_thread for short sync calls.
+Packaging: pyproject.toml with [project] metadata; src layout; hatchling or setuptools; pin ranges thoughtfully.
+Virtual envs: one venv per project; never install project deps into system Python.
+Errors: raise specific exceptions; avoid bare except; chain with raise X from e; define domain errors as Exception subclasses.
+Logging: logging.getLogger(__name__); structured extra= dicts; never log secrets; prefer WARNING/ERROR for ops signal.
+pytest patterns: arrange-act-assert; fixtures for shared setup; parametrize for tables; monkeypatch for boundaries; tmp_path for files.
+Markers: @pytest.mark.integration; keep unit tests fast and hermetic.
+Performance: profile before optimizing; prefer algorithmic fixes; use generators for large streams; avoid premature micro-opts.
+Comprehensions for simple maps/filters; explicit loops when logic is branching-heavy.
+f-strings for formatting; datetime.timezone.utc for aware times; store UTC, display local.
+Match/case for structural pattern matching on tagged unions.
+Type checkers (mypy/pyright) as CI gates on public APIs.
+Dependency injection via constructors for testability; avoid hidden globals except settings singletons.
+Immutability by default for shared config; copy-on-write for request-scoped state.
+Docstrings for public modules: purpose, invariants, failure modes — not narration of obvious code.
+PEP 8 + black/ruff for format and lint; isort or ruff I001 for imports.
+Secrets via env or secret stores; never hardcode tokens in source.
+Graceful shutdown: catch KeyboardInterrupt/SIGTERM; flush logs; close pools.
+HTTP clients: timeouts always; retries with jitter for idempotent GETs only.
+SQL: parameterized queries only; connection pools; explicit transactions.
+File encoding: UTF-8 by default; open(..., encoding="utf-8"); for Windows paths use raw strings or Path.
+Testing async: pytest-asyncio with explicit event_loop scopes when needed.
+Property-based ideas: hypothesis for parsers and codecs when invariants are clear.
+Binary protocols: struct / pydantic for validation at edges.
+Never use eval on untrusted input; prefer ast.literal_eval for literals only.
+Frozen dataclasses + replace() for updates; avoid mutating shared instances.
+__slots__ reduce memory for many instances; measure before applying broadly.
+lru_cache only for pure functions with bounded keys; clear on config reload.
+dataclass field(default_factory=list) — never mutable defaults.
+Protocol vs ABC: Protocol for structural typing; ABC when you own the hierarchy.
+Generics: TypeVar with bounds; ParamSpec for decorator typing.
+Exception groups (ExceptionGroup) when TaskGroup gathers multiple failures.
+tomllib for reading TOML (3.11+); write with a dedicated library if needed.
+zipapp / shiv only when distribution constraints demand single-file; prefer wheels.
+CI matrix: 3.12 primary; fail on type errors for changed public surfaces.
+Observability hooks: request_id in logs; timing spans around external calls.
+Code review checklist snippet: correctness, edge cases, authZ, resource cleanup, tests, docs.
+Practice: write the failing test first for bugfixes; keep diffs small and reviewable.
+Avoid god modules; split by feature with clear __all__ at package edges.
+Prefer composition over deep inheritance; mixins sparingly and documented.
+Nullability: Optional only when absence is meaningful; empty collections over None for lists.
+JSON: prefer orjson/ujson only if measured; stdlib json is fine for most APIs.
+Decimal for money; never float for currency.
+UUID4 for public ids when sequential ids leak volume; UUID7 when sortable ids help.
+Hashing passwords: use argon2/bcrypt via established libs — never roll your own crypto.
+Signals: prefer explicit callbacks or message buses over magic import-time side effects.
+Startup: validate settings at boot; fail fast on missing required env.
+Shutdown: drain queues; cancel tasks with timeouts; close DB engines.
+Windows note: pathlib handles separators; subprocess list args avoid shell=True.
+Persian/UTF-8 note: always write text files with encoding="utf-8"; avoid PowerShell Set-Content for Persian corpora.
+Python practice 1 [typing]: Annotate public functions. Use TypedDict for request bodies. Prefer X | None over Optional[X] in 3.10+. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 2 [asyncio]: Use TaskGroup to cancel siblings on failure. Set timeouts with asyncio.timeout. Never share non-threadsafe objects across threads. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 3 [packaging]: Declare dependencies in pyproject.toml. Use optional dependency groups for dev/test. Lock files for deploy reproducibility. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 4 [errors]: Map domain errors to HTTP at the edge only. Keep core free of FastAPI imports when possible. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 5 [logging]: Configure logging once at startup. Child loggers inherit. Use stacklevel for wrapper helpers. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 6 [pytest]: Name tests test_*. Prefer fakes over mocks when behavior matters. Assert on observables not private calls. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 7 [performance]: Batch DB writes. Avoid N+1. Cache expensive pure computations with clear invalidation. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 8 [context]: Close files, sockets, and DB sessions with context managers. Use ExitStack for dynamic sets. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 9 [dataclasses]: frozen=True for keys in sets/dicts. Compare equality by fields. Avoid __post_init__ side effects that hit network. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 10 [patterns]: Repository for persistence. Service for use-cases. DTO at boundaries. Keep frameworks at the edges. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 11 [typing]: Annotate public functions. Use TypedDict for request bodies. Prefer X | None over Optional[X] in 3.10+. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 12 [asyncio]: Use TaskGroup to cancel siblings on failure. Set timeouts with asyncio.timeout. Never share non-threadsafe objects across threads. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 13 [packaging]: Declare dependencies in pyproject.toml. Use optional dependency groups for dev/test. Lock files for deploy reproducibility. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 14 [errors]: Map domain errors to HTTP at the edge only. Keep core free of FastAPI imports when possible. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 15 [logging]: Configure logging once at startup. Child loggers inherit. Use stacklevel for wrapper helpers. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 16 [pytest]: Name tests test_*. Prefer fakes over mocks when behavior matters. Assert on observables not private calls. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 17 [performance]: Batch DB writes. Avoid N+1. Cache expensive pure computations with clear invalidation. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 18 [context]: Close files, sockets, and DB sessions with context managers. Use ExitStack for dynamic sets. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 19 [dataclasses]: frozen=True for keys in sets/dicts. Compare equality by fields. Avoid __post_init__ side effects that hit network. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 20 [patterns]: Repository for persistence. Service for use-cases. DTO at boundaries. Keep frameworks at the edges. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 21 [typing]: Annotate public functions. Use TypedDict for request bodies. Prefer X | None over Optional[X] in 3.10+. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 22 [asyncio]: Use TaskGroup to cancel siblings on failure. Set timeouts with asyncio.timeout. Never share non-threadsafe objects across threads. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 23 [packaging]: Declare dependencies in pyproject.toml. Use optional dependency groups for dev/test. Lock files for deploy reproducibility. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 24 [errors]: Map domain errors to HTTP at the edge only. Keep core free of FastAPI imports when possible. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 25 [logging]: Configure logging once at startup. Child loggers inherit. Use stacklevel for wrapper helpers. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 26 [pytest]: Name tests test_*. Prefer fakes over mocks when behavior matters. Assert on observables not private calls. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 27 [performance]: Batch DB writes. Avoid N+1. Cache expensive pure computations with clear invalidation. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 28 [context]: Close files, sockets, and DB sessions with context managers. Use ExitStack for dynamic sets. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 29 [dataclasses]: frozen=True for keys in sets/dicts. Compare equality by fields. Avoid __post_init__ side effects that hit network. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 30 [patterns]: Repository for persistence. Service for use-cases. DTO at boundaries. Keep frameworks at the edges. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 31 [typing]: Annotate public functions. Use TypedDict for request bodies. Prefer X | None over Optional[X] in 3.10+. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 32 [asyncio]: Use TaskGroup to cancel siblings on failure. Set timeouts with asyncio.timeout. Never share non-threadsafe objects across threads. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 33 [packaging]: Declare dependencies in pyproject.toml. Use optional dependency groups for dev/test. Lock files for deploy reproducibility. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 34 [errors]: Map domain errors to HTTP at the edge only. Keep core free of FastAPI imports when possible. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 35 [logging]: Configure logging once at startup. Child loggers inherit. Use stacklevel for wrapper helpers. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 36 [pytest]: Name tests test_*. Prefer fakes over mocks when behavior matters. Assert on observables not private calls. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 37 [performance]: Batch DB writes. Avoid N+1. Cache expensive pure computations with clear invalidation. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 38 [context]: Close files, sockets, and DB sessions with context managers. Use ExitStack for dynamic sets. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 39 [dataclasses]: frozen=True for keys in sets/dicts. Compare equality by fields. Avoid __post_init__ side effects that hit network. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).
+Python practice 40 [patterns]: Repository for persistence. Service for use-cases. DTO at boundaries. Keep frameworks at the edges. Example: def parse_user(raw: dict[str, object]) -> User: ... validate keys, raise ValueError on missing email, return User(...).

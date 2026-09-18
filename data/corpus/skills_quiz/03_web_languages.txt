@@ -1,0 +1,62 @@
+Q: What HTML attribute declares the page language? A: lang on the html element (e.g., lang="en").
+Q: Name two semantic landmarks besides div. A: header, main, footer, nav, article, or section.
+Q: How do you link a label to an input? A: Set label for to match the input id (or wrap the input).
+Q: Which form method suits state-changing submits? A: POST (GET is for safe retrieval/search).
+Q: When is enctype multipart/form-data needed? A: When uploading files with the form.
+Q: What does box-sizing:border-box include in width? A: Content plus padding and border.
+Q: Flexbox is primarily for which dimension? A: One-dimensional layout (row or column).
+Q: Give a responsive grid columns recipe. A: repeat(auto-fit, minmax(16rem, 1fr))
+Q: Why set viewport meta on mobile pages? A: So layout width matches the device width.
+Q: Preferred mobile-first media query style? A: Base narrow styles, then min-width enhancements.
+Q: const vs let in JavaScript? A: const prevents rebinding; let allows reassignment; both block-scoped.
+Q: Why prefer === over ==? A: === avoids type coercion surprises.
+Q: Safer DOM text assignment API? A: textContent (not innerHTML for untrusted data).
+Q: What is event delegation? A: Listen on a parent and handle child events via event.target.
+Q: Does fetch reject on HTTP 500? A: No; inspect res.ok or status; only network failures reject.
+Q: Purpose of AbortController with fetch? A: Cancel outdated or navigated-away requests.
+Q: What happens to TypeScript types at runtime? A: They are erased; emitted JS has no type checks.
+Q: unknown vs any in TypeScript? A: unknown forces narrowing; any disables checking.
+Q: Python open() encoding best practice? A: Pass encoding="utf-8" explicitly.
+Q: How to avoid SQL injection? A: Use parameterized/prepared queries only.
+Q: INNER JOIN vs LEFT JOIN? A: INNER matching rows only; LEFT keeps all left rows.
+Q: PHP functions for password hash/verify? A: password_hash and password_verify.
+Q: Why htmlspecialchars in PHP HTML output? A: Escape special characters to reduce XSS risk.
+Q: Java try-with-resources purpose? A: Auto-close resources implementing AutoCloseable.
+Q: What is a Java record? A: Concise immutable data carrier with generated members.
+Q: Why is C string handling risky? A: Manual buffers without bounds checks can overflow.
+Q: C++ RAII means? A: Resource lifetime is tied to object lifetime.
+Q: unique_ptr vs shared_ptr? A: unique exclusive ownership; shared ref-counted — prefer unique when possible.
+Q: C# type recommended for money? A: decimal.
+Q: React list key purpose? A: Stable identity for reconciliation across renders.
+Q: Controlled input in React means? A: value from state with onChange updating that state.
+Q: Node lockfile purpose? A: Reproducible installs of exact dependency trees.
+Q: Vue :key on v-for why? A: Stable identity for correct DOM reuse.
+Q: Is jQuery required for modern DOM work? A: No; querySelector/addEventListener/fetch usually suffice.
+Q: Bootstrap classic grid column count? A: 12 columns per row.
+Q: Are trailing commas allowed in JSON? A: No, not in standard JSON.
+Q: XXE defense when parsing XML? A: Disable external entity resolution for untrusted XML.
+Q: CSS variables are declared commonly where? A: On :root (or a theme scope) using --name.
+Q: Logical CSS property example? A: margin-inline-start (RTL-friendly vs margin-left).
+Q: Promise.all on first rejection? A: Rejects immediately when any input rejects.
+Q: async function always returns what? A: A Promise.
+Q: Module scripts in HTML use which type? A: type="module".
+Q: aria-current for current nav page? A: aria-current="page".
+Q: Where to put browser session secrets? A: Prefer HttpOnly Secure cookies over localStorage.
+Q: Python mutable default antipattern? A: Using [] or {} as default argument values.
+Q: SQL LIMIT helps how? A: Caps returned rows for performance and UX.
+Q: PDO prepared statement benefit? A: Bound parameters reduce injection risk.
+Q: img alt for decorative images? A: Use empty alt="".
+Q: CORS is enforced by whom? A: Browsers, based on server CORS headers.
+Q: React state update depending on previous? A: Use functional updater setX(prev => ...).
+Q: Node path traversal mitigation? A: Resolve and ensure path stays under an allowed root.
+Q: Bootstrap utility class example? A: d-flex, m-3, p-2, or text-center.
+Q: XML well-formed means? A: Correct XML syntax/nesting, not necessarily schema-valid.
+Q: fetch credentials for same-site cookies often? A: credentials: "same-origin" (or include when intentional).
+Q: Vue ref in script needs what? A: Access via .value (auto-unwrapped in templates).
+Q: CSS gap applies to? A: Flex and grid containers spacing between items.
+Q: prefers-reduced-motion should? A: Reduce or disable non-essential animations.
+Q: JavaScript nullish coalescing operator? A: ?? — falls back only for null or undefined.
+Q: Optional chaining operator? A: ?. — short-circuits when base is nullish.
+Q: Content-Type for JSON APIs? A: application/json
+Q: HTML button default type in forms? A: submit — set type explicitly to avoid accidents.
+Q: Semantic reason to avoid layout tables? A: Tables are for tabular data; use CSS layout for page structure.

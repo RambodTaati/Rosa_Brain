@@ -1,0 +1,80 @@
+# Responsive CSS (original)
+
+Responsive design adapts layout to viewport and container sizes without separate mobile sites.
+Viewport meta: width=device-width, initial-scale=1 is required for mobile browsers to use CSS pixels correctly.
+Mobile-first: write base styles for narrow screens, then min-width media queries to enhance.
+@media (min-width: 640px) { .nav { display: flex; } }
+Breakpoints are product choices, not sacred numbers. Common sets: 640 / 768 / 1024 / 1280 — tune to your content.
+Fluid type: clamp(1rem, 0.9rem + 0.5vw, 1.25rem) scales smoothly between bounds.
+Fluid spacing: prefer rem and clamp over many breakpoint-specific margins.
+Images: max-width: 100%; height: auto; use srcset/sizes or picture for art direction.
+Touch targets: aim for ~44px minimum interactive size; increase padding rather than shrinking text.
+Hover-only UI fails on touch. Provide click/tap alternatives; use @media (hover: hover) for hover enhancements.
+Dark mode: @media (prefers-color-scheme: dark) or a class/data-theme toggled by the user (user choice should win when offered).
+Reduced motion: respect prefers-reduced-motion as shown in CSS basics.
+Orientation: portrait/landscape queries are rare; usually width is enough.
+Print: @media print { .no-print { display: none; } a[href]::after { content: " (" attr(href) ")"; } }
+Responsive nav patterns: priority+ links, hamburger disclosure button with aria-expanded, or simple wrapping flex.
+Avoid horizontal scroll on body; fix overflowing children (code blocks may need overflow-x: auto).
+Testing: resize DevTools, real phones, and keyboard zoom. Check at 200% zoom for accessibility.
+Container queries example:
+.card-wrap { container-type: inline-size; }
+@container (min-width: 28rem) { .card { display: grid; grid-template-columns: 8rem 1fr; } }
+Units vw include scrollbar quirks in some browsers; prefer % of containers when possible.
+Safe areas: env(safe-area-inset-*) for notched devices on fixed headers.
+Practice: stack a two-column layout to one column under 768px.
+Practice: hide decorative sidebar on small screens, keep main content first in DOM.
+Q: Why mobile-first? A: Base styles stay simple; enhancements layer on as space allows.
+Q: What does viewport meta do? A: Tells mobile browsers to match layout width to the device width.
+
+## Drill block css_responsive-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_responsive. Iteration 1.
+Q: What does viewport meta do? A: Tells mobile browsers to match layout width to the device width.
+
+## Drill block css_responsive-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_responsive. Iteration 2.
+Q: Why mobile-first? A: Base styles stay simple; enhancements layer on as space allows.
+
+## Drill block css_responsive-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_responsive. Iteration 3.
+Q: What does viewport meta do? A: Tells mobile browsers to match layout width to the device width.
+
+## Drill block css_responsive-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_responsive. Iteration 4.
+Q: Why mobile-first? A: Base styles stay simple; enhancements layer on as space allows.
+
+## Drill block css_responsive-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_responsive. Iteration 5.
+Q: What does viewport meta do? A: Tells mobile browsers to match layout width to the device width.
+
+## Drill block css_responsive-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_responsive. Iteration 6.
+Q: Why mobile-first? A: Base styles stay simple; enhancements layer on as space allows.
+
+## Drill block css_responsive-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_responsive. Iteration 7.
+Q: What does viewport meta do? A: Tells mobile browsers to match layout width to the device width.
+
+## Drill block css_responsive-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_responsive. Iteration 8.
+Q: Why mobile-first? A: Base styles stay simple; enhancements layer on as space allows.
+
+## Drill block css_responsive-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_responsive. Iteration 9.
+Q: What does viewport meta do? A: Tells mobile browsers to match layout width to the device width.
+
+## Drill block css_responsive-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_responsive. Iteration 10.
+Q: Why mobile-first? A: Base styles stay simple; enhancements layer on as space allows.
+
+## Drill block css_responsive-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_responsive. Iteration 11.
+Q: What does viewport meta do? A: Tells mobile browsers to match layout width to the device width.
+
+## Drill block css_responsive-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_responsive. Iteration 12.
+Q: Why mobile-first? A: Base styles stay simple; enhancements layer on as space allows.
+
+## Drill block css_responsive-13
+Review point 13: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_responsive. Iteration 13.
+Q: What does viewport meta do? A: Tells mobile browsers to match layout width to the device width.

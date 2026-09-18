@@ -1,0 +1,84 @@
+# JavaScript async: promises, fetch, async/await (original)
+
+Synchronous code blocks the main thread. Async operations complete later via callbacks, promises, or async/await.
+Promise states: pending, fulfilled, rejected. const p = new Promise((resolve, reject) => { ... });
+p.then(onSuccess, onReject).catch(onReject).finally(cleanup).
+Async functions always return promises:
+async function loadUser(id) {
+  const res = await fetch(`/api/users/${id}`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json();
+}
+Await pauses inside the async function without blocking the whole page; other events still run.
+fetch defaults to GET. For JSON POST:
+await fetch("/api/items", {
+  method: "POST",
+  headers: { "Content-Type": "application/json", "Accept": "application/json" },
+  body: JSON.stringify({ title: "Note" }),
+  credentials: "same-origin",
+});
+Always handle non-OK HTTP statuses — fetch only rejects on network failure, not 404/500.
+AbortController cancels in-flight fetch:
+const ac = new AbortController();
+fetch(url, { signal: ac.signal });
+ac.abort();
+Promise.all waits for all; fails fast on first reject. Promise.allSettled waits for all results. Promise.race first settles. Promise.any first fulfillment.
+Sequential awaits are slower when independent — start promises first, then await together.
+try/catch around await for local error handling. Surface user-friendly messages; log technical details.
+Microtasks (promise jobs) run before the next rendering/macrotask — avoid tight promise loops that starve UI.
+async in event handlers: void handleClick() or handleClick().catch(showError) so rejections are not silent.
+Top-level await is available in ES modules.
+Defensive: do not put secrets in front-end code. Use HttpOnly cookies or tokens from a careful auth design; CSRF tokens for cookie-based sessions on state-changing requests.
+CORS is enforced by browsers: servers must allow origins explicitly for cross-site XHR/fetch with credentials rules.
+Practice: load a list with loading/error/empty UI states.
+Practice: debounce a search input that fetches suggestions and aborts the previous request.
+Q: Does fetch reject on HTTP 500? A: No. Check res.ok or status yourself; network errors reject.
+Q: Why AbortController? A: Cancel outdated requests when the user navigates or types again.
+
+## Drill block javascript_async-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_async. Iteration 1.
+Q: Why AbortController? A: Cancel outdated requests when the user navigates or types again.
+
+## Drill block javascript_async-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_async. Iteration 2.
+Q: Does fetch reject on HTTP 500? A: No. Check res.ok or status yourself; network errors reject.
+
+## Drill block javascript_async-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_async. Iteration 3.
+Q: Why AbortController? A: Cancel outdated requests when the user navigates or types again.
+
+## Drill block javascript_async-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_async. Iteration 4.
+Q: Does fetch reject on HTTP 500? A: No. Check res.ok or status yourself; network errors reject.
+
+## Drill block javascript_async-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_async. Iteration 5.
+Q: Why AbortController? A: Cancel outdated requests when the user navigates or types again.
+
+## Drill block javascript_async-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_async. Iteration 6.
+Q: Does fetch reject on HTTP 500? A: No. Check res.ok or status yourself; network errors reject.
+
+## Drill block javascript_async-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_async. Iteration 7.
+Q: Why AbortController? A: Cancel outdated requests when the user navigates or types again.
+
+## Drill block javascript_async-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_async. Iteration 8.
+Q: Does fetch reject on HTTP 500? A: No. Check res.ok or status yourself; network errors reject.
+
+## Drill block javascript_async-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_async. Iteration 9.
+Q: Why AbortController? A: Cancel outdated requests when the user navigates or types again.
+
+## Drill block javascript_async-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_async. Iteration 10.
+Q: Does fetch reject on HTTP 500? A: No. Check res.ok or status yourself; network errors reject.
+
+## Drill block javascript_async-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_async. Iteration 11.
+Q: Why AbortController? A: Cancel outdated requests when the user navigates or types again.
+
+## Drill block javascript_async-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_async. Iteration 12.
+Q: Does fetch reject on HTTP 500? A: No. Check res.ok or status yourself; network errors reject.

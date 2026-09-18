@@ -1,0 +1,3 @@
+Q: What is a vertical slice? A: One user-visible behavior end-to-end.
+Q: Before dropping a table? A: Backup/confirm and check dependents.
+Q: What does verify mean? A: Prove with a check that the change works.

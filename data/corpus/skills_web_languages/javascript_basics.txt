@@ -1,0 +1,77 @@
+# JavaScript basics (original)
+
+JavaScript runs in browsers and (with engines like Node) on servers. This lesson focuses on language core for web pages.
+Declare with const by default, let when reassignment is needed, avoid var in modern code.
+Types: number, string, boolean, null, undefined, bigint, symbol, and object (including arrays and functions).
+typeof null is "object" (historical quirk). Use Number.isNaN, Array.isArray for precise checks.
+Strict equality === and !==. == performs coercion — avoid in teaching and production style guides.
+Template strings: `Hello, ${name}!`
+Objects: const user = { id: 1, name: "Ada" }; access user.name or user["name"].
+Arrays: push/pop, map, filter, reduce, find, some, every, includes. Prefer immutable patterns: [...arr, x] over mutating when sharing references.
+Destructuring: const { name } = user; const [first, ...rest] = list;
+Spread/rest: Math.max(...nums); function f(...args) {}
+Functions: function add(a, b) { return a + b; } and const add = (a, b) => a + b;
+Arrow functions inherit this lexically — important in callbacks; do not use arrows when you need dynamic this.
+Default params: function greet(name = "friend") {}
+Modules (ESM): export function parse() {}; import { parse } from "./parse.js"; type="module" on script tags.
+Truthy/falsy: 0, "", null, undefined, NaN, false are falsy. Prefer explicit checks for 0 and "".
+Optional chaining: user?.profile?.email. Nullish coalescing: value ?? "default" (only null/undefined).
+Errors: throw new Error("msg"); try/catch/finally. Catch only when you can handle or translate the error.
+JSON: JSON.parse and JSON.stringify. Reviver/replacer for dates if needed.
+Date: prefer libraries or Temporal when available; beware timezone pitfalls with Date.
+Regular expressions: /pattern/flags or new RegExp — keep readable; comment complex patterns.
+Closures: inner functions remember outer bindings — foundation for modules and hooks.
+this: depends on call site for function keyword; bind/call/apply to set it; class methods need care when passed as callbacks.
+Classes: class Counter { constructor() { this.n = 0; } inc() { this.n++; } }
+Map/Set for keyed collections and unique values; WeakMap/WeakSet for memory-sensitive associations.
+Promises overview here; deep async in the async lesson.
+Strict mode is default in modules. "use strict" in classic scripts.
+Debugging: console.log/table, debugger statement, DevTools breakpoints.
+Practice: write a pure function that filters a list of products by price range.
+Practice: convert a nested callback style sketch into clearer stepwise functions (async lesson continues this).
+Q: const vs let? A: const prevents rebinding; let allows reassignment. Both are block-scoped.
+Q: Why === over ==? A: === skips type coercion and avoids surprising equalities.
+
+## Drill block javascript_basics-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_basics. Iteration 1.
+Q: Why === over ==? A: === skips type coercion and avoids surprising equalities.
+
+## Drill block javascript_basics-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_basics. Iteration 2.
+Q: const vs let? A: const prevents rebinding; let allows reassignment. Both are block-scoped.
+
+## Drill block javascript_basics-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_basics. Iteration 3.
+Q: Why === over ==? A: === skips type coercion and avoids surprising equalities.
+
+## Drill block javascript_basics-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_basics. Iteration 4.
+Q: const vs let? A: const prevents rebinding; let allows reassignment. Both are block-scoped.
+
+## Drill block javascript_basics-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_basics. Iteration 5.
+Q: Why === over ==? A: === skips type coercion and avoids surprising equalities.
+
+## Drill block javascript_basics-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_basics. Iteration 6.
+Q: const vs let? A: const prevents rebinding; let allows reassignment. Both are block-scoped.
+
+## Drill block javascript_basics-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_basics. Iteration 7.
+Q: Why === over ==? A: === skips type coercion and avoids surprising equalities.
+
+## Drill block javascript_basics-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_basics. Iteration 8.
+Q: const vs let? A: const prevents rebinding; let allows reassignment. Both are block-scoped.
+
+## Drill block javascript_basics-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_basics. Iteration 9.
+Q: Why === over ==? A: === skips type coercion and avoids surprising equalities.
+
+## Drill block javascript_basics-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_basics. Iteration 10.
+Q: const vs let? A: const prevents rebinding; let allows reassignment. Both are block-scoped.
+
+## Drill block javascript_basics-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_basics. Iteration 11.
+Q: Why === over ==? A: === skips type coercion and avoids surprising equalities.

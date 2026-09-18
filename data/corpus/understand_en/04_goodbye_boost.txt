@@ -1,0 +1,55 @@
+LABEL intent_goodbye :: goodbye for now
+LABEL intent_goodbye :: User said: goodbye for now
+LABEL intent_goodbye :: Meaning check: goodbye for now
+LABEL intent_goodbye :: Recognize this: goodbye for now
+LABEL intent_goodbye :: Classify the intent: goodbye for now
+LABEL intent_goodbye :: bye for now
+LABEL intent_goodbye :: User said: bye for now
+LABEL intent_goodbye :: Meaning check: bye for now
+LABEL intent_goodbye :: Recognize this: bye for now
+LABEL intent_goodbye :: Classify the intent: bye for now
+LABEL intent_goodbye :: goodbye
+LABEL intent_goodbye :: User said: goodbye
+LABEL intent_goodbye :: Meaning check: goodbye
+LABEL intent_goodbye :: Recognize this: goodbye
+LABEL intent_goodbye :: Classify the intent: goodbye
+LABEL intent_goodbye :: see you later
+LABEL intent_goodbye :: User said: see you later
+LABEL intent_goodbye :: Meaning check: see you later
+LABEL intent_goodbye :: Recognize this: see you later
+LABEL intent_goodbye :: Classify the intent: see you later
+LABEL intent_goodbye :: talk soon
+LABEL intent_goodbye :: User said: talk soon
+LABEL intent_goodbye :: Meaning check: talk soon
+LABEL intent_goodbye :: Recognize this: talk soon
+LABEL intent_goodbye :: Classify the intent: talk soon
+LABEL intent_goodbye :: bye
+LABEL intent_goodbye :: User said: bye
+LABEL intent_goodbye :: Meaning check: bye
+LABEL intent_goodbye :: Recognize this: bye
+LABEL intent_goodbye :: Classify the intent: bye
+LABEL intent_goodbye :: farewell
+LABEL intent_goodbye :: User said: farewell
+LABEL intent_goodbye :: Meaning check: farewell
+LABEL intent_goodbye :: Recognize this: farewell
+LABEL intent_goodbye :: Classify the intent: farewell
+LABEL intent_goodbye :: I have to go now
+LABEL intent_goodbye :: User said: I have to go now
+LABEL intent_goodbye :: Meaning check: I have to go now
+LABEL intent_goodbye :: Recognize this: I have to go now
+LABEL intent_goodbye :: Classify the intent: I have to go now
+LABEL intent_goodbye :: catch you later
+LABEL intent_goodbye :: User said: catch you later
+LABEL intent_goodbye :: Meaning check: catch you later
+LABEL intent_goodbye :: Recognize this: catch you later
+LABEL intent_goodbye :: Classify the intent: catch you later
+LABEL intent_goodbye :: see you tomorrow
+LABEL intent_goodbye :: User said: see you tomorrow
+LABEL intent_goodbye :: Meaning check: see you tomorrow
+LABEL intent_goodbye :: Recognize this: see you tomorrow
+LABEL intent_goodbye :: Classify the intent: see you tomorrow
+LABEL intent_goodbye :: goodbye friend
+LABEL intent_goodbye :: User said: goodbye friend
+LABEL intent_goodbye :: Meaning check: goodbye friend
+LABEL intent_goodbye :: Recognize this: goodbye friend
+LABEL intent_goodbye :: Classify the intent: goodbye friend

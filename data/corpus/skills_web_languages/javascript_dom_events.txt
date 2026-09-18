@@ -1,0 +1,73 @@
+# JavaScript DOM and events (original)
+
+The DOM is the in-memory tree of nodes for the page. document.documentElement is the html element.
+Query: document.getElementById("x"), document.querySelector(".card"), document.querySelectorAll("li").
+querySelectorAll returns a static NodeList; convert with [...list] when you need array methods widely.
+Create: document.createElement("button"); set textContent (safe for plain text) rather than innerHTML for untrusted data.
+Append: parent.append(child); parent.prepend(child); child.remove();
+Attributes: el.getAttribute / setAttribute; properties like el.href, el.value, el.hidden, el.className, el.classList.add/remove/toggle.
+dataset: el.dataset.userId maps to data-user-id.
+Styles: el.style.color = "red" for rare one-offs; prefer class toggles for maintainability.
+Classes: classList.toggle("open", forceBoolean).
+Events: el.addEventListener("click", handler); remove with the same function reference.
+Event object: event.target (origin), event.currentTarget (listener element), event.preventDefault(), event.stopPropagation().
+Bubbling vs capturing: listeners default to bubble phase; use { capture: true } rarely.
+Delegation: listen on a parent for clicks on many children — efficient for dynamic lists.
+form addEventListener("submit", (e) => { e.preventDefault(); /* read FormData */ });
+const data = new FormData(form); Object.fromEntries(data.entries());
+Keyboard: keydown/keyup; check event.key. Provide shortcuts carefully and keep them discoverable.
+Focus: focus/blur/focusin/focusout; manage focus when opening modals (focus trap patterns).
+MutationObserver watches DOM changes; use sparingly for integrations, not routine UI.
+IntersectionObserver for lazy-loading and infinite scroll signals.
+requestAnimationFrame for visual animations tied to frames.
+Timers: setTimeout/setInterval — clear them on teardown to avoid leaks.
+Security: never assign untrusted strings to innerHTML, document.write, or eval. Use textContent or safe DOM APIs.
+XSS defensive note: treat all user-provided content as hostile until encoded/sanitized for the context (HTML, attribute, URL, JS).
+Practice: todo list with add/remove via delegation.
+Practice: modal with Esc to close and focus returned to the opener button.
+Q: textContent vs innerHTML? A: textContent sets plain text safely; innerHTML parses HTML and is dangerous with untrusted input.
+Q: What is event delegation? A: Handling events on a parent for many child targets using event.target.
+
+## Drill block javascript_dom_events-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_dom_events. Iteration 1.
+Q: What is event delegation? A: Handling events on a parent for many child targets using event.target.
+
+## Drill block javascript_dom_events-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_dom_events. Iteration 2.
+Q: textContent vs innerHTML? A: textContent sets plain text safely; innerHTML parses HTML and is dangerous with untrusted input.
+
+## Drill block javascript_dom_events-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_dom_events. Iteration 3.
+Q: What is event delegation? A: Handling events on a parent for many child targets using event.target.
+
+## Drill block javascript_dom_events-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_dom_events. Iteration 4.
+Q: textContent vs innerHTML? A: textContent sets plain text safely; innerHTML parses HTML and is dangerous with untrusted input.
+
+## Drill block javascript_dom_events-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_dom_events. Iteration 5.
+Q: What is event delegation? A: Handling events on a parent for many child targets using event.target.
+
+## Drill block javascript_dom_events-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_dom_events. Iteration 6.
+Q: textContent vs innerHTML? A: textContent sets plain text safely; innerHTML parses HTML and is dangerous with untrusted input.
+
+## Drill block javascript_dom_events-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_dom_events. Iteration 7.
+Q: What is event delegation? A: Handling events on a parent for many child targets using event.target.
+
+## Drill block javascript_dom_events-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_dom_events. Iteration 8.
+Q: textContent vs innerHTML? A: textContent sets plain text safely; innerHTML parses HTML and is dangerous with untrusted input.
+
+## Drill block javascript_dom_events-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_dom_events. Iteration 9.
+Q: What is event delegation? A: Handling events on a parent for many child targets using event.target.
+
+## Drill block javascript_dom_events-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_dom_events. Iteration 10.
+Q: textContent vs innerHTML? A: textContent sets plain text safely; innerHTML parses HTML and is dangerous with untrusted input.
+
+## Drill block javascript_dom_events-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: javascript_dom_events. Iteration 11.
+Q: What is event delegation? A: Handling events on a parent for many child targets using event.target.

@@ -1,0 +1,91 @@
+# HTML basics (original Rosa_Brain curriculum)
+
+HTML is a markup language: tags describe structure, not presentation. Browsers build a DOM tree from the markup.
+A minimal document has doctype, html, head, and body.
+
+Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lesson board</title>
+</head>
+<body>
+  <header><h1>Lesson board</h1></header>
+  <main>
+    <article>
+      <h2>Today</h2>
+      <p>Practice semantic tags before styling.</p>
+    </article>
+  </main>
+</body>
+</html>
+
+Semantic landmarks: header, nav, main, aside, footer, article, section. Prefer these over nested divs when meaning is clear.
+Headings: one h1 per page (common pattern); nest h2-h6 without skipping levels for accessibility.
+Paragraphs use p. Line breaks br are rare; prefer separate paragraphs.
+Lists: ul/ol with li. Description lists dl/dt/dd for term-definition pairs.
+Links: a href="https://example.test/path". Use meaningful link text, not "click here".
+Images: img src="photo.jpg" alt="Short description of the photo". Empty alt="" only for decorative images.
+Tables: table > thead/tbody > tr > th/td. Scope attributes help screen readers. Avoid tables for page layout.
+Inline text: strong for importance, em for stress, code for code, mark for highlight, time datetime="2026-09-18" for dates.
+Block quotes: blockquote with cite attribute or nested cite element when quoting a source.
+Preformatted: pre for whitespace-sensitive text; nest code inside for code blocks.
+Comments: <!-- note for authors --> never place secrets in comments.
+Entities: &amp; &lt; &gt; &quot; &nbsp; — prefer UTF-8 characters when the file encoding is UTF-8.
+Meta: charset first in head; description meta for snippets; robots meta only when needed.
+Favicon: link rel="icon" href="/favicon.ico".
+Language: html lang="en" or lang="fa" for Persian pages; helps voice tools and hyphenation.
+Accessibility: every interactive control needs a name (label, aria-label, or visible text). Do not remove focus outlines without providing a visible replacement.
+Iframes: title attribute required; sandbox when embedding untrusted content.
+Canvas and svg: svg for crisp icons and charts; canvas for pixel drawing. Keep fallback text inside svg when useful.
+Script placement: defer on external scripts in head, or scripts at end of body. Avoid inline event handlers in markup when teaching separation of concerns.
+noscript: optional message when JS is off.
+Valid HTML: close tags that need closing; void elements (img, br, meta, link, input) do not wrap content.
+Practice drill: rewrite a div soup page into header/main/footer with one h1 and labeled sections.
+Common mistake: putting block elements inside p (invalid nesting); browsers will auto-close the p.
+Another mistake: duplicate ids. Id must be unique per document. Prefer classes for styling hooks.
+Data attributes: data-user-id="42" for JS hooks without inventing invalid attributes.
+Custom elements exist in modern HTML but start with solid semantic HTML first.
+Forms belong in a dedicated lesson; here remember form, label, input, button as first-class interactive HTML.
+Media (audio/video) also get a dedicated lesson; here know that controls and captions matter.
+Document outline: headings create the outline; use them for navigation, not for font size alone (CSS handles size).
+Print and SEO: good structure helps both. Title and first heading should agree on topic.
+Internationalization: dir="rtl" on html or a container for right-to-left scripts; combine with lang.
+Content security: never insert untrusted HTML as raw markup without sanitization on the server or a trusted sanitizer library.
+Summary: HTML describes meaning and structure. Keep presentation in CSS and behavior in JS. Write for humans and assistive tech first.
+Extra reps: build a blog post article with header, author time, sections, and a footer with related links.
+Extra reps: build a navigation list of three pages with current page indicated by aria-current="page".
+Extra reps: add an image with descriptive alt and a figure/figcaption pair.
+Q: What does the lang attribute do? A: Declares the human language of the document or subtree for accessibility and tools.
+Q: Why prefer semantic tags? A: They convey meaning to browsers, assistive tech, and maintainers without relying on class names alone.
+Q: Must every img have alt? A: Yes — descriptive text for informative images, or empty alt for decorative ones.
+
+## Drill block html_basics-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_basics. Iteration 1.
+Q: Why prefer semantic tags? A: They convey meaning to browsers, assistive tech, and maintainers without relying on class names alone.
+
+## Drill block html_basics-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_basics. Iteration 2.
+Q: Must every img have alt? A: Yes — descriptive text for informative images, or empty alt for decorative ones.
+
+## Drill block html_basics-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_basics. Iteration 3.
+Q: What does the lang attribute do? A: Declares the human language of the document or subtree for accessibility and tools.
+
+## Drill block html_basics-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_basics. Iteration 4.
+Q: Why prefer semantic tags? A: They convey meaning to browsers, assistive tech, and maintainers without relying on class names alone.
+
+## Drill block html_basics-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_basics. Iteration 5.
+Q: Must every img have alt? A: Yes — descriptive text for informative images, or empty alt for decorative ones.
+
+## Drill block html_basics-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_basics. Iteration 6.
+Q: What does the lang attribute do? A: Declares the human language of the document or subtree for accessibility and tools.
+
+## Drill block html_basics-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_basics. Iteration 7.
+Q: Why prefer semantic tags? A: They convey meaning to browsers, assistive tech, and maintainers without relying on class names alone.

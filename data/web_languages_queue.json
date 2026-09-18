@@ -1,0 +1,8 @@
+{
+  "ready": true,
+  "start_after": "pro_programmer_done",
+  "script": "scripts/auto_web_languages.py",
+  "created": "2026-09-18T03:23:02+0330",
+  "created_unix": 1789689182.4840682,
+  "notes": "Dedicated state data/web_languages_state.json; do not clobber Pro Programmer."
+}

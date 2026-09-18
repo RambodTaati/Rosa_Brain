@@ -1,0 +1,77 @@
+# Architecture and professional practices
+SOLID-ish practical: single responsibility per module; open for extension via interfaces; do not surprise callers; small interfaces; depend on abstractions at boundaries.
+Boundaries: UI -> API -> application services -> domain -> persistence; dependencies point inward.
+Feature slices: group by feature folder when it speeds change; shared kernel stays thin.
+No stubs in production paths: if a feature ships, it works end-to-end or it is behind an explicit flag.
+Code review checklist: correctness, security (authZ, validation), performance obvious wins, tests, naming, migrations safety, observability, docs/changelog.
+Observability: metrics (latency, errors), logs (structured), traces (optional); alerts on user-visible failure.
+ADRs for non-trivial decisions; short and dated.
+Avoid distributed monolith accidental complexity; start modular monolith unless scale demands split.
+Idempotent consumers for queues; at-least-once delivery assumed.
+Config: 12-factor; distinct prod/stage/dev; feature flags documented.
+Graceful degradation: if search is down, list still works.
+Delete unused code; comment why for non-obvious invariants only.
+API contracts owned with consumers; version consciously.
+Data ownership: one writer service per table when split.
+Security architecture: threat model light notes for sensitive features; trust boundaries drawn.
+Architecture practice 1: Prefer explicit orchestration over hidden magic events at first.
+Architecture practice 2: Keep domain pure: no FastAPI/SQLAlchemy imports in core entities if practical.
+Architecture practice 3: CQRS only when read/write models truly diverge.
+Architecture practice 4: Sagas/process managers for multi-step workflows with compensation.
+Architecture practice 5: Rate limit and backpressure at edges.
+Architecture practice 6: Document runbooks for on-call: restart, migrate, rollback.
+Architecture practice 7: Capacity: measure before horizontal scale.
+Architecture practice 8: Chaos is optional; failure injection in staging teaches.
+Architecture practice 9: Keep PRs small enough to review in one sitting.
+Architecture practice 10: Definition of done includes monitoring and rollback plan.
+Architecture practice 11: Prefer explicit orchestration over hidden magic events at first.
+Architecture practice 12: Keep domain pure: no FastAPI/SQLAlchemy imports in core entities if practical.
+Architecture practice 13: CQRS only when read/write models truly diverge.
+Architecture practice 14: Sagas/process managers for multi-step workflows with compensation.
+Architecture practice 15: Rate limit and backpressure at edges.
+Architecture practice 16: Document runbooks for on-call: restart, migrate, rollback.
+Architecture practice 17: Capacity: measure before horizontal scale.
+Architecture practice 18: Chaos is optional; failure injection in staging teaches.
+Architecture practice 19: Keep PRs small enough to review in one sitting.
+Architecture practice 20: Definition of done includes monitoring and rollback plan.
+Architecture practice 21: Prefer explicit orchestration over hidden magic events at first.
+Architecture practice 22: Keep domain pure: no FastAPI/SQLAlchemy imports in core entities if practical.
+Architecture practice 23: CQRS only when read/write models truly diverge.
+Architecture practice 24: Sagas/process managers for multi-step workflows with compensation.
+Architecture practice 25: Rate limit and backpressure at edges.
+Architecture practice 26: Document runbooks for on-call: restart, migrate, rollback.
+Architecture practice 27: Capacity: measure before horizontal scale.
+Architecture practice 28: Chaos is optional; failure injection in staging teaches.
+Architecture practice 29: Keep PRs small enough to review in one sitting.
+Architecture practice 30: Definition of done includes monitoring and rollback plan.
+Architecture practice 31: Prefer explicit orchestration over hidden magic events at first.
+Architecture practice 32: Keep domain pure: no FastAPI/SQLAlchemy imports in core entities if practical.
+Architecture practice 33: CQRS only when read/write models truly diverge.
+Architecture practice 34: Sagas/process managers for multi-step workflows with compensation.
+Architecture practice 35: Rate limit and backpressure at edges.
+
+Full-stack drill 1: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 2: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 3: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 4: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 5: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 6: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 7: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 8: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 9: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 10: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 11: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 12: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 13: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 14: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 15: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 16: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 17: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 18: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 19: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 20: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 21: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 22: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 23: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 24: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.
+Full-stack drill 25: Validate inputs at the API edge with Pydantic, enforce authZ on the server, use parameterized SQL, return stable error codes, and cover the behavior with pytest. Prefer HttpOnly session cookies over localStorage secrets. Keep Vue islands fault-isolated. Defensive secure coding only — no exploit recipes.

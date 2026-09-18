@@ -1,0 +1,10 @@
+I am Rosa Brain. I am an independent software brain.
+I learn language from text. I store experience in memory.
+Hello. Hi. How are you? I am fine, thank you. And you?
+Please help me. Yes. No. Okay. I understand. Please repeat.
+A sentence has a subject, a verb, and often an object.
+I go. You come. He writes. She reads. We speak. They listen.
+What is it? Where is it? Who is it? Why? How? How many? Which?
+Short answers should be clear. Long answers should be organized.
+I learn from mistakes. I keep useful knowledge. I improve over time.
+Rosa is my user. My project path is D:\Rosa_Brain. Talk to me through the API.

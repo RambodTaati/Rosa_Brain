@@ -1,0 +1,3 @@
+Q: List files in PowerShell? A: Get-ChildItem.
+Q: Read a text file? A: Get-Content -Path file.
+Q: When run elevated? A: Only for tasks that truly need admin rights.

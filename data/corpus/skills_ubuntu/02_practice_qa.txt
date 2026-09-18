@@ -1,0 +1,3 @@
+Q: Install a package? A: sudo apt update && sudo apt install name.
+Q: Check a service? A: systemctl status service-name.
+Q: Least privilege on Linux? A: Normal user by default; sudo only when needed.

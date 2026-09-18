@@ -1,0 +1,190 @@
+Q: What is a frozen dataclass useful for? A: Immutable value objects safe to share and hash when fields are hashable.
+Q: Why avoid mutable default arguments? A: They are shared across calls and cause subtle state bugs; use default_factory.
+Q: How should browser session secrets be stored? A: In HttpOnly Secure cookies — not localStorage.
+Q: What does parameterized SQL prevent? A: Injection from concatenating untrusted input into query strings.
+Q: What is N+1? A: Executing one query plus one per row instead of a single joined/batched query.
+Q: Name three HTTP status families used in APIs. A: 2xx success, 4xx client errors, 5xx server errors.
+Q: What is expand-contract migration? A: Add compatible changes first, deploy, then remove old later for zero-downtime.
+Q: Vue Composition API core refs? A: ref, reactive, computed, watch/watchEffect.
+Q: Why logical CSS properties for RTL? A: They adapt to writing direction without left/right hardcoding.
+Q: What belongs in a code review security pass? A: AuthZ checks, validation, secret handling, safe queries, least privilege.
+Q: Unit vs integration test? A: Unit isolates pure logic; integration exercises real boundaries like DB/HTTP.
+Q: How to fix a flaky time-based test? A: Freeze clock or assert on ranges; remove sleep-based synchronization.
+Q: Idempotency-Key purpose? A: Safely retry POSTs that create resources without duplicate side effects.
+Q: Least privilege means? A: Grant only the minimum permissions needed for the task.
+Q: Why server-side authZ always? A: Clients can be modified; server is the trust boundary.
+Q: pytest fixture role? A: Reusable setup/teardown injected into tests.
+Q: TaskGroup benefit? A: Structured concurrency with cancellation and grouped errors.
+Q: When use cursor pagination? A: Stable scrolling feeds under concurrent inserts.
+Q: CSP helps defend against? A: Some classes of XSS by restricting script sources (defense-in-depth).
+Q: What not to log? A: Passwords, session tokens, API keys, and other secrets.
+Q: Pinia store guidance? A: Small domain stores; avoid a single mega-store.
+Q: EXPLAIN ANALYZE use? A: Inspect real query plans and timings to fix slow SQL.
+Q: SameSite cookie attribute helps with? A: Reducing CSRF risk for cookie-based sessions.
+Q: Feature flag vs stub in prod? A: Flags may disable unfinished features; stubs that pretend success are dishonest.
+Q: Object-level authorization example? A: Verify the user owns or may edit the specific resource id.
+Q: UTF-8 file write in Python? A: path.write_text(text, encoding='utf-8').
+Q: FastAPI dependency yield use? A: Acquire resource, yield it, cleanup after request.
+Q: Decimal vs float for money? A: Decimal/integer cents avoid binary floating rounding errors.
+Q: Health vs ready probe? A: Liveness is process up; readiness includes critical deps like DB.
+Q: Why deny-by-default authZ? A: Missing checks should not grant access.
+Q: Professional practice checkpoint 1: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 1b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 2: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 2b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 3: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 3b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 4: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 4b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 5: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 5b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 6: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 6b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 7: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 7b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 8: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 8b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 9: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 9b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 10: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 10b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 11: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 11b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 12: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 12b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 13: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 13b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 14: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 14b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 15: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 15b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 16: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 16b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 17: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 17b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 18: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 18b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 19: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 19b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 20: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 20b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 21: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 21b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 22: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 22b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 23: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 23b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 24: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 24b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 25: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 25b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 26: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 26b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 27: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 27b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 28: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 28b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 29: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 29b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 30: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 30b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 31: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 31b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 32: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 32b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 33: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 33b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 34: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 34b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 35: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 35b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 36: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 36b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 37: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 37b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 38: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 38b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 39: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 39b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 40: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 40b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 41: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 41b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 42: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 42b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 43: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 43b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 44: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 44b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 45: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 45b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 46: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 46b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 47: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 47b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 48: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 48b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 49: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 49b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 50: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 50b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 51: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 51b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 52: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 52b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 53: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 53b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 54: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 54b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 55: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 55b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 56: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 56b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 57: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 57b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 58: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 58b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 59: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 59b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 60: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 60b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 61: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 61b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 62: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 62b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 63: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 63b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 64: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 64b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 65: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 65b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 66: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 66b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 67: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 67b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 68: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 68b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 69: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 69b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 70: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 70b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 71: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 71b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 72: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 72b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 73: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 73b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 74: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 74b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 75: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 75b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 76: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 76b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 77: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 77b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 78: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 78b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 79: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 79b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.
+Q: Professional practice checkpoint 80: what is a stable API error shape? A: A documented JSON object with stable error.code, message, and optional details list for field errors.
+Q: Checkpoint 80b: name one defensive secure coding habit. A: Validate inputs at boundaries and enforce authorization on the server for every request.

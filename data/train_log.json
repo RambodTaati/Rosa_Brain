@@ -1,0 +1,59 @@
+{
+  "event": "done",
+  "elapsed_sec": 2.32,
+  "train_steps_total": 202,
+  "checkpoint": "D:\\Rosa_Brain\\checkpoints\\tiny_net.pt",
+  "final_avg_loss": 2.0423040866851805,
+  "history": [
+    {
+      "avg_loss": 5.334962272644043,
+      "train_steps_total": 22,
+      "device": "cuda"
+    },
+    {
+      "avg_loss": 4.13350932598114,
+      "train_steps_total": 42,
+      "device": "cuda"
+    },
+    {
+      "avg_loss": 3.2865378499031066,
+      "train_steps_total": 62,
+      "device": "cuda"
+    },
+    {
+      "avg_loss": 3.2455614805221558,
+      "train_steps_total": 82,
+      "device": "cuda"
+    },
+    {
+      "avg_loss": 2.841279649734497,
+      "train_steps_total": 102,
+      "device": "cuda"
+    },
+    {
+      "avg_loss": 2.425059163570404,
+      "train_steps_total": 122,
+      "device": "cuda"
+    },
+    {
+      "avg_loss": 2.492847579717636,
+      "train_steps_total": 142,
+      "device": "cuda"
+    },
+    {
+      "avg_loss": 2.324613481760025,
+      "train_steps_total": 162,
+      "device": "cuda"
+    },
+    {
+      "avg_loss": 2.3839214861392977,
+      "train_steps_total": 182,
+      "device": "cuda"
+    },
+    {
+      "avg_loss": 2.0423040866851805,
+      "train_steps_total": 202,
+      "device": "cuda"
+    }
+  ]
+}

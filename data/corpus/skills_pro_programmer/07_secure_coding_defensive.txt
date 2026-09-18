@@ -1,0 +1,61 @@
+# Defensive secure coding (OWASP-style) — defense only, no exploits or attack steps
+Goal: build software that resists common classes of bugs. Rosa_Brain learns defense only.
+Input validation: validate type, length, range, charset at trust boundaries; prefer allowlists.
+Output encoding: encode for the context (HTML/attr/URL/JS) when emitting untrusted data; prefer frameworks that auto-escape.
+Authentication: strong password hashing (argon2/bcrypt); MFA when available; protect session fixation; invalidate on logout/password change.
+Session cookies: HttpOnly, Secure, SameSite; short idle timeouts; rotate session ids on privilege change.
+Authorization: enforce on server every time; object-level checks; deny default; never trust client role flags.
+Secrets handling: env/secret manager; no secrets in repos, logs, or frontend bundles; rotate on leak.
+Least privilege: DB users with minimal grants; OS service users; cloud roles narrowed.
+Dependency hygiene: pin versions; review advisories; remove unused deps; verify checksums when appropriate.
+XSS defense: escape output; CSP as defense-in-depth; avoid innerHTML/v-html with raw user HTML.
+CSRF defense: SameSite cookies + CSRF tokens for cookie-based sessions on state-changing requests.
+Injection defense: parameterized SQL/NoSQL APIs; never build queries via string concat with user data.
+SSRF defense: allowlist outbound URLs; block link-local/metadata IPs for user-controlled fetches.
+File upload defense: size limits, type allowlists, random storage names, no executable serving from upload dirs.
+Crypto: use vetted libraries; TLS in transit; do not invent protocols.
+Logging/monitoring: log auth failures and admin actions; alert on anomalies; never log secrets.
+Error messages: generic to clients; detailed internally with ids.
+Config hardening: disable debug in prod; secure headers (CSP, X-Content-Type-Options, Referrer-Policy).
+Threat mindset: assume clients are hostile; assume multi-tenant data must be isolated.
+Incident: rotate secrets, revoke sessions, patch, communicate — without publishing exploit recipes.
+Secure coding practice 1: Validate content-type and body size before parsing JSON. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 2: Centralize authZ helpers to avoid missed checks. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 3: Redact tokens in exception reporters. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 4: Use prepared statements through your ORM/query builder. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 5: Separate admin and user routers with distinct middleware. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 6: Store password reset tokens hashed; single-use; short TTL. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 7: For multi-tenant queries always filter by tenant_id from auth context. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 8: Turn off directory listings; serve static with correct types. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 9: Keep security notes in ADRs for sensitive features. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 10: Prefer safe defaults in libraries; configure explicitly when loosening. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 11: Validate content-type and body size before parsing JSON. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 12: Centralize authZ helpers to avoid missed checks. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 13: Redact tokens in exception reporters. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 14: Use prepared statements through your ORM/query builder. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 15: Separate admin and user routers with distinct middleware. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 16: Store password reset tokens hashed; single-use; short TTL. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 17: For multi-tenant queries always filter by tenant_id from auth context. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 18: Turn off directory listings; serve static with correct types. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 19: Keep security notes in ADRs for sensitive features. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 20: Prefer safe defaults in libraries; configure explicitly when loosening. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 21: Validate content-type and body size before parsing JSON. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 22: Centralize authZ helpers to avoid missed checks. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 23: Redact tokens in exception reporters. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 24: Use prepared statements through your ORM/query builder. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 25: Separate admin and user routers with distinct middleware. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 26: Store password reset tokens hashed; single-use; short TTL. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 27: For multi-tenant queries always filter by tenant_id from auth context. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 28: Turn off directory listings; serve static with correct types. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 29: Keep security notes in ADRs for sensitive features. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 30: Prefer safe defaults in libraries; configure explicitly when loosening. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 31: Validate content-type and body size before parsing JSON. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 32: Centralize authZ helpers to avoid missed checks. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 33: Redact tokens in exception reporters. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 34: Use prepared statements through your ORM/query builder. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 35: Separate admin and user routers with distinct middleware. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 36: Store password reset tokens hashed; single-use; short TTL. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 37: For multi-tenant queries always filter by tenant_id from auth context. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 38: Turn off directory listings; serve static with correct types. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 39: Keep security notes in ADRs for sensitive features. Reminder: defensive guidance only — no exploit steps.
+Secure coding practice 40: Prefer safe defaults in libraries; configure explicitly when loosening. Reminder: defensive guidance only — no exploit steps.

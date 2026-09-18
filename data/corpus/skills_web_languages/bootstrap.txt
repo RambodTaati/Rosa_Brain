@@ -1,0 +1,75 @@
+# Bootstrap overview (original)
+
+Bootstrap is a CSS (and optional JS) toolkit providing a responsive grid, components, and utility classes.
+Include Bootstrap CSS via build tooling or a vendor file you manage — prefer local/vendor copies in offline curricula.
+Grid: .container > .row > .col-md-6 etc. Columns sum to 12 per row in classic Bootstrap grid.
+Utilities: .d-flex, .justify-content-between, .m-3, .p-2, .text-center, .fw-bold — compose spacing and alignment quickly.
+Components: buttons (.btn .btn-primary), cards, navbar, modal, alerts. Use documented markup structures for accessibility (roles, labels).
+Responsive breakpoints via prefixes: col-12 col-md-6 stacks on small screens and splits on medium+.
+Customize with CSS variables in modern Bootstrap versions rather than editing compiled CSS by hand.
+JS components need their scripts and often button data attributes — ensure keyboard access still works.
+Do not fight the grid with heavy custom floats; extend with your own classes for brand look.
+Practice: build a responsive two-column card layout with utility classes.
+Practice: a navbar that collapses on small screens using Bootstrap's navbar patterns.
+Q: What is the Bootstrap grid based on? A: A 12-column responsive layout with containers, rows, and columns.
+Q: Why utilities? A: Fast, consistent spacing/alignment without writing unique one-off CSS for every margin.
+
+## Drill block bootstrap-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 1.
+Q: Why utilities? A: Fast, consistent spacing/alignment without writing unique one-off CSS for every margin.
+
+## Drill block bootstrap-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 2.
+Q: What is the Bootstrap grid based on? A: A 12-column responsive layout with containers, rows, and columns.
+
+## Drill block bootstrap-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 3.
+Q: Why utilities? A: Fast, consistent spacing/alignment without writing unique one-off CSS for every margin.
+
+## Drill block bootstrap-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 4.
+Q: What is the Bootstrap grid based on? A: A 12-column responsive layout with containers, rows, and columns.
+
+## Drill block bootstrap-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 5.
+Q: Why utilities? A: Fast, consistent spacing/alignment without writing unique one-off CSS for every margin.
+
+## Drill block bootstrap-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 6.
+Q: What is the Bootstrap grid based on? A: A 12-column responsive layout with containers, rows, and columns.
+
+## Drill block bootstrap-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 7.
+Q: Why utilities? A: Fast, consistent spacing/alignment without writing unique one-off CSS for every margin.
+
+## Drill block bootstrap-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 8.
+Q: What is the Bootstrap grid based on? A: A 12-column responsive layout with containers, rows, and columns.
+
+## Drill block bootstrap-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 9.
+Q: Why utilities? A: Fast, consistent spacing/alignment without writing unique one-off CSS for every margin.
+
+## Drill block bootstrap-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 10.
+Q: What is the Bootstrap grid based on? A: A 12-column responsive layout with containers, rows, and columns.
+
+## Drill block bootstrap-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 11.
+Q: Why utilities? A: Fast, consistent spacing/alignment without writing unique one-off CSS for every margin.
+
+## Drill block bootstrap-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 12.
+Q: What is the Bootstrap grid based on? A: A 12-column responsive layout with containers, rows, and columns.
+
+## Drill block bootstrap-13
+Review point 13: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 13.
+Q: Why utilities? A: Fast, consistent spacing/alignment without writing unique one-off CSS for every margin.
+
+## Drill block bootstrap-14
+Review point 14: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 14.
+Q: What is the Bootstrap grid based on? A: A 12-column responsive layout with containers, rows, and columns.
+
+## Drill block bootstrap-15
+Review point 15: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: bootstrap. Iteration 15.
+Q: Why utilities? A: Fast, consistent spacing/alignment without writing unique one-off CSS for every margin.

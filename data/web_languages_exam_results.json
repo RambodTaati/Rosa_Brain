@@ -1,0 +1,475 @@
+{
+  "timestamp": 1789689189.6578705,
+  "timestamp_iso": "2026-09-18T03:23:09+0330",
+  "device": "cuda",
+  "params": 13543184,
+  "checkpoint_loaded": true,
+  "heldout_accuracy": 0.56,
+  "practice_quiz_accuracy": 0.6774,
+  "n_heldout": 25,
+  "n_practice": 62,
+  "grade": "F",
+  "baseline": true,
+  "per_item": {
+    "heldout": [
+      {
+        "i": 0,
+        "ok": true,
+        "nll_correct": 2.7542,
+        "nll_wrong": 3.0043,
+        "question": "A form posts profile updates with CSRF disabled and reflects the bio field into HTML via innerHTML. Name two distinct defenses."
+      },
+      {
+        "i": 1,
+        "ok": false,
+        "nll_correct": 4.2161,
+        "nll_wrong": 3.7766,
+        "question": "You need a responsive card gallery without hard breakpoints for column count. Which CSS grid technique fits?"
+      },
+      {
+        "i": 2,
+        "ok": true,
+        "nll_correct": 3.0902,
+        "nll_wrong": 3.3404,
+        "question": "A React list uses index keys and users can reorder items. What bug appears and how do you fix it?"
+      },
+      {
+        "i": 3,
+        "ok": true,
+        "nll_correct": 3.3043,
+        "nll_wrong": 3.6307,
+        "question": "fetch('/api') returns HTTP 503. Why might a naive try/catch around await fetch miss it?"
+      },
+      {
+        "i": 4,
+        "ok": true,
+        "nll_correct": 2.5986,
+        "nll_wrong": 2.6473,
+        "question": "TypeScript function accepts unknown JSON. What is the safe first step before reading fields?"
+      },
+      {
+        "i": 5,
+        "ok": true,
+        "nll_correct": 2.8968,
+        "nll_wrong": 2.9957,
+        "question": "PostgreSQL query builds WHERE email = '{user}' via f-string. What is the correct rewrite pattern conceptually?"
+      },
+      {
+        "i": 6,
+        "ok": false,
+        "nll_correct": 3.951,
+        "nll_wrong": 3.9117,
+        "question": "PHP prints $_GET['q'] into a results heading. What exact risk and primary fix?"
+      },
+      {
+        "i": 7,
+        "ok": false,
+        "nll_correct": 3.1744,
+        "nll_wrong": 3.1483,
+        "question": "A sticky header covers focused links when tabbing. Which accessibility-oriented CSS idea helps?"
+      },
+      {
+        "i": 8,
+        "ok": true,
+        "nll_correct": 3.1963,
+        "nll_wrong": 3.7317,
+        "question": "Node serves files from /var/data using path.join(root, req.path). User sends ../../etc/passwd. Defense?"
+      },
+      {
+        "i": 9,
+        "ok": true,
+        "nll_correct": 2.8969,
+        "nll_wrong": 3.0399,
+        "question": "Vue app uses v-html with forum posts. What is the correct policy?"
+      },
+      {
+        "i": 10,
+        "ok": false,
+        "nll_correct": 4.9766,
+        "nll_wrong": 3.8244,
+        "question": "Bootstrap page looks fine desktop but tiny on phone. Likely missing HTML piece?"
+      },
+      {
+        "i": 11,
+        "ok": false,
+        "nll_correct": 3.5751,
+        "nll_wrong": 3.2134,
+        "question": "JSON API client uses == null checks inconsistently and treats 0 as missing. Which operator distinguishes nullish only?"
+      },
+      {
+        "i": 12,
+        "ok": false,
+        "nll_correct": 2.135,
+        "nll_wrong": 2.0626,
+        "question": "Explain one concrete reason to prefer HttpOnly cookies over localStorage for session ids."
+      },
+      {
+        "i": 13,
+        "ok": true,
+        "nll_correct": 3.9861,
+        "nll_wrong": 4.1078,
+        "question": "CSS specificity fight: #nav a vs .nav-link. Which wins if both apply, all else equal?"
+      },
+      {
+        "i": 14,
+        "ok": false,
+        "nll_correct": 3.7289,
+        "nll_wrong": 3.3076,
+        "question": "async Task in C# vs sync blocking on a web thread — why prefer await for IO?"
+      },
+      {
+        "i": 15,
+        "ok": true,
+        "nll_correct": 3.0896,
+        "nll_wrong": 3.2619,
+        "question": "XML parser with default entity expansion enabled parses uploads. Name the class of issue and a mitigation."
+      },
+      {
+        "i": 16,
+        "ok": false,
+        "nll_correct": 3.4336,
+        "nll_wrong": 3.3546,
+        "question": "Justify content vs align-items in a row flex container?"
+      },
+      {
+        "i": 17,
+        "ok": false,
+        "nll_correct": 3.1521,
+        "nll_wrong": 2.8792,
+        "question": "A SPA starts many searches while typing without cancellation. What API prevents racey late responses?"
+      },
+      {
+        "i": 18,
+        "ok": true,
+        "nll_correct": 2.92,
+        "nll_wrong": 3.3052,
+        "question": "Java JDBC Statement with string concatenation vs PreparedStatement — pick one and why for user input."
+      },
+      {
+        "i": 19,
+        "ok": false,
+        "nll_correct": 4.1984,
+        "nll_wrong": 3.9168,
+        "question": "Describe a safe alt text policy for a purely decorative divider image."
+      },
+      {
+        "i": 20,
+        "ok": true,
+        "nll_correct": 3.8524,
+        "nll_wrong": 3.8708,
+        "question": "Why might min-width:0 on a flex child fix text overflow ellipsis?"
+      },
+      {
+        "i": 21,
+        "ok": true,
+        "nll_correct": 2.4584,
+        "nll_wrong": 3.0429,
+        "question": "ES module script vs classic script regarding strict mode and defer defaults?"
+      },
+      {
+        "i": 22,
+        "ok": true,
+        "nll_correct": 3.9116,
+        "nll_wrong": 3.9958,
+        "question": "LEFT JOIN users to orders then COUNT(orders.id) GROUP BY user — why COUNT on the right key?"
+      },
+      {
+        "i": 23,
+        "ok": false,
+        "nll_correct": 3.3746,
+        "nll_wrong": 3.3551,
+        "question": "React effect fetches on mount but setState after unmount warns. What cleanup pattern helps?"
+      },
+      {
+        "i": 24,
+        "ok": true,
+        "nll_correct": 3.7861,
+        "nll_wrong": 4.203,
+        "question": "Bootstrap .col-md-6 with no .row parent — what layout problem occurs?"
+      }
+    ],
+    "practice_quiz": [
+      {
+        "i": 0,
+        "ok": false,
+        "nll_correct": 3.3628,
+        "nll_wrong": 3.0116,
+        "question": "What HTML attribute declares the page language?"
+      },
+      {
+        "i": 1,
+        "ok": false,
+        "nll_correct": 3.8642,
+        "nll_wrong": 3.7703,
+        "question": "Name two semantic landmarks besides div."
+      },
+      {
+        "i": 2,
+        "ok": true,
+        "nll_correct": 2.4734,
+        "nll_wrong": 2.9734,
+        "question": "How do you link a label to an input?"
+      },
+      {
+        "i": 3,
+        "ok": true,
+        "nll_correct": 3.3359,
+        "nll_wrong": 3.3726,
+        "question": "Which form method suits state-changing submits?"
+      },
+      {
+        "i": 4,
+        "ok": true,
+        "nll_correct": 2.9446,
+        "nll_wrong": 3.4536,
+        "question": "When is enctype multipart/form-data needed?"
+      },
+      {
+        "i": 5,
+        "ok": true,
+        "nll_correct": 3.9983,
+        "nll_wrong": 4.2329,
+        "question": "What does box-sizing:border-box include in width?"
+      },
+      {
+        "i": 6,
+        "ok": false,
+        "nll_correct": 3.8388,
+        "nll_wrong": 3.6693,
+        "question": "Flexbox is primarily for which dimension?"
+      },
+      {
+        "i": 7,
+        "ok": false,
+        "nll_correct": 4.5829,
+        "nll_wrong": 3.0882,
+        "question": "Give a responsive grid columns recipe."
+      },
+      {
+        "i": 8,
+        "ok": false,
+        "nll_correct": 4.1497,
+        "nll_wrong": 3.6205,
+        "question": "Why set viewport meta on mobile pages?"
+      },
+      {
+        "i": 9,
+        "ok": false,
+        "nll_correct": 3.4266,
+        "nll_wrong": 3.216,
+        "question": "Preferred mobile-first media query style?"
+      },
+      {
+        "i": 10,
+        "ok": true,
+        "nll_correct": 3.5219,
+        "nll_wrong": 4.229,
+        "question": "const vs let in JavaScript?"
+      },
+      {
+        "i": 11,
+        "ok": false,
+        "nll_correct": 4.9363,
+        "nll_wrong": 4.7328,
+        "question": "Why prefer === over ==?"
+      },
+      {
+        "i": 12,
+        "ok": true,
+        "nll_correct": 3.152,
+        "nll_wrong": 3.5425,
+        "question": "Safer DOM text assignment API?"
+      },
+      {
+        "i": 13,
+        "ok": true,
+        "nll_correct": 3.4443,
+        "nll_wrong": 3.5093,
+        "question": "What is event delegation?"
+      },
+      {
+        "i": 14,
+        "ok": true,
+        "nll_correct": 2.5268,
+        "nll_wrong": 3.0153,
+        "question": "Does fetch reject on HTTP 500?"
+      },
+      {
+        "i": 15,
+        "ok": true,
+        "nll_correct": 3.1679,
+        "nll_wrong": 3.5287,
+        "question": "Purpose of AbortController with fetch?"
+      },
+      {
+        "i": 16,
+        "ok": true,
+        "nll_correct": 3.1124,
+        "nll_wrong": 3.3591,
+        "question": "What happens to TypeScript types at runtime?"
+      },
+      {
+        "i": 17,
+        "ok": true,
+        "nll_correct": 2.8295,
+        "nll_wrong": 3.1029,
+        "question": "unknown vs any in TypeScript?"
+      },
+      {
+        "i": 18,
+        "ok": true,
+        "nll_correct": 2.1341,
+        "nll_wrong": 3.0272,
+        "question": "Python open() encoding best practice?"
+      },
+      {
+        "i": 19,
+        "ok": true,
+        "nll_correct": 1.2791,
+        "nll_wrong": 2.1883,
+        "question": "How to avoid SQL injection?"
+      },
+      {
+        "i": 20,
+        "ok": true,
+        "nll_correct": 3.6605,
+        "nll_wrong": 3.9422,
+        "question": "INNER JOIN vs LEFT JOIN?"
+      },
+      {
+        "i": 21,
+        "ok": true,
+        "nll_correct": 2.4849,
+        "nll_wrong": 2.8606,
+        "question": "PHP functions for password hash/verify?"
+      },
+      {
+        "i": 22,
+        "ok": true,
+        "nll_correct": 3.8976,
+        "nll_wrong": 4.0421,
+        "question": "Why htmlspecialchars in PHP HTML output?"
+      },
+      {
+        "i": 23,
+        "ok": true,
+        "nll_correct": 2.9575,
+        "nll_wrong": 3.5424,
+        "question": "Java try-with-resources purpose?"
+      },
+      {
+        "i": 24,
+        "ok": true,
+        "nll_correct": 3.1697,
+        "nll_wrong": 3.8462,
+        "question": "What is a Java record?"
+      },
+      {
+        "i": 25,
+        "ok": true,
+        "nll_correct": 3.3868,
+        "nll_wrong": 3.4878,
+        "question": "Why is C string handling risky?"
+      },
+      {
+        "i": 26,
+        "ok": true,
+        "nll_correct": 3.922,
+        "nll_wrong": 3.9757,
+        "question": "C++ RAII means?"
+      },
+      {
+        "i": 27,
+        "ok": true,
+        "nll_correct": 3.0642,
+        "nll_wrong": 3.6989,
+        "question": "unique_ptr vs shared_ptr?"
+      },
+      {
+        "i": 28,
+        "ok": false,
+        "nll_correct": 3.5971,
+        "nll_wrong": 3.3369,
+        "question": "C# type recommended for money?"
+      },
+      {
+        "i": 29,
+        "ok": true,
+        "nll_correct": 2.2946,
+        "nll_wrong": 3.1266,
+        "question": "React list key purpose?"
+      },
+      {
+        "i": 30,
+        "ok": true,
+        "nll_correct": 2.7319,
+        "nll_wrong": 3.0071,
+        "question": "Controlled input in React means?"
+      },
+      {
+        "i": 31,
+        "ok": true,
+        "nll_correct": 2.3035,
+        "nll_wrong": 3.0562,
+        "question": "Node lockfile purpose?"
+      },
+      {
+        "i": 32,
+        "ok": true,
+        "nll_correct": 3.4292,
+        "nll_wrong": 3.9144,
+        "question": "Vue :key on v-for why?"
+      },
+      {
+        "i": 33,
+        "ok": false,
+        "nll_correct": 3.5904,
+        "nll_wrong": 3.3474,
+        "question": "Is jQuery required for modern DOM work?"
+      },
+      {
+        "i": 34,
+        "ok": true,
+        "nll_correct": 3.5626,
+        "nll_wrong": 3.6278,
+        "question": "Bootstrap classic grid column count?"
+      },
+      {
+        "i": 35,
+        "ok": true,
+        "nll_correct": 3.0881,
+        "nll_wrong": 3.1201,
+        "question": "Are trailing commas allowed in JSON?"
+      },
+      {
+        "i": 36,
+        "ok": false,
+        "nll_correct": 3.1131,
+        "nll_wrong": 2.9966,
+        "question": "XXE defense when parsing XML?"
+      },
+      {
+        "i": 37,
+        "ok": false,
+        "nll_correct": 3.6226,
+        "nll_wrong": 2.8479,
+        "question": "CSS variables are declared commonly where?"
+      },
+      {
+        "i": 38,
+        "ok": true,
+        "nll_correct": 2.096,
+        "nll_wrong": 2.2861,
+        "question": "Logical CSS property example?"
+      },
+      {
+        "i": 39,
+        "ok": true,
+        "nll_correct": 2.8009,
+        "nll_wrong": 3.2045,
+        "question": "Promise.all on first rejection?"
+      }
+    ]
+  },
+  "notes": "NLL preference scoring identical to auto_skills.quiz_accuracy (correct Q+A vs wrong placeholder). Local TinyBrainNet only; no cloud LLMs. Original curriculum; no W3Schools verbatim text."
+}

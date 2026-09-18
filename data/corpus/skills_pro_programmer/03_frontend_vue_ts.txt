@@ -1,0 +1,57 @@
+# Vue 3 Composition API + TypeScript + Vite
+Use <script setup lang="ts"> for components; explicit props with defineProps<T>(); emits with defineEmits.
+Composition API: ref, computed, watchEffect; keep state local unless shared across distant trees.
+State islands: prefer small stores (pinia) per domain; avoid one mega-store; islands keep failure isolation.
+Routing: vue-router with typed route names; lazy routes for code splitting; navigation guards for auth gates only (server still enforces).
+Forms: v-model carefully; validate on blur/submit; show accessible error text tied via aria-describedby.
+Accessibility: semantic HTML; button for actions; label for inputs; focus management on route change; keyboard operable menus.
+RTL awareness: logical CSS (margin-inline-start); dir="rtl" on document when Persian UI; icons that flip when needed; avoid left/right hardcoding.
+Vite: env via import.meta.env; VITE_ prefix for client-exposed; never put secrets in VITE_ vars.
+Build: vue-tsc --noEmit then vite build; treat type errors as CI failures.
+Islands architecture: wrap features in error boundaries; one island crash should not blank the whole desk.
+Styling: design tokens; prefer CSS variables; avoid deep !important wars.
+HTTP: central api client with credentials: 'include' for cookie sessions; handle 401 by re-auth flow.
+Optimistic UI: only when rollback is clear; otherwise wait for server ack.
+Lists: virtualize long tables; key by stable ids; avoid index keys when reordering.
+Loading/empty/error states for every data island — no blank silent failures.
+i18n: message catalogs; RTL/LTR switch; format dates/numbers for locale.
+Security UI: never trust client role for showing admin only as security; still hide for UX.
+CSP-friendly: avoid inline scripts; careful with v-html — sanitize or do not use.
+Testing: component tests for critical forms; e2e for login and main flows.
+Performance: defer non-critical islands; requestIdleCallback sparingly; compress images.
+State sync: poll with backoff; websocket when realtime is required; reconcile with server as source of truth.
+Frontend practice 1: Use computed for derived state; watch for side effects only.
+Frontend practice 2: Prefer defineModel in Vue 3.4+ for tidy v-model.
+Frontend practice 3: Keep presentational components pure props/emits.
+Frontend practice 4: Colocate island CSS; avoid global leaks.
+Frontend practice 5: Announce dynamic updates to screen readers when needed.
+Frontend practice 6: Respect prefers-reduced-motion.
+Frontend practice 7: Escape user content in templates; Vue escapes text nodes by default.
+Frontend practice 8: For RTL Persian labels, keep English code identifiers.
+Frontend practice 9: Route meta for titles; set document title on navigate.
+Frontend practice 10: Bundle analyze when chunks balloon.
+Frontend practice 11: Use computed for derived state; watch for side effects only.
+Frontend practice 12: Prefer defineModel in Vue 3.4+ for tidy v-model.
+Frontend practice 13: Keep presentational components pure props/emits.
+Frontend practice 14: Colocate island CSS; avoid global leaks.
+Frontend practice 15: Announce dynamic updates to screen readers when needed.
+Frontend practice 16: Respect prefers-reduced-motion.
+Frontend practice 17: Escape user content in templates; Vue escapes text nodes by default.
+Frontend practice 18: For RTL Persian labels, keep English code identifiers.
+Frontend practice 19: Route meta for titles; set document title on navigate.
+Frontend practice 20: Bundle analyze when chunks balloon.
+Frontend practice 21: Use computed for derived state; watch for side effects only.
+Frontend practice 22: Prefer defineModel in Vue 3.4+ for tidy v-model.
+Frontend practice 23: Keep presentational components pure props/emits.
+Frontend practice 24: Colocate island CSS; avoid global leaks.
+Frontend practice 25: Announce dynamic updates to screen readers when needed.
+Frontend practice 26: Respect prefers-reduced-motion.
+Frontend practice 27: Escape user content in templates; Vue escapes text nodes by default.
+Frontend practice 28: For RTL Persian labels, keep English code identifiers.
+Frontend practice 29: Route meta for titles; set document title on navigate.
+Frontend practice 30: Bundle analyze when chunks balloon.
+Frontend practice 31: Use computed for derived state; watch for side effects only.
+Frontend practice 32: Prefer defineModel in Vue 3.4+ for tidy v-model.
+Frontend practice 33: Keep presentational components pure props/emits.
+Frontend practice 34: Colocate island CSS; avoid global leaks.
+Frontend practice 35: Announce dynamic updates to screen readers when needed.

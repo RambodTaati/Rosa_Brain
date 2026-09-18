@@ -1,0 +1,428 @@
+HARD CASE intent_thanks: What does this mean? thanks
+HARD CASE intent_thanks: Classify the intent: thanks
+HARD CASE intent_thanks: Please detect meaning: thanks
+HARD CASE intent_thanks: Meaning check: thanks
+HARD CASE intent_thanks: Recognize this: thanks
+HARD CASE intent_thanks: thanks
+HARD CASE intent_thanks: User said: thanks
+HARD CASE intent_thanks: Utterance: thanks
+HARD CASE intent_thanks: thank you
+HARD CASE intent_thanks: What does this mean? thank you
+HARD CASE intent_thanks: Meaning check: thank you
+HARD CASE intent_thanks: Please detect meaning: thank you
+HARD CASE intent_thanks: Thank you
+HARD CASE intent_thanks: User said: thank you
+HARD CASE intent_thanks: Utterance: thank you
+HARD CASE intent_thanks: Recognize this: thank you
+HARD CASE intent_thanks: Meaning check: thanks a lot
+HARD CASE intent_thanks: Recognize this: thanks a lot
+HARD CASE intent_thanks: Please detect meaning: thanks a lot
+HARD CASE intent_thanks: What does this mean? thanks a lot
+HARD CASE intent_thanks: Classify the intent: thanks a lot
+HARD CASE intent_thanks: thanks a lot
+HARD CASE intent_thanks: Thanks a lot
+HARD CASE intent_thanks: Utterance: thanks a lot
+HARD CASE intent_thanks: User said: thanks a lot
+HARD CASE intent_thanks: Classify the intent: thank you so much
+HARD CASE intent_thanks: What does this mean? thank you so much
+HARD CASE intent_thanks: thank you so much
+HARD CASE intent_thanks: User said: thank you so much
+HARD CASE intent_thanks: Recognize this: thank you so much
+HARD CASE intent_thanks: Utterance: thank you so much
+HARD CASE intent_thanks: Please detect meaning: thank you so much
+HARD CASE intent_thanks: Meaning check: thank you so much
+HARD CASE intent_thanks: User said: many thanks
+HARD CASE intent_thanks: Utterance: many thanks
+HARD CASE intent_thanks: Classify the intent: many thanks
+HARD CASE intent_thanks: Meaning check: many thanks
+HARD CASE intent_thanks: Recognize this: many thanks
+HARD CASE intent_thanks: many thanks
+HARD CASE intent_thanks: What does this mean? many thanks
+HARD CASE intent_thanks: Please detect meaning: many thanks
+HARD CASE intent_thanks: Please detect meaning: I appreciate it
+HARD CASE intent_thanks: I appreciate it
+HARD CASE intent_thanks: Classify the intent: I appreciate it
+HARD CASE intent_thanks: Utterance: I appreciate it
+HARD CASE intent_thanks: User said: I appreciate it
+HARD CASE intent_thanks: What does this mean? I appreciate it
+HARD CASE intent_thanks: Recognize this: I appreciate it
+HARD CASE intent_thanks: Meaning check: I appreciate it
+HARD CASE intent_thanks: Recognize this: thanks for your help
+HARD CASE intent_thanks: Meaning check: thanks for your help
+HARD CASE intent_thanks: thanks for your help
+HARD CASE intent_thanks: User said: thanks for your help
+HARD CASE intent_thanks: Please detect meaning: thanks for your help
+HARD CASE intent_thanks: What does this mean? thanks for your help
+HARD CASE intent_thanks: Utterance: thanks for your help
+HARD CASE intent_thanks: Thanks for your help
+HARD CASE intent_thanks: What does this mean? thank you for explaining
+HARD CASE intent_thanks: Thank you for explaining
+HARD CASE intent_thanks: thank you for explaining
+HARD CASE intent_thanks: Recognize this: thank you for explaining
+HARD CASE intent_thanks: Utterance: thank you for explaining
+HARD CASE intent_thanks: Classify the intent: thank you for explaining
+HARD CASE intent_thanks: User said: thank you for explaining
+HARD CASE intent_thanks: Meaning check: thank you for explaining
+HARD CASE intent_thanks: cheers thanks
+HARD CASE intent_thanks: Utterance: cheers thanks
+HARD CASE intent_thanks: Meaning check: cheers thanks
+HARD CASE intent_thanks: What does this mean? cheers thanks
+HARD CASE intent_thanks: Classify the intent: cheers thanks
+HARD CASE intent_thanks: Recognize this: cheers thanks
+HARD CASE intent_thanks: User said: cheers thanks
+HARD CASE intent_thanks: Cheers thanks
+HARD CASE intent_thanks: thanks mate
+HARD CASE intent_thanks: Thanks mate
+HARD CASE intent_thanks: Please detect meaning: thanks mate
+HARD CASE intent_thanks: Meaning check: thanks mate
+HARD CASE intent_thanks: User said: thanks mate
+HARD CASE intent_thanks: What does this mean? thanks mate
+HARD CASE intent_thanks: Recognize this: thanks mate
+HARD CASE intent_thanks: Classify the intent: thanks mate
+HARD CASE intent_thanks: Classify the intent: I really appreciate that
+HARD CASE intent_thanks: Please detect meaning: I really appreciate that
+HARD CASE intent_thanks: Meaning check: I really appreciate that
+HARD CASE intent_thanks: i really appreciate that
+HARD CASE intent_thanks: What does this mean? I really appreciate that
+HARD CASE intent_thanks: I really appreciate that
+HARD CASE intent_thanks: User said: I really appreciate that
+HARD CASE intent_thanks: Utterance: I really appreciate that
+HARD CASE intent_thanks: thanks, that helped
+HARD CASE intent_thanks: What does this mean? thanks, that helped
+HARD CASE intent_thanks: Please detect meaning: thanks, that helped
+HARD CASE intent_thanks: Thanks, that helped
+HARD CASE intent_thanks: Meaning check: thanks, that helped
+HARD CASE intent_thanks: Classify the intent: thanks, that helped
+HARD CASE intent_thanks: Recognize this: thanks, that helped
+HARD CASE intent_thanks: User said: thanks, that helped
+HARD CASE intent_question: Recognize this: what is this?
+HARD CASE intent_question: Classify the intent: what is this?
+HARD CASE intent_question: What is this?
+HARD CASE intent_question: what is this?
+HARD CASE intent_question: Meaning check: what is this?
+HARD CASE intent_question: Utterance: what is this?
+HARD CASE intent_question: User said: what is this?
+HARD CASE intent_question: What does this mean? what is this?
+HARD CASE intent_question: where are you?
+HARD CASE intent_question: Utterance: where are you?
+HARD CASE intent_question: Please detect meaning: where are you?
+HARD CASE intent_question: User said: where are you?
+HARD CASE intent_question: Meaning check: where are you?
+HARD CASE intent_question: Classify the intent: where are you?
+HARD CASE intent_question: Recognize this: where are you?
+HARD CASE intent_question: Where are you?
+HARD CASE intent_question: What does this mean? where are you?
+HARD CASE intent_question: Utterance: why did that happen?
+HARD CASE intent_question: Please detect meaning: why did that happen?
+HARD CASE intent_question: why did that happen?
+HARD CASE intent_question: Meaning check: why did that happen?
+HARD CASE intent_question: Recognize this: why did that happen?
+HARD CASE intent_question: Classify the intent: why did that happen?
+HARD CASE intent_question: User said: why did that happen?
+HARD CASE intent_question: What does this mean? why did that happen?
+HARD CASE intent_question: how does it work?
+HARD CASE intent_question: Utterance: how does it work?
+HARD CASE intent_question: Please detect meaning: how does it work?
+HARD CASE intent_question: Recognize this: how does it work?
+HARD CASE intent_question: Classify the intent: how does it work?
+HARD CASE intent_question: How does it work?
+HARD CASE intent_question: What does this mean? how does it work?
+HARD CASE intent_question: Meaning check: how does it work?
+HARD CASE intent_question: Classify the intent: who said that?
+HARD CASE intent_question: Recognize this: who said that?
+HARD CASE intent_question: who said that?
+HARD CASE intent_question: Utterance: who said that?
+HARD CASE intent_question: What does this mean? who said that?
+HARD CASE intent_question: Meaning check: who said that?
+HARD CASE intent_question: Who said that?
+HARD CASE intent_question: User said: who said that?
+HARD CASE intent_question: Utterance: when does it start?
+HARD CASE intent_question: when does it start?
+HARD CASE intent_question: User said: when does it start?
+HARD CASE intent_question: Meaning check: when does it start?
+HARD CASE intent_question: When does it start?
+HARD CASE intent_question: Please detect meaning: when does it start?
+HARD CASE intent_question: Classify the intent: when does it start?
+HARD CASE intent_question: What does this mean? when does it start?
+HARD CASE intent_question: Meaning check: why is the server slow?
+HARD CASE intent_question: why is the server slow?
+HARD CASE intent_question: Utterance: why is the server slow?
+HARD CASE intent_question: Why is the server slow?
+HARD CASE intent_question: What does this mean? why is the server slow?
+HARD CASE intent_question: Please detect meaning: why is the server slow?
+HARD CASE intent_question: Classify the intent: why is the server slow?
+HARD CASE intent_question: User said: why is the server slow?
+HARD CASE intent_question: what went wrong?
+HARD CASE intent_question: What does this mean? what went wrong?
+HARD CASE intent_question: User said: what went wrong?
+HARD CASE intent_question: Recognize this: what went wrong?
+HARD CASE intent_question: Utterance: what went wrong?
+HARD CASE intent_question: Classify the intent: what went wrong?
+HARD CASE intent_question: Meaning check: what went wrong?
+HARD CASE intent_question: Please detect meaning: what went wrong?
+HARD CASE intent_question: Meaning check: how can I fix this?
+HARD CASE intent_question: Classify the intent: how can I fix this?
+HARD CASE intent_question: What does this mean? how can I fix this?
+HARD CASE intent_question: How can I fix this?
+HARD CASE intent_question: Recognize this: how can I fix this?
+HARD CASE intent_question: how can i fix this?
+HARD CASE intent_question: how can I fix this?
+HARD CASE intent_question: Please detect meaning: how can I fix this?
+HARD CASE intent_question: User said: how can I fix this?
+HARD CASE intent_question: Meaning check: which file should I open?
+HARD CASE intent_question: Which file should I open?
+HARD CASE intent_question: Utterance: which file should I open?
+HARD CASE intent_question: User said: which file should I open?
+HARD CASE intent_question: Classify the intent: which file should I open?
+HARD CASE intent_question: which file should I open?
+HARD CASE intent_question: which file should i open?
+HARD CASE intent_question: Recognize this: which file should I open?
+HARD CASE intent_question: What does this mean? which file should I open?
+HARD CASE intent_question: Please detect meaning: is the API running?
+HARD CASE intent_question: is the API running?
+HARD CASE intent_question: Meaning check: is the API running?
+HARD CASE intent_question: Recognize this: is the API running?
+HARD CASE intent_question: is the api running?
+HARD CASE intent_question: Utterance: is the API running?
+HARD CASE intent_question: Classify the intent: is the API running?
+HARD CASE intent_question: What does this mean? is the API running?
+HARD CASE intent_question: User said: is the API running?
+HARD CASE intent_question: can you tell me why it failed?
+HARD CASE intent_question: User said: can you tell me why it failed?
+HARD CASE intent_question: Recognize this: can you tell me why it failed?
+HARD CASE intent_question: Utterance: can you tell me why it failed?
+HARD CASE intent_question: Please detect meaning: can you tell me why it failed?
+HARD CASE intent_question: Can you tell me why it failed?
+HARD CASE intent_question: Meaning check: can you tell me why it failed?
+HARD CASE intent_question: What does this mean? can you tell me why it failed?
+HARD CASE sentiment_negative: I am sad
+HARD CASE sentiment_negative: What does this mean? I am sad
+HARD CASE sentiment_negative: i am sad
+HARD CASE sentiment_negative: Recognize this: I am sad
+HARD CASE sentiment_negative: Classify the intent: I am sad
+HARD CASE sentiment_negative: Meaning check: I am sad
+HARD CASE sentiment_negative: Please detect meaning: I am sad
+HARD CASE sentiment_negative: User said: I am sad
+HARD CASE sentiment_negative: Utterance: I am sad
+HARD CASE sentiment_negative: I am sad today
+HARD CASE sentiment_negative: User said: I am sad today
+HARD CASE sentiment_negative: Meaning check: I am sad today
+HARD CASE sentiment_negative: Please detect meaning: I am sad today
+HARD CASE sentiment_negative: Recognize this: I am sad today
+HARD CASE sentiment_negative: Utterance: I am sad today
+HARD CASE sentiment_negative: What does this mean? I am sad today
+HARD CASE sentiment_negative: i am sad today
+HARD CASE sentiment_negative: this is terrible
+HARD CASE sentiment_negative: Please detect meaning: this is terrible
+HARD CASE sentiment_negative: Classify the intent: this is terrible
+HARD CASE sentiment_negative: Recognize this: this is terrible
+HARD CASE sentiment_negative: This is terrible
+HARD CASE sentiment_negative: Utterance: this is terrible
+HARD CASE sentiment_negative: What does this mean? this is terrible
+HARD CASE sentiment_negative: User said: this is terrible
+HARD CASE sentiment_negative: Please detect meaning: I hate this bug
+HARD CASE sentiment_negative: i hate this bug
+HARD CASE sentiment_negative: What does this mean? I hate this bug
+HARD CASE sentiment_negative: I hate this bug
+HARD CASE sentiment_negative: User said: I hate this bug
+HARD CASE sentiment_negative: Recognize this: I hate this bug
+HARD CASE sentiment_negative: Meaning check: I hate this bug
+HARD CASE sentiment_negative: Classify the intent: I hate this bug
+HARD CASE sentiment_negative: Utterance: I hate this bug
+HARD CASE sentiment_negative: Recognize this: I feel awful
+HARD CASE sentiment_negative: Meaning check: I feel awful
+HARD CASE sentiment_negative: Classify the intent: I feel awful
+HARD CASE sentiment_negative: Utterance: I feel awful
+HARD CASE sentiment_negative: User said: I feel awful
+HARD CASE sentiment_negative: i feel awful
+HARD CASE sentiment_negative: I feel awful
+HARD CASE sentiment_negative: What does this mean? I feel awful
+HARD CASE sentiment_negative: Meaning check: this makes me angry
+HARD CASE sentiment_negative: this makes me angry
+HARD CASE sentiment_negative: What does this mean? this makes me angry
+HARD CASE sentiment_negative: Please detect meaning: this makes me angry
+HARD CASE sentiment_negative: This makes me angry
+HARD CASE sentiment_negative: Classify the intent: this makes me angry
+HARD CASE sentiment_negative: Recognize this: this makes me angry
+HARD CASE sentiment_negative: Utterance: this makes me angry
+HARD CASE sentiment_negative: i am frustrated
+HARD CASE sentiment_negative: Utterance: I am frustrated
+HARD CASE sentiment_negative: I am frustrated
+HARD CASE sentiment_negative: Meaning check: I am frustrated
+HARD CASE sentiment_negative: User said: I am frustrated
+HARD CASE sentiment_negative: Classify the intent: I am frustrated
+HARD CASE sentiment_negative: Please detect meaning: I am frustrated
+HARD CASE sentiment_negative: Recognize this: I am frustrated
+HARD CASE sentiment_negative: What does this mean? I am frustrated
+HARD CASE sentiment_negative: What does this mean? I feel depressed
+HARD CASE sentiment_negative: User said: I feel depressed
+HARD CASE sentiment_negative: I feel depressed
+HARD CASE sentiment_negative: Recognize this: I feel depressed
+HARD CASE sentiment_negative: Utterance: I feel depressed
+HARD CASE sentiment_negative: Meaning check: I feel depressed
+HARD CASE sentiment_negative: Classify the intent: I feel depressed
+HARD CASE sentiment_negative: i feel depressed
+HARD CASE sentiment_negative: Please detect meaning: I feel depressed
+HARD CASE sentiment_negative: Please detect meaning: this is disappointing
+HARD CASE sentiment_negative: Classify the intent: this is disappointing
+HARD CASE sentiment_negative: this is disappointing
+HARD CASE sentiment_negative: What does this mean? this is disappointing
+HARD CASE sentiment_negative: Meaning check: this is disappointing
+HARD CASE sentiment_negative: This is disappointing
+HARD CASE sentiment_negative: User said: this is disappointing
+HARD CASE sentiment_negative: Recognize this: this is disappointing
+HARD CASE sentiment_negative: Please detect meaning: I am upset
+HARD CASE sentiment_negative: Recognize this: I am upset
+HARD CASE sentiment_negative: Classify the intent: I am upset
+HARD CASE sentiment_negative: Meaning check: I am upset
+HARD CASE sentiment_negative: User said: I am upset
+HARD CASE sentiment_negative: I am upset
+HARD CASE sentiment_negative: i am upset
+HARD CASE sentiment_negative: What does this mean? I am upset
+HARD CASE sentiment_negative: Utterance: I am upset
+HARD CASE sentiment_negative: I feel miserable
+HARD CASE sentiment_negative: Recognize this: I feel miserable
+HARD CASE sentiment_negative: Please detect meaning: I feel miserable
+HARD CASE sentiment_negative: Classify the intent: I feel miserable
+HARD CASE sentiment_negative: i feel miserable
+HARD CASE sentiment_negative: Utterance: I feel miserable
+HARD CASE sentiment_negative: Meaning check: I feel miserable
+HARD CASE sentiment_negative: What does this mean? I feel miserable
+HARD CASE topic_feelings: User said: I feel calm
+HARD CASE topic_feelings: Classify the intent: I feel calm
+HARD CASE topic_feelings: i feel calm
+HARD CASE topic_feelings: I feel calm
+HARD CASE topic_feelings: Recognize this: I feel calm
+HARD CASE topic_feelings: Meaning check: I feel calm
+HARD CASE topic_feelings: What does this mean? I feel calm
+HARD CASE topic_feelings: Utterance: I feel calm
+HARD CASE topic_feelings: Please detect meaning: she is worried
+HARD CASE topic_feelings: she is worried
+HARD CASE topic_feelings: Classify the intent: she is worried
+HARD CASE topic_feelings: Recognize this: she is worried
+HARD CASE topic_feelings: User said: she is worried
+HARD CASE topic_feelings: She is worried
+HARD CASE topic_feelings: Utterance: she is worried
+HARD CASE topic_feelings: What does this mean? she is worried
+HARD CASE topic_feelings: Utterance: they are excited
+HARD CASE topic_feelings: User said: they are excited
+HARD CASE topic_feelings: Recognize this: they are excited
+HARD CASE topic_feelings: they are excited
+HARD CASE topic_feelings: Meaning check: they are excited
+HARD CASE topic_feelings: What does this mean? they are excited
+HARD CASE topic_feelings: Classify the intent: they are excited
+HARD CASE topic_feelings: They are excited
+HARD CASE topic_feelings: Recognize this: he feels lonely
+HARD CASE topic_feelings: he feels lonely
+HARD CASE topic_feelings: Classify the intent: he feels lonely
+HARD CASE topic_feelings: User said: he feels lonely
+HARD CASE topic_feelings: Meaning check: he feels lonely
+HARD CASE topic_feelings: Please detect meaning: he feels lonely
+HARD CASE topic_feelings: Utterance: he feels lonely
+HARD CASE topic_feelings: He feels lonely
+HARD CASE topic_feelings: my emotions are mixed
+HARD CASE topic_feelings: User said: my emotions are mixed
+HARD CASE topic_feelings: Utterance: my emotions are mixed
+HARD CASE topic_feelings: Please detect meaning: my emotions are mixed
+HARD CASE topic_feelings: Classify the intent: my emotions are mixed
+HARD CASE topic_feelings: Meaning check: my emotions are mixed
+HARD CASE topic_feelings: What does this mean? my emotions are mixed
+HARD CASE topic_feelings: My emotions are mixed
+HARD CASE topic_feelings: What does this mean? I feel anxious
+HARD CASE topic_feelings: Please detect meaning: I feel anxious
+HARD CASE topic_feelings: Recognize this: I feel anxious
+HARD CASE topic_feelings: i feel anxious
+HARD CASE topic_feelings: Utterance: I feel anxious
+HARD CASE topic_feelings: I feel anxious
+HARD CASE topic_feelings: Meaning check: I feel anxious
+HARD CASE topic_feelings: Classify the intent: I feel anxious
+HARD CASE topic_feelings: Utterance: she feels proud
+HARD CASE topic_feelings: Recognize this: she feels proud
+HARD CASE topic_feelings: User said: she feels proud
+HARD CASE topic_feelings: She feels proud
+HARD CASE topic_feelings: Please detect meaning: she feels proud
+HARD CASE topic_feelings: What does this mean? she feels proud
+HARD CASE topic_feelings: Classify the intent: she feels proud
+HARD CASE topic_feelings: she feels proud
+HARD CASE topic_feelings: Meaning check: she feels proud
+HARD CASE intent_thanks: ممنون
+HARD CASE intent_thanks: معنی را تشخیص بده: ممنون
+HARD CASE intent_thanks: کاربر گفت: ممنون
+HARD CASE intent_thanks: کاربر گفت: مرسی
+HARD CASE intent_thanks: معنی را تشخیص بده: مرسی
+HARD CASE intent_thanks: برچسب بزن: مرسی
+HARD CASE intent_thanks: معنی را تشخیص بده: خیلی ممنون
+HARD CASE intent_thanks: خیلی ممنون
+HARD CASE intent_thanks: برچسب بزن: خیلی ممنون
+HARD CASE intent_thanks: معنی را تشخیص بده: سپاس
+HARD CASE intent_thanks: کاربر گفت: سپاس
+HARD CASE intent_thanks: سپاس
+HARD CASE intent_question: این چیست؟
+HARD CASE intent_question: معنی را تشخیص بده: این چیست؟
+HARD CASE intent_question: کاربر گفت: این چیست؟
+HARD CASE intent_question: کاربر گفت: چرا کند است؟
+HARD CASE intent_question: چرا کند است؟
+HARD CASE intent_question: معنی را تشخیص بده: چرا کند است؟
+HARD CASE intent_question: برچسب بزن: چرا کند است؟
+HARD CASE intent_question: چطور کار می‌کند؟
+HARD CASE intent_question: معنی را تشخیص بده: چطور کار می‌کند؟
+HARD CASE intent_question: برچسب بزن: چطور کار می‌کند؟
+HARD CASE intent_question: کاربر گفت: چطور کار می‌کند؟
+HARD CASE intent_question: کی شروع می‌شود؟
+HARD CASE intent_question: کاربر گفت: کی شروع می‌شود؟
+HARD CASE intent_question: برچسب بزن: کی شروع می‌شود؟
+HARD CASE sentiment_negative: من ناراحتم
+HARD CASE sentiment_negative: کاربر گفت: من ناراحتم
+HARD CASE sentiment_negative: معنی را تشخیص بده: من ناراحتم
+HARD CASE sentiment_negative: امروز غمگینم
+HARD CASE sentiment_negative: معنی را تشخیص بده: امروز غمگینم
+HARD CASE sentiment_negative: کاربر گفت: امروز غمگینم
+HARD CASE sentiment_negative: برچسب بزن: خیلی بد است
+HARD CASE sentiment_negative: خیلی بد است
+HARD CASE sentiment_negative: معنی را تشخیص بده: خیلی بد است
+HARD CASE sentiment_negative: کاربر گفت: خیلی بد است
+HARD CASE topic_feelings: احساس آرامش دارم
+HARD CASE topic_feelings: معنی را تشخیص بده: احساس آرامش دارم
+HARD CASE topic_feelings: کاربر گفت: احساس آرامش دارم
+HARD CASE topic_feelings: برچسب بزن: احساس آرامش دارم
+HARD CASE topic_feelings: نگرانم
+HARD CASE topic_feelings: کاربر گفت: نگرانم
+HARD CASE topic_feelings: معنی را تشخیص بده: نگرانم
+HARD CASE topic_feelings: معنی را تشخیص بده: هیجان‌زده‌ام
+HARD CASE topic_feelings: کاربر گفت: هیجان‌زده‌ام
+HARD CASE topic_feelings: هیجان‌زده‌ام
+HARD CASE intent_thanks: Thanks!
+HARD CASE intent_thanks: User said: Thanks!
+HARD CASE intent_thanks: Meaning check: Thanks!
+HARD CASE intent_thanks: Recognize this: Thanks!
+HARD CASE intent_thanks: What does this mean? Thanks!
+HARD CASE intent_thanks: Classify the intent: Thanks!
+HARD CASE intent_thanks: Please detect meaning: Thanks!
+HARD CASE intent_thanks: Utterance: Thanks!
+HARD CASE intent_thanks: Classify the intent: thank you
+HARD CASE sentiment_negative: Classify the intent: I am sad today
+HARD CASE sentiment_negative: feeling sad
+HARD CASE sentiment_negative: User said: feeling sad
+HARD CASE sentiment_negative: Meaning check: feeling sad
+HARD CASE sentiment_negative: Recognize this: feeling sad
+HARD CASE sentiment_negative: What does this mean? feeling sad
+HARD CASE sentiment_negative: Classify the intent: feeling sad
+HARD CASE sentiment_negative: Please detect meaning: feeling sad
+HARD CASE sentiment_negative: Utterance: feeling sad
+HARD CASE intent_question: Recognize this: why is the server slow?
+HARD CASE intent_question: Why is the server slow
+HARD CASE intent_question: User said: Why is the server slow
+HARD CASE intent_question: Meaning check: Why is the server slow
+HARD CASE intent_question: Recognize this: Why is the server slow
+HARD CASE intent_question: What does this mean? Why is the server slow
+HARD CASE intent_question: Classify the intent: Why is the server slow
+HARD CASE intent_question: Please detect meaning: Why is the server slow
+HARD CASE intent_question: Utterance: Why is the server slow
+HARD CASE topic_feelings: I feel terrible emotionally
+HARD CASE topic_feelings: User said: I feel terrible emotionally
+HARD CASE topic_feelings: Meaning check: I feel terrible emotionally
+HARD CASE topic_feelings: Recognize this: I feel terrible emotionally
+HARD CASE topic_feelings: What does this mean? I feel terrible emotionally
+HARD CASE topic_feelings: Classify the intent: I feel terrible emotionally
+HARD CASE topic_feelings: Please detect meaning: I feel terrible emotionally
+HARD CASE topic_feelings: Utterance: I feel terrible emotionally

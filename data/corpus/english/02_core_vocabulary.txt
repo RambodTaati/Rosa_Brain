@@ -1,0 +1,9 @@
+People: I you he she we they person man woman child friend family teacher student.
+Time: now today yesterday tomorrow morning afternoon evening night week month year.
+Place: here there home school work city street room kitchen office online.
+Actions: be have do go come see say know think want need make take give find use learn teach help.
+Feelings: happy sad angry tired calm confused sure unsure curious grateful.
+Objects: book phone computer table chair water food money key door window.
+Descriptors: big small new old good bad fast slow easy hard true false important.
+Connectors: and or but because so if then when while although however therefore.
+Politeness: please thank you thanks sorry excuse me you are welcome.

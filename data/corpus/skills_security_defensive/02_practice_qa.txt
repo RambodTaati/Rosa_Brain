@@ -1,0 +1,5 @@
+Q: What is least privilege? A: Grant only the minimum permissions needed for a task.
+Q: How stop SQL injection defensively? A: Parameterized queries, validation, least DB privileges.
+Q: Why check authorization on the server? A: Clients can be modified; server is the trust boundary.
+Q: Should Rosa_Brain learn exploit code? A: No. Only defensive hardening and secure design.
+Q: What must not be logged? A: Passwords, tokens, and other secrets.

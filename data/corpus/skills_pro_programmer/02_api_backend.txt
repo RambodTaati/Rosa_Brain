@@ -1,0 +1,91 @@
+# FastAPI / HTTP API professional practices
+Design resources as nouns; use HTTP verbs correctly: GET safe, POST create, PUT replace, PATCH partial, DELETE remove.
+Status codes: 200/201 success, 204 no body, 400 validation, 401 unauthenticated, 403 forbidden, 404 missing, 409 conflict, 422 unprocessable, 429 rate limit, 500 unexpected.
+Error shape: {"error":{"code":"...","message":"...","details":[...]}} — stable codes for clients.
+Validation: Pydantic models at the edge; reject unknown fields when appropriate; coerce carefully.
+Pagination: limit/cursor or page/size; always cap max limit; return next_cursor when more exists.
+Idempotency: Idempotency-Key header for POSTs that create; store response for replay; TTL the keys.
+Auth cookies/sessions: prefer HttpOnly Secure SameSite cookies for browser sessions; do NOT store long-lived secrets in localStorage.
+CSRF: for cookie sessions use SameSite=Lax/Strict and/or CSRF tokens on state-changing routes.
+JWT access tokens: short-lived; refresh rotation; revoke lists when required; validate iss/aud/exp.
+Authorization: check every handler; object-level checks (can user edit THIS row); deny by default.
+CORS: explicit origins; never * with credentials; minimize allowed headers/methods.
+Rate limiting: per user and per IP; return Retry-After; protect auth endpoints harder.
+Migrations mindset: expand-contract; backward compatible deploys; never expand-and-break in one step.
+DB sessions: one unit-of-work per request; commit on success; rollback on error; no lazy IO after response.
+Background tasks: enqueue durable jobs for emails/webhooks; do not pretend in-process tasks are durable.
+OpenAPI: keep schemas accurate; examples for tricky fields; version APIs via path or header intentionally.
+Health: /healthz liveness, /readyz readiness (DB/queue); avoid heavy work on liveness.
+File uploads: size limits, content-type allowlists, store outside web root, scan when policy requires.
+Webhooks: verify signatures; idempotent handlers; respond quickly then process async.
+Caching: Cache-Control on GETs; ETag/If-None-Match when useful; never cache personalized private data publicly.
+Structured logging per request with request_id; propagate trace headers when present.
+Secrets: load from env/secret manager; rotate; never commit .env with production secrets.
+FastAPI deps: Depends for auth and DB; yield deps for cleanup; avoid global mutable request state.
+Testing APIs: httpx/ASGITransport; fixture DB; assert status + error codes + authZ matrix.
+Versioning: prefer additive changes; deprecate with timelines; document breaking changes.
+Timeouts: set for outbound HTTP; circuit-break chronically failing deps.
+Multi-tenancy: tenant id from auth context not from client-supplied body alone.
+Soft deletes: explicit; unique constraints must consider deleted_at when needed.
+Search endpoints: bound query cost; escape LIKE wildcards; prefer dedicated search indexes.
+Batch endpoints: limit batch size; partial success semantics documented.
+Feature flags: server-side; do not trust client flag overrides for security.
+Admin routes: separate router, stronger auth, audit log mutations.
+Cookies for SPA: CSRF strategy documented; SameSite; path=/; short session idle timeout.
+localStorage: fine for non-secret UI prefs; NEVER for refresh tokens or session secrets.
+API practice 1: Prefer cursor pagination for stable feeds under inserts. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 2: Return 403 not 404 when hiding existence is not required by threat model — be consistent. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 3: Use 409 when unique constraints conflict; include field in details. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 4: Validate UUID path params; reject malformed early with 422. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 5: Keep Pydantic models separate from ORM models; map explicitly. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 6: For PATCH use explicit Optional fields or JSON Merge Patch carefully. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 7: Document idempotency requirements in OpenAPI description. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 8: Bind listen address carefully in production behind a reverse proxy. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 9: Trust X-Forwarded-For only from known proxies. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 10: Compress responses when beneficial; do not compress tiny payloads. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 11: Prefer cursor pagination for stable feeds under inserts. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 12: Return 403 not 404 when hiding existence is not required by threat model — be consistent. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 13: Use 409 when unique constraints conflict; include field in details. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 14: Validate UUID path params; reject malformed early with 422. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 15: Keep Pydantic models separate from ORM models; map explicitly. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 16: For PATCH use explicit Optional fields or JSON Merge Patch carefully. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 17: Document idempotency requirements in OpenAPI description. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 18: Bind listen address carefully in production behind a reverse proxy. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 19: Trust X-Forwarded-For only from known proxies. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 20: Compress responses when beneficial; do not compress tiny payloads. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 21: Prefer cursor pagination for stable feeds under inserts. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 22: Return 403 not 404 when hiding existence is not required by threat model — be consistent. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 23: Use 409 when unique constraints conflict; include field in details. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 24: Validate UUID path params; reject malformed early with 422. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 25: Keep Pydantic models separate from ORM models; map explicitly. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 26: For PATCH use explicit Optional fields or JSON Merge Patch carefully. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 27: Document idempotency requirements in OpenAPI description. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 28: Bind listen address carefully in production behind a reverse proxy. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 29: Trust X-Forwarded-For only from known proxies. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 30: Compress responses when beneficial; do not compress tiny payloads. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 31: Prefer cursor pagination for stable feeds under inserts. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 32: Return 403 not 404 when hiding existence is not required by threat model — be consistent. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 33: Use 409 when unique constraints conflict; include field in details. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 34: Validate UUID path params; reject malformed early with 422. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+API practice 35: Keep Pydantic models separate from ORM models; map explicitly. Handler checklist: authN -> authZ -> validate -> execute -> map errors -> log.
+
+Backend reliability note 1: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 2: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 3: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 4: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 5: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 6: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 7: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 8: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 9: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 10: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 11: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 12: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 13: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 14: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 15: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 16: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 17: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 18: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 19: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.
+Backend reliability note 20: Set timeouts on outbound calls, make POSTs idempotent when retried, use expand-contract migrations, and expose /healthz plus /readyz separately.

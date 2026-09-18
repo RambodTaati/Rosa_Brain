@@ -1,0 +1,77 @@
+# jQuery overview (original)
+
+jQuery historically simplified DOM selection, events, and Ajax. Modern browsers and frameworks reduce the need for it, but many legacy apps still use it.
+$("selector") selects elements. $(function(){ ... }) runs after DOM ready.
+$("#btn").on("click", function() { $(this).text("Clicked"); });
+Manipulation: .addClass, .removeClass, .toggleClass, .text, .html (html has XSS risks with untrusted data), .append, .remove.
+Ajax: $.ajax / $.get / $.post — prefer fetch in new code; if maintaining jQuery Ajax, still handle errors and CSRF tokens.
+Chaining: $("#x").addClass("on").show();
+Avoid mixing heavy jQuery DOM mutation with React/Vue on the same nodes.
+Migration tip: replace selectors with querySelector, events with addEventListener, Ajax with fetch gradually.
+Practice: translate a jQuery click+class toggle into vanilla JS.
+Q: Is jQuery required for modern browsers? A: No. Native DOM/fetch cover most former jQuery use cases.
+Q: Why be careful with .html()? A: It injects HTML and can enable XSS if the string includes untrusted input.
+
+## Drill block jquery-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 1.
+Q: Why be careful with .html()? A: It injects HTML and can enable XSS if the string includes untrusted input.
+
+## Drill block jquery-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 2.
+Q: Is jQuery required for modern browsers? A: No. Native DOM/fetch cover most former jQuery use cases.
+
+## Drill block jquery-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 3.
+Q: Why be careful with .html()? A: It injects HTML and can enable XSS if the string includes untrusted input.
+
+## Drill block jquery-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 4.
+Q: Is jQuery required for modern browsers? A: No. Native DOM/fetch cover most former jQuery use cases.
+
+## Drill block jquery-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 5.
+Q: Why be careful with .html()? A: It injects HTML and can enable XSS if the string includes untrusted input.
+
+## Drill block jquery-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 6.
+Q: Is jQuery required for modern browsers? A: No. Native DOM/fetch cover most former jQuery use cases.
+
+## Drill block jquery-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 7.
+Q: Why be careful with .html()? A: It injects HTML and can enable XSS if the string includes untrusted input.
+
+## Drill block jquery-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 8.
+Q: Is jQuery required for modern browsers? A: No. Native DOM/fetch cover most former jQuery use cases.
+
+## Drill block jquery-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 9.
+Q: Why be careful with .html()? A: It injects HTML and can enable XSS if the string includes untrusted input.
+
+## Drill block jquery-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 10.
+Q: Is jQuery required for modern browsers? A: No. Native DOM/fetch cover most former jQuery use cases.
+
+## Drill block jquery-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 11.
+Q: Why be careful with .html()? A: It injects HTML and can enable XSS if the string includes untrusted input.
+
+## Drill block jquery-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 12.
+Q: Is jQuery required for modern browsers? A: No. Native DOM/fetch cover most former jQuery use cases.
+
+## Drill block jquery-13
+Review point 13: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 13.
+Q: Why be careful with .html()? A: It injects HTML and can enable XSS if the string includes untrusted input.
+
+## Drill block jquery-14
+Review point 14: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 14.
+Q: Is jQuery required for modern browsers? A: No. Native DOM/fetch cover most former jQuery use cases.
+
+## Drill block jquery-15
+Review point 15: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 15.
+Q: Why be careful with .html()? A: It injects HTML and can enable XSS if the string includes untrusted input.
+
+## Drill block jquery-16
+Review point 16: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: jquery. Iteration 16.
+Q: Is jQuery required for modern browsers? A: No. Native DOM/fetch cover most former jQuery use cases.

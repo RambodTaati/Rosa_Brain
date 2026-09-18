@@ -1,0 +1,1241 @@
+{"text": "Recognize this: hello", "label": 0}
+{"text": "Meaning check: hello", "label": 0}
+{"text": "hello", "label": 0}
+{"text": "Classify the intent: hello", "label": 0}
+{"text": "Please detect meaning: hello", "label": 0}
+{"text": "Hello", "label": 0}
+{"text": "What does this mean? hello", "label": 0}
+{"text": "User said: hello", "label": 0}
+{"text": "Classify the intent: hi", "label": 0}
+{"text": "Meaning check: hi", "label": 0}
+{"text": "What does this mean? hi", "label": 0}
+{"text": "User said: hi", "label": 0}
+{"text": "hi", "label": 0}
+{"text": "Utterance: hi", "label": 0}
+{"text": "Please detect meaning: hi", "label": 0}
+{"text": "User said: hey", "label": 0}
+{"text": "hey", "label": 0}
+{"text": "Utterance: hey", "label": 0}
+{"text": "What does this mean? hey", "label": 0}
+{"text": "Please detect meaning: hey", "label": 0}
+{"text": "Classify the intent: hey", "label": 0}
+{"text": "Recognize this: hey", "label": 0}
+{"text": "Utterance: hey there", "label": 0}
+{"text": "Classify the intent: hey there", "label": 0}
+{"text": "Meaning check: hey there", "label": 0}
+{"text": "Recognize this: hey there", "label": 0}
+{"text": "User said: hey there", "label": 0}
+{"text": "Please detect meaning: hey there", "label": 0}
+{"text": "hey there", "label": 0}
+{"text": "What does this mean? hey there", "label": 0}
+{"text": "Hey there", "label": 0}
+{"text": "good morning", "label": 0}
+{"text": "Utterance: good morning", "label": 0}
+{"text": "Meaning check: good morning", "label": 0}
+{"text": "Please detect meaning: good morning", "label": 0}
+{"text": "Good morning", "label": 0}
+{"text": "User said: good morning", "label": 0}
+{"text": "Classify the intent: good morning", "label": 0}
+{"text": "Recognize this: good morning", "label": 0}
+{"text": "good evening", "label": 0}
+{"text": "Please detect meaning: good evening", "label": 0}
+{"text": "Meaning check: good evening", "label": 0}
+{"text": "What does this mean? good evening", "label": 0}
+{"text": "Good evening", "label": 0}
+{"text": "Recognize this: good evening", "label": 0}
+{"text": "User said: good evening", "label": 0}
+{"text": "Utterance: good evening", "label": 0}
+{"text": "good afternoon", "label": 0}
+{"text": "Please detect meaning: good afternoon", "label": 0}
+{"text": "Meaning check: good afternoon", "label": 0}
+{"text": "Utterance: good afternoon", "label": 0}
+{"text": "Classify the intent: good afternoon", "label": 0}
+{"text": "User said: good afternoon", "label": 0}
+{"text": "Recognize this: good afternoon", "label": 0}
+{"text": "Good afternoon", "label": 0}
+{"text": "Utterance: hello friend", "label": 0}
+{"text": "hello friend", "label": 0}
+{"text": "Hello friend", "label": 0}
+{"text": "Meaning check: hello friend", "label": 0}
+{"text": "Classify the intent: hello friend", "label": 0}
+{"text": "Recognize this: hello friend", "label": 0}
+{"text": "What does this mean? hello friend", "label": 0}
+{"text": "Please detect meaning: hello friend", "label": 0}
+{"text": "User said: hello friend", "label": 0}
+{"text": "Hi there", "label": 0}
+{"text": "hi there", "label": 0}
+{"text": "Please detect meaning: hi there", "label": 0}
+{"text": "Utterance: hi there", "label": 0}
+{"text": "Classify the intent: hi there", "label": 0}
+{"text": "User said: hi there", "label": 0}
+{"text": "What does this mean? hi there", "label": 0}
+{"text": "Recognize this: hi there", "label": 0}
+{"text": "Utterance: hello, how are you?", "label": 0}
+{"text": "hello, how are you?", "label": 0}
+{"text": "User said: hello, how are you?", "label": 0}
+{"text": "Meaning check: hello, how are you?", "label": 0}
+{"text": "Classify the intent: hello, how are you?", "label": 0}
+{"text": "Recognize this: hello, how are you?", "label": 0}
+{"text": "What does this mean? hello, how are you?", "label": 0}
+{"text": "Please detect meaning: hello, how are you?", "label": 0}
+{"text": "Recognize this: hi, how are you?", "label": 0}
+{"text": "Classify the intent: hi, how are you?", "label": 0}
+{"text": "Hi, how are you?", "label": 0}
+{"text": "Meaning check: hi, how are you?", "label": 0}
+{"text": "hi, how are you?", "label": 0}
+{"text": "Utterance: hi, how are you?", "label": 0}
+{"text": "User said: hi, how are you?", "label": 0}
+{"text": "What does this mean? hi, how are you?", "label": 0}
+{"text": "Please detect meaning: hi, how are you?", "label": 0}
+{"text": "What does this mean? hey, how's it going?", "label": 0}
+{"text": "Recognize this: hey, how's it going?", "label": 0}
+{"text": "Hey, how's it going?", "label": 0}
+{"text": "Classify the intent: hey, how's it going?", "label": 0}
+{"text": "User said: hey, how's it going?", "label": 0}
+{"text": "hey, how's it going?", "label": 0}
+{"text": "Meaning check: hey, how's it going?", "label": 0}
+{"text": "Utterance: hey, how's it going?", "label": 0}
+{"text": "Please detect meaning: hey, how's it going?", "label": 0}
+{"text": "Meaning check: good morning everyone", "label": 0}
+{"text": "good morning everyone", "label": 0}
+{"text": "Recognize this: good morning everyone", "label": 0}
+{"text": "What does this mean? good morning everyone", "label": 0}
+{"text": "User said: good morning everyone", "label": 0}
+{"text": "Classify the intent: good morning everyone", "label": 0}
+{"text": "Please detect meaning: good morning everyone", "label": 0}
+{"text": "Good morning everyone", "label": 0}
+{"text": "Utterance: hello Rosa", "label": 0}
+{"text": "Hello Rosa", "label": 0}
+{"text": "hello Rosa", "label": 0}
+{"text": "Recognize this: hello Rosa", "label": 0}
+{"text": "Classify the intent: hello Rosa", "label": 0}
+{"text": "Please detect meaning: hello Rosa", "label": 0}
+{"text": "hello rosa", "label": 0}
+{"text": "Meaning check: hello Rosa", "label": 0}
+{"text": "User said: hello Rosa", "label": 0}
+{"text": "User said: bye", "label": 1}
+{"text": "Recognize this: bye", "label": 1}
+{"text": "Meaning check: bye", "label": 1}
+{"text": "Classify the intent: bye", "label": 1}
+{"text": "bye", "label": 1}
+{"text": "What does this mean? bye", "label": 1}
+{"text": "Utterance: bye", "label": 1}
+{"text": "goodbye", "label": 1}
+{"text": "Classify the intent: goodbye", "label": 1}
+{"text": "Meaning check: goodbye", "label": 1}
+{"text": "Recognize this: goodbye", "label": 1}
+{"text": "Goodbye", "label": 1}
+{"text": "Please detect meaning: goodbye", "label": 1}
+{"text": "What does this mean? goodbye", "label": 1}
+{"text": "User said: goodbye", "label": 1}
+{"text": "Recognize this: see you", "label": 1}
+{"text": "see you", "label": 1}
+{"text": "See you", "label": 1}
+{"text": "Utterance: see you", "label": 1}
+{"text": "Classify the intent: see you", "label": 1}
+{"text": "Please detect meaning: see you", "label": 1}
+{"text": "What does this mean? see you", "label": 1}
+{"text": "User said: see you", "label": 1}
+{"text": "User said: see you later", "label": 1}
+{"text": "Please detect meaning: see you later", "label": 1}
+{"text": "Utterance: see you later", "label": 1}
+{"text": "Recognize this: see you later", "label": 1}
+{"text": "See you later", "label": 1}
+{"text": "What does this mean? see you later", "label": 1}
+{"text": "see you later", "label": 1}
+{"text": "Meaning check: see you later", "label": 1}
+{"text": "Please detect meaning: talk soon", "label": 1}
+{"text": "Meaning check: talk soon", "label": 1}
+{"text": "Classify the intent: talk soon", "label": 1}
+{"text": "Utterance: talk soon", "label": 1}
+{"text": "Talk soon", "label": 1}
+{"text": "User said: talk soon", "label": 1}
+{"text": "talk soon", "label": 1}
+{"text": "Recognize this: talk soon", "label": 1}
+{"text": "What does this mean? talk soon", "label": 1}
+{"text": "Utterance: farewell", "label": 1}
+{"text": "What does this mean? farewell", "label": 1}
+{"text": "Please detect meaning: farewell", "label": 1}
+{"text": "Recognize this: farewell", "label": 1}
+{"text": "Classify the intent: farewell", "label": 1}
+{"text": "Farewell", "label": 1}
+{"text": "Meaning check: farewell", "label": 1}
+{"text": "farewell", "label": 1}
+{"text": "User said: farewell", "label": 1}
+{"text": "What does this mean? goodbye for now", "label": 1}
+{"text": "User said: goodbye for now", "label": 1}
+{"text": "Please detect meaning: goodbye for now", "label": 1}
+{"text": "Utterance: goodbye for now", "label": 1}
+{"text": "Meaning check: goodbye for now", "label": 1}
+{"text": "Classify the intent: goodbye for now", "label": 1}
+{"text": "Goodbye for now", "label": 1}
+{"text": "goodbye for now", "label": 1}
+{"text": "Recognize this: goodbye for now", "label": 1}
+{"text": "What does this mean? I have to go", "label": 1}
+{"text": "Classify the intent: I have to go", "label": 1}
+{"text": "I have to go", "label": 1}
+{"text": "Please detect meaning: I have to go", "label": 1}
+{"text": "Meaning check: I have to go", "label": 1}
+{"text": "i have to go", "label": 1}
+{"text": "Recognize this: I have to go", "label": 1}
+{"text": "User said: I have to go", "label": 1}
+{"text": "Recognize this: catch you later", "label": 1}
+{"text": "What does this mean? catch you later", "label": 1}
+{"text": "Meaning check: catch you later", "label": 1}
+{"text": "Classify the intent: catch you later", "label": 1}
+{"text": "Utterance: catch you later", "label": 1}
+{"text": "catch you later", "label": 1}
+{"text": "Catch you later", "label": 1}
+{"text": "User said: catch you later", "label": 1}
+{"text": "Classify the intent: bye for now", "label": 1}
+{"text": "bye for now", "label": 1}
+{"text": "Please detect meaning: bye for now", "label": 1}
+{"text": "User said: bye for now", "label": 1}
+{"text": "Bye for now", "label": 1}
+{"text": "Recognize this: bye for now", "label": 1}
+{"text": "Utterance: bye for now", "label": 1}
+{"text": "What does this mean? bye for now", "label": 1}
+{"text": "What does this mean? see you tomorrow", "label": 1}
+{"text": "Utterance: see you tomorrow", "label": 1}
+{"text": "Meaning check: see you tomorrow", "label": 1}
+{"text": "see you tomorrow", "label": 1}
+{"text": "Classify the intent: see you tomorrow", "label": 1}
+{"text": "User said: see you tomorrow", "label": 1}
+{"text": "Recognize this: see you tomorrow", "label": 1}
+{"text": "Please detect meaning: see you tomorrow", "label": 1}
+{"text": "What does this mean? thanks", "label": 2}
+{"text": "Classify the intent: thanks", "label": 2}
+{"text": "Please detect meaning: thanks", "label": 2}
+{"text": "Meaning check: thanks", "label": 2}
+{"text": "Recognize this: thanks", "label": 2}
+{"text": "thanks", "label": 2}
+{"text": "User said: thanks", "label": 2}
+{"text": "Utterance: thanks", "label": 2}
+{"text": "thank you", "label": 2}
+{"text": "What does this mean? thank you", "label": 2}
+{"text": "Meaning check: thank you", "label": 2}
+{"text": "Please detect meaning: thank you", "label": 2}
+{"text": "Thank you", "label": 2}
+{"text": "User said: thank you", "label": 2}
+{"text": "Utterance: thank you", "label": 2}
+{"text": "Recognize this: thank you", "label": 2}
+{"text": "Meaning check: thanks a lot", "label": 2}
+{"text": "Recognize this: thanks a lot", "label": 2}
+{"text": "Please detect meaning: thanks a lot", "label": 2}
+{"text": "What does this mean? thanks a lot", "label": 2}
+{"text": "Classify the intent: thanks a lot", "label": 2}
+{"text": "thanks a lot", "label": 2}
+{"text": "Thanks a lot", "label": 2}
+{"text": "Utterance: thanks a lot", "label": 2}
+{"text": "User said: thanks a lot", "label": 2}
+{"text": "Classify the intent: thank you so much", "label": 2}
+{"text": "What does this mean? thank you so much", "label": 2}
+{"text": "thank you so much", "label": 2}
+{"text": "User said: thank you so much", "label": 2}
+{"text": "Recognize this: thank you so much", "label": 2}
+{"text": "Utterance: thank you so much", "label": 2}
+{"text": "Please detect meaning: thank you so much", "label": 2}
+{"text": "Meaning check: thank you so much", "label": 2}
+{"text": "User said: many thanks", "label": 2}
+{"text": "Utterance: many thanks", "label": 2}
+{"text": "Classify the intent: many thanks", "label": 2}
+{"text": "Meaning check: many thanks", "label": 2}
+{"text": "Recognize this: many thanks", "label": 2}
+{"text": "many thanks", "label": 2}
+{"text": "What does this mean? many thanks", "label": 2}
+{"text": "Please detect meaning: many thanks", "label": 2}
+{"text": "Please detect meaning: I appreciate it", "label": 2}
+{"text": "I appreciate it", "label": 2}
+{"text": "Classify the intent: I appreciate it", "label": 2}
+{"text": "Utterance: I appreciate it", "label": 2}
+{"text": "User said: I appreciate it", "label": 2}
+{"text": "What does this mean? I appreciate it", "label": 2}
+{"text": "Recognize this: I appreciate it", "label": 2}
+{"text": "Meaning check: I appreciate it", "label": 2}
+{"text": "Recognize this: thanks for your help", "label": 2}
+{"text": "Meaning check: thanks for your help", "label": 2}
+{"text": "thanks for your help", "label": 2}
+{"text": "User said: thanks for your help", "label": 2}
+{"text": "Please detect meaning: thanks for your help", "label": 2}
+{"text": "What does this mean? thanks for your help", "label": 2}
+{"text": "Utterance: thanks for your help", "label": 2}
+{"text": "Thanks for your help", "label": 2}
+{"text": "What does this mean? thank you for explaining", "label": 2}
+{"text": "Thank you for explaining", "label": 2}
+{"text": "thank you for explaining", "label": 2}
+{"text": "Recognize this: thank you for explaining", "label": 2}
+{"text": "Utterance: thank you for explaining", "label": 2}
+{"text": "Classify the intent: thank you for explaining", "label": 2}
+{"text": "User said: thank you for explaining", "label": 2}
+{"text": "Meaning check: thank you for explaining", "label": 2}
+{"text": "cheers thanks", "label": 2}
+{"text": "Utterance: cheers thanks", "label": 2}
+{"text": "Meaning check: cheers thanks", "label": 2}
+{"text": "What does this mean? cheers thanks", "label": 2}
+{"text": "Classify the intent: cheers thanks", "label": 2}
+{"text": "Recognize this: cheers thanks", "label": 2}
+{"text": "User said: cheers thanks", "label": 2}
+{"text": "Cheers thanks", "label": 2}
+{"text": "thanks mate", "label": 2}
+{"text": "Thanks mate", "label": 2}
+{"text": "Please detect meaning: thanks mate", "label": 2}
+{"text": "Meaning check: thanks mate", "label": 2}
+{"text": "User said: thanks mate", "label": 2}
+{"text": "What does this mean? thanks mate", "label": 2}
+{"text": "Recognize this: thanks mate", "label": 2}
+{"text": "Classify the intent: thanks mate", "label": 2}
+{"text": "Classify the intent: I really appreciate that", "label": 2}
+{"text": "Please detect meaning: I really appreciate that", "label": 2}
+{"text": "Meaning check: I really appreciate that", "label": 2}
+{"text": "i really appreciate that", "label": 2}
+{"text": "What does this mean? I really appreciate that", "label": 2}
+{"text": "I really appreciate that", "label": 2}
+{"text": "User said: I really appreciate that", "label": 2}
+{"text": "Utterance: I really appreciate that", "label": 2}
+{"text": "thanks, that helped", "label": 2}
+{"text": "What does this mean? thanks, that helped", "label": 2}
+{"text": "Please detect meaning: thanks, that helped", "label": 2}
+{"text": "Thanks, that helped", "label": 2}
+{"text": "Meaning check: thanks, that helped", "label": 2}
+{"text": "Classify the intent: thanks, that helped", "label": 2}
+{"text": "Recognize this: thanks, that helped", "label": 2}
+{"text": "User said: thanks, that helped", "label": 2}
+{"text": "Recognize this: what is this?", "label": 3}
+{"text": "Classify the intent: what is this?", "label": 3}
+{"text": "What is this?", "label": 3}
+{"text": "what is this?", "label": 3}
+{"text": "Meaning check: what is this?", "label": 3}
+{"text": "Utterance: what is this?", "label": 3}
+{"text": "User said: what is this?", "label": 3}
+{"text": "What does this mean? what is this?", "label": 3}
+{"text": "where are you?", "label": 3}
+{"text": "Utterance: where are you?", "label": 3}
+{"text": "Please detect meaning: where are you?", "label": 3}
+{"text": "User said: where are you?", "label": 3}
+{"text": "Meaning check: where are you?", "label": 3}
+{"text": "Classify the intent: where are you?", "label": 3}
+{"text": "Recognize this: where are you?", "label": 3}
+{"text": "Where are you?", "label": 3}
+{"text": "What does this mean? where are you?", "label": 3}
+{"text": "Utterance: why did that happen?", "label": 3}
+{"text": "Please detect meaning: why did that happen?", "label": 3}
+{"text": "why did that happen?", "label": 3}
+{"text": "Meaning check: why did that happen?", "label": 3}
+{"text": "Recognize this: why did that happen?", "label": 3}
+{"text": "Classify the intent: why did that happen?", "label": 3}
+{"text": "User said: why did that happen?", "label": 3}
+{"text": "What does this mean? why did that happen?", "label": 3}
+{"text": "how does it work?", "label": 3}
+{"text": "Utterance: how does it work?", "label": 3}
+{"text": "Please detect meaning: how does it work?", "label": 3}
+{"text": "Recognize this: how does it work?", "label": 3}
+{"text": "Classify the intent: how does it work?", "label": 3}
+{"text": "How does it work?", "label": 3}
+{"text": "What does this mean? how does it work?", "label": 3}
+{"text": "Meaning check: how does it work?", "label": 3}
+{"text": "Classify the intent: who said that?", "label": 3}
+{"text": "Recognize this: who said that?", "label": 3}
+{"text": "who said that?", "label": 3}
+{"text": "Utterance: who said that?", "label": 3}
+{"text": "What does this mean? who said that?", "label": 3}
+{"text": "Meaning check: who said that?", "label": 3}
+{"text": "Who said that?", "label": 3}
+{"text": "User said: who said that?", "label": 3}
+{"text": "Utterance: when does it start?", "label": 3}
+{"text": "when does it start?", "label": 3}
+{"text": "User said: when does it start?", "label": 3}
+{"text": "Meaning check: when does it start?", "label": 3}
+{"text": "When does it start?", "label": 3}
+{"text": "Please detect meaning: when does it start?", "label": 3}
+{"text": "Classify the intent: when does it start?", "label": 3}
+{"text": "What does this mean? when does it start?", "label": 3}
+{"text": "Meaning check: why is the server slow?", "label": 3}
+{"text": "why is the server slow?", "label": 3}
+{"text": "Utterance: why is the server slow?", "label": 3}
+{"text": "Why is the server slow?", "label": 3}
+{"text": "What does this mean? why is the server slow?", "label": 3}
+{"text": "Please detect meaning: why is the server slow?", "label": 3}
+{"text": "Classify the intent: why is the server slow?", "label": 3}
+{"text": "User said: why is the server slow?", "label": 3}
+{"text": "what went wrong?", "label": 3}
+{"text": "What does this mean? what went wrong?", "label": 3}
+{"text": "User said: what went wrong?", "label": 3}
+{"text": "Recognize this: what went wrong?", "label": 3}
+{"text": "Utterance: what went wrong?", "label": 3}
+{"text": "Classify the intent: what went wrong?", "label": 3}
+{"text": "Meaning check: what went wrong?", "label": 3}
+{"text": "Please detect meaning: what went wrong?", "label": 3}
+{"text": "Meaning check: how can I fix this?", "label": 3}
+{"text": "Classify the intent: how can I fix this?", "label": 3}
+{"text": "What does this mean? how can I fix this?", "label": 3}
+{"text": "How can I fix this?", "label": 3}
+{"text": "Recognize this: how can I fix this?", "label": 3}
+{"text": "how can i fix this?", "label": 3}
+{"text": "how can I fix this?", "label": 3}
+{"text": "Please detect meaning: how can I fix this?", "label": 3}
+{"text": "User said: how can I fix this?", "label": 3}
+{"text": "Meaning check: which file should I open?", "label": 3}
+{"text": "Which file should I open?", "label": 3}
+{"text": "Utterance: which file should I open?", "label": 3}
+{"text": "User said: which file should I open?", "label": 3}
+{"text": "Classify the intent: which file should I open?", "label": 3}
+{"text": "which file should I open?", "label": 3}
+{"text": "which file should i open?", "label": 3}
+{"text": "Recognize this: which file should I open?", "label": 3}
+{"text": "What does this mean? which file should I open?", "label": 3}
+{"text": "Please detect meaning: is the API running?", "label": 3}
+{"text": "is the API running?", "label": 3}
+{"text": "Meaning check: is the API running?", "label": 3}
+{"text": "Recognize this: is the API running?", "label": 3}
+{"text": "is the api running?", "label": 3}
+{"text": "Utterance: is the API running?", "label": 3}
+{"text": "Classify the intent: is the API running?", "label": 3}
+{"text": "What does this mean? is the API running?", "label": 3}
+{"text": "User said: is the API running?", "label": 3}
+{"text": "can you tell me why it failed?", "label": 3}
+{"text": "User said: can you tell me why it failed?", "label": 3}
+{"text": "Recognize this: can you tell me why it failed?", "label": 3}
+{"text": "Utterance: can you tell me why it failed?", "label": 3}
+{"text": "Please detect meaning: can you tell me why it failed?", "label": 3}
+{"text": "Can you tell me why it failed?", "label": 3}
+{"text": "Meaning check: can you tell me why it failed?", "label": 3}
+{"text": "What does this mean? can you tell me why it failed?", "label": 3}
+{"text": "Classify the intent: please help me", "label": 4}
+{"text": "please help me", "label": 4}
+{"text": "Meaning check: please help me", "label": 4}
+{"text": "Utterance: please help me", "label": 4}
+{"text": "What does this mean? please help me", "label": 4}
+{"text": "Recognize this: please help me", "label": 4}
+{"text": "User said: please help me", "label": 4}
+{"text": "Please detect meaning: please help me", "label": 4}
+{"text": "User said: can you explain", "label": 4}
+{"text": "Classify the intent: can you explain", "label": 4}
+{"text": "Please detect meaning: can you explain", "label": 4}
+{"text": "Can you explain", "label": 4}
+{"text": "Utterance: can you explain", "label": 4}
+{"text": "Meaning check: can you explain", "label": 4}
+{"text": "Recognize this: can you explain", "label": 4}
+{"text": "can you explain", "label": 4}
+{"text": "Could you summarize", "label": 4}
+{"text": "Utterance: could you summarize", "label": 4}
+{"text": "Please detect meaning: could you summarize", "label": 4}
+{"text": "Meaning check: could you summarize", "label": 4}
+{"text": "Recognize this: could you summarize", "label": 4}
+{"text": "Classify the intent: could you summarize", "label": 4}
+{"text": "could you summarize", "label": 4}
+{"text": "What does this mean? could you summarize", "label": 4}
+{"text": "User said: could you summarize", "label": 4}
+{"text": "What does this mean? please open the file", "label": 4}
+{"text": "Please open the file", "label": 4}
+{"text": "User said: please open the file", "label": 4}
+{"text": "Please detect meaning: please open the file", "label": 4}
+{"text": "Classify the intent: please open the file", "label": 4}
+{"text": "Utterance: please open the file", "label": 4}
+{"text": "Recognize this: please open the file", "label": 4}
+{"text": "Meaning check: please open the file", "label": 4}
+{"text": "please open the file", "label": 4}
+{"text": "What does this mean? help me understand", "label": 4}
+{"text": "Classify the intent: help me understand", "label": 4}
+{"text": "Recognize this: help me understand", "label": 4}
+{"text": "User said: help me understand", "label": 4}
+{"text": "Help me understand", "label": 4}
+{"text": "Meaning check: help me understand", "label": 4}
+{"text": "help me understand", "label": 4}
+{"text": "Please detect meaning: help me understand", "label": 4}
+{"text": "please rewrite this", "label": 4}
+{"text": "Meaning check: please rewrite this", "label": 4}
+{"text": "Recognize this: please rewrite this", "label": 4}
+{"text": "What does this mean? please rewrite this", "label": 4}
+{"text": "User said: please rewrite this", "label": 4}
+{"text": "Classify the intent: please rewrite this", "label": 4}
+{"text": "Please rewrite this", "label": 4}
+{"text": "Utterance: please rewrite this", "label": 4}
+{"text": "could you check the logs", "label": 4}
+{"text": "Please detect meaning: could you check the logs", "label": 4}
+{"text": "Utterance: could you check the logs", "label": 4}
+{"text": "Meaning check: could you check the logs", "label": 4}
+{"text": "Could you check the logs", "label": 4}
+{"text": "Classify the intent: could you check the logs", "label": 4}
+{"text": "What does this mean? could you check the logs", "label": 4}
+{"text": "User said: could you check the logs", "label": 4}
+{"text": "Classify the intent: please fix this bug", "label": 4}
+{"text": "User said: please fix this bug", "label": 4}
+{"text": "Please detect meaning: please fix this bug", "label": 4}
+{"text": "please fix this bug", "label": 4}
+{"text": "What does this mean? please fix this bug", "label": 4}
+{"text": "Utterance: please fix this bug", "label": 4}
+{"text": "Recognize this: please fix this bug", "label": 4}
+{"text": "Please fix this bug", "label": 4}
+{"text": "Recognize this: can you show an example", "label": 4}
+{"text": "Classify the intent: can you show an example", "label": 4}
+{"text": "What does this mean? can you show an example", "label": 4}
+{"text": "can you show an example", "label": 4}
+{"text": "User said: can you show an example", "label": 4}
+{"text": "Can you show an example", "label": 4}
+{"text": "Utterance: can you show an example", "label": 4}
+{"text": "Please detect meaning: can you show an example", "label": 4}
+{"text": "Recognize this: please translate this", "label": 4}
+{"text": "Classify the intent: please translate this", "label": 4}
+{"text": "Please detect meaning: please translate this", "label": 4}
+{"text": "User said: please translate this", "label": 4}
+{"text": "What does this mean? please translate this", "label": 4}
+{"text": "please translate this", "label": 4}
+{"text": "Utterance: please translate this", "label": 4}
+{"text": "Meaning check: please translate this", "label": 4}
+{"text": "User said: the cat is on the sofa", "label": 5}
+{"text": "Meaning check: the cat is on the sofa", "label": 5}
+{"text": "The cat is on the sofa", "label": 5}
+{"text": "What does this mean? the cat is on the sofa", "label": 5}
+{"text": "Recognize this: the cat is on the sofa", "label": 5}
+{"text": "Please detect meaning: the cat is on the sofa", "label": 5}
+{"text": "Classify the intent: the cat is on the sofa", "label": 5}
+{"text": "the cat is on the sofa", "label": 5}
+{"text": "Utterance: the cat is on the sofa", "label": 5}
+{"text": "I went to school yesterday", "label": 5}
+{"text": "What does this mean? I went to school yesterday", "label": 5}
+{"text": "Recognize this: I went to school yesterday", "label": 5}
+{"text": "Please detect meaning: I went to school yesterday", "label": 5}
+{"text": "User said: I went to school yesterday", "label": 5}
+{"text": "i went to school yesterday", "label": 5}
+{"text": "Utterance: I went to school yesterday", "label": 5}
+{"text": "Meaning check: I went to school yesterday", "label": 5}
+{"text": "Recognize this: Rosa trains the brain", "label": 5}
+{"text": "Rosa trains the brain", "label": 5}
+{"text": "Please detect meaning: Rosa trains the brain", "label": 5}
+{"text": "rosa trains the brain", "label": 5}
+{"text": "Meaning check: Rosa trains the brain", "label": 5}
+{"text": "Classify the intent: Rosa trains the brain", "label": 5}
+{"text": "User said: Rosa trains the brain", "label": 5}
+{"text": "Utterance: Rosa trains the brain", "label": 5}
+{"text": "What does this mean? Rosa trains the brain", "label": 5}
+{"text": "the sun rises in the east", "label": 5}
+{"text": "Utterance: the sun rises in the east", "label": 5}
+{"text": "Classify the intent: the sun rises in the east", "label": 5}
+{"text": "Recognize this: the sun rises in the east", "label": 5}
+{"text": "Please detect meaning: the sun rises in the east", "label": 5}
+{"text": "The sun rises in the east", "label": 5}
+{"text": "Meaning check: the sun rises in the east", "label": 5}
+{"text": "User said: the sun rises in the east", "label": 5}
+{"text": "Utterance: the report is ready", "label": 5}
+{"text": "the report is ready", "label": 5}
+{"text": "Classify the intent: the report is ready", "label": 5}
+{"text": "Recognize this: the report is ready", "label": 5}
+{"text": "What does this mean? the report is ready", "label": 5}
+{"text": "Meaning check: the report is ready", "label": 5}
+{"text": "Please detect meaning: the report is ready", "label": 5}
+{"text": "User said: the report is ready", "label": 5}
+{"text": "User said: training continues on the GPU", "label": 5}
+{"text": "Utterance: training continues on the GPU", "label": 5}
+{"text": "Classify the intent: training continues on the GPU", "label": 5}
+{"text": "Recognize this: training continues on the GPU", "label": 5}
+{"text": "What does this mean? training continues on the GPU", "label": 5}
+{"text": "training continues on the gpu", "label": 5}
+{"text": "training continues on the GPU", "label": 5}
+{"text": "Training continues on the GPU", "label": 5}
+{"text": "Please detect meaning: training continues on the GPU", "label": 5}
+{"text": "the file has ten lines", "label": 5}
+{"text": "Recognize this: the file has ten lines", "label": 5}
+{"text": "User said: the file has ten lines", "label": 5}
+{"text": "Utterance: the file has ten lines", "label": 5}
+{"text": "Classify the intent: the file has ten lines", "label": 5}
+{"text": "The file has ten lines", "label": 5}
+{"text": "Please detect meaning: the file has ten lines", "label": 5}
+{"text": "What does this mean? the file has ten lines", "label": 5}
+{"text": "the room is quiet", "label": 5}
+{"text": "The room is quiet", "label": 5}
+{"text": "Classify the intent: the room is quiet", "label": 5}
+{"text": "Meaning check: the room is quiet", "label": 5}
+{"text": "Recognize this: the room is quiet", "label": 5}
+{"text": "Utterance: the room is quiet", "label": 5}
+{"text": "Please detect meaning: the room is quiet", "label": 5}
+{"text": "What does this mean? the room is quiet", "label": 5}
+{"text": "User said: I am happy", "label": 6}
+{"text": "Please detect meaning: I am happy", "label": 6}
+{"text": "I am happy", "label": 6}
+{"text": "Classify the intent: I am happy", "label": 6}
+{"text": "What does this mean? I am happy", "label": 6}
+{"text": "Recognize this: I am happy", "label": 6}
+{"text": "Meaning check: I am happy", "label": 6}
+{"text": "Utterance: I am happy", "label": 6}
+{"text": "User said: this is wonderful", "label": 6}
+{"text": "Please detect meaning: this is wonderful", "label": 6}
+{"text": "Classify the intent: this is wonderful", "label": 6}
+{"text": "Recognize this: this is wonderful", "label": 6}
+{"text": "this is wonderful", "label": 6}
+{"text": "This is wonderful", "label": 6}
+{"text": "Utterance: this is wonderful", "label": 6}
+{"text": "Meaning check: this is wonderful", "label": 6}
+{"text": "i love this result", "label": 6}
+{"text": "User said: I love this result", "label": 6}
+{"text": "I love this result", "label": 6}
+{"text": "Utterance: I love this result", "label": 6}
+{"text": "Recognize this: I love this result", "label": 6}
+{"text": "Meaning check: I love this result", "label": 6}
+{"text": "Please detect meaning: I love this result", "label": 6}
+{"text": "Classify the intent: I love this result", "label": 6}
+{"text": "Meaning check: great job", "label": 6}
+{"text": "Recognize this: great job", "label": 6}
+{"text": "What does this mean? great job", "label": 6}
+{"text": "Great job", "label": 6}
+{"text": "Utterance: great job", "label": 6}
+{"text": "User said: great job", "label": 6}
+{"text": "Classify the intent: great job", "label": 6}
+{"text": "great job", "label": 6}
+{"text": "What does this mean? I feel joyful", "label": 6}
+{"text": "Utterance: I feel joyful", "label": 6}
+{"text": "i feel joyful", "label": 6}
+{"text": "I feel joyful", "label": 6}
+{"text": "Please detect meaning: I feel joyful", "label": 6}
+{"text": "User said: I feel joyful", "label": 6}
+{"text": "Meaning check: I feel joyful", "label": 6}
+{"text": "Recognize this: I feel joyful", "label": 6}
+{"text": "Please detect meaning: I am glad", "label": 6}
+{"text": "Recognize this: I am glad", "label": 6}
+{"text": "I am glad", "label": 6}
+{"text": "i am glad", "label": 6}
+{"text": "User said: I am glad", "label": 6}
+{"text": "Classify the intent: I am glad", "label": 6}
+{"text": "What does this mean? I am glad", "label": 6}
+{"text": "Utterance: I am glad", "label": 6}
+{"text": "this makes me smile", "label": 6}
+{"text": "Meaning check: this makes me smile", "label": 6}
+{"text": "Please detect meaning: this makes me smile", "label": 6}
+{"text": "Recognize this: this makes me smile", "label": 6}
+{"text": "Classify the intent: this makes me smile", "label": 6}
+{"text": "Utterance: this makes me smile", "label": 6}
+{"text": "What does this mean? this makes me smile", "label": 6}
+{"text": "User said: this makes me smile", "label": 6}
+{"text": "excellent work", "label": 6}
+{"text": "Please detect meaning: excellent work", "label": 6}
+{"text": "What does this mean? excellent work", "label": 6}
+{"text": "Meaning check: excellent work", "label": 6}
+{"text": "Classify the intent: excellent work", "label": 6}
+{"text": "Excellent work", "label": 6}
+{"text": "Recognize this: excellent work", "label": 6}
+{"text": "User said: excellent work", "label": 6}
+{"text": "User said: I am delighted", "label": 6}
+{"text": "What does this mean? I am delighted", "label": 6}
+{"text": "Utterance: I am delighted", "label": 6}
+{"text": "I am delighted", "label": 6}
+{"text": "Meaning check: I am delighted", "label": 6}
+{"text": "Please detect meaning: I am delighted", "label": 6}
+{"text": "i am delighted", "label": 6}
+{"text": "Classify the intent: I am delighted", "label": 6}
+{"text": "I am sad", "label": 7}
+{"text": "What does this mean? I am sad", "label": 7}
+{"text": "i am sad", "label": 7}
+{"text": "Recognize this: I am sad", "label": 7}
+{"text": "Classify the intent: I am sad", "label": 7}
+{"text": "Meaning check: I am sad", "label": 7}
+{"text": "Please detect meaning: I am sad", "label": 7}
+{"text": "User said: I am sad", "label": 7}
+{"text": "Utterance: I am sad", "label": 7}
+{"text": "I am sad today", "label": 7}
+{"text": "User said: I am sad today", "label": 7}
+{"text": "Meaning check: I am sad today", "label": 7}
+{"text": "Please detect meaning: I am sad today", "label": 7}
+{"text": "Recognize this: I am sad today", "label": 7}
+{"text": "Utterance: I am sad today", "label": 7}
+{"text": "What does this mean? I am sad today", "label": 7}
+{"text": "i am sad today", "label": 7}
+{"text": "this is terrible", "label": 7}
+{"text": "Please detect meaning: this is terrible", "label": 7}
+{"text": "Classify the intent: this is terrible", "label": 7}
+{"text": "Recognize this: this is terrible", "label": 7}
+{"text": "This is terrible", "label": 7}
+{"text": "Utterance: this is terrible", "label": 7}
+{"text": "What does this mean? this is terrible", "label": 7}
+{"text": "User said: this is terrible", "label": 7}
+{"text": "Please detect meaning: I hate this bug", "label": 7}
+{"text": "i hate this bug", "label": 7}
+{"text": "What does this mean? I hate this bug", "label": 7}
+{"text": "I hate this bug", "label": 7}
+{"text": "User said: I hate this bug", "label": 7}
+{"text": "Recognize this: I hate this bug", "label": 7}
+{"text": "Meaning check: I hate this bug", "label": 7}
+{"text": "Classify the intent: I hate this bug", "label": 7}
+{"text": "Utterance: I hate this bug", "label": 7}
+{"text": "Recognize this: I feel awful", "label": 7}
+{"text": "Meaning check: I feel awful", "label": 7}
+{"text": "Classify the intent: I feel awful", "label": 7}
+{"text": "Utterance: I feel awful", "label": 7}
+{"text": "User said: I feel awful", "label": 7}
+{"text": "i feel awful", "label": 7}
+{"text": "I feel awful", "label": 7}
+{"text": "What does this mean? I feel awful", "label": 7}
+{"text": "Meaning check: this makes me angry", "label": 7}
+{"text": "this makes me angry", "label": 7}
+{"text": "What does this mean? this makes me angry", "label": 7}
+{"text": "Please detect meaning: this makes me angry", "label": 7}
+{"text": "This makes me angry", "label": 7}
+{"text": "Classify the intent: this makes me angry", "label": 7}
+{"text": "Recognize this: this makes me angry", "label": 7}
+{"text": "Utterance: this makes me angry", "label": 7}
+{"text": "i am frustrated", "label": 7}
+{"text": "Utterance: I am frustrated", "label": 7}
+{"text": "I am frustrated", "label": 7}
+{"text": "Meaning check: I am frustrated", "label": 7}
+{"text": "User said: I am frustrated", "label": 7}
+{"text": "Classify the intent: I am frustrated", "label": 7}
+{"text": "Please detect meaning: I am frustrated", "label": 7}
+{"text": "Recognize this: I am frustrated", "label": 7}
+{"text": "What does this mean? I am frustrated", "label": 7}
+{"text": "What does this mean? I feel depressed", "label": 7}
+{"text": "User said: I feel depressed", "label": 7}
+{"text": "I feel depressed", "label": 7}
+{"text": "Recognize this: I feel depressed", "label": 7}
+{"text": "Utterance: I feel depressed", "label": 7}
+{"text": "Meaning check: I feel depressed", "label": 7}
+{"text": "Classify the intent: I feel depressed", "label": 7}
+{"text": "i feel depressed", "label": 7}
+{"text": "Please detect meaning: I feel depressed", "label": 7}
+{"text": "Please detect meaning: this is disappointing", "label": 7}
+{"text": "Classify the intent: this is disappointing", "label": 7}
+{"text": "this is disappointing", "label": 7}
+{"text": "What does this mean? this is disappointing", "label": 7}
+{"text": "Meaning check: this is disappointing", "label": 7}
+{"text": "This is disappointing", "label": 7}
+{"text": "User said: this is disappointing", "label": 7}
+{"text": "Recognize this: this is disappointing", "label": 7}
+{"text": "Please detect meaning: I am upset", "label": 7}
+{"text": "Recognize this: I am upset", "label": 7}
+{"text": "Classify the intent: I am upset", "label": 7}
+{"text": "Meaning check: I am upset", "label": 7}
+{"text": "User said: I am upset", "label": 7}
+{"text": "I am upset", "label": 7}
+{"text": "i am upset", "label": 7}
+{"text": "What does this mean? I am upset", "label": 7}
+{"text": "Utterance: I am upset", "label": 7}
+{"text": "I feel miserable", "label": 7}
+{"text": "Recognize this: I feel miserable", "label": 7}
+{"text": "Please detect meaning: I feel miserable", "label": 7}
+{"text": "Classify the intent: I feel miserable", "label": 7}
+{"text": "i feel miserable", "label": 7}
+{"text": "Utterance: I feel miserable", "label": 7}
+{"text": "Meaning check: I feel miserable", "label": 7}
+{"text": "What does this mean? I feel miserable", "label": 7}
+{"text": "Classify the intent: it is Tuesday", "label": 8}
+{"text": "it is tuesday", "label": 8}
+{"text": "Please detect meaning: it is Tuesday", "label": 8}
+{"text": "Recognize this: it is Tuesday", "label": 8}
+{"text": "Meaning check: it is Tuesday", "label": 8}
+{"text": "What does this mean? it is Tuesday", "label": 8}
+{"text": "it is Tuesday", "label": 8}
+{"text": "User said: it is Tuesday", "label": 8}
+{"text": "Utterance: it is Tuesday", "label": 8}
+{"text": "The file has ten lines", "label": 8}
+{"text": "User said: the file has ten lines", "label": 8}
+{"text": "Utterance: the file has ten lines", "label": 8}
+{"text": "the file has ten lines", "label": 8}
+{"text": "Recognize this: the file has ten lines", "label": 8}
+{"text": "Please detect meaning: the file has ten lines", "label": 8}
+{"text": "What does this mean? the file has ten lines", "label": 8}
+{"text": "Meaning check: the file has ten lines", "label": 8}
+{"text": "Classify the intent: the room is quiet", "label": 8}
+{"text": "Recognize this: the room is quiet", "label": 8}
+{"text": "the room is quiet", "label": 8}
+{"text": "Utterance: the room is quiet", "label": 8}
+{"text": "What does this mean? the room is quiet", "label": 8}
+{"text": "The room is quiet", "label": 8}
+{"text": "Meaning check: the room is quiet", "label": 8}
+{"text": "User said: the room is quiet", "label": 8}
+{"text": "Meaning check: the meeting is at noon", "label": 8}
+{"text": "User said: the meeting is at noon", "label": 8}
+{"text": "Classify the intent: the meeting is at noon", "label": 8}
+{"text": "Utterance: the meeting is at noon", "label": 8}
+{"text": "What does this mean? the meeting is at noon", "label": 8}
+{"text": "The meeting is at noon", "label": 8}
+{"text": "Recognize this: the meeting is at noon", "label": 8}
+{"text": "Please detect meaning: the meeting is at noon", "label": 8}
+{"text": "the meeting is at noon", "label": 8}
+{"text": "Meaning check: water boils at one hundred degrees", "label": 8}
+{"text": "Recognize this: water boils at one hundred degrees", "label": 8}
+{"text": "Classify the intent: water boils at one hundred degrees", "label": 8}
+{"text": "water boils at one hundred degrees", "label": 8}
+{"text": "Utterance: water boils at one hundred degrees", "label": 8}
+{"text": "What does this mean? water boils at one hundred degrees", "label": 8}
+{"text": "Please detect meaning: water boils at one hundred degrees", "label": 8}
+{"text": "Water boils at one hundred degrees", "label": 8}
+{"text": "Utterance: the model has sixteen labels", "label": 8}
+{"text": "Recognize this: the model has sixteen labels", "label": 8}
+{"text": "the model has sixteen labels", "label": 8}
+{"text": "The model has sixteen labels", "label": 8}
+{"text": "Please detect meaning: the model has sixteen labels", "label": 8}
+{"text": "Meaning check: the model has sixteen labels", "label": 8}
+{"text": "User said: the model has sixteen labels", "label": 8}
+{"text": "What does this mean? the model has sixteen labels", "label": 8}
+{"text": "What does this mean? The cat sat on the mat. So an animal sat on the mat.", "label": 9}
+{"text": "Recognize this: The cat sat on the mat. So an animal sat on the mat.", "label": 9}
+{"text": "The cat sat on the mat. So an animal sat on the mat.", "label": 9}
+{"text": "User said: The cat sat on the mat. So an animal sat on the mat.", "label": 9}
+{"text": "Meaning check: The cat sat on the mat. So an animal sat on the mat.", "label": 9}
+{"text": "the cat sat on the mat. so an animal sat on the mat.", "label": 9}
+{"text": "Utterance: The cat sat on the mat. So an animal sat on the mat.", "label": 9}
+{"text": "Please detect meaning: The cat sat on the mat. So an animal sat on the mat.", "label": 9}
+{"text": "Rosa trains every day. Therefore Rosa practices regularly.", "label": 9}
+{"text": "rosa trains every day. therefore rosa practices regularly.", "label": 9}
+{"text": "What does this mean? Rosa trains every day. Therefore Rosa practices regularly.", "label": 9}
+{"text": "Classify the intent: Rosa trains every day. Therefore Rosa practices regularly.", "label": 9}
+{"text": "Meaning check: Rosa trains every day. Therefore Rosa practices regularly.", "label": 9}
+{"text": "Recognize this: Rosa trains every day. Therefore Rosa practices regularly.", "label": 9}
+{"text": "User said: Rosa trains every day. Therefore Rosa practices regularly.", "label": 9}
+{"text": "Utterance: Rosa trains every day. Therefore Rosa practices regularly.", "label": 9}
+{"text": "Classify the intent: All birds have wings. A sparrow is a bird, so a sparrow has wings.", "label": 9}
+{"text": "All birds have wings. A sparrow is a bird, so a sparrow has wings.", "label": 9}
+{"text": "What does this mean? All birds have wings. A sparrow is a bird, so a sparrow has wings.", "label": 9}
+{"text": "User said: All birds have wings. A sparrow is a bird, so a sparrow has wings.", "label": 9}
+{"text": "Utterance: All birds have wings. A sparrow is a bird, so a sparrow has wings.", "label": 9}
+{"text": "Meaning check: All birds have wings. A sparrow is a bird, so a sparrow has wings.", "label": 9}
+{"text": "Recognize this: All birds have wings. A sparrow is a bird, so a sparrow has wings.", "label": 9}
+{"text": "all birds have wings. a sparrow is a bird, so a sparrow has wings.", "label": 9}
+{"text": "if it rains, the ground gets wet. it rained, so the ground is wet.", "label": 9}
+{"text": "User said: If it rains, the ground gets wet. It rained, so the ground is wet.", "label": 9}
+{"text": "Classify the intent: If it rains, the ground gets wet. It rained, so the ground is wet.", "label": 9}
+{"text": "Meaning check: If it rains, the ground gets wet. It rained, so the ground is wet.", "label": 9}
+{"text": "Recognize this: If it rains, the ground gets wet. It rained, so the ground is wet.", "label": 9}
+{"text": "If it rains, the ground gets wet. It rained, so the ground is wet.", "label": 9}
+{"text": "Utterance: If it rains, the ground gets wet. It rained, so the ground is wet.", "label": 9}
+{"text": "What does this mean? If it rains, the ground gets wet. It rained, so the ground is wet.", "label": 9}
+{"text": "Please detect meaning: The door is open. The door is closed.", "label": 10}
+{"text": "The door is open. The door is closed.", "label": 10}
+{"text": "What does this mean? The door is open. The door is closed.", "label": 10}
+{"text": "Meaning check: The door is open. The door is closed.", "label": 10}
+{"text": "Classify the intent: The door is open. The door is closed.", "label": 10}
+{"text": "Recognize this: The door is open. The door is closed.", "label": 10}
+{"text": "User said: The door is open. The door is closed.", "label": 10}
+{"text": "Utterance: The door is open. The door is closed.", "label": 10}
+{"text": "Please detect meaning: He is happy. He is miserable.", "label": 10}
+{"text": "Meaning check: He is happy. He is miserable.", "label": 10}
+{"text": "He is happy. He is miserable.", "label": 10}
+{"text": "User said: He is happy. He is miserable.", "label": 10}
+{"text": "he is happy. he is miserable.", "label": 10}
+{"text": "Utterance: He is happy. He is miserable.", "label": 10}
+{"text": "What does this mean? He is happy. He is miserable.", "label": 10}
+{"text": "Recognize this: He is happy. He is miserable.", "label": 10}
+{"text": "she is at home. she is not at home.", "label": 10}
+{"text": "User said: She is at home. She is not at home.", "label": 10}
+{"text": "Utterance: She is at home. She is not at home.", "label": 10}
+{"text": "She is at home. She is not at home.", "label": 10}
+{"text": "Recognize this: She is at home. She is not at home.", "label": 10}
+{"text": "Classify the intent: She is at home. She is not at home.", "label": 10}
+{"text": "Please detect meaning: She is at home. She is not at home.", "label": 10}
+{"text": "Meaning check: She is at home. She is not at home.", "label": 10}
+{"text": "What does this mean? She is at home. She is not at home.", "label": 10}
+{"text": "the server is fast. the server is slow.", "label": 10}
+{"text": "What does this mean? The server is fast. The server is slow.", "label": 10}
+{"text": "Recognize this: The server is fast. The server is slow.", "label": 10}
+{"text": "Meaning check: The server is fast. The server is slow.", "label": 10}
+{"text": "Utterance: The server is fast. The server is slow.", "label": 10}
+{"text": "Please detect meaning: The server is fast. The server is slow.", "label": 10}
+{"text": "User said: The server is fast. The server is slow.", "label": 10}
+{"text": "The server is fast. The server is slow.", "label": 10}
+{"text": "Classify the intent: The server is fast. The server is slow.", "label": 10}
+{"text": "Classify the intent: The sky is blue. I like pizza.", "label": 11}
+{"text": "User said: The sky is blue. I like pizza.", "label": 11}
+{"text": "The sky is blue. I like pizza.", "label": 11}
+{"text": "Meaning check: The sky is blue. I like pizza.", "label": 11}
+{"text": "Utterance: The sky is blue. I like pizza.", "label": 11}
+{"text": "Recognize this: The sky is blue. I like pizza.", "label": 11}
+{"text": "Please detect meaning: The sky is blue. I like pizza.", "label": 11}
+{"text": "What does this mean? The sky is blue. I like pizza.", "label": 11}
+{"text": "Meaning check: She reads a book. Tomorrow might rain.", "label": 11}
+{"text": "Utterance: She reads a book. Tomorrow might rain.", "label": 11}
+{"text": "She reads a book. Tomorrow might rain.", "label": 11}
+{"text": "Recognize this: She reads a book. Tomorrow might rain.", "label": 11}
+{"text": "What does this mean? She reads a book. Tomorrow might rain.", "label": 11}
+{"text": "Classify the intent: She reads a book. Tomorrow might rain.", "label": 11}
+{"text": "she reads a book. tomorrow might rain.", "label": 11}
+{"text": "Please detect meaning: She reads a book. Tomorrow might rain.", "label": 11}
+{"text": "What does this mean? The meeting starts at noon. Coffee is bitter.", "label": 11}
+{"text": "Please detect meaning: The meeting starts at noon. Coffee is bitter.", "label": 11}
+{"text": "User said: The meeting starts at noon. Coffee is bitter.", "label": 11}
+{"text": "The meeting starts at noon. Coffee is bitter.", "label": 11}
+{"text": "Recognize this: The meeting starts at noon. Coffee is bitter.", "label": 11}
+{"text": "Utterance: The meeting starts at noon. Coffee is bitter.", "label": 11}
+{"text": "Classify the intent: The meeting starts at noon. Coffee is bitter.", "label": 11}
+{"text": "the meeting starts at noon. coffee is bitter.", "label": 11}
+{"text": "Classify the intent: Training uses CUDA. Apples are red.", "label": 11}
+{"text": "Meaning check: Training uses CUDA. Apples are red.", "label": 11}
+{"text": "User said: Training uses CUDA. Apples are red.", "label": 11}
+{"text": "Training uses CUDA. Apples are red.", "label": 11}
+{"text": "Please detect meaning: Training uses CUDA. Apples are red.", "label": 11}
+{"text": "training uses cuda. apples are red.", "label": 11}
+{"text": "Utterance: Training uses CUDA. Apples are red.", "label": 11}
+{"text": "What does this mean? Training uses CUDA. Apples are red.", "label": 11}
+{"text": "Classify the intent: kitchen table", "label": 12}
+{"text": "Please detect meaning: kitchen table", "label": 12}
+{"text": "User said: kitchen table", "label": 12}
+{"text": "Utterance: kitchen table", "label": 12}
+{"text": "Recognize this: kitchen table", "label": 12}
+{"text": "Kitchen table", "label": 12}
+{"text": "kitchen table", "label": 12}
+{"text": "What does this mean? kitchen table", "label": 12}
+{"text": "Recognize this: bedroom lamp", "label": 12}
+{"text": "Bedroom lamp", "label": 12}
+{"text": "Please detect meaning: bedroom lamp", "label": 12}
+{"text": "What does this mean? bedroom lamp", "label": 12}
+{"text": "bedroom lamp", "label": 12}
+{"text": "Classify the intent: bedroom lamp", "label": 12}
+{"text": "Utterance: bedroom lamp", "label": 12}
+{"text": "Meaning check: bedroom lamp", "label": 12}
+{"text": "User said: bedroom lamp", "label": 12}
+{"text": "home door window", "label": 12}
+{"text": "Meaning check: home door window", "label": 12}
+{"text": "Classify the intent: home door window", "label": 12}
+{"text": "User said: home door window", "label": 12}
+{"text": "What does this mean? home door window", "label": 12}
+{"text": "Home door window", "label": 12}
+{"text": "Recognize this: home door window", "label": 12}
+{"text": "Utterance: home door window", "label": 12}
+{"text": "Classify the intent: living room sofa", "label": 12}
+{"text": "Living room sofa", "label": 12}
+{"text": "living room sofa", "label": 12}
+{"text": "Utterance: living room sofa", "label": 12}
+{"text": "Meaning check: living room sofa", "label": 12}
+{"text": "Please detect meaning: living room sofa", "label": 12}
+{"text": "What does this mean? living room sofa", "label": 12}
+{"text": "User said: living room sofa", "label": 12}
+{"text": "Classify the intent: I cleaned the house", "label": 12}
+{"text": "User said: I cleaned the house", "label": 12}
+{"text": "i cleaned the house", "label": 12}
+{"text": "Please detect meaning: I cleaned the house", "label": 12}
+{"text": "What does this mean? I cleaned the house", "label": 12}
+{"text": "Recognize this: I cleaned the house", "label": 12}
+{"text": "Meaning check: I cleaned the house", "label": 12}
+{"text": "Utterance: I cleaned the house", "label": 12}
+{"text": "I cleaned the house", "label": 12}
+{"text": "Please detect meaning: office meeting", "label": 13}
+{"text": "office meeting", "label": 13}
+{"text": "Office meeting", "label": 13}
+{"text": "What does this mean? office meeting", "label": 13}
+{"text": "User said: office meeting", "label": 13}
+{"text": "Recognize this: office meeting", "label": 13}
+{"text": "Classify the intent: office meeting", "label": 13}
+{"text": "Utterance: office meeting", "label": 13}
+{"text": "Project deadline", "label": 13}
+{"text": "What does this mean? project deadline", "label": 13}
+{"text": "User said: project deadline", "label": 13}
+{"text": "Please detect meaning: project deadline", "label": 13}
+{"text": "Recognize this: project deadline", "label": 13}
+{"text": "project deadline", "label": 13}
+{"text": "Utterance: project deadline", "label": 13}
+{"text": "Classify the intent: project deadline", "label": 13}
+{"text": "User said: work email", "label": 13}
+{"text": "Work email", "label": 13}
+{"text": "Utterance: work email", "label": 13}
+{"text": "Recognize this: work email", "label": 13}
+{"text": "work email", "label": 13}
+{"text": "Please detect meaning: work email", "label": 13}
+{"text": "Classify the intent: work email", "label": 13}
+{"text": "Meaning check: work email", "label": 13}
+{"text": "team standup", "label": 13}
+{"text": "What does this mean? team standup", "label": 13}
+{"text": "Team standup", "label": 13}
+{"text": "User said: team standup", "label": 13}
+{"text": "Classify the intent: team standup", "label": 13}
+{"text": "Utterance: team standup", "label": 13}
+{"text": "Please detect meaning: team standup", "label": 13}
+{"text": "Meaning check: team standup", "label": 13}
+{"text": "Ship the release today", "label": 13}
+{"text": "Utterance: ship the release today", "label": 13}
+{"text": "Recognize this: ship the release today", "label": 13}
+{"text": "What does this mean? ship the release today", "label": 13}
+{"text": "Meaning check: ship the release today", "label": 13}
+{"text": "ship the release today", "label": 13}
+{"text": "User said: ship the release today", "label": 13}
+{"text": "Please detect meaning: ship the release today", "label": 13}
+{"text": "Classify the intent: ship the release today", "label": 13}
+{"text": "Bread and tea", "label": 14}
+{"text": "What does this mean? bread and tea", "label": 14}
+{"text": "Please detect meaning: bread and tea", "label": 14}
+{"text": "Meaning check: bread and tea", "label": 14}
+{"text": "Classify the intent: bread and tea", "label": 14}
+{"text": "Utterance: bread and tea", "label": 14}
+{"text": "User said: bread and tea", "label": 14}
+{"text": "bread and tea", "label": 14}
+{"text": "Classify the intent: rice for dinner", "label": 14}
+{"text": "Rice for dinner", "label": 14}
+{"text": "rice for dinner", "label": 14}
+{"text": "Meaning check: rice for dinner", "label": 14}
+{"text": "Utterance: rice for dinner", "label": 14}
+{"text": "Recognize this: rice for dinner", "label": 14}
+{"text": "User said: rice for dinner", "label": 14}
+{"text": "Please detect meaning: rice for dinner", "label": 14}
+{"text": "Utterance: fresh fruit", "label": 14}
+{"text": "Please detect meaning: fresh fruit", "label": 14}
+{"text": "fresh fruit", "label": 14}
+{"text": "User said: fresh fruit", "label": 14}
+{"text": "Recognize this: fresh fruit", "label": 14}
+{"text": "Meaning check: fresh fruit", "label": 14}
+{"text": "Classify the intent: fresh fruit", "label": 14}
+{"text": "What does this mean? fresh fruit", "label": 14}
+{"text": "Classify the intent: soup and salad", "label": 14}
+{"text": "Utterance: soup and salad", "label": 14}
+{"text": "Recognize this: soup and salad", "label": 14}
+{"text": "What does this mean? soup and salad", "label": 14}
+{"text": "soup and salad", "label": 14}
+{"text": "User said: soup and salad", "label": 14}
+{"text": "Meaning check: soup and salad", "label": 14}
+{"text": "Soup and salad", "label": 14}
+{"text": "I cooked pasta", "label": 14}
+{"text": "User said: I cooked pasta", "label": 14}
+{"text": "Please detect meaning: I cooked pasta", "label": 14}
+{"text": "i cooked pasta", "label": 14}
+{"text": "Classify the intent: I cooked pasta", "label": 14}
+{"text": "Recognize this: I cooked pasta", "label": 14}
+{"text": "Meaning check: I cooked pasta", "label": 14}
+{"text": "Utterance: I cooked pasta", "label": 14}
+{"text": "User said: I feel calm", "label": 15}
+{"text": "Classify the intent: I feel calm", "label": 15}
+{"text": "i feel calm", "label": 15}
+{"text": "I feel calm", "label": 15}
+{"text": "Recognize this: I feel calm", "label": 15}
+{"text": "Meaning check: I feel calm", "label": 15}
+{"text": "What does this mean? I feel calm", "label": 15}
+{"text": "Utterance: I feel calm", "label": 15}
+{"text": "Please detect meaning: she is worried", "label": 15}
+{"text": "she is worried", "label": 15}
+{"text": "Classify the intent: she is worried", "label": 15}
+{"text": "Recognize this: she is worried", "label": 15}
+{"text": "User said: she is worried", "label": 15}
+{"text": "She is worried", "label": 15}
+{"text": "Utterance: she is worried", "label": 15}
+{"text": "What does this mean? she is worried", "label": 15}
+{"text": "Utterance: they are excited", "label": 15}
+{"text": "User said: they are excited", "label": 15}
+{"text": "Recognize this: they are excited", "label": 15}
+{"text": "they are excited", "label": 15}
+{"text": "Meaning check: they are excited", "label": 15}
+{"text": "What does this mean? they are excited", "label": 15}
+{"text": "Classify the intent: they are excited", "label": 15}
+{"text": "They are excited", "label": 15}
+{"text": "Recognize this: he feels lonely", "label": 15}
+{"text": "he feels lonely", "label": 15}
+{"text": "Classify the intent: he feels lonely", "label": 15}
+{"text": "User said: he feels lonely", "label": 15}
+{"text": "Meaning check: he feels lonely", "label": 15}
+{"text": "Please detect meaning: he feels lonely", "label": 15}
+{"text": "Utterance: he feels lonely", "label": 15}
+{"text": "He feels lonely", "label": 15}
+{"text": "my emotions are mixed", "label": 15}
+{"text": "User said: my emotions are mixed", "label": 15}
+{"text": "Utterance: my emotions are mixed", "label": 15}
+{"text": "Please detect meaning: my emotions are mixed", "label": 15}
+{"text": "Classify the intent: my emotions are mixed", "label": 15}
+{"text": "Meaning check: my emotions are mixed", "label": 15}
+{"text": "What does this mean? my emotions are mixed", "label": 15}
+{"text": "My emotions are mixed", "label": 15}
+{"text": "What does this mean? I feel anxious", "label": 15}
+{"text": "Please detect meaning: I feel anxious", "label": 15}
+{"text": "Recognize this: I feel anxious", "label": 15}
+{"text": "i feel anxious", "label": 15}
+{"text": "Utterance: I feel anxious", "label": 15}
+{"text": "I feel anxious", "label": 15}
+{"text": "Meaning check: I feel anxious", "label": 15}
+{"text": "Classify the intent: I feel anxious", "label": 15}
+{"text": "Utterance: she feels proud", "label": 15}
+{"text": "Recognize this: she feels proud", "label": 15}
+{"text": "User said: she feels proud", "label": 15}
+{"text": "She feels proud", "label": 15}
+{"text": "Please detect meaning: she feels proud", "label": 15}
+{"text": "What does this mean? she feels proud", "label": 15}
+{"text": "Classify the intent: she feels proud", "label": 15}
+{"text": "she feels proud", "label": 15}
+{"text": "Meaning check: she feels proud", "label": 15}
+{"text": "کاربر گفت: سلام", "label": 0}
+{"text": "برچسب بزن: سلام", "label": 0}
+{"text": "معنی را تشخیص بده: سلام", "label": 0}
+{"text": "معنی را تشخیص بده: سلام خوبی؟", "label": 0}
+{"text": "سلام خوبی؟", "label": 0}
+{"text": "برچسب بزن: سلام خوبی؟", "label": 0}
+{"text": "کاربر گفت: درود", "label": 0}
+{"text": "معنی را تشخیص بده: درود", "label": 0}
+{"text": "برچسب بزن: درود", "label": 0}
+{"text": "صبح بخیر", "label": 0}
+{"text": "کاربر گفت: صبح بخیر", "label": 0}
+{"text": "برچسب بزن: صبح بخیر", "label": 0}
+{"text": "معنی را تشخیص بده: خداحافظ", "label": 1}
+{"text": "کاربر گفت: خداحافظ", "label": 1}
+{"text": "برچسب بزن: خداحافظ", "label": 1}
+{"text": "کاربر گفت: فعلاً", "label": 1}
+{"text": "معنی را تشخیص بده: فعلاً", "label": 1}
+{"text": "برچسب بزن: فعلاً", "label": 1}
+{"text": "بعداً می‌بینمت", "label": 1}
+{"text": "برچسب بزن: بعداً می‌بینمت", "label": 1}
+{"text": "کاربر گفت: بعداً می‌بینمت", "label": 1}
+{"text": "ممنون", "label": 2}
+{"text": "معنی را تشخیص بده: ممنون", "label": 2}
+{"text": "کاربر گفت: ممنون", "label": 2}
+{"text": "کاربر گفت: مرسی", "label": 2}
+{"text": "معنی را تشخیص بده: مرسی", "label": 2}
+{"text": "برچسب بزن: مرسی", "label": 2}
+{"text": "معنی را تشخیص بده: خیلی ممنون", "label": 2}
+{"text": "خیلی ممنون", "label": 2}
+{"text": "برچسب بزن: خیلی ممنون", "label": 2}
+{"text": "معنی را تشخیص بده: سپاس", "label": 2}
+{"text": "کاربر گفت: سپاس", "label": 2}
+{"text": "سپاس", "label": 2}
+{"text": "این چیست؟", "label": 3}
+{"text": "معنی را تشخیص بده: این چیست؟", "label": 3}
+{"text": "کاربر گفت: این چیست؟", "label": 3}
+{"text": "کاربر گفت: چرا کند است؟", "label": 3}
+{"text": "چرا کند است؟", "label": 3}
+{"text": "معنی را تشخیص بده: چرا کند است؟", "label": 3}
+{"text": "برچسب بزن: چرا کند است؟", "label": 3}
+{"text": "چطور کار می‌کند؟", "label": 3}
+{"text": "معنی را تشخیص بده: چطور کار می‌کند؟", "label": 3}
+{"text": "برچسب بزن: چطور کار می‌کند؟", "label": 3}
+{"text": "کاربر گفت: چطور کار می‌کند؟", "label": 3}
+{"text": "کی شروع می‌شود؟", "label": 3}
+{"text": "کاربر گفت: کی شروع می‌شود؟", "label": 3}
+{"text": "برچسب بزن: کی شروع می‌شود؟", "label": 3}
+{"text": "لطفا کمک کن", "label": 4}
+{"text": "برچسب بزن: لطفا کمک کن", "label": 4}
+{"text": "کاربر گفت: لطفا کمک کن", "label": 4}
+{"text": "معنی را تشخیص بده: لطفا کمک کن", "label": 4}
+{"text": "لطفا توضیح بده", "label": 4}
+{"text": "معنی را تشخیص بده: لطفا توضیح بده", "label": 4}
+{"text": "کاربر گفت: لطفا توضیح بده", "label": 4}
+{"text": "می‌تونی کمکم کنی؟", "label": 4}
+{"text": "کاربر گفت: می‌تونی کمکم کنی؟", "label": 4}
+{"text": "معنی را تشخیص بده: می‌تونی کمکم کنی؟", "label": 4}
+{"text": "معنی را تشخیص بده: گربه روی مبل است", "label": 5}
+{"text": "گربه روی مبل است", "label": 5}
+{"text": "برچسب بزن: گربه روی مبل است", "label": 5}
+{"text": "کاربر گفت: گربه روی مبل است", "label": 5}
+{"text": "کاربر گفت: امروز آموزش ادامه دارد", "label": 5}
+{"text": "برچسب بزن: امروز آموزش ادامه دارد", "label": 5}
+{"text": "امروز آموزش ادامه دارد", "label": 5}
+{"text": "معنی را تشخیص بده: من خوشحالم", "label": 6}
+{"text": "من خوشحالم", "label": 6}
+{"text": "کاربر گفت: من خوشحالم", "label": 6}
+{"text": "عالی بود", "label": 6}
+{"text": "برچسب بزن: عالی بود", "label": 6}
+{"text": "کاربر گفت: عالی بود", "label": 6}
+{"text": "برچسب بزن: خیلی خوبه", "label": 6}
+{"text": "خیلی خوبه", "label": 6}
+{"text": "معنی را تشخیص بده: خیلی خوبه", "label": 6}
+{"text": "من ناراحتم", "label": 7}
+{"text": "کاربر گفت: من ناراحتم", "label": 7}
+{"text": "معنی را تشخیص بده: من ناراحتم", "label": 7}
+{"text": "امروز غمگینم", "label": 7}
+{"text": "معنی را تشخیص بده: امروز غمگینم", "label": 7}
+{"text": "کاربر گفت: امروز غمگینم", "label": 7}
+{"text": "برچسب بزن: خیلی بد است", "label": 7}
+{"text": "خیلی بد است", "label": 7}
+{"text": "معنی را تشخیص بده: خیلی بد است", "label": 7}
+{"text": "کاربر گفت: خیلی بد است", "label": 7}
+{"text": "امروز سه‌شنبه است", "label": 8}
+{"text": "معنی را تشخیص بده: امروز سه‌شنبه است", "label": 8}
+{"text": "برچسب بزن: امروز سه‌شنبه است", "label": 8}
+{"text": "فایل ده خط دارد", "label": 8}
+{"text": "معنی را تشخیص بده: فایل ده خط دارد", "label": 8}
+{"text": "برچسب بزن: فایل ده خط دارد", "label": 8}
+{"text": "احساس آرامش دارم", "label": 15}
+{"text": "معنی را تشخیص بده: احساس آرامش دارم", "label": 15}
+{"text": "کاربر گفت: احساس آرامش دارم", "label": 15}
+{"text": "برچسب بزن: احساس آرامش دارم", "label": 15}
+{"text": "نگرانم", "label": 15}
+{"text": "کاربر گفت: نگرانم", "label": 15}
+{"text": "معنی را تشخیص بده: نگرانم", "label": 15}
+{"text": "معنی را تشخیص بده: هیجان‌زده‌ام", "label": 15}
+{"text": "کاربر گفت: هیجان‌زده‌ام", "label": 15}
+{"text": "هیجان‌زده‌ام", "label": 15}
+{"text": "Thanks!", "label": 2}
+{"text": "User said: Thanks!", "label": 2}
+{"text": "Meaning check: Thanks!", "label": 2}
+{"text": "Recognize this: Thanks!", "label": 2}
+{"text": "What does this mean? Thanks!", "label": 2}
+{"text": "Classify the intent: Thanks!", "label": 2}
+{"text": "Please detect meaning: Thanks!", "label": 2}
+{"text": "Utterance: Thanks!", "label": 2}
+{"text": "Classify the intent: thank you", "label": 2}
+{"text": "Classify the intent: I am sad today", "label": 7}
+{"text": "feeling sad", "label": 7}
+{"text": "User said: feeling sad", "label": 7}
+{"text": "Meaning check: feeling sad", "label": 7}
+{"text": "Recognize this: feeling sad", "label": 7}
+{"text": "What does this mean? feeling sad", "label": 7}
+{"text": "Classify the intent: feeling sad", "label": 7}
+{"text": "Please detect meaning: feeling sad", "label": 7}
+{"text": "Utterance: feeling sad", "label": 7}
+{"text": "Recognize this: why is the server slow?", "label": 3}
+{"text": "Why is the server slow", "label": 3}
+{"text": "User said: Why is the server slow", "label": 3}
+{"text": "Meaning check: Why is the server slow", "label": 3}
+{"text": "Recognize this: Why is the server slow", "label": 3}
+{"text": "What does this mean? Why is the server slow", "label": 3}
+{"text": "Classify the intent: Why is the server slow", "label": 3}
+{"text": "Please detect meaning: Why is the server slow", "label": 3}
+{"text": "Utterance: Why is the server slow", "label": 3}
+{"text": "I feel terrible emotionally", "label": 15}
+{"text": "User said: I feel terrible emotionally", "label": 15}
+{"text": "Meaning check: I feel terrible emotionally", "label": 15}
+{"text": "Recognize this: I feel terrible emotionally", "label": 15}
+{"text": "What does this mean? I feel terrible emotionally", "label": 15}
+{"text": "Classify the intent: I feel terrible emotionally", "label": 15}
+{"text": "Please detect meaning: I feel terrible emotionally", "label": 15}
+{"text": "Utterance: I feel terrible emotionally", "label": 15}
+{"text": "I am really happy about this", "label": 6}
+{"text": "User said: I am really happy about this", "label": 6}
+{"text": "Meaning check: I am really happy about this", "label": 6}
+{"text": "Recognize this: I am really happy about this", "label": 6}
+{"text": "What does this mean? I am really happy about this", "label": 6}
+{"text": "Classify the intent: I am really happy about this", "label": 6}
+{"text": "Please detect meaning: I am really happy about this", "label": 6}
+{"text": "Utterance: I am really happy about this", "label": 6}
+{"text": "goodbye for now", "label": 1}
+{"text": "User said: goodbye for now", "label": 1}
+{"text": "Meaning check: goodbye for now", "label": 1}
+{"text": "Recognize this: goodbye for now", "label": 1}
+{"text": "Classify the intent: goodbye for now", "label": 1}
+{"text": "bye for now", "label": 1}
+{"text": "User said: bye for now", "label": 1}
+{"text": "Meaning check: bye for now", "label": 1}
+{"text": "Recognize this: bye for now", "label": 1}
+{"text": "Classify the intent: bye for now", "label": 1}
+{"text": "goodbye", "label": 1}
+{"text": "User said: goodbye", "label": 1}
+{"text": "Meaning check: goodbye", "label": 1}
+{"text": "Recognize this: goodbye", "label": 1}
+{"text": "Classify the intent: goodbye", "label": 1}
+{"text": "see you later", "label": 1}
+{"text": "User said: see you later", "label": 1}
+{"text": "Meaning check: see you later", "label": 1}
+{"text": "Recognize this: see you later", "label": 1}
+{"text": "Classify the intent: see you later", "label": 1}
+{"text": "talk soon", "label": 1}
+{"text": "User said: talk soon", "label": 1}
+{"text": "Meaning check: talk soon", "label": 1}
+{"text": "Recognize this: talk soon", "label": 1}
+{"text": "Classify the intent: talk soon", "label": 1}
+{"text": "bye", "label": 1}
+{"text": "User said: bye", "label": 1}
+{"text": "Meaning check: bye", "label": 1}
+{"text": "Recognize this: bye", "label": 1}
+{"text": "Classify the intent: bye", "label": 1}
+{"text": "farewell", "label": 1}
+{"text": "User said: farewell", "label": 1}
+{"text": "Meaning check: farewell", "label": 1}
+{"text": "Recognize this: farewell", "label": 1}
+{"text": "Classify the intent: farewell", "label": 1}
+{"text": "I have to go now", "label": 1}
+{"text": "User said: I have to go now", "label": 1}
+{"text": "Meaning check: I have to go now", "label": 1}
+{"text": "Recognize this: I have to go now", "label": 1}
+{"text": "Classify the intent: I have to go now", "label": 1}
+{"text": "catch you later", "label": 1}
+{"text": "User said: catch you later", "label": 1}
+{"text": "Meaning check: catch you later", "label": 1}
+{"text": "Recognize this: catch you later", "label": 1}
+{"text": "Classify the intent: catch you later", "label": 1}
+{"text": "see you tomorrow", "label": 1}
+{"text": "User said: see you tomorrow", "label": 1}
+{"text": "Meaning check: see you tomorrow", "label": 1}
+{"text": "Recognize this: see you tomorrow", "label": 1}
+{"text": "Classify the intent: see you tomorrow", "label": 1}
+{"text": "goodbye friend", "label": 1}
+{"text": "User said: goodbye friend", "label": 1}
+{"text": "Meaning check: goodbye friend", "label": 1}
+{"text": "Recognize this: goodbye friend", "label": 1}
+{"text": "Classify the intent: goodbye friend", "label": 1}

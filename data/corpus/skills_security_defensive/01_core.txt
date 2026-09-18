@@ -1,0 +1,9 @@
+Defensive security protects systems and users. Rosa_Brain learns defense only: no exploits, no attack playbooks, no PoCs.
+Secure coding: validate input, encode output, least privilege, fail closed, keep secrets out of logs.
+Defend OWASP-class issues: injection, broken auth, broken access control, misconfig, XSS/CSRF defenses, unsafe components, weak logging.
+AuthN: strong credentials/passkeys, MFA when available, short-lived tokens.
+AuthZ: check every request on the server; never trust client role flags.
+Prefer TLS. Cookies: Secure, HttpOnly, SameSite as appropriate.
+Hardening ideas for Windows and Ubuntu: least privilege, updates, firewall defaults, key-based SSH, separate service users.
+Log auth failures and admin actions; never log passwords or tokens.
+Incident mindset: contain, eradicate, recover, learn.

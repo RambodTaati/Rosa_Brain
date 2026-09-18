@@ -1,0 +1,74 @@
+# C++ essentials (original)
+
+C++ builds on C with abstractions: classes, templates, RAII, and the standard library (STL).
+Modern C++ (11–20): prefer RAII containers over raw new/delete. Use std::unique_ptr and std::shared_ptr when ownership is needed; prefer unique ownership.
+#include <string> #include <vector> #include <iostream>
+std::string s = "hello"; std::vector<int> v = {1,2,3};
+Range-for: for (const auto& item : v) { ... }
+classes with constructors/destructors; rule of zero/five for resource-owning types.
+References int& r = x; must bind to valid objects. Const correctness: const std::string& for read-only params.
+Templates enable generic code; concepts (C++20) constrain templates.
+STL algorithms: std::find, std::sort, std::transform. Use <algorithm> and iterators or ranges.
+Exceptions exist; many codebases limit throw across ABI boundaries. Be consistent.
+Move semantics: std::move transfers resources; return local values rely on moves/elision.
+For web backends, C++ appears in high-performance services; still sanitize inputs and use parameterized DB access via libraries.
+Practice: RAII file wrapper sketch that closes in destructor.
+Practice: count words in a std::string using stringstream or ranges.
+Q: What is RAII? A: Bind resource lifetime to object lifetime so destructors release resources automatically.
+Q: unique_ptr vs shared_ptr? A: unique_ptr is exclusive ownership; shared_ptr shares ownership with ref-counting — prefer unique when possible.
+
+## Drill block cpp-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: cpp. Iteration 1.
+Q: unique_ptr vs shared_ptr? A: unique_ptr is exclusive ownership; shared_ptr shares ownership with ref-counting — prefer unique when possible.
+
+## Drill block cpp-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: cpp. Iteration 2.
+Q: What is RAII? A: Bind resource lifetime to object lifetime so destructors release resources automatically.
+
+## Drill block cpp-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: cpp. Iteration 3.
+Q: unique_ptr vs shared_ptr? A: unique_ptr is exclusive ownership; shared_ptr shares ownership with ref-counting — prefer unique when possible.
+
+## Drill block cpp-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: cpp. Iteration 4.
+Q: What is RAII? A: Bind resource lifetime to object lifetime so destructors release resources automatically.
+
+## Drill block cpp-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: cpp. Iteration 5.
+Q: unique_ptr vs shared_ptr? A: unique_ptr is exclusive ownership; shared_ptr shares ownership with ref-counting — prefer unique when possible.
+
+## Drill block cpp-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: cpp. Iteration 6.
+Q: What is RAII? A: Bind resource lifetime to object lifetime so destructors release resources automatically.
+
+## Drill block cpp-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: cpp. Iteration 7.
+Q: unique_ptr vs shared_ptr? A: unique_ptr is exclusive ownership; shared_ptr shares ownership with ref-counting — prefer unique when possible.
+
+## Drill block cpp-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: cpp. Iteration 8.
+Q: What is RAII? A: Bind resource lifetime to object lifetime so destructors release resources automatically.
+
+## Drill block cpp-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: cpp. Iteration 9.
+Q: unique_ptr vs shared_ptr? A: unique_ptr is exclusive ownership; shared_ptr shares ownership with ref-counting — prefer unique when possible.
+
+## Drill block cpp-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: cpp. Iteration 10.
+Q: What is RAII? A: Bind resource lifetime to object lifetime so destructors release resources automatically.
+
+## Drill block cpp-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: cpp. Iteration 11.
+Q: unique_ptr vs shared_ptr? A: unique_ptr is exclusive ownership; shared_ptr shares ownership with ref-counting — prefer unique when possible.
+
+## Drill block cpp-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: cpp. Iteration 12.
+Q: What is RAII? A: Bind resource lifetime to object lifetime so destructors release resources automatically.
+
+## Drill block cpp-13
+Review point 13: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: cpp. Iteration 13.
+Q: unique_ptr vs shared_ptr? A: unique_ptr is exclusive ownership; shared_ptr shares ownership with ref-counting — prefer unique when possible.
+
+## Drill block cpp-14
+Review point 14: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: cpp. Iteration 14.
+Q: What is RAII? A: Bind resource lifetime to object lifetime so destructors release resources automatically.

@@ -1,0 +1,55 @@
+# PostgreSQL modeling and data access
+Model with clear primary keys; prefer BIGSERIAL/IDENTITY or UUID intentionally.
+Normalize to reduce update anomalies; denormalize only with measured read needs and clear ownership.
+Foreign keys enforce relations; ON DELETE behavior explicit (RESTRICT/CASCADE/SET NULL) — choose deliberately.
+Indexes: B-tree for equality/range; composite order matches filters/sorts; partial indexes for hot subsets; unique for invariants.
+Avoid over-indexing writes; monitor unused indexes.
+Transactions: short, single purpose; SELECT ... FOR UPDATE when racing updates; serializable only when required.
+Isolation: understand read committed defaults; watch write skew under higher isolation.
+Parameterized queries always; never string-concatenate user input into SQL.
+N+1: detect via logs; fix with joins, SELECT IN, or batched loaders.
+Migrations: ordered, reversible when possible; expand-contract for zero-downtime; never edit applied migrations on shared envs.
+Constraints: CHECK, UNIQUE, NOT NULL as close to data as possible.
+JSONB: useful for sparse attrs; index with GIN when querying; do not replace core relational columns casually.
+EXPLAIN (ANALYZE, BUFFERS) for slow queries; look for seq scans on large tables unexpectedly.
+Connection pooling: pool size vs DB max_connections; idle timeouts; statement timeouts for safety.
+Soft delete patterns: unique email where deleted_at is null via partial unique index.
+Audit tables for sensitive mutations; who/when/what.
+Backups: pg_dump logical; base backups for larger; test restores.
+ORM: keep raw SQL available for hot paths; understand generated SQL.
+Migrations mindset: add nullable column -> backfill -> add constraint; drop unused later.
+SQL practice 1: Covering indexes can avoid heap fetches for hot read paths.
+SQL practice 2: Vacuum/analyze health matters for planner accuracy.
+SQL practice 3: Use LIMIT in ad-hoc exploration; avoid SELECT * in production paths.
+SQL practice 4: Paginate with (created_at, id) cursors for stability.
+SQL practice 5: Store money as integer cents or numeric — not float.
+SQL practice 6: TZ: timestamptz in DB; convert at edges.
+SQL practice 7: Partial unique index example: CREATE UNIQUE INDEX ... WHERE deleted_at IS NULL.
+SQL practice 8: Avoid functions on indexed columns in WHERE that defeat indexes.
+SQL practice 9: Batch inserts with COPY or multi-VALUES thoughtfully.
+SQL practice 10: Read replicas for heavy reporting; not for strong write consistency.
+SQL practice 11: Covering indexes can avoid heap fetches for hot read paths.
+SQL practice 12: Vacuum/analyze health matters for planner accuracy.
+SQL practice 13: Use LIMIT in ad-hoc exploration; avoid SELECT * in production paths.
+SQL practice 14: Paginate with (created_at, id) cursors for stability.
+SQL practice 15: Store money as integer cents or numeric — not float.
+SQL practice 16: TZ: timestamptz in DB; convert at edges.
+SQL practice 17: Partial unique index example: CREATE UNIQUE INDEX ... WHERE deleted_at IS NULL.
+SQL practice 18: Avoid functions on indexed columns in WHERE that defeat indexes.
+SQL practice 19: Batch inserts with COPY or multi-VALUES thoughtfully.
+SQL practice 20: Read replicas for heavy reporting; not for strong write consistency.
+SQL practice 21: Covering indexes can avoid heap fetches for hot read paths.
+SQL practice 22: Vacuum/analyze health matters for planner accuracy.
+SQL practice 23: Use LIMIT in ad-hoc exploration; avoid SELECT * in production paths.
+SQL practice 24: Paginate with (created_at, id) cursors for stability.
+SQL practice 25: Store money as integer cents or numeric — not float.
+SQL practice 26: TZ: timestamptz in DB; convert at edges.
+SQL practice 27: Partial unique index example: CREATE UNIQUE INDEX ... WHERE deleted_at IS NULL.
+SQL practice 28: Avoid functions on indexed columns in WHERE that defeat indexes.
+SQL practice 29: Batch inserts with COPY or multi-VALUES thoughtfully.
+SQL practice 30: Read replicas for heavy reporting; not for strong write consistency.
+SQL practice 31: Covering indexes can avoid heap fetches for hot read paths.
+SQL practice 32: Vacuum/analyze health matters for planner accuracy.
+SQL practice 33: Use LIMIT in ad-hoc exploration; avoid SELECT * in production paths.
+SQL practice 34: Paginate with (created_at, id) cursors for stability.
+SQL practice 35: Store money as integer cents or numeric — not float.

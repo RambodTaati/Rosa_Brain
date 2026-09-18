@@ -1,0 +1,90 @@
+# CSS layout: flexbox and grid (original)
+
+Normal flow stacks block boxes vertically and lays inline content horizontally (subject to writing mode).
+Position: static (default), relative (offset without leaving flow entirely), absolute (positioned against nearest positioned ancestor), fixed (viewport), sticky (toggles between relative and fixed-like behavior).
+z-index only applies to positioned/flex/grid items with stacking contexts. New stacking contexts arise from opacity, transform, filter, etc.
+
+Flexbox — one-dimensional layout (row or column):
+.row { display: flex; gap: 1rem; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+flex-direction: row | column | row-reverse | column-reverse.
+justify-content main axis; align-items cross axis; align-content for multi-line flex containers.
+flex: 1 1 auto shorthand for grow shrink basis. flex: 1 often means grow equally.
+order changes visual order without changing DOM order — use carefully for accessibility (DOM order should still make sense).
+gap replaces most margin hacks between siblings.
+
+Grid — two-dimensional layout:
+.grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 1rem; }
+.span-6 { grid-column: span 6; }
+Named areas:
+.page {
+  display: grid;
+  grid-template-areas:
+    "nav nav"
+    "main side"
+    "foot foot";
+  grid-template-columns: 1fr 20rem;
+}
+.nav { grid-area: nav; }
+minmax(12rem, 1fr) builds responsive tracks without media queries.
+auto-fit / auto-fill with minmax create fluid card grids:
+grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+
+Centering: flex with place-items or justify/align center; grid with place-items: center.
+Holy grail / app shell: grid areas for nav, main, aside, footer scale better than nested floats (floats are legacy for layout).
+Container queries (@container) style children based on parent size — powerful for components.
+Aspect ratio: aspect-ratio: 16 / 9 on media boxes avoids padding-top hacks.
+Intrinsic sizing: min-content, max-content, fit-content() for tracks and widths.
+Overflow in flex: min-width: 0 on children often fixes stubborn overflow truncation issues.
+Practice: header with logo left and nav right using flex space-between.
+Practice: responsive card gallery with auto-fit minmax.
+Practice: dashboard with grid areas for sidebar and main.
+Q: Flex vs grid? A: Flex for one axis alignment; grid when rows and columns must align together.
+Q: What is gap? A: Space between flex/grid items without collapsing margin tricks.
+
+## Drill block css_layout_flex_grid-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_layout_flex_grid. Iteration 1.
+Q: What is gap? A: Space between flex/grid items without collapsing margin tricks.
+
+## Drill block css_layout_flex_grid-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_layout_flex_grid. Iteration 2.
+Q: Flex vs grid? A: Flex for one axis alignment; grid when rows and columns must align together.
+
+## Drill block css_layout_flex_grid-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_layout_flex_grid. Iteration 3.
+Q: What is gap? A: Space between flex/grid items without collapsing margin tricks.
+
+## Drill block css_layout_flex_grid-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_layout_flex_grid. Iteration 4.
+Q: Flex vs grid? A: Flex for one axis alignment; grid when rows and columns must align together.
+
+## Drill block css_layout_flex_grid-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_layout_flex_grid. Iteration 5.
+Q: What is gap? A: Space between flex/grid items without collapsing margin tricks.
+
+## Drill block css_layout_flex_grid-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_layout_flex_grid. Iteration 6.
+Q: Flex vs grid? A: Flex for one axis alignment; grid when rows and columns must align together.
+
+## Drill block css_layout_flex_grid-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_layout_flex_grid. Iteration 7.
+Q: What is gap? A: Space between flex/grid items without collapsing margin tricks.
+
+## Drill block css_layout_flex_grid-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_layout_flex_grid. Iteration 8.
+Q: Flex vs grid? A: Flex for one axis alignment; grid when rows and columns must align together.
+
+## Drill block css_layout_flex_grid-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_layout_flex_grid. Iteration 9.
+Q: What is gap? A: Space between flex/grid items without collapsing margin tricks.
+
+## Drill block css_layout_flex_grid-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_layout_flex_grid. Iteration 10.
+Q: Flex vs grid? A: Flex for one axis alignment; grid when rows and columns must align together.
+
+## Drill block css_layout_flex_grid-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_layout_flex_grid. Iteration 11.
+Q: What is gap? A: Space between flex/grid items without collapsing margin tricks.
+
+## Drill block css_layout_flex_grid-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: css_layout_flex_grid. Iteration 12.
+Q: Flex vs grid? A: Flex for one axis alignment; grid when rows and columns must align together.

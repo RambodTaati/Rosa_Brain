@@ -1,0 +1,87 @@
+# HTML forms and media (original)
+
+Forms collect user input and submit it to a server or handle it in JS.
+form method="post" action="/api/save" — use POST for state-changing requests; GET only for safe searches.
+
+Labels: every control needs an associated label.
+<label for="email">Email</label>
+<input id="email" name="email" type="email" required autocomplete="email">
+
+Common input types: text, email, password, number, tel, url, search, date, time, checkbox, radio, file, hidden, range, color.
+name attributes become keys in the submitted dataset. id is for labels and JS; name is for submission.
+placeholder is a hint, not a label — never replace a visible label with placeholder alone.
+required, minlength, maxlength, pattern, min, max provide browser-side checks; always re-validate on the server.
+fieldset and legend group related controls (e.g., shipping address).
+select with option (and optgroup) for dropdowns; multiple when needed.
+textarea rows/cols or CSS for multi-line text.
+button type="submit" vs type="button" vs type="reset". Prefer explicit type to avoid accidental submits.
+Disabled controls are not submitted. Readonly still submits.
+enctype="multipart/form-data" when uploading files.
+novalidate on form to skip browser validation when you fully own validation in JS (still validate server-side).
+autocomplete values improve UX and password managers (username, current-password, new-password, one-time-code).
+
+Defensive note: never trust client-side checks. Escape output when reflecting user text into HTML. Prefer parameterized APIs over building HTML strings from input.
+
+Media:
+<audio controls src="clip.mp3"></audio>
+<video controls width="640" poster="frame.jpg">
+  <source src="clip.mp4" type="video/mp4">
+  <track kind="captions" srclang="en" src="captions.vtt" label="English" default>
+  Fallback text if video cannot play.
+</video>
+
+Captions and transcripts improve accessibility. Provide multiple source formats only when needed for compatibility.
+picture and source media attributes enable art direction (different crops per viewport).
+img srcset and sizes for resolution switching without full picture markup.
+iframe: prefer embedding only trusted origins; use sandbox and allow attributes carefully.
+Object/embed are legacy for many cases; prefer video/audio/img/svg/iframe as appropriate.
+
+File input: accept="image/*" is a hint, not security. Check MIME and magic bytes on the server; store uploads outside the web root when possible; serve with safe Content-Type.
+
+Practice: build a signup form with email, password, password confirm, terms checkbox, and submit. Wire labels correctly.
+Practice: build a contact form with name, message textarea, and honeypot field hidden visually but present for bots (server ignores if filled).
+Practice: add a video with captions track and a transcript paragraph below.
+
+Q: Why associate label with input? A: Clicking the label focuses the control and screen readers announce the name.
+Q: Does required replace server validation? A: No. Browser checks help UX; server validation is mandatory.
+Q: When use multipart/form-data? A: When the form includes file uploads.
+
+## Drill block html_forms_media-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_forms_media. Iteration 1.
+Q: Does required replace server validation? A: No. Browser checks help UX; server validation is mandatory.
+
+## Drill block html_forms_media-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_forms_media. Iteration 2.
+Q: When use multipart/form-data? A: When the form includes file uploads.
+
+## Drill block html_forms_media-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_forms_media. Iteration 3.
+Q: Why associate label with input? A: Clicking the label focuses the control and screen readers announce the name.
+
+## Drill block html_forms_media-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_forms_media. Iteration 4.
+Q: Does required replace server validation? A: No. Browser checks help UX; server validation is mandatory.
+
+## Drill block html_forms_media-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_forms_media. Iteration 5.
+Q: When use multipart/form-data? A: When the form includes file uploads.
+
+## Drill block html_forms_media-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_forms_media. Iteration 6.
+Q: Why associate label with input? A: Clicking the label focuses the control and screen readers announce the name.
+
+## Drill block html_forms_media-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_forms_media. Iteration 7.
+Q: Does required replace server validation? A: No. Browser checks help UX; server validation is mandatory.
+
+## Drill block html_forms_media-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_forms_media. Iteration 8.
+Q: When use multipart/form-data? A: When the form includes file uploads.
+
+## Drill block html_forms_media-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_forms_media. Iteration 9.
+Q: Why associate label with input? A: Clicking the label focuses the control and screen readers announce the name.
+
+## Drill block html_forms_media-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: html_forms_media. Iteration 10.
+Q: Does required replace server validation? A: No. Browser checks help UX; server validation is mandatory.

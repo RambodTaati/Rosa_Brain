@@ -1,0 +1,79 @@
+# TypeScript for web apps (original)
+
+TypeScript adds static types that erase to JavaScript at compile time. Browsers run the emitted JS (or use a bundler).
+Basic types: string, number, boolean, null, undefined, void, never, unknown, any (avoid any in new code).
+Annotations: function add(a: number, b: number): number { return a + b; }
+Interfaces and type aliases:
+interface User { id: string; email: string; role?: "admin" | "user"; }
+type Id = string | number;
+Union and intersection: A | B, A & B. Narrow with typeof, in, discriminants (kind: "ok").
+Generics: function first<T>(items: T[]): T | undefined { return items[0]; }
+Arrays: string[] or Array<string>. Tuples: [string, number].
+Enums exist but many style guides prefer union string literals for simpler emit.
+Strict mode options: strictNullChecks, noImplicitAny — turn on for real safety.
+unknown vs any: unknown forces narrowing before use; any disables checking.
+DOM types: HTMLElement, HTMLInputElement — cast after checks: if (el instanceof HTMLInputElement) el.value.
+Modules: same ESM syntax as JS. declare module for untyped packages (prefer @types packages).
+Utility types: Partial, Required, Pick, Omit, Record, Readonly, ReturnType, Parameters.
+as const for literal inference. satisfies operator checks without widening poorly.
+Generics constraints: function label<T extends { name: string }>(x: T) { return x.name; }
+Never for exhaustiveness: in switch default assert never(x).
+React note (preview): FC types optional; prefer typing props objects. Detailed React in react.txt.
+tsconfig: "strict": true, "module": "ESNext", "moduleResolution": "bundler" (modern), "jsx": "react-jsx" when using React.
+Migration: allowJs, checkJs, gradual typing. Do not silence errors with large any casts.
+Practice: type a FormData parser that returns a Result union { ok: true; data: T } | { ok: false; error: string }.
+Practice: narrow event.target safely when listening on a form.
+Q: What happens to types at runtime? A: They are erased; runtime checks still need your code or libraries.
+Q: unknown vs any? A: unknown is type-safe until narrowed; any opts out of the type system.
+
+## Drill block typescript-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: typescript. Iteration 1.
+Q: unknown vs any? A: unknown is type-safe until narrowed; any opts out of the type system.
+
+## Drill block typescript-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: typescript. Iteration 2.
+Q: What happens to types at runtime? A: They are erased; runtime checks still need your code or libraries.
+
+## Drill block typescript-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: typescript. Iteration 3.
+Q: unknown vs any? A: unknown is type-safe until narrowed; any opts out of the type system.
+
+## Drill block typescript-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: typescript. Iteration 4.
+Q: What happens to types at runtime? A: They are erased; runtime checks still need your code or libraries.
+
+## Drill block typescript-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: typescript. Iteration 5.
+Q: unknown vs any? A: unknown is type-safe until narrowed; any opts out of the type system.
+
+## Drill block typescript-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: typescript. Iteration 6.
+Q: What happens to types at runtime? A: They are erased; runtime checks still need your code or libraries.
+
+## Drill block typescript-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: typescript. Iteration 7.
+Q: unknown vs any? A: unknown is type-safe until narrowed; any opts out of the type system.
+
+## Drill block typescript-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: typescript. Iteration 8.
+Q: What happens to types at runtime? A: They are erased; runtime checks still need your code or libraries.
+
+## Drill block typescript-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: typescript. Iteration 9.
+Q: unknown vs any? A: unknown is type-safe until narrowed; any opts out of the type system.
+
+## Drill block typescript-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: typescript. Iteration 10.
+Q: What happens to types at runtime? A: They are erased; runtime checks still need your code or libraries.
+
+## Drill block typescript-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: typescript. Iteration 11.
+Q: unknown vs any? A: unknown is type-safe until narrowed; any opts out of the type system.
+
+## Drill block typescript-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: typescript. Iteration 12.
+Q: What happens to types at runtime? A: They are erased; runtime checks still need your code or libraries.
+
+## Drill block typescript-13
+Review point 13: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: typescript. Iteration 13.
+Q: unknown vs any? A: unknown is type-safe until narrowed; any opts out of the type system.

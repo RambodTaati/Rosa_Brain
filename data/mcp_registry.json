@@ -1,0 +1,190 @@
+{
+  "servers": [
+    {
+      "name": "filesystem",
+      "description": "Official MCP reference: secure filesystem tools (free, local via npx).",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "D:\\Rosa_Brain\\workspace"
+      ],
+      "url": "",
+      "env_keys": [],
+      "enabled": true,
+      "ready": true,
+      "prepared_at": 1789686213.4402728,
+      "updated_at": 1789686213.4402728,
+      "source": "https://github.com/modelcontextprotocol/servers",
+      "id": "a855b6b4-1c98-40d3-8fd4-8b22ddc7c514",
+      "created_at": 1789686213.4402728
+    },
+    {
+      "name": "memory",
+      "description": "Official MCP reference: knowledge-graph memory (free, local via npx).",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "url": "",
+      "env_keys": [],
+      "enabled": true,
+      "ready": true,
+      "prepared_at": 1789686213.4402728,
+      "updated_at": 1789686213.4402728,
+      "source": "https://github.com/modelcontextprotocol/servers",
+      "id": "b2f4bbb6-06fc-4aa3-8de1-cf5d3edde713",
+      "created_at": 1789686213.4402728
+    },
+    {
+      "name": "fetch",
+      "description": "Official MCP reference: fetch web content for LLM use (free, local via npx).",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-fetch"
+      ],
+      "url": "",
+      "env_keys": [],
+      "enabled": true,
+      "ready": true,
+      "prepared_at": 1789686213.4402728,
+      "updated_at": 1789686213.4402728,
+      "source": "https://github.com/modelcontextprotocol/servers",
+      "id": "637a6de1-af66-474b-9583-74671947895e",
+      "created_at": 1789686213.4402728
+    },
+    {
+      "name": "sequential-thinking",
+      "description": "Official MCP reference: sequential thinking / reflective problem solving (free).",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "url": "",
+      "env_keys": [],
+      "enabled": true,
+      "ready": true,
+      "prepared_at": 1789686213.4402728,
+      "updated_at": 1789686213.4402728,
+      "source": "https://github.com/modelcontextprotocol/servers",
+      "id": "27cce456-1548-4305-a3c4-53177f1b6b73",
+      "created_at": 1789686213.4402728
+    },
+    {
+      "name": "time",
+      "description": "Official MCP reference: time and timezone tools (free).",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-time"
+      ],
+      "url": "",
+      "env_keys": [],
+      "enabled": true,
+      "ready": true,
+      "prepared_at": 1789686213.4402728,
+      "updated_at": 1789686213.4402728,
+      "source": "https://github.com/modelcontextprotocol/servers",
+      "id": "7d0842ff-1c5d-4ba3-912c-0065acb3e4f0",
+      "created_at": 1789686213.4402728
+    },
+    {
+      "name": "git",
+      "description": "Official MCP Git tools via uvx mcp-server-git (free). Requires uv/uvx.",
+      "transport": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-server-git",
+        "--repository",
+        "D:\\Rosa_Brain"
+      ],
+      "url": "",
+      "env_keys": [],
+      "enabled": true,
+      "ready": true,
+      "prepared_at": 1789686213.4402728,
+      "updated_at": 1789686213.4402728,
+      "source": "https://github.com/modelcontextprotocol/servers",
+      "id": "faafb7a3-d783-494f-968a-91e2fbaaf2bf",
+      "created_at": 1789686213.4402728
+    },
+    {
+      "name": "context7",
+      "description": "Up-to-date library docs MCP (free via npx @upstash/context7-mcp).",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "url": "",
+      "env_keys": [],
+      "enabled": true,
+      "ready": true,
+      "prepared_at": 1789686213.4402728,
+      "updated_at": 1789686213.4402728,
+      "source": "https://github.com/upstash/context7",
+      "id": "bef7dccf-8a14-4772-8e01-4c490979cfdc",
+      "created_at": 1789686213.4402728
+    },
+    {
+      "name": "playwright",
+      "description": "Browser automation MCP (free via npx @playwright/mcp).",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest"
+      ],
+      "url": "",
+      "env_keys": [],
+      "enabled": true,
+      "ready": true,
+      "prepared_at": 1789686213.4402728,
+      "updated_at": 1789686213.4402728,
+      "source": "https://github.com/microsoft/playwright-mcp",
+      "id": "90e4b097-3521-48ad-87ae-658d8b758003",
+      "created_at": 1789686213.4402728
+    },
+    {
+      "name": "gitmcp-docs",
+      "description": "GitMCP free remote docs hub for any public GitHub repo (no install). Example: docs mode.",
+      "transport": "http",
+      "command": "",
+      "args": [],
+      "url": "https://gitmcp.io/docs",
+      "env_keys": [],
+      "enabled": true,
+      "ready": true,
+      "prepared_at": 1789686213.4402728,
+      "updated_at": 1789686213.4402728,
+      "source": "https://github.com/idosal/git-mcp",
+      "id": "d1f0b3d5-6ec3-4743-ad65-e290f0105626",
+      "created_at": 1789686213.4402728
+    },
+    {
+      "name": "github-official-remote",
+      "description": "Official GitHub hosted MCP (free protocol; needs OAuth/token to use). Register only — do not store secrets here.",
+      "transport": "http",
+      "command": "",
+      "args": [],
+      "url": "https://api.githubcopilot.com/mcp",
+      "env_keys": [],
+      "enabled": true,
+      "ready": true,
+      "prepared_at": 1789686213.4402728,
+      "updated_at": 1789686213.4402728,
+      "source": "https://github.com/github/github-mcp-server",
+      "id": "c38ec94b-b125-4154-9db5-a16b30a7706d",
+      "created_at": 1789686213.4402728
+    }
+  ]
+}

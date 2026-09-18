@@ -1,0 +1,165 @@
+# -*- coding: utf-8 -*-
+from pathlib import Path
+import re
+
+p = Path(r"D:\Rosa_Brain\rosa_brain\api.py")
+text = p.read_text(encoding="utf-8")
+
+root_fn = r'''
+@app.get("/", response_class=HTMLResponse)
+def root() -> HTMLResponse:
+    learn = get_learning_status()
+    st = get_status()
+    status = "ok" if st.ok else "degraded"
+    phase = learn.get("phase_label") or learn.get("phase")
+    focus = learn.get("current_focus_files") or []
+    focus_html = "".join(f"<li><code>{f}</code></li>" for f in focus[:12]) or "<li>(فایلی برای فاز فعلی نیست)</li>"
+    hist = learn.get("recent_history") or []
+    hist_rows = ""
+    for h in reversed(hist[-8:]):
+        hist_rows += (
+            "<tr>"
+            f"<td>{h.get('phase','')}</td>"
+            f"<td>{h.get('phase_steps', h.get('train_steps_total',''))}</td>"
+            f"<td>{(h.get('recent_avg_loss') or h.get('chunk_loss') or h.get('avg_loss') or '')}</td>"
+            f"<td>{h.get('device','')}</td>"
+            "</tr>"
+        )
+    if not hist_rows:
+        hist_rows = "<tr><td colspan=4>هنوز تاریخچه نیست</td></tr>"
+
+    prog = learn.get("progress") or {}
+    overall = prog.get("overall_percent", 0)
+    en = prog.get("english") or {}
+    fa = prog.get("persian") or {}
+
+    def bar(pct, label, detail):
+        pct = float(pct or 0)
+        return f'''
+        <div class="bar-block">
+          <div class="bar-label"><span>{label}</span><span><b>{pct:.1f}%</b></span></div>
+          <div class="bar"><div class="bar-fill" style="width:{pct:.1f}%"></div></div>
+          <div class="muted">{detail}</div>
+        </div>'''
+
+    en_detail = f"steps {en.get('steps_done',0)}/{en.get('min_steps','—')} · loss→{en.get('target_loss','—')} · now {learn.get('recent_avg_loss') if learn.get('phase')=='english' else ('done' if en.get('completed') else '—')}"
+    fa_detail = f"steps {fa.get('steps_done',0)}/{fa.get('min_steps','—')} · loss→{fa.get('target_loss','—')} · now {learn.get('recent_avg_loss') if learn.get('phase')=='persian' else ('done' if fa.get('completed') else 'waiting')}"
+    bars = (
+        bar(overall, "پیشرفت کل مسیر (انگلیسی → فارسی)", "وزن: ۶۰٪ انگلیسی + ۴۰٪ فارسی")
+        + bar(en.get("combined_percent"), "انگلیسی", en_detail)
+        + bar(fa.get("combined_percent"), "فارسی", fa_detail)
+    )
+
+    en_n = len((learn.get("corpus") or {}).get("english") or [])
+    fa_n = len((learn.get("corpus") or {}).get("persian") or [])
+    method = learn.get("method") or {}
+
+    html = f"""<!doctype html>
+<html lang=\"fa\" dir=\"rtl\">
+<head>
+  <meta charset=\"utf-8\" />
+  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
+  <meta http-equiv=\"refresh\" content=\"5\" />
+  <title>Rosa_Brain Learning</title>
+  <style>
+    body {{ font-family: Tahoma, \"Segoe UI\", sans-serif; margin: 1.5rem; background:#0b1020; color:#e8eefc; }}
+    a {{ color:#8ec5ff; }}
+    code {{ background:#151b2f; padding:.15rem .35rem; border-radius:6px; direction:ltr; unicode-bidi:embed; }}
+    .grid {{ display:grid; gap:1rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }}
+    .card {{ background:#121829; border:1px solid #243049; border-radius:14px; padding:1rem 1.2rem; }}
+    h1,h2 {{ margin-top:0; }}
+    table {{ width:100%; border-collapse: collapse; direction:ltr; }}
+    th, td {{ border-bottom:1px solid #243049; padding:.35rem .4rem; text-align:left; font-size:0.92rem; }}
+    .ok {{ color:#7dffa0; }}
+    .muted {{ color:#9fb0d0; font-size:0.88rem; }}
+    .bar-block {{ margin: .85rem 0; }}
+    .bar-label {{ display:flex; justify-content:space-between; margin-bottom:.35rem; }}
+    .bar {{ height:14px; background:#1a2238; border-radius:999px; overflow:hidden; border:1px solid #2a3657; direction:ltr; }}
+    .bar-fill {{ height:100%; background:linear-gradient(90deg,#3d7eff,#7dffa0); border-radius:999px; transition:width .4s ease; }}
+    .big {{ font-size:1.8rem; margin:0.2rem 0 0.6rem; }}
+  </style>
+</head>
+<body>
+  <div class=\"card\">
+    <h1>Rosa_Brain — داشبورد یادگیری</h1>
+    <p class=\"muted\">نسخه {__version__} | سیستم: <span class=\"ok\">{status}</span> | دستگاه: <b>{st.recommended_device}</b> | رفرش هر ۵ ثانیه</p>
+    <p class=\"big\">پیشرفت کل: <b>{float(overall or 0):.1f}%</b></p>
+    {bars}
+  </div>
+
+  <div class=\"grid\" style=\"margin-top:1rem\">
+    <div class=\"card\">
+      <h2>الان چه یاد می‌گیرد؟</h2>
+      <p><b>فاز:</b> {phase}</p>
+      <p><b>قدم‌های این فاز:</b> {learn.get('phase_steps', 0)}</p>
+      <p><b>قدم‌های کل:</b> {learn.get('total_steps') or '—'}</p>
+      <p><b>Loss اخیر:</b> {learn.get('recent_avg_loss') or learn.get('last_chunk_loss') or '—'}</p>
+      <p><b>دستگاه آموزش:</b> {learn.get('device') or st.recommended_device}</p>
+      <p><b>چک‌پوینت:</b> <code>{learn.get('checkpoint')}</code></p>
+      <h3>فایل‌های فاز فعلی</h3>
+      <ul>{focus_html}</ul>
+      <p class=\"muted\">کورپوس: انگلیسی {en_n} فایل | فارسی {fa_n} فایل</p>
+    </div>
+    <div class=\"card\">
+      <h2>چطور یاد می‌گیرد؟</h2>
+      <ul>
+        <li>شبکه ازصفر PyTorch، بدون مدل آماده</li>
+        <li>واحد: بایت/کاراکتر | هدف: next-byte loss</li>
+        <li>حلقه: کورپوس ← آموزش تکه‌ای ← ذخیره وزن ← وضعیت</li>
+        <li>ترتیب: انگلیسی کامل، بعد فارسی</li>
+      </ul>
+      <p class=\"muted\">{method.get('engine')}</p>
+      <p>
+        <a href=\"/v1/learning\">JSON یادگیری</a> ·
+        <a href=\"/health\">/health</a> ·
+        <a href=\"/docs\">/docs</a>
+      </p>
+    </div>
+  </div>
+
+  <div class=\"card\" style=\"margin-top:1rem\">
+    <h2>پیشرفت تازه</h2>
+    <table>
+      <thead><tr><th>phase</th><th>steps</th><th>loss</th><th>device</th></tr></thead>
+      <tbody>{hist_rows}</tbody>
+    </table>
+  </div>
+</body>
+</html>"""
+    return HTMLResponse(content=html, media_type="text/html; charset=utf-8")
+
+
+@app.get("/v1/learning")
+def learning() -> dict:
+    return get_learning_status()
+
+
+'''
+
+pattern = re.compile(r'@app\.get\("/"[\s\S]*?(?=@app\.get\("/health"\))')
+if not pattern.search(text):
+    raise SystemExit('root block not found')
+text = pattern.sub(root_fn, text, count=1)
+p.write_text(text, encoding='utf-8')
+import ast
+ast.parse(text)
+print('patched')
+
+# restart server
+import subprocess, time, urllib.request, json, os
+os.environ['ROSA_BRAIN_ROOT'] = r'D:\Rosa_Brain'
+out = subprocess.check_output('netstat -ano', shell=True, text=True, errors='ignore')
+for line in out.splitlines():
+    if ':8765' in line and 'LISTENING' in line:
+        pid = line.split()[-1]
+        subprocess.run(f'taskkill /F /PID {pid}', shell=True, capture_output=True)
+        print('killed', pid)
+time.sleep(1)
+subprocess.Popen([r'D:\Rosa_Brain\.venv\Scripts\python.exe', '-m', 'rosa_brain'], cwd=r'D:\Rosa_Brain', env={**os.environ})
+time.sleep(3)
+j = json.loads(urllib.request.urlopen('http://127.0.0.1:8765/v1/learning').read().decode('utf-8'))
+print('overall', j['progress']['overall_percent'])
+print('en', j['progress']['english']['combined_percent'], 'fa', j['progress']['persian']['combined_percent'])
+b = urllib.request.urlopen('http://127.0.0.1:8765/').read().decode('utf-8')
+print('has_progress_ui', 'پیشرفت کل' in b and 'bar-fill' in b)

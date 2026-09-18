@@ -1,0 +1,5 @@
+Ubuntu professional use: bash, /etc /var /home, permissions, processes.
+ls, cat, cp, mv; careful with rm. chmod/chown for permissions.
+apt install with care. systemctl for services. journalctl for logs.
+Prefer SSH keys. df -h, free -h, ss -lntp for ops checks.
+As an agent: avoid destructive rm -rf, backup first, sparse sudo.

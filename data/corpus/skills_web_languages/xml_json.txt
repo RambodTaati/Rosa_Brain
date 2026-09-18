@@ -1,0 +1,75 @@
+# XML and JSON (original)
+
+JSON is the common data format for web APIs. XML remains in enterprise feeds, documents, and configs.
+JSON types: object, array, string, number, boolean, null. No comments in standard JSON.
+{"id": 1, "tags": ["a", "b"], "active": true}
+Parse in JS: JSON.parse(text). Serialize: JSON.stringify(obj). Pretty: JSON.stringify(obj, null, 2).
+Trailing commas are invalid in JSON. Keys must be double-quoted strings.
+XML: tree of elements, attributes, text nodes. Declaration <?xml version="1.0" encoding="UTF-8"?>
+<note id="1"><to>Ada</to><body>Hello</body></note>
+Well-formed vs valid: well-formed follows XML syntax; valid also matches a schema (XSD/DTD).
+Namespaces avoid element name clashes. CDATA wraps raw text blocks carefully.
+XPath selects nodes in XML documents (tooling dependent).
+When to choose JSON: APIs, configs for JS/Python, simplicity. When XML: document-centric data, existing SOAP/enterprise systems, mixed content publishing.
+Security: XML external entities (XXE) can be dangerous — disable external entity resolution in parsers. For JSON, beware prototype pollution when merging objects unsafely in JS; validate shapes.
+Content-Type: application/json and application/xml (or text/xml) — set correctly on responses.
+Practice: convert a small XML note into equivalent JSON mentally and on paper.
+Practice: detect invalid JSON (trailing comma) and fix it.
+Q: Can JSON contain comments? A: Not in standard JSON; use JSONC only if your tooling explicitly supports it.
+Q: What is XXE? A: An XML parser attack via external entities — disable external entities when parsing untrusted XML.
+
+## Drill block xml_json-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: xml_json. Iteration 1.
+Q: What is XXE? A: An XML parser attack via external entities — disable external entities when parsing untrusted XML.
+
+## Drill block xml_json-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: xml_json. Iteration 2.
+Q: Can JSON contain comments? A: Not in standard JSON; use JSONC only if your tooling explicitly supports it.
+
+## Drill block xml_json-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: xml_json. Iteration 3.
+Q: What is XXE? A: An XML parser attack via external entities — disable external entities when parsing untrusted XML.
+
+## Drill block xml_json-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: xml_json. Iteration 4.
+Q: Can JSON contain comments? A: Not in standard JSON; use JSONC only if your tooling explicitly supports it.
+
+## Drill block xml_json-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: xml_json. Iteration 5.
+Q: What is XXE? A: An XML parser attack via external entities — disable external entities when parsing untrusted XML.
+
+## Drill block xml_json-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: xml_json. Iteration 6.
+Q: Can JSON contain comments? A: Not in standard JSON; use JSONC only if your tooling explicitly supports it.
+
+## Drill block xml_json-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: xml_json. Iteration 7.
+Q: What is XXE? A: An XML parser attack via external entities — disable external entities when parsing untrusted XML.
+
+## Drill block xml_json-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: xml_json. Iteration 8.
+Q: Can JSON contain comments? A: Not in standard JSON; use JSONC only if your tooling explicitly supports it.
+
+## Drill block xml_json-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: xml_json. Iteration 9.
+Q: What is XXE? A: An XML parser attack via external entities — disable external entities when parsing untrusted XML.
+
+## Drill block xml_json-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: xml_json. Iteration 10.
+Q: Can JSON contain comments? A: Not in standard JSON; use JSONC only if your tooling explicitly supports it.
+
+## Drill block xml_json-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: xml_json. Iteration 11.
+Q: What is XXE? A: An XML parser attack via external entities — disable external entities when parsing untrusted XML.
+
+## Drill block xml_json-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: xml_json. Iteration 12.
+Q: Can JSON contain comments? A: Not in standard JSON; use JSONC only if your tooling explicitly supports it.
+
+## Drill block xml_json-13
+Review point 13: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: xml_json. Iteration 13.
+Q: What is XXE? A: An XML parser attack via external entities — disable external entities when parsing untrusted XML.
+
+## Drill block xml_json-14
+Review point 14: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: xml_json. Iteration 14.
+Q: Can JSON contain comments? A: Not in standard JSON; use JSONC only if your tooling explicitly supports it.

@@ -1,0 +1,85 @@
+# Python for web-relevant work (original)
+
+Python often powers APIs, scripts, and tooling next to HTML/JS front ends.
+Functions: def greet(name: str) -> str: return f"Hello, {name}"
+Default args: use None sentinels for mutable defaults — never def f(x=[]).
+*args and **kwargs collect extras; prefer explicit keyword-only params after * when clarity matters.
+Closures and nested defs work; watch late-binding in loops (use default arg binding).
+OOP: class User: def __init__(self, email: str): self.email = email
+@dataclass for plain data. Properties with @property. Composition over deep inheritance.
+dunder methods: __repr__, __eq__, __hash__ carefully for value objects.
+Files: with open(path, "r", encoding="utf-8") as f: text = f.read()
+Pathlib: Path("data") / "file.json"; path.read_text(encoding="utf-8").
+JSON: json.loads / json.dumps; ensure_ascii=False for Persian text; indent=2 for readable files.
+Virtual environments isolate deps: python -m venv .venv; pip install from requirements or pyproject.
+HTTP server frameworks (conceptual): parse request, validate input, call services, return JSON with correct status codes.
+Example tiny handler sketch (teaching only):
+def handle_create(body: dict) -> tuple[int, dict]:
+    title = body.get("title")
+    if not isinstance(title, str) or not title.strip():
+        return 400, {"error": "title required"}
+    return 201, {"id": "new", "title": title.strip()}
+Exceptions: raise ValueError("..."); catch specific types at boundaries.
+Logging: logging.getLogger(__name__).exception("failed") in except blocks.
+Typing: list[str], dict[str, int], | None; TypedDict for JSON shapes.
+Comprehensions: [x.strip() for x in lines if x.strip()]
+Generators for streaming large files.
+Packaging note: keep web entrypoints thin; business logic importable without starting a server.
+Defensive: parameterized SQL via DB-API placeholders; never format user input into SQL strings.
+Secrets from environment variables, not source files.
+Practice: read a JSON file of users, filter by active flag, write a new JSON summary.
+Practice: class Repository with in-memory list and methods add/get/list for a resource.
+Q: Why encoding="utf-8"? A: Explicit UTF-8 avoids platform default surprises, especially on Windows.
+Q: Why not f-string SQL? A: Injection risk; use bound parameters with the DB driver.
+
+## Drill block python_web-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: python_web. Iteration 1.
+Q: Why not f-string SQL? A: Injection risk; use bound parameters with the DB driver.
+
+## Drill block python_web-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: python_web. Iteration 2.
+Q: Why encoding="utf-8"? A: Explicit UTF-8 avoids platform default surprises, especially on Windows.
+
+## Drill block python_web-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: python_web. Iteration 3.
+Q: Why not f-string SQL? A: Injection risk; use bound parameters with the DB driver.
+
+## Drill block python_web-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: python_web. Iteration 4.
+Q: Why encoding="utf-8"? A: Explicit UTF-8 avoids platform default surprises, especially on Windows.
+
+## Drill block python_web-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: python_web. Iteration 5.
+Q: Why not f-string SQL? A: Injection risk; use bound parameters with the DB driver.
+
+## Drill block python_web-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: python_web. Iteration 6.
+Q: Why encoding="utf-8"? A: Explicit UTF-8 avoids platform default surprises, especially on Windows.
+
+## Drill block python_web-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: python_web. Iteration 7.
+Q: Why not f-string SQL? A: Injection risk; use bound parameters with the DB driver.
+
+## Drill block python_web-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: python_web. Iteration 8.
+Q: Why encoding="utf-8"? A: Explicit UTF-8 avoids platform default surprises, especially on Windows.
+
+## Drill block python_web-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: python_web. Iteration 9.
+Q: Why not f-string SQL? A: Injection risk; use bound parameters with the DB driver.
+
+## Drill block python_web-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: python_web. Iteration 10.
+Q: Why encoding="utf-8"? A: Explicit UTF-8 avoids platform default surprises, especially on Windows.
+
+## Drill block python_web-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: python_web. Iteration 11.
+Q: Why not f-string SQL? A: Injection risk; use bound parameters with the DB driver.
+
+## Drill block python_web-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: python_web. Iteration 12.
+Q: Why encoding="utf-8"? A: Explicit UTF-8 avoids platform default surprises, especially on Windows.
+
+## Drill block python_web-13
+Review point 13: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: python_web. Iteration 13.
+Q: Why not f-string SQL? A: Injection risk; use bound parameters with the DB driver.

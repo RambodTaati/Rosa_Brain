@@ -1,0 +1,49 @@
+Text: The cat is on the sofa.
+Question: Where is the cat?
+Answer: On the sofa.
+Meaning: The answer comes from the text.
+
+Text: Rosa trains the brain every evening.
+Question: When does Rosa train the brain?
+Answer: Every evening.
+Meaning: The answer comes from the text.
+
+Text: English is learned before Persian in this curriculum.
+Question: Which language comes first?
+Answer: English.
+Meaning: The answer comes from the text.
+
+Text: A question asks for information.
+Question: What does a question do?
+Answer: It asks for information.
+Meaning: The answer comes from the text.
+
+Text: Understanding means grasping the intended meaning.
+Question: What is understanding?
+Answer: Grasping the intended meaning.
+Meaning: The answer comes from the text.
+
+Text: Conversation uses everyday spoken language.
+Question: What is conversation?
+Answer: Everyday spoken language between people.
+Meaning: The answer comes from the text.
+
+Text: If someone says they are starving, they are very hungry.
+Question: What does starving mean here?
+Answer: Very hungry.
+Meaning: The answer comes from the text.
+
+Text: Break a leg means good luck, not real injury.
+Question: What does break a leg mean?
+Answer: Good luck.
+Meaning: The answer comes from the text.
+
+Text: The store is closed, so we cannot buy milk now.
+Question: Can we buy milk now?
+Answer: No.
+Meaning: The answer comes from the text.
+
+Text: She left because she was tired.
+Question: Why did she leave?
+Answer: Because she was tired.
+Meaning: The answer comes from the text.

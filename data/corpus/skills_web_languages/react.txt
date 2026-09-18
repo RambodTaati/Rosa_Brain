@@ -1,0 +1,79 @@
+# React essentials (original)
+
+React builds UIs from components — functions that return element trees (JSX).
+function Hello({ name }) { return <h1>Hello, {name}</h1>; }
+JSX expressions go in {curly braces}. className instead of class. for -> htmlFor on labels.
+Props are read-only inputs. State holds local data that changes over time.
+import { useState, useEffect } from "react";
+const [count, setCount] = useState(0);
+setCount(c => c + 1) when next value depends on previous.
+useEffect(() => { document.title = String(count); }, [count]); cleanup functions return from effects for subscriptions.
+Lists need stable keys: items.map(item => <li key={item.id}>{item.label}</li>).
+Conditional render: {isOpen && <Panel />} or ternary.
+Controlled inputs: value={text} onChange={e => setText(e.target.value)}.
+Events: onClick, onSubmit — handlers receive synthetic events; call preventDefault on forms when handling in JS.
+Lifting state up: share state in the closest common parent. For distant sharing, consider context carefully (not a global dump).
+memo/useMemo/useCallback are performance tools — measure before sprinkling them everywhere.
+Fetching: useEffect with abort or a data library; handle loading/error states.
+Routing and global data libraries are ecosystem choices (React Router, query libraries) — learn core first.
+Defensive: do not dangerouslySetInnerHTML with untrusted HTML. Escape URLs; validate external links.
+Practice: counter and a controlled text field that echoes length.
+Practice: fetch-on-mount list with loading and error text (abort on unmount).
+Q: Why keys in lists? A: Help React match children across renders; use stable ids, not array indexes when order changes.
+Q: Props vs state? A: Props come from parents; state is owned and updated by the component (or a store).
+
+## Drill block react-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: react. Iteration 1.
+Q: Props vs state? A: Props come from parents; state is owned and updated by the component (or a store).
+
+## Drill block react-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: react. Iteration 2.
+Q: Why keys in lists? A: Help React match children across renders; use stable ids, not array indexes when order changes.
+
+## Drill block react-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: react. Iteration 3.
+Q: Props vs state? A: Props come from parents; state is owned and updated by the component (or a store).
+
+## Drill block react-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: react. Iteration 4.
+Q: Why keys in lists? A: Help React match children across renders; use stable ids, not array indexes when order changes.
+
+## Drill block react-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: react. Iteration 5.
+Q: Props vs state? A: Props come from parents; state is owned and updated by the component (or a store).
+
+## Drill block react-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: react. Iteration 6.
+Q: Why keys in lists? A: Help React match children across renders; use stable ids, not array indexes when order changes.
+
+## Drill block react-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: react. Iteration 7.
+Q: Props vs state? A: Props come from parents; state is owned and updated by the component (or a store).
+
+## Drill block react-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: react. Iteration 8.
+Q: Why keys in lists? A: Help React match children across renders; use stable ids, not array indexes when order changes.
+
+## Drill block react-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: react. Iteration 9.
+Q: Props vs state? A: Props come from parents; state is owned and updated by the component (or a store).
+
+## Drill block react-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: react. Iteration 10.
+Q: Why keys in lists? A: Help React match children across renders; use stable ids, not array indexes when order changes.
+
+## Drill block react-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: react. Iteration 11.
+Q: Props vs state? A: Props come from parents; state is owned and updated by the component (or a store).
+
+## Drill block react-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: react. Iteration 12.
+Q: Why keys in lists? A: Help React match children across renders; use stable ids, not array indexes when order changes.
+
+## Drill block react-13
+Review point 13: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: react. Iteration 13.
+Q: Props vs state? A: Props come from parents; state is owned and updated by the component (or a store).
+
+## Drill block react-14
+Review point 14: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: react. Iteration 14.
+Q: Why keys in lists? A: Help React match children across renders; use stable ids, not array indexes when order changes.

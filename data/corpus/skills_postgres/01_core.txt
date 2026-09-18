@@ -1,0 +1,12 @@
+PostgreSQL is a relational database. Tables store rows and columns. Primary keys uniquely identify rows.
+CREATE TABLE users (id BIGSERIAL PRIMARY KEY, email TEXT UNIQUE NOT NULL, created_at TIMESTAMPTZ DEFAULT now());
+INSERT INTO users (email) VALUES ('rosa@example.com');
+SELECT id, email FROM users WHERE email LIKE '%@example.com' ORDER BY id LIMIT 50;
+UPDATE users SET email = 'new@example.com' WHERE id = 1;
+DELETE FROM users WHERE id = 1;
+Joins: SELECT u.email, o.total FROM users u JOIN orders o ON o.user_id = u.id;
+Indexes speed lookups: CREATE INDEX ON orders (user_id);
+Transactions: BEGIN; ... COMMIT; ROLLBACK undoes an open transaction.
+FOREIGN KEY protects relations. Roles and GRANT set least privilege.
+pg_dump is logical backup. EXPLAIN ANALYZE shows query plans.
+Use parameterized queries to avoid SQL injection. Prefer migrations for schema changes.

@@ -1,0 +1,10 @@
+Q: Where should session secrets live in a browser app? A: HttpOnly Secure cookies, not localStorage.
+Q: How do you prevent SQL injection defensively? A: Parameterized queries and server-side validation.
+Q: What is Vue 3 <script setup lang="ts"> for? A: Concise Composition API components with TypeScript.
+Q: Why cap pagination limits? A: Protect the database and API from huge unbounded reads.
+Q: What is reproduce-isolate-fix? A: Debugging loop that first reproduces, minimizes, then fixes with a test.
+Q: Name a migration-safe pattern. A: Expand-contract for zero-downtime schema changes.
+Q: What does least privilege mean for DB roles? A: Only the grants required for the app's queries.
+Q: Should Rosa_Brain learn exploits? A: No — defensive secure coding only.
+Q: What is an Idempotency-Key for? A: Safe retries of creating POSTs.
+Q: RTL-aware CSS prefers? A: Logical properties like margin-inline-start.

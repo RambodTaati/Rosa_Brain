@@ -1,0 +1,495 @@
+LABEL intent_greeting :: کاربر گفت: سلام
+LABEL intent_greeting :: برچسب بزن: سلام
+LABEL intent_greeting :: معنی را تشخیص بده: سلام
+LABEL intent_greeting :: معنی را تشخیص بده: سلام خوبی؟
+LABEL intent_greeting :: سلام خوبی؟
+LABEL intent_greeting :: برچسب بزن: سلام خوبی؟
+LABEL intent_greeting :: کاربر گفت: درود
+LABEL intent_greeting :: معنی را تشخیص بده: درود
+LABEL intent_greeting :: برچسب بزن: درود
+LABEL intent_greeting :: صبح بخیر
+LABEL intent_greeting :: کاربر گفت: صبح بخیر
+LABEL intent_greeting :: برچسب بزن: صبح بخیر
+LABEL intent_goodbye :: معنی را تشخیص بده: خداحافظ
+LABEL intent_goodbye :: کاربر گفت: خداحافظ
+LABEL intent_goodbye :: برچسب بزن: خداحافظ
+LABEL intent_goodbye :: کاربر گفت: فعلاً
+LABEL intent_goodbye :: معنی را تشخیص بده: فعلاً
+LABEL intent_goodbye :: برچسب بزن: فعلاً
+LABEL intent_goodbye :: بعداً می‌بینمت
+LABEL intent_goodbye :: برچسب بزن: بعداً می‌بینمت
+LABEL intent_goodbye :: کاربر گفت: بعداً می‌بینمت
+LABEL intent_thanks :: ممنون
+LABEL intent_thanks :: معنی را تشخیص بده: ممنون
+LABEL intent_thanks :: کاربر گفت: ممنون
+LABEL intent_thanks :: کاربر گفت: مرسی
+LABEL intent_thanks :: معنی را تشخیص بده: مرسی
+LABEL intent_thanks :: برچسب بزن: مرسی
+LABEL intent_thanks :: معنی را تشخیص بده: خیلی ممنون
+LABEL intent_thanks :: خیلی ممنون
+LABEL intent_thanks :: برچسب بزن: خیلی ممنون
+LABEL intent_thanks :: معنی را تشخیص بده: سپاس
+LABEL intent_thanks :: کاربر گفت: سپاس
+LABEL intent_thanks :: سپاس
+LABEL intent_question :: این چیست؟
+LABEL intent_question :: معنی را تشخیص بده: این چیست؟
+LABEL intent_question :: کاربر گفت: این چیست؟
+LABEL intent_question :: کاربر گفت: چرا کند است؟
+LABEL intent_question :: چرا کند است؟
+LABEL intent_question :: معنی را تشخیص بده: چرا کند است؟
+LABEL intent_question :: برچسب بزن: چرا کند است؟
+LABEL intent_question :: چطور کار می‌کند؟
+LABEL intent_question :: معنی را تشخیص بده: چطور کار می‌کند؟
+LABEL intent_question :: برچسب بزن: چطور کار می‌کند؟
+LABEL intent_question :: کاربر گفت: چطور کار می‌کند؟
+LABEL intent_question :: کی شروع می‌شود؟
+LABEL intent_question :: کاربر گفت: کی شروع می‌شود؟
+LABEL intent_question :: برچسب بزن: کی شروع می‌شود؟
+LABEL intent_request :: لطفا کمک کن
+LABEL intent_request :: برچسب بزن: لطفا کمک کن
+LABEL intent_request :: کاربر گفت: لطفا کمک کن
+LABEL intent_request :: معنی را تشخیص بده: لطفا کمک کن
+LABEL intent_request :: لطفا توضیح بده
+LABEL intent_request :: معنی را تشخیص بده: لطفا توضیح بده
+LABEL intent_request :: کاربر گفت: لطفا توضیح بده
+LABEL intent_request :: می‌تونی کمکم کنی؟
+LABEL intent_request :: کاربر گفت: می‌تونی کمکم کنی؟
+LABEL intent_request :: معنی را تشخیص بده: می‌تونی کمکم کنی؟
+LABEL intent_statement :: معنی را تشخیص بده: گربه روی مبل است
+LABEL intent_statement :: گربه روی مبل است
+LABEL intent_statement :: برچسب بزن: گربه روی مبل است
+LABEL intent_statement :: کاربر گفت: گربه روی مبل است
+LABEL intent_statement :: کاربر گفت: امروز آموزش ادامه دارد
+LABEL intent_statement :: برچسب بزن: امروز آموزش ادامه دارد
+LABEL intent_statement :: امروز آموزش ادامه دارد
+LABEL sentiment_positive :: معنی را تشخیص بده: من خوشحالم
+LABEL sentiment_positive :: من خوشحالم
+LABEL sentiment_positive :: کاربر گفت: من خوشحالم
+LABEL sentiment_positive :: عالی بود
+LABEL sentiment_positive :: برچسب بزن: عالی بود
+LABEL sentiment_positive :: کاربر گفت: عالی بود
+LABEL sentiment_positive :: برچسب بزن: خیلی خوبه
+LABEL sentiment_positive :: خیلی خوبه
+LABEL sentiment_positive :: معنی را تشخیص بده: خیلی خوبه
+LABEL sentiment_negative :: من ناراحتم
+LABEL sentiment_negative :: کاربر گفت: من ناراحتم
+LABEL sentiment_negative :: معنی را تشخیص بده: من ناراحتم
+LABEL sentiment_negative :: امروز غمگینم
+LABEL sentiment_negative :: معنی را تشخیص بده: امروز غمگینم
+LABEL sentiment_negative :: کاربر گفت: امروز غمگینم
+LABEL sentiment_negative :: برچسب بزن: خیلی بد است
+LABEL sentiment_negative :: خیلی بد است
+LABEL sentiment_negative :: معنی را تشخیص بده: خیلی بد است
+LABEL sentiment_negative :: کاربر گفت: خیلی بد است
+LABEL sentiment_neutral :: امروز سه‌شنبه است
+LABEL sentiment_neutral :: معنی را تشخیص بده: امروز سه‌شنبه است
+LABEL sentiment_neutral :: برچسب بزن: امروز سه‌شنبه است
+LABEL sentiment_neutral :: فایل ده خط دارد
+LABEL sentiment_neutral :: معنی را تشخیص بده: فایل ده خط دارد
+LABEL sentiment_neutral :: برچسب بزن: فایل ده خط دارد
+LABEL topic_feelings :: احساس آرامش دارم
+LABEL topic_feelings :: معنی را تشخیص بده: احساس آرامش دارم
+LABEL topic_feelings :: کاربر گفت: احساس آرامش دارم
+LABEL topic_feelings :: برچسب بزن: احساس آرامش دارم
+LABEL topic_feelings :: نگرانم
+LABEL topic_feelings :: کاربر گفت: نگرانم
+LABEL topic_feelings :: معنی را تشخیص بده: نگرانم
+LABEL topic_feelings :: معنی را تشخیص بده: هیجان‌زده‌ام
+LABEL topic_feelings :: کاربر گفت: هیجان‌زده‌ام
+LABEL topic_feelings :: هیجان‌زده‌ام
+LABEL intent_greeting :: کاربر گفت: سلام
+LABEL intent_greeting :: برچسب بزن: سلام
+LABEL intent_greeting :: معنی را تشخیص بده: سلام
+LABEL intent_greeting :: معنی را تشخیص بده: سلام خوبی؟
+LABEL intent_greeting :: سلام خوبی؟
+LABEL intent_greeting :: برچسب بزن: سلام خوبی؟
+LABEL intent_greeting :: کاربر گفت: درود
+LABEL intent_greeting :: معنی را تشخیص بده: درود
+LABEL intent_greeting :: برچسب بزن: درود
+LABEL intent_greeting :: صبح بخیر
+LABEL intent_greeting :: کاربر گفت: صبح بخیر
+LABEL intent_greeting :: برچسب بزن: صبح بخیر
+LABEL intent_goodbye :: معنی را تشخیص بده: خداحافظ
+LABEL intent_goodbye :: کاربر گفت: خداحافظ
+LABEL intent_goodbye :: برچسب بزن: خداحافظ
+LABEL intent_goodbye :: کاربر گفت: فعلاً
+LABEL intent_goodbye :: معنی را تشخیص بده: فعلاً
+LABEL intent_goodbye :: برچسب بزن: فعلاً
+LABEL intent_goodbye :: بعداً می‌بینمت
+LABEL intent_goodbye :: برچسب بزن: بعداً می‌بینمت
+LABEL intent_goodbye :: کاربر گفت: بعداً می‌بینمت
+LABEL intent_thanks :: ممنون
+LABEL intent_thanks :: معنی را تشخیص بده: ممنون
+LABEL intent_thanks :: کاربر گفت: ممنون
+LABEL intent_thanks :: کاربر گفت: مرسی
+LABEL intent_thanks :: معنی را تشخیص بده: مرسی
+LABEL intent_thanks :: برچسب بزن: مرسی
+LABEL intent_thanks :: معنی را تشخیص بده: خیلی ممنون
+LABEL intent_thanks :: خیلی ممنون
+LABEL intent_thanks :: برچسب بزن: خیلی ممنون
+LABEL intent_thanks :: معنی را تشخیص بده: سپاس
+LABEL intent_thanks :: کاربر گفت: سپاس
+LABEL intent_thanks :: سپاس
+LABEL intent_question :: این چیست؟
+LABEL intent_question :: معنی را تشخیص بده: این چیست؟
+LABEL intent_question :: کاربر گفت: این چیست؟
+LABEL intent_question :: کاربر گفت: چرا کند است؟
+LABEL intent_question :: چرا کند است؟
+LABEL intent_question :: معنی را تشخیص بده: چرا کند است؟
+LABEL intent_question :: برچسب بزن: چرا کند است؟
+LABEL intent_question :: چطور کار می‌کند؟
+LABEL intent_question :: معنی را تشخیص بده: چطور کار می‌کند؟
+LABEL intent_question :: برچسب بزن: چطور کار می‌کند؟
+LABEL intent_question :: کاربر گفت: چطور کار می‌کند؟
+LABEL intent_question :: کی شروع می‌شود؟
+LABEL intent_question :: کاربر گفت: کی شروع می‌شود؟
+LABEL intent_question :: برچسب بزن: کی شروع می‌شود؟
+LABEL intent_request :: لطفا کمک کن
+LABEL intent_request :: برچسب بزن: لطفا کمک کن
+LABEL intent_request :: کاربر گفت: لطفا کمک کن
+LABEL intent_request :: معنی را تشخیص بده: لطفا کمک کن
+LABEL intent_request :: لطفا توضیح بده
+LABEL intent_request :: معنی را تشخیص بده: لطفا توضیح بده
+LABEL intent_request :: کاربر گفت: لطفا توضیح بده
+LABEL intent_request :: می‌تونی کمکم کنی؟
+LABEL intent_request :: کاربر گفت: می‌تونی کمکم کنی؟
+LABEL intent_request :: معنی را تشخیص بده: می‌تونی کمکم کنی؟
+LABEL intent_statement :: معنی را تشخیص بده: گربه روی مبل است
+LABEL intent_statement :: گربه روی مبل است
+LABEL intent_statement :: برچسب بزن: گربه روی مبل است
+LABEL intent_statement :: کاربر گفت: گربه روی مبل است
+LABEL intent_statement :: کاربر گفت: امروز آموزش ادامه دارد
+LABEL intent_statement :: برچسب بزن: امروز آموزش ادامه دارد
+LABEL intent_statement :: امروز آموزش ادامه دارد
+LABEL sentiment_positive :: معنی را تشخیص بده: من خوشحالم
+LABEL sentiment_positive :: من خوشحالم
+LABEL sentiment_positive :: کاربر گفت: من خوشحالم
+LABEL sentiment_positive :: عالی بود
+LABEL sentiment_positive :: برچسب بزن: عالی بود
+LABEL sentiment_positive :: کاربر گفت: عالی بود
+LABEL sentiment_positive :: برچسب بزن: خیلی خوبه
+LABEL sentiment_positive :: خیلی خوبه
+LABEL sentiment_positive :: معنی را تشخیص بده: خیلی خوبه
+LABEL sentiment_negative :: من ناراحتم
+LABEL sentiment_negative :: کاربر گفت: من ناراحتم
+LABEL sentiment_negative :: معنی را تشخیص بده: من ناراحتم
+LABEL sentiment_negative :: امروز غمگینم
+LABEL sentiment_negative :: معنی را تشخیص بده: امروز غمگینم
+LABEL sentiment_negative :: کاربر گفت: امروز غمگینم
+LABEL sentiment_negative :: برچسب بزن: خیلی بد است
+LABEL sentiment_negative :: خیلی بد است
+LABEL sentiment_negative :: معنی را تشخیص بده: خیلی بد است
+LABEL sentiment_negative :: کاربر گفت: خیلی بد است
+LABEL sentiment_neutral :: امروز سه‌شنبه است
+LABEL sentiment_neutral :: معنی را تشخیص بده: امروز سه‌شنبه است
+LABEL sentiment_neutral :: برچسب بزن: امروز سه‌شنبه است
+LABEL sentiment_neutral :: فایل ده خط دارد
+LABEL sentiment_neutral :: معنی را تشخیص بده: فایل ده خط دارد
+LABEL sentiment_neutral :: برچسب بزن: فایل ده خط دارد
+LABEL topic_feelings :: احساس آرامش دارم
+LABEL topic_feelings :: معنی را تشخیص بده: احساس آرامش دارم
+LABEL topic_feelings :: کاربر گفت: احساس آرامش دارم
+LABEL topic_feelings :: برچسب بزن: احساس آرامش دارم
+LABEL topic_feelings :: نگرانم
+LABEL topic_feelings :: کاربر گفت: نگرانم
+LABEL topic_feelings :: معنی را تشخیص بده: نگرانم
+LABEL topic_feelings :: معنی را تشخیص بده: هیجان‌زده‌ام
+LABEL topic_feelings :: کاربر گفت: هیجان‌زده‌ام
+LABEL topic_feelings :: هیجان‌زده‌ام
+LABEL intent_greeting :: کاربر گفت: سلام
+LABEL intent_greeting :: برچسب بزن: سلام
+LABEL intent_greeting :: معنی را تشخیص بده: سلام
+LABEL intent_greeting :: معنی را تشخیص بده: سلام خوبی؟
+LABEL intent_greeting :: سلام خوبی؟
+LABEL intent_greeting :: برچسب بزن: سلام خوبی؟
+LABEL intent_greeting :: کاربر گفت: درود
+LABEL intent_greeting :: معنی را تشخیص بده: درود
+LABEL intent_greeting :: برچسب بزن: درود
+LABEL intent_greeting :: صبح بخیر
+LABEL intent_greeting :: کاربر گفت: صبح بخیر
+LABEL intent_greeting :: برچسب بزن: صبح بخیر
+LABEL intent_goodbye :: معنی را تشخیص بده: خداحافظ
+LABEL intent_goodbye :: کاربر گفت: خداحافظ
+LABEL intent_goodbye :: برچسب بزن: خداحافظ
+LABEL intent_goodbye :: کاربر گفت: فعلاً
+LABEL intent_goodbye :: معنی را تشخیص بده: فعلاً
+LABEL intent_goodbye :: برچسب بزن: فعلاً
+LABEL intent_goodbye :: بعداً می‌بینمت
+LABEL intent_goodbye :: برچسب بزن: بعداً می‌بینمت
+LABEL intent_goodbye :: کاربر گفت: بعداً می‌بینمت
+LABEL intent_thanks :: ممنون
+LABEL intent_thanks :: معنی را تشخیص بده: ممنون
+LABEL intent_thanks :: کاربر گفت: ممنون
+LABEL intent_thanks :: کاربر گفت: مرسی
+LABEL intent_thanks :: معنی را تشخیص بده: مرسی
+LABEL intent_thanks :: برچسب بزن: مرسی
+LABEL intent_thanks :: معنی را تشخیص بده: خیلی ممنون
+LABEL intent_thanks :: خیلی ممنون
+LABEL intent_thanks :: برچسب بزن: خیلی ممنون
+LABEL intent_thanks :: معنی را تشخیص بده: سپاس
+LABEL intent_thanks :: کاربر گفت: سپاس
+LABEL intent_thanks :: سپاس
+LABEL intent_question :: این چیست؟
+LABEL intent_question :: معنی را تشخیص بده: این چیست؟
+LABEL intent_question :: کاربر گفت: این چیست؟
+LABEL intent_question :: کاربر گفت: چرا کند است؟
+LABEL intent_question :: چرا کند است؟
+LABEL intent_question :: معنی را تشخیص بده: چرا کند است؟
+LABEL intent_question :: برچسب بزن: چرا کند است؟
+LABEL intent_question :: چطور کار می‌کند؟
+LABEL intent_question :: معنی را تشخیص بده: چطور کار می‌کند؟
+LABEL intent_question :: برچسب بزن: چطور کار می‌کند؟
+LABEL intent_question :: کاربر گفت: چطور کار می‌کند؟
+LABEL intent_question :: کی شروع می‌شود؟
+LABEL intent_question :: کاربر گفت: کی شروع می‌شود؟
+LABEL intent_question :: برچسب بزن: کی شروع می‌شود؟
+LABEL intent_request :: لطفا کمک کن
+LABEL intent_request :: برچسب بزن: لطفا کمک کن
+LABEL intent_request :: کاربر گفت: لطفا کمک کن
+LABEL intent_request :: معنی را تشخیص بده: لطفا کمک کن
+LABEL intent_request :: لطفا توضیح بده
+LABEL intent_request :: معنی را تشخیص بده: لطفا توضیح بده
+LABEL intent_request :: کاربر گفت: لطفا توضیح بده
+LABEL intent_request :: می‌تونی کمکم کنی؟
+LABEL intent_request :: کاربر گفت: می‌تونی کمکم کنی؟
+LABEL intent_request :: معنی را تشخیص بده: می‌تونی کمکم کنی؟
+LABEL intent_statement :: معنی را تشخیص بده: گربه روی مبل است
+LABEL intent_statement :: گربه روی مبل است
+LABEL intent_statement :: برچسب بزن: گربه روی مبل است
+LABEL intent_statement :: کاربر گفت: گربه روی مبل است
+LABEL intent_statement :: کاربر گفت: امروز آموزش ادامه دارد
+LABEL intent_statement :: برچسب بزن: امروز آموزش ادامه دارد
+LABEL intent_statement :: امروز آموزش ادامه دارد
+LABEL sentiment_positive :: معنی را تشخیص بده: من خوشحالم
+LABEL sentiment_positive :: من خوشحالم
+LABEL sentiment_positive :: کاربر گفت: من خوشحالم
+LABEL sentiment_positive :: عالی بود
+LABEL sentiment_positive :: برچسب بزن: عالی بود
+LABEL sentiment_positive :: کاربر گفت: عالی بود
+LABEL sentiment_positive :: برچسب بزن: خیلی خوبه
+LABEL sentiment_positive :: خیلی خوبه
+LABEL sentiment_positive :: معنی را تشخیص بده: خیلی خوبه
+LABEL sentiment_negative :: من ناراحتم
+LABEL sentiment_negative :: کاربر گفت: من ناراحتم
+LABEL sentiment_negative :: معنی را تشخیص بده: من ناراحتم
+LABEL sentiment_negative :: امروز غمگینم
+LABEL sentiment_negative :: معنی را تشخیص بده: امروز غمگینم
+LABEL sentiment_negative :: کاربر گفت: امروز غمگینم
+LABEL sentiment_negative :: برچسب بزن: خیلی بد است
+LABEL sentiment_negative :: خیلی بد است
+LABEL sentiment_negative :: معنی را تشخیص بده: خیلی بد است
+LABEL sentiment_negative :: کاربر گفت: خیلی بد است
+LABEL sentiment_neutral :: امروز سه‌شنبه است
+LABEL sentiment_neutral :: معنی را تشخیص بده: امروز سه‌شنبه است
+LABEL sentiment_neutral :: برچسب بزن: امروز سه‌شنبه است
+LABEL sentiment_neutral :: فایل ده خط دارد
+LABEL sentiment_neutral :: معنی را تشخیص بده: فایل ده خط دارد
+LABEL sentiment_neutral :: برچسب بزن: فایل ده خط دارد
+LABEL topic_feelings :: احساس آرامش دارم
+LABEL topic_feelings :: معنی را تشخیص بده: احساس آرامش دارم
+LABEL topic_feelings :: کاربر گفت: احساس آرامش دارم
+LABEL topic_feelings :: برچسب بزن: احساس آرامش دارم
+LABEL topic_feelings :: نگرانم
+LABEL topic_feelings :: کاربر گفت: نگرانم
+LABEL topic_feelings :: معنی را تشخیص بده: نگرانم
+LABEL topic_feelings :: معنی را تشخیص بده: هیجان‌زده‌ام
+LABEL topic_feelings :: کاربر گفت: هیجان‌زده‌ام
+LABEL topic_feelings :: هیجان‌زده‌ام
+LABEL intent_greeting :: کاربر گفت: سلام
+LABEL intent_greeting :: برچسب بزن: سلام
+LABEL intent_greeting :: معنی را تشخیص بده: سلام
+LABEL intent_greeting :: معنی را تشخیص بده: سلام خوبی؟
+LABEL intent_greeting :: سلام خوبی؟
+LABEL intent_greeting :: برچسب بزن: سلام خوبی؟
+LABEL intent_greeting :: کاربر گفت: درود
+LABEL intent_greeting :: معنی را تشخیص بده: درود
+LABEL intent_greeting :: برچسب بزن: درود
+LABEL intent_greeting :: صبح بخیر
+LABEL intent_greeting :: کاربر گفت: صبح بخیر
+LABEL intent_greeting :: برچسب بزن: صبح بخیر
+LABEL intent_goodbye :: معنی را تشخیص بده: خداحافظ
+LABEL intent_goodbye :: کاربر گفت: خداحافظ
+LABEL intent_goodbye :: برچسب بزن: خداحافظ
+LABEL intent_goodbye :: کاربر گفت: فعلاً
+LABEL intent_goodbye :: معنی را تشخیص بده: فعلاً
+LABEL intent_goodbye :: برچسب بزن: فعلاً
+LABEL intent_goodbye :: بعداً می‌بینمت
+LABEL intent_goodbye :: برچسب بزن: بعداً می‌بینمت
+LABEL intent_goodbye :: کاربر گفت: بعداً می‌بینمت
+LABEL intent_thanks :: ممنون
+LABEL intent_thanks :: معنی را تشخیص بده: ممنون
+LABEL intent_thanks :: کاربر گفت: ممنون
+LABEL intent_thanks :: کاربر گفت: مرسی
+LABEL intent_thanks :: معنی را تشخیص بده: مرسی
+LABEL intent_thanks :: برچسب بزن: مرسی
+LABEL intent_thanks :: معنی را تشخیص بده: خیلی ممنون
+LABEL intent_thanks :: خیلی ممنون
+LABEL intent_thanks :: برچسب بزن: خیلی ممنون
+LABEL intent_thanks :: معنی را تشخیص بده: سپاس
+LABEL intent_thanks :: کاربر گفت: سپاس
+LABEL intent_thanks :: سپاس
+LABEL intent_question :: این چیست؟
+LABEL intent_question :: معنی را تشخیص بده: این چیست؟
+LABEL intent_question :: کاربر گفت: این چیست؟
+LABEL intent_question :: کاربر گفت: چرا کند است؟
+LABEL intent_question :: چرا کند است؟
+LABEL intent_question :: معنی را تشخیص بده: چرا کند است؟
+LABEL intent_question :: برچسب بزن: چرا کند است؟
+LABEL intent_question :: چطور کار می‌کند؟
+LABEL intent_question :: معنی را تشخیص بده: چطور کار می‌کند؟
+LABEL intent_question :: برچسب بزن: چطور کار می‌کند؟
+LABEL intent_question :: کاربر گفت: چطور کار می‌کند؟
+LABEL intent_question :: کی شروع می‌شود؟
+LABEL intent_question :: کاربر گفت: کی شروع می‌شود؟
+LABEL intent_question :: برچسب بزن: کی شروع می‌شود؟
+LABEL intent_request :: لطفا کمک کن
+LABEL intent_request :: برچسب بزن: لطفا کمک کن
+LABEL intent_request :: کاربر گفت: لطفا کمک کن
+LABEL intent_request :: معنی را تشخیص بده: لطفا کمک کن
+LABEL intent_request :: لطفا توضیح بده
+LABEL intent_request :: معنی را تشخیص بده: لطفا توضیح بده
+LABEL intent_request :: کاربر گفت: لطفا توضیح بده
+LABEL intent_request :: می‌تونی کمکم کنی؟
+LABEL intent_request :: کاربر گفت: می‌تونی کمکم کنی؟
+LABEL intent_request :: معنی را تشخیص بده: می‌تونی کمکم کنی؟
+LABEL intent_statement :: معنی را تشخیص بده: گربه روی مبل است
+LABEL intent_statement :: گربه روی مبل است
+LABEL intent_statement :: برچسب بزن: گربه روی مبل است
+LABEL intent_statement :: کاربر گفت: گربه روی مبل است
+LABEL intent_statement :: کاربر گفت: امروز آموزش ادامه دارد
+LABEL intent_statement :: برچسب بزن: امروز آموزش ادامه دارد
+LABEL intent_statement :: امروز آموزش ادامه دارد
+LABEL sentiment_positive :: معنی را تشخیص بده: من خوشحالم
+LABEL sentiment_positive :: من خوشحالم
+LABEL sentiment_positive :: کاربر گفت: من خوشحالم
+LABEL sentiment_positive :: عالی بود
+LABEL sentiment_positive :: برچسب بزن: عالی بود
+LABEL sentiment_positive :: کاربر گفت: عالی بود
+LABEL sentiment_positive :: برچسب بزن: خیلی خوبه
+LABEL sentiment_positive :: خیلی خوبه
+LABEL sentiment_positive :: معنی را تشخیص بده: خیلی خوبه
+LABEL sentiment_negative :: من ناراحتم
+LABEL sentiment_negative :: کاربر گفت: من ناراحتم
+LABEL sentiment_negative :: معنی را تشخیص بده: من ناراحتم
+LABEL sentiment_negative :: امروز غمگینم
+LABEL sentiment_negative :: معنی را تشخیص بده: امروز غمگینم
+LABEL sentiment_negative :: کاربر گفت: امروز غمگینم
+LABEL sentiment_negative :: برچسب بزن: خیلی بد است
+LABEL sentiment_negative :: خیلی بد است
+LABEL sentiment_negative :: معنی را تشخیص بده: خیلی بد است
+LABEL sentiment_negative :: کاربر گفت: خیلی بد است
+LABEL sentiment_neutral :: امروز سه‌شنبه است
+LABEL sentiment_neutral :: معنی را تشخیص بده: امروز سه‌شنبه است
+LABEL sentiment_neutral :: برچسب بزن: امروز سه‌شنبه است
+LABEL sentiment_neutral :: فایل ده خط دارد
+LABEL sentiment_neutral :: معنی را تشخیص بده: فایل ده خط دارد
+LABEL sentiment_neutral :: برچسب بزن: فایل ده خط دارد
+LABEL topic_feelings :: احساس آرامش دارم
+LABEL topic_feelings :: معنی را تشخیص بده: احساس آرامش دارم
+LABEL topic_feelings :: کاربر گفت: احساس آرامش دارم
+LABEL topic_feelings :: برچسب بزن: احساس آرامش دارم
+LABEL topic_feelings :: نگرانم
+LABEL topic_feelings :: کاربر گفت: نگرانم
+LABEL topic_feelings :: معنی را تشخیص بده: نگرانم
+LABEL topic_feelings :: معنی را تشخیص بده: هیجان‌زده‌ام
+LABEL topic_feelings :: کاربر گفت: هیجان‌زده‌ام
+LABEL topic_feelings :: هیجان‌زده‌ام
+LABEL intent_greeting :: کاربر گفت: سلام
+LABEL intent_greeting :: برچسب بزن: سلام
+LABEL intent_greeting :: معنی را تشخیص بده: سلام
+LABEL intent_greeting :: معنی را تشخیص بده: سلام خوبی؟
+LABEL intent_greeting :: سلام خوبی؟
+LABEL intent_greeting :: برچسب بزن: سلام خوبی؟
+LABEL intent_greeting :: کاربر گفت: درود
+LABEL intent_greeting :: معنی را تشخیص بده: درود
+LABEL intent_greeting :: برچسب بزن: درود
+LABEL intent_greeting :: صبح بخیر
+LABEL intent_greeting :: کاربر گفت: صبح بخیر
+LABEL intent_greeting :: برچسب بزن: صبح بخیر
+LABEL intent_goodbye :: معنی را تشخیص بده: خداحافظ
+LABEL intent_goodbye :: کاربر گفت: خداحافظ
+LABEL intent_goodbye :: برچسب بزن: خداحافظ
+LABEL intent_goodbye :: کاربر گفت: فعلاً
+LABEL intent_goodbye :: معنی را تشخیص بده: فعلاً
+LABEL intent_goodbye :: برچسب بزن: فعلاً
+LABEL intent_goodbye :: بعداً می‌بینمت
+LABEL intent_goodbye :: برچسب بزن: بعداً می‌بینمت
+LABEL intent_goodbye :: کاربر گفت: بعداً می‌بینمت
+LABEL intent_thanks :: ممنون
+LABEL intent_thanks :: معنی را تشخیص بده: ممنون
+LABEL intent_thanks :: کاربر گفت: ممنون
+LABEL intent_thanks :: کاربر گفت: مرسی
+LABEL intent_thanks :: معنی را تشخیص بده: مرسی
+LABEL intent_thanks :: برچسب بزن: مرسی
+LABEL intent_thanks :: معنی را تشخیص بده: خیلی ممنون
+LABEL intent_thanks :: خیلی ممنون
+LABEL intent_thanks :: برچسب بزن: خیلی ممنون
+LABEL intent_thanks :: معنی را تشخیص بده: سپاس
+LABEL intent_thanks :: کاربر گفت: سپاس
+LABEL intent_thanks :: سپاس
+LABEL intent_question :: این چیست؟
+LABEL intent_question :: معنی را تشخیص بده: این چیست؟
+LABEL intent_question :: کاربر گفت: این چیست؟
+LABEL intent_question :: کاربر گفت: چرا کند است؟
+LABEL intent_question :: چرا کند است؟
+LABEL intent_question :: معنی را تشخیص بده: چرا کند است؟
+LABEL intent_question :: برچسب بزن: چرا کند است؟
+LABEL intent_question :: چطور کار می‌کند؟
+LABEL intent_question :: معنی را تشخیص بده: چطور کار می‌کند؟
+LABEL intent_question :: برچسب بزن: چطور کار می‌کند؟
+LABEL intent_question :: کاربر گفت: چطور کار می‌کند؟
+LABEL intent_question :: کی شروع می‌شود؟
+LABEL intent_question :: کاربر گفت: کی شروع می‌شود؟
+LABEL intent_question :: برچسب بزن: کی شروع می‌شود؟
+LABEL intent_request :: لطفا کمک کن
+LABEL intent_request :: برچسب بزن: لطفا کمک کن
+LABEL intent_request :: کاربر گفت: لطفا کمک کن
+LABEL intent_request :: معنی را تشخیص بده: لطفا کمک کن
+LABEL intent_request :: لطفا توضیح بده
+LABEL intent_request :: معنی را تشخیص بده: لطفا توضیح بده
+LABEL intent_request :: کاربر گفت: لطفا توضیح بده
+LABEL intent_request :: می‌تونی کمکم کنی؟
+LABEL intent_request :: کاربر گفت: می‌تونی کمکم کنی؟
+LABEL intent_request :: معنی را تشخیص بده: می‌تونی کمکم کنی؟
+LABEL intent_statement :: معنی را تشخیص بده: گربه روی مبل است
+LABEL intent_statement :: گربه روی مبل است
+LABEL intent_statement :: برچسب بزن: گربه روی مبل است
+LABEL intent_statement :: کاربر گفت: گربه روی مبل است
+LABEL intent_statement :: کاربر گفت: امروز آموزش ادامه دارد
+LABEL intent_statement :: برچسب بزن: امروز آموزش ادامه دارد
+LABEL intent_statement :: امروز آموزش ادامه دارد
+LABEL sentiment_positive :: معنی را تشخیص بده: من خوشحالم
+LABEL sentiment_positive :: من خوشحالم
+LABEL sentiment_positive :: کاربر گفت: من خوشحالم
+LABEL sentiment_positive :: عالی بود
+LABEL sentiment_positive :: برچسب بزن: عالی بود
+LABEL sentiment_positive :: کاربر گفت: عالی بود
+LABEL sentiment_positive :: برچسب بزن: خیلی خوبه
+LABEL sentiment_positive :: خیلی خوبه
+LABEL sentiment_positive :: معنی را تشخیص بده: خیلی خوبه
+LABEL sentiment_negative :: من ناراحتم
+LABEL sentiment_negative :: کاربر گفت: من ناراحتم
+LABEL sentiment_negative :: معنی را تشخیص بده: من ناراحتم
+LABEL sentiment_negative :: امروز غمگینم
+LABEL sentiment_negative :: معنی را تشخیص بده: امروز غمگینم
+LABEL sentiment_negative :: کاربر گفت: امروز غمگینم
+LABEL sentiment_negative :: برچسب بزن: خیلی بد است
+LABEL sentiment_negative :: خیلی بد است
+LABEL sentiment_negative :: معنی را تشخیص بده: خیلی بد است
+LABEL sentiment_negative :: کاربر گفت: خیلی بد است
+LABEL sentiment_neutral :: امروز سه‌شنبه است
+LABEL sentiment_neutral :: معنی را تشخیص بده: امروز سه‌شنبه است
+LABEL sentiment_neutral :: برچسب بزن: امروز سه‌شنبه است
+LABEL sentiment_neutral :: فایل ده خط دارد
+LABEL sentiment_neutral :: معنی را تشخیص بده: فایل ده خط دارد
+LABEL sentiment_neutral :: برچسب بزن: فایل ده خط دارد
+LABEL topic_feelings :: احساس آرامش دارم
+LABEL topic_feelings :: معنی را تشخیص بده: احساس آرامش دارم
+LABEL topic_feelings :: کاربر گفت: احساس آرامش دارم
+LABEL topic_feelings :: برچسب بزن: احساس آرامش دارم
+LABEL topic_feelings :: نگرانم
+LABEL topic_feelings :: کاربر گفت: نگرانم
+LABEL topic_feelings :: معنی را تشخیص بده: نگرانم
+LABEL topic_feelings :: معنی را تشخیص بده: هیجان‌زده‌ام
+LABEL topic_feelings :: کاربر گفت: هیجان‌زده‌ام
+LABEL topic_feelings :: هیجان‌زده‌ام

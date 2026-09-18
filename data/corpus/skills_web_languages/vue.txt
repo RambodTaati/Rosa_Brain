@@ -1,0 +1,86 @@
+# Vue essentials (original)
+
+Vue is a progressive framework for building UIs with a template + script model (Options or Composition API).
+Single File Component sketch:
+<script setup>
+import { ref, computed } from "vue";
+const count = ref(0);
+const doubled = computed(() => count.value * 2);
+function inc() { count.value++; }
+</script>
+<template>
+  <button @click="inc">{{ count }} ×2 = {{ doubled }}</button>
+</template>
+refs unwrap in templates but need .value in script.
+v-bind (:prop) and v-on (@event) directives. v-if / v-show for conditional display. v-for with :key.
+v-model binds form inputs two-way (syntax sugar over prop + emit).
+Props down, events up: defineProps / defineEmits in script setup.
+Watchers: watch(source, callback) for side effects when data changes.
+Lifecycle: onMounted, onUnmounted for DOM-related setup/cleanup.
+Vue Router maps paths to components. Pinia commonly stores shared state.
+Reactivity system tracks dependencies — mutate reactive objects carefully; replace arrays immutably when needed for clarity.
+Defensive: same XSS rules — do not v-html untrusted content.
+Practice: counter with computed doubled value.
+Practice: list with add/remove and keyed v-for.
+Q: ref vs reactive? A: ref wraps a single value (.value); reactive makes an object deeply reactive — teams often prefer ref for consistency.
+Q: Why :key on v-for? A: Stable identity for efficient and correct DOM reuse.
+
+## Drill block vue-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 1.
+Q: Why :key on v-for? A: Stable identity for efficient and correct DOM reuse.
+
+## Drill block vue-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 2.
+Q: ref vs reactive? A: ref wraps a single value (.value); reactive makes an object deeply reactive — teams often prefer ref for consistency.
+
+## Drill block vue-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 3.
+Q: Why :key on v-for? A: Stable identity for efficient and correct DOM reuse.
+
+## Drill block vue-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 4.
+Q: ref vs reactive? A: ref wraps a single value (.value); reactive makes an object deeply reactive — teams often prefer ref for consistency.
+
+## Drill block vue-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 5.
+Q: Why :key on v-for? A: Stable identity for efficient and correct DOM reuse.
+
+## Drill block vue-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 6.
+Q: ref vs reactive? A: ref wraps a single value (.value); reactive makes an object deeply reactive — teams often prefer ref for consistency.
+
+## Drill block vue-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 7.
+Q: Why :key on v-for? A: Stable identity for efficient and correct DOM reuse.
+
+## Drill block vue-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 8.
+Q: ref vs reactive? A: ref wraps a single value (.value); reactive makes an object deeply reactive — teams often prefer ref for consistency.
+
+## Drill block vue-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 9.
+Q: Why :key on v-for? A: Stable identity for efficient and correct DOM reuse.
+
+## Drill block vue-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 10.
+Q: ref vs reactive? A: ref wraps a single value (.value); reactive makes an object deeply reactive — teams often prefer ref for consistency.
+
+## Drill block vue-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 11.
+Q: Why :key on v-for? A: Stable identity for efficient and correct DOM reuse.
+
+## Drill block vue-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 12.
+Q: ref vs reactive? A: ref wraps a single value (.value); reactive makes an object deeply reactive — teams often prefer ref for consistency.
+
+## Drill block vue-13
+Review point 13: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 13.
+Q: Why :key on v-for? A: Stable identity for efficient and correct DOM reuse.
+
+## Drill block vue-14
+Review point 14: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 14.
+Q: ref vs reactive? A: ref wraps a single value (.value); reactive makes an object deeply reactive — teams often prefer ref for consistency.
+
+## Drill block vue-15
+Review point 15: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: vue. Iteration 15.
+Q: Why :key on v-for? A: Stable identity for efficient and correct DOM reuse.

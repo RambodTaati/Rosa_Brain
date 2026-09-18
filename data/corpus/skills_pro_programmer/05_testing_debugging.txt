@@ -1,0 +1,51 @@
+# Testing and debugging mindset
+Pyramid: many unit, fewer integration, few e2e; each layer catches different failures.
+Unit: pure logic, fast, deterministic; no real network/disk unless tmp fixtures.
+Integration: real DB in docker/tmp; exercise repositories and HTTP together.
+E2E: critical user journeys only; stabilize with test ids; quarantine flakes.
+Reproduce-isolate-fix: first reproduce reliably; minimize; then fix with a regression test.
+Flaky tests: time dependence, order dependence, shared mutable state, real network — eliminate causes.
+Logging for debug: temporary DEBUG with correlation ids; remove noise before merge.
+Assertions: one main behavior per test; rich assertion messages; prefer equality on values.
+Debuggers: breakpoints over print storms; bisect with git when regressions hide.
+Contracts: consumer-driven ideas at API boundaries when multiple services.
+Property tests for parsers and serializers.
+Snapshot tests sparingly; they rot and rubber-stamp.
+CI: fail on flake rate spikes; retry only with ticketed reason.
+Load tests separate from functional; never confuse them.
+Production debugging: read metrics/traces first; reproduce with redacted inputs.
+Test practice 1: Name tests after behavior: test_rejects_expired_session.
+Test practice 2: Use factories for graphs of models; keep them honest.
+Test practice 3: Prefer fakes implementing Protocols over heavy mocks.
+Test practice 4: Seed RNG when randomness is involved.
+Test practice 5: Freeze time for token expiry tests.
+Test practice 6: Assert status code and error code together for APIs.
+Test practice 7: Clean DB between tests with transactions or truncate strategies.
+Test practice 8: Do not sleep for sync; wait on conditions with timeouts.
+Test practice 9: Capture logs in tests when log line is the contract.
+Test practice 10: Delete tests that no longer protect a behavior.
+Test practice 11: Name tests after behavior: test_rejects_expired_session.
+Test practice 12: Use factories for graphs of models; keep them honest.
+Test practice 13: Prefer fakes implementing Protocols over heavy mocks.
+Test practice 14: Seed RNG when randomness is involved.
+Test practice 15: Freeze time for token expiry tests.
+Test practice 16: Assert status code and error code together for APIs.
+Test practice 17: Clean DB between tests with transactions or truncate strategies.
+Test practice 18: Do not sleep for sync; wait on conditions with timeouts.
+Test practice 19: Capture logs in tests when log line is the contract.
+Test practice 20: Delete tests that no longer protect a behavior.
+Test practice 21: Name tests after behavior: test_rejects_expired_session.
+Test practice 22: Use factories for graphs of models; keep them honest.
+Test practice 23: Prefer fakes implementing Protocols over heavy mocks.
+Test practice 24: Seed RNG when randomness is involved.
+Test practice 25: Freeze time for token expiry tests.
+Test practice 26: Assert status code and error code together for APIs.
+Test practice 27: Clean DB between tests with transactions or truncate strategies.
+Test practice 28: Do not sleep for sync; wait on conditions with timeouts.
+Test practice 29: Capture logs in tests when log line is the contract.
+Test practice 30: Delete tests that no longer protect a behavior.
+Test practice 31: Name tests after behavior: test_rejects_expired_session.
+Test practice 32: Use factories for graphs of models; keep them honest.
+Test practice 33: Prefer fakes implementing Protocols over heavy mocks.
+Test practice 34: Seed RNG when randomness is involved.
+Test practice 35: Freeze time for token expiry tests.

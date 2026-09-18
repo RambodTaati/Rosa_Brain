@@ -1,0 +1,76 @@
+# SQL essentials (original)
+
+SQL queries relational databases. Statements: SELECT, INSERT, UPDATE, DELETE, and DDL like CREATE TABLE.
+SELECT id, email FROM users WHERE active = TRUE ORDER BY created_at DESC LIMIT 20;
+Joins: INNER JOIN matching rows; LEFT JOIN keeps left rows with NULLs on right when missing.
+SELECT u.email, o.total FROM users u INNER JOIN orders o ON o.user_id = u.id;
+Aggregates: COUNT, SUM, AVG, MIN, MAX with GROUP BY; HAVING filters groups.
+INSERT INTO users (email, name) VALUES (?, ?); — use parameter placeholders for your driver.
+UPDATE users SET name = ? WHERE id = ?;
+DELETE FROM sessions WHERE expires_at < NOW();
+NULL means unknown; use IS NULL / IS NOT NULL, not = NULL.
+Transactions: BEGIN; ... COMMIT; or ROLLBACK on error. Keep transactions short.
+Indexes speed lookups on frequent WHERE/JOIN columns; they cost write time and space.
+Primary keys uniquely identify rows; foreign keys enforce relationships.
+Normalization reduces duplication; deliberate denormalization can speed reads when measured.
+Views store queries; use carefully for security and performance.
+EXPLAIN (vendor-specific) helps understand plans — learn your engine (PostgreSQL, SQLite, etc.).
+SQLite is great for local/dev; PostgreSQL for concurrent production apps.
+Defensive: never concatenate untrusted strings into SQL. Use bound parameters always. Limit result sizes. Prefer least-privilege DB users for the app role.
+Migrations: version schema changes; avoid destructive changes without backups.
+Practice: write a SELECT that returns each user and their order count including users with zero orders (LEFT JOIN + COUNT).
+Practice: update a status with a WHERE that prevents updating already-final rows.
+Q: INNER JOIN vs LEFT JOIN? A: INNER keeps matches only; LEFT keeps all left rows and nullable right columns.
+Q: How to avoid SQL injection? A: Parameterized queries / bound parameters, never string-built SQL from user input.
+
+## Drill block sql-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: sql. Iteration 1.
+Q: How to avoid SQL injection? A: Parameterized queries / bound parameters, never string-built SQL from user input.
+
+## Drill block sql-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: sql. Iteration 2.
+Q: INNER JOIN vs LEFT JOIN? A: INNER keeps matches only; LEFT keeps all left rows and nullable right columns.
+
+## Drill block sql-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: sql. Iteration 3.
+Q: How to avoid SQL injection? A: Parameterized queries / bound parameters, never string-built SQL from user input.
+
+## Drill block sql-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: sql. Iteration 4.
+Q: INNER JOIN vs LEFT JOIN? A: INNER keeps matches only; LEFT keeps all left rows and nullable right columns.
+
+## Drill block sql-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: sql. Iteration 5.
+Q: How to avoid SQL injection? A: Parameterized queries / bound parameters, never string-built SQL from user input.
+
+## Drill block sql-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: sql. Iteration 6.
+Q: INNER JOIN vs LEFT JOIN? A: INNER keeps matches only; LEFT keeps all left rows and nullable right columns.
+
+## Drill block sql-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: sql. Iteration 7.
+Q: How to avoid SQL injection? A: Parameterized queries / bound parameters, never string-built SQL from user input.
+
+## Drill block sql-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: sql. Iteration 8.
+Q: INNER JOIN vs LEFT JOIN? A: INNER keeps matches only; LEFT keeps all left rows and nullable right columns.
+
+## Drill block sql-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: sql. Iteration 9.
+Q: How to avoid SQL injection? A: Parameterized queries / bound parameters, never string-built SQL from user input.
+
+## Drill block sql-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: sql. Iteration 10.
+Q: INNER JOIN vs LEFT JOIN? A: INNER keeps matches only; LEFT keeps all left rows and nullable right columns.
+
+## Drill block sql-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: sql. Iteration 11.
+Q: How to avoid SQL injection? A: Parameterized queries / bound parameters, never string-built SQL from user input.
+
+## Drill block sql-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: sql. Iteration 12.
+Q: INNER JOIN vs LEFT JOIN? A: INNER keeps matches only; LEFT keeps all left rows and nullable right columns.
+
+## Drill block sql-13
+Review point 13: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: sql. Iteration 13.
+Q: How to avoid SQL injection? A: Parameterized queries / bound parameters, never string-built SQL from user input.

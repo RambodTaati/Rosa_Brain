@@ -1,0 +1,78 @@
+# Java basics for web learners (original)
+
+Java is a statically typed, compiled-to-bytecode language running on the JVM. Common in enterprise web backends.
+Entry: public class Main { public static void main(String[] args) { System.out.println("hi"); } }
+Types: int, long, double, boolean, char; reference types like String, objects, arrays.
+var for local inference when the type is obvious (Java 10+).
+Classes and objects: fields, constructors, methods. Access modifiers public/protected/private.
+Inheritance: extends one class; implements multiple interfaces. Prefer composition when possible.
+Records (modern Java): record User(String id, String email) {} for immutable data carriers.
+Collections: List, Map, Set from java.util. List.of, Map.of for small immutables.
+Generics: List<String> names = new ArrayList<>();
+Exceptions: checked vs unchecked; catch specifically; try-with-resources for AutoCloseable.
+Streams: list.stream().filter(...).map(...).collect(Collectors.toList());
+Packages organize code; Maven/Gradle manage dependencies.
+HTTP servers often use Spring Boot or Jakarta EE — conceptual mapping: controllers validate input, services hold logic, repositories talk to DB.
+JDBC with PreparedStatement for SQL — same injection defense as other languages.
+Nullability: Optional<T> for explicit absence; avoid returning null from new APIs when Optional fits.
+Equals/hashCode contracts matter for maps/sets; records implement them correctly for components.
+Practice: write a record and a method that filters a List<User> by domain.
+Practice: try-with-resources sketch opening a resource and reading lines.
+Q: Why PreparedStatement? A: Binds parameters safely and helps prevent SQL injection.
+Q: What is a Java record? A: A concise immutable data carrier with constructor, accessors, equals, hashCode, toString.
+
+## Drill block java-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: java. Iteration 1.
+Q: What is a Java record? A: A concise immutable data carrier with constructor, accessors, equals, hashCode, toString.
+
+## Drill block java-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: java. Iteration 2.
+Q: Why PreparedStatement? A: Binds parameters safely and helps prevent SQL injection.
+
+## Drill block java-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: java. Iteration 3.
+Q: What is a Java record? A: A concise immutable data carrier with constructor, accessors, equals, hashCode, toString.
+
+## Drill block java-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: java. Iteration 4.
+Q: Why PreparedStatement? A: Binds parameters safely and helps prevent SQL injection.
+
+## Drill block java-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: java. Iteration 5.
+Q: What is a Java record? A: A concise immutable data carrier with constructor, accessors, equals, hashCode, toString.
+
+## Drill block java-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: java. Iteration 6.
+Q: Why PreparedStatement? A: Binds parameters safely and helps prevent SQL injection.
+
+## Drill block java-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: java. Iteration 7.
+Q: What is a Java record? A: A concise immutable data carrier with constructor, accessors, equals, hashCode, toString.
+
+## Drill block java-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: java. Iteration 8.
+Q: Why PreparedStatement? A: Binds parameters safely and helps prevent SQL injection.
+
+## Drill block java-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: java. Iteration 9.
+Q: What is a Java record? A: A concise immutable data carrier with constructor, accessors, equals, hashCode, toString.
+
+## Drill block java-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: java. Iteration 10.
+Q: Why PreparedStatement? A: Binds parameters safely and helps prevent SQL injection.
+
+## Drill block java-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: java. Iteration 11.
+Q: What is a Java record? A: A concise immutable data carrier with constructor, accessors, equals, hashCode, toString.
+
+## Drill block java-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: java. Iteration 12.
+Q: Why PreparedStatement? A: Binds parameters safely and helps prevent SQL injection.
+
+## Drill block java-13
+Review point 13: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: java. Iteration 13.
+Q: What is a Java record? A: A concise immutable data carrier with constructor, accessors, equals, hashCode, toString.
+
+## Drill block java-14
+Review point 14: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: java. Iteration 14.
+Q: Why PreparedStatement? A: Binds parameters safely and helps prevent SQL injection.

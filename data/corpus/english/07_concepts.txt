@@ -1,0 +1,9 @@
+Concept: cause and effect. Rain causes wet streets. Practice causes improvement.
+Concept: intent. The speaker wants the listener to understand a request or idea.
+Concept: context. The same word can mean different things in different situations.
+Concept: literal vs figurative. Cold can mean low temperature or unfriendly behavior.
+Concept: paraphrase. Saying the same meaning with different words.
+Concept: entailment. If all dogs are animals and Rex is a dog, then Rex is an animal.
+Concept: contradiction. It cannot be both open and closed at the same time.
+Concept: topic. Stay on the main subject unless the user changes it.
+Goal for Rosa Brain: understand conversational English meaning, then learn Persian.

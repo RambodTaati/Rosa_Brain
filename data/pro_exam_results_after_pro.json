@@ -1,0 +1,509 @@
+{
+  "timestamp": 1789690311.7659025,
+  "timestamp_iso": "2026-09-18T03:41:51+0330",
+  "device": "cuda",
+  "params": 13543184,
+  "checkpoint_loaded": true,
+  "heldout_accuracy": 0.9667,
+  "practice_quiz_accuracy": 0.85,
+  "n_heldout": 30,
+  "n_practice": 40,
+  "grade": "A",
+  "per_item": {
+    "heldout": [
+      {
+        "i": 0,
+        "ok": true,
+        "nll_correct": 2.6554,
+        "nll_wrong": 3.1623,
+        "question": "A SPA keeps a refresh token in localStorage and a short JWT in memory. Which change most improves session secret hygiene for a first-party browser app?"
+      },
+      {
+        "i": 1,
+        "ok": true,
+        "nll_correct": 3.3568,
+        "nll_wrong": 3.7834,
+        "question": "You must add a non-null column to a hot users table without downtime. Which sequence is safest?"
+      },
+      {
+        "i": 2,
+        "ok": true,
+        "nll_correct": 3.3659,
+        "nll_wrong": 3.9103,
+        "question": "An endpoint lists orders with ?page=1&size=5000 and often times out. Which API design change is most professional?"
+      },
+      {
+        "i": 3,
+        "ok": true,
+        "nll_correct": 3.0085,
+        "nll_wrong": 3.4212,
+        "question": "A Vue island crashes on undefined data and blanks the entire desk. What architectural fix aligns with state islands?"
+      },
+      {
+        "i": 4,
+        "ok": true,
+        "nll_correct": 3.4352,
+        "nll_wrong": 3.7867,
+        "question": "ORM logs show 1 query for parents and 200 for children on a page load. Name the issue and a primary fix."
+      },
+      {
+        "i": 5,
+        "ok": true,
+        "nll_correct": 2.9548,
+        "nll_wrong": 3.8009,
+        "question": "Why is checking role === 'admin' only in Vue router beforeEnter insufficient for security?"
+      },
+      {
+        "i": 6,
+        "ok": true,
+        "nll_correct": 2.7322,
+        "nll_wrong": 3.4839,
+        "question": "Design an idempotent POST /payments. What client header and server behavior are expected?"
+      },
+      {
+        "i": 7,
+        "ok": true,
+        "nll_correct": 2.5321,
+        "nll_wrong": 3.0533,
+        "question": "A handler catches Exception and returns 500 with raw SQL text. What should change defensively?"
+      },
+      {
+        "i": 8,
+        "ok": true,
+        "nll_correct": 3.0385,
+        "nll_wrong": 3.9005,
+        "question": "Pick the better money representation for ledger amounts in PostgreSQL + Python."
+      },
+      {
+        "i": 9,
+        "ok": true,
+        "nll_correct": 3.2075,
+        "nll_wrong": 3.9747,
+        "question": "You need RTL Persian UI without forking layout CSS. Which CSS approach is preferred?"
+      },
+      {
+        "i": 10,
+        "ok": true,
+        "nll_correct": 2.9705,
+        "nll_wrong": 3.4101,
+        "question": "A pytest freezes intermittently when waiting for a background thread. What test smell and fix?"
+      },
+      {
+        "i": 11,
+        "ok": true,
+        "nll_correct": 2.7092,
+        "nll_wrong": 3.0391,
+        "question": "Explain expand-contract for removing a deprecated API field."
+      },
+      {
+        "i": 12,
+        "ok": true,
+        "nll_correct": 3.4984,
+        "nll_wrong": 3.5048,
+        "question": "Cookie session + CORS SPA on another origin with credentials: true fails. What CORS rule must hold?"
+      },
+      {
+        "i": 13,
+        "ok": true,
+        "nll_correct": 2.5498,
+        "nll_wrong": 2.802,
+        "question": "Which logging policy is correct for auth endpoints?"
+      },
+      {
+        "i": 14,
+        "ok": true,
+        "nll_correct": 2.5568,
+        "nll_wrong": 2.9416,
+        "question": "A TaskGroup spawns three uploads; one fails. What is the intended structured-concurrency outcome?"
+      },
+      {
+        "i": 15,
+        "ok": false,
+        "nll_correct": 3.5095,
+        "nll_wrong": 3.2811,
+        "question": "Object-level authZ for PATCH /docs/{id}: what must be verified beyond authentication?"
+      },
+      {
+        "i": 16,
+        "ok": true,
+        "nll_correct": 2.9142,
+        "nll_wrong": 3.4746,
+        "question": "Why are frozen dataclasses with slots attractive for high-volume event DTOs?"
+      },
+      {
+        "i": 17,
+        "ok": true,
+        "nll_correct": 3.0254,
+        "nll_wrong": 3.4084,
+        "question": "A migration creates an index concurrently-equivalent strategy on a busy table. What operational concern matters?"
+      },
+      {
+        "i": 18,
+        "ok": true,
+        "nll_correct": 3.3898,
+        "nll_wrong": 3.8559,
+        "question": "Frontend Vite exposes VITE_STRIPE_SECRET. Why is this wrong?"
+      },
+      {
+        "i": 19,
+        "ok": true,
+        "nll_correct": 3.2416,
+        "nll_wrong": 3.6359,
+        "question": "Differentiate 401 and 403 in a session API."
+      },
+      {
+        "i": 20,
+        "ok": true,
+        "nll_correct": 2.9009,
+        "nll_wrong": 3.385,
+        "question": "Give a deny-by-default authZ pattern for a plugin system."
+      },
+      {
+        "i": 21,
+        "ok": true,
+        "nll_correct": 2.3544,
+        "nll_wrong": 2.638,
+        "question": "How should FastAPI dependencies manage DB sessions per request?"
+      },
+      {
+        "i": 22,
+        "ok": true,
+        "nll_correct": 3.8547,
+        "nll_wrong": 4.0186,
+        "question": "A flaky e2e clicks before hydration finishes. Best stabilization tactic?"
+      },
+      {
+        "i": 23,
+        "ok": true,
+        "nll_correct": 2.3664,
+        "nll_wrong": 3.0136,
+        "question": "Which practice best prevents SQL injection in report filters?"
+      },
+      {
+        "i": 24,
+        "ok": true,
+        "nll_correct": 1.9459,
+        "nll_wrong": 3.2183,
+        "question": "Define a professional error envelope for APIs."
+      },
+      {
+        "i": 25,
+        "ok": true,
+        "nll_correct": 3.104,
+        "nll_wrong": 4.0931,
+        "question": "When reviewing a PR that adds admin export of PII, what controls do you require?"
+      },
+      {
+        "i": 26,
+        "ok": true,
+        "nll_correct": 3.5115,
+        "nll_wrong": 3.9231,
+        "question": "Why prefer asyncio.to_thread for a CPU-light blocking SDK call inside async route?"
+      },
+      {
+        "i": 27,
+        "ok": true,
+        "nll_correct": 2.6324,
+        "nll_wrong": 3.0957,
+        "question": "Partial unique index use-case for soft-deleted users email?"
+      },
+      {
+        "i": 28,
+        "ok": true,
+        "nll_correct": 2.7972,
+        "nll_wrong": 3.2129,
+        "question": "What is the primary purpose of Content-Security-Policy in defensive frontend hosting?"
+      },
+      {
+        "i": 29,
+        "ok": true,
+        "nll_correct": 2.799,
+        "nll_wrong": 3.0552,
+        "question": "A service returns 201 without Location or body id for a created resource. What is missing professionally?"
+      }
+    ],
+    "practice_quiz": [
+      {
+        "i": 0,
+        "ok": true,
+        "nll_correct": 1.087,
+        "nll_wrong": 2.242,
+        "question": "Prefer HttpOnly cookies or localStorage for session tokens?"
+      },
+      {
+        "i": 1,
+        "ok": true,
+        "nll_correct": 2.776,
+        "nll_wrong": 3.2867,
+        "question": "What Python structure fits immutable DTOs?"
+      },
+      {
+        "i": 2,
+        "ok": true,
+        "nll_correct": 2.3318,
+        "nll_wrong": 3.3225,
+        "question": "Name a FastAPI validation tool at the edge."
+      },
+      {
+        "i": 3,
+        "ok": false,
+        "nll_correct": 3.4535,
+        "nll_wrong": 3.1206,
+        "question": "How do you avoid N+1 queries?"
+      },
+      {
+        "i": 4,
+        "ok": true,
+        "nll_correct": 2.9415,
+        "nll_wrong": 3.7579,
+        "question": "What Vue API style is standard in Vue 3?"
+      },
+      {
+        "i": 5,
+        "ok": false,
+        "nll_correct": 2.8186,
+        "nll_wrong": 2.7406,
+        "question": "Give one accessibility requirement for inputs."
+      },
+      {
+        "i": 6,
+        "ok": true,
+        "nll_correct": 2.6465,
+        "nll_wrong": 3.2331,
+        "question": "What index type is default for equality lookups in PostgreSQL?"
+      },
+      {
+        "i": 7,
+        "ok": true,
+        "nll_correct": 2.4205,
+        "nll_wrong": 3.2059,
+        "question": "What should a 422 response mean?"
+      },
+      {
+        "i": 8,
+        "ok": true,
+        "nll_correct": 2.0333,
+        "nll_wrong": 3.128,
+        "question": "How should outbound HTTP calls set reliability basics?"
+      },
+      {
+        "i": 9,
+        "ok": false,
+        "nll_correct": 2.5397,
+        "nll_wrong": 2.1296,
+        "question": "What is deny-by-default authorization?"
+      },
+      {
+        "i": 10,
+        "ok": true,
+        "nll_correct": 2.1035,
+        "nll_wrong": 2.8805,
+        "question": "Why UTF-8 explicitly when writing corpora on Windows?"
+      },
+      {
+        "i": 11,
+        "ok": true,
+        "nll_correct": 2.7028,
+        "nll_wrong": 3.1546,
+        "question": "What does pytest.mark.parametrize help with?"
+      },
+      {
+        "i": 12,
+        "ok": true,
+        "nll_correct": 2.4996,
+        "nll_wrong": 3.3927,
+        "question": "Cursor pagination vs offset for busy feeds?"
+      },
+      {
+        "i": 13,
+        "ok": true,
+        "nll_correct": 2.6725,
+        "nll_wrong": 3.166,
+        "question": "What belongs in /readyz but not necessarily /healthz?"
+      },
+      {
+        "i": 14,
+        "ok": true,
+        "nll_correct": 3.4909,
+        "nll_wrong": 3.9887,
+        "question": "Name a defensive header for MIME sniffing."
+      },
+      {
+        "i": 15,
+        "ok": true,
+        "nll_correct": 2.3649,
+        "nll_wrong": 2.6599,
+        "question": "What is a partial unique index good for?"
+      },
+      {
+        "i": 16,
+        "ok": false,
+        "nll_correct": 2.8398,
+        "nll_wrong": 2.7722,
+        "question": "Why separate ORM models from API schemas?"
+      },
+      {
+        "i": 17,
+        "ok": true,
+        "nll_correct": 2.2712,
+        "nll_wrong": 2.3671,
+        "question": "What is structured concurrency in asyncio?"
+      },
+      {
+        "i": 18,
+        "ok": true,
+        "nll_correct": 2.2346,
+        "nll_wrong": 3.0932,
+        "question": "Feature slice organization means?"
+      },
+      {
+        "i": 19,
+        "ok": true,
+        "nll_correct": 3.2057,
+        "nll_wrong": 3.9534,
+        "question": "What must never appear in frontend VITE_ env?"
+      },
+      {
+        "i": 20,
+        "ok": true,
+        "nll_correct": 1.8928,
+        "nll_wrong": 3.227,
+        "question": "How to handle money in Python?"
+      },
+      {
+        "i": 21,
+        "ok": true,
+        "nll_correct": 1.1195,
+        "nll_wrong": 2.4116,
+        "question": "CSRF defense for cookie sessions?"
+      },
+      {
+        "i": 22,
+        "ok": true,
+        "nll_correct": 2.0785,
+        "nll_wrong": 3.0211,
+        "question": "What is expand then contract in migrations?"
+      },
+      {
+        "i": 23,
+        "ok": true,
+        "nll_correct": 2.1277,
+        "nll_wrong": 2.7387,
+        "question": "Name one code review security question."
+      },
+      {
+        "i": 24,
+        "ok": true,
+        "nll_correct": 3.2691,
+        "nll_wrong": 3.5526,
+        "question": "Flaky e2e root causes often include?"
+      },
+      {
+        "i": 25,
+        "ok": true,
+        "nll_correct": 2.901,
+        "nll_wrong": 3.2911,
+        "question": "What does logging.getLogger(__name__) enable?"
+      },
+      {
+        "i": 26,
+        "ok": true,
+        "nll_correct": 2.754,
+        "nll_wrong": 2.8584,
+        "question": "Why short-lived access tokens?"
+      },
+      {
+        "i": 27,
+        "ok": true,
+        "nll_correct": 2.0131,
+        "nll_wrong": 2.9503,
+        "question": "Pinia guidance?"
+      },
+      {
+        "i": 28,
+        "ok": true,
+        "nll_correct": 2.2355,
+        "nll_wrong": 3.2642,
+        "question": "When is SELECT FOR UPDATE appropriate?"
+      },
+      {
+        "i": 29,
+        "ok": true,
+        "nll_correct": 2.4327,
+        "nll_wrong": 3.3747,
+        "question": "What is output encoding?"
+      },
+      {
+        "i": 30,
+        "ok": true,
+        "nll_correct": 3.2041,
+        "nll_wrong": 3.3498,
+        "question": "Idempotent DELETE semantics?"
+      },
+      {
+        "i": 31,
+        "ok": true,
+        "nll_correct": 1.7362,
+        "nll_wrong": 2.8238,
+        "question": "What is a Protocol in typing used for?"
+      },
+      {
+        "i": 32,
+        "ok": true,
+        "nll_correct": 1.5429,
+        "nll_wrong": 2.6526,
+        "question": "Why avoid shell=True in subprocess?"
+      },
+      {
+        "i": 33,
+        "ok": true,
+        "nll_correct": 2.9864,
+        "nll_wrong": 3.1612,
+        "question": "Health metrics to watch for APIs?"
+      },
+      {
+        "i": 34,
+        "ok": true,
+        "nll_correct": 2.1103,
+        "nll_wrong": 2.7266,
+        "question": "What is least privilege for OS services?"
+      },
+      {
+        "i": 35,
+        "ok": true,
+        "nll_correct": 2.403,
+        "nll_wrong": 2.909,
+        "question": "Vue router guards vs server authZ?"
+      },
+      {
+        "i": 36,
+        "ok": false,
+        "nll_correct": 2.772,
+        "nll_wrong": 2.7687,
+        "question": "What makes a good regression test?"
+      },
+      {
+        "i": 37,
+        "ok": false,
+        "nll_correct": 3.0446,
+        "nll_wrong": 2.952,
+        "question": "JSON error document should include?"
+      },
+      {
+        "i": 38,
+        "ok": true,
+        "nll_correct": 2.753,
+        "nll_wrong": 3.2086,
+        "question": "Why cap upload sizes?"
+      },
+      {
+        "i": 39,
+        "ok": true,
+        "nll_correct": 2.8405,
+        "nll_wrong": 4.0729,
+        "question": "What is soft delete uniqueness pitfall?"
+      }
+    ]
+  },
+  "notes": "NLL preference scoring identical to auto_skills.quiz_accuracy (correct Q+A vs wrong placeholder). Local TinyBrainNet only; no cloud LLMs."
+}

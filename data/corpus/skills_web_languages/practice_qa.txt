@@ -1,0 +1,198 @@
+# Practice Q&A across web languages (original)
+
+Q: What belongs in the HTML head? A: Meta charset, viewport, title, links to CSS, and deferred scripts as needed.
+Q: Name three semantic HTML landmarks. A: header, main, footer (also nav, aside, article, section).
+Q: How do you associate a label with an input? A: Match label for to the input id (or wrap the input in the label).
+Q: Which form enctype is required for file uploads? A: multipart/form-data.
+Q: What does box-sizing: border-box change? A: Width/height include padding and border.
+Q: Flexbox is best for which layouts? A: One-dimensional alignment of items in a row or column.
+Q: Give a fluid grid track recipe. A: repeat(auto-fit, minmax(16rem, 1fr))
+Q: Why include viewport meta? A: So mobile browsers size the layout viewport to the device width.
+Q: const vs let in JavaScript? A: const blocks rebinding; let allows reassignment; both are block-scoped.
+Q: Why prefer ===? A: It compares without type coercion.
+Q: Safe way to put plain text in the DOM? A: textContent (or createTextNode), not innerHTML with untrusted strings.
+Q: Does fetch reject on HTTP 404? A: No; check res.ok or status.
+Q: What does await do inside async functions? A: Pauses that function until the promise settles.
+Q: TypeScript types at runtime? A: Erased; they exist for compile-time checking only.
+Q: unknown vs any in TypeScript? A: unknown requires narrowing; any disables checking.
+Q: Python open encoding for text? A: Prefer encoding="utf-8" explicitly.
+Q: How to avoid SQL injection? A: Bound parameters / prepared statements only.
+Q: INNER JOIN vs LEFT JOIN? A: INNER matching rows only; LEFT keeps all left rows.
+Q: PHP password storage? A: password_hash and password_verify.
+Q: Why htmlspecialchars in PHP templates? A: Escape HTML special characters to reduce XSS risk.
+Q: Java try-with-resources purpose? A: Auto-close AutoCloseable resources to avoid leaks.
+Q: What is a Java record? A: Immutable data carrier with generated accessors and equality.
+Q: C string termination? A: Null-terminated char arrays; track sizes carefully.
+Q: C++ RAII idea? A: Resource lifetime tied to object lifetime via constructors/destructors.
+Q: C# type for currency? A: decimal.
+Q: React state updater form when depending on previous state? A: setCount(c => c + 1)
+Q: Why keys in React lists? A: Stable identity across renders for correct reconciliation.
+Q: Node lockfile purpose? A: Reproducible dependency trees.
+Q: Vue v-for needs what for stable identity? A: A unique :key.
+Q: Is jQuery required on modern sites? A: No; native DOM and fetch usually suffice.
+Q: Bootstrap grid column count? A: 12 columns per row in the classic grid.
+Q: JSON trailing commas? A: Invalid in standard JSON.
+Q: XXE defense? A: Disable external entity resolution when parsing untrusted XML.
+Q: CSS logical property example? A: margin-inline-start instead of margin-left for RTL-friendly layout.
+Q: Event delegation means? A: Handling child events on a common parent via event.target.
+Q: AbortController use case? A: Cancel fetch when a newer request supersedes it.
+Q: ARIA for current nav link? A: aria-current="page".
+Q: Preferred button type in forms? A: Explicit type="submit" or type="button" to avoid ambiguity.
+Q: What is CORS? A: Browser-enforced cross-origin request policy based on server headers.
+Q: Where should session secrets live in browsers? A: Prefer HttpOnly Secure cookies, not localStorage.
+Q: SQL LIMIT purpose? A: Cap rows returned to protect performance and UX.
+Q: Python mutable default antipattern? A: def f(x=[]): — use None and create a new list inside.
+Q: CSS specificity winner roughly? A: Inline > id > class > element (then order).
+Q: Sticky positioning? A: Toggles between relative and fixed-like based on scroll thresholds.
+Q: Module script attribute? A: type="module" on script tags for ESM in browsers.
+Q: Promise.all behavior on reject? A: Rejects fast when any input promise rejects.
+Q: Vue ref in script vs template? A: Use .value in script; auto-unwrap in template.
+Q: ASP.NET Core DI idea? A: Register services and inject dependencies rather than newing everywhere.
+Q: Image alt for decorative image? A: Empty alt="" so assistive tech can skip it.
+Q: Parameter markers in PDO? A: Use ? or named placeholders with prepare/execute.
+Q: Grid vs table for page layout? A: CSS grid/flex for layout; HTML tables for tabular data.
+Q: What does res.json() return? A: A promise that resolves to parsed JSON.
+Q: TypeScript interface vs type alias? A: Both describe shapes; interfaces merge by name; prefer consistency per codebase.
+Q: Secure file upload checks? A: Validate size/type server-side, store safely, do not trust client MIME alone.
+Q: prefers-reduced-motion? A: Media query to reduce/disable non-essential animation.
+Q: What is JSX? A: Syntax sugar for React element trees compiling to function calls.
+Q: Node path traversal defense? A: Resolve paths and ensure they stay under an allowed root directory.
+Q: Bootstrap utility example? A: d-flex, m-3, p-2, text-center for quick layout/spacing.
+Q: XML well-formed means? A: Correct XML syntax (tags, nesting, quoting), not necessarily schema-valid.
+Q: When use LEFT JOIN for counts? A: To include parents with zero children in COUNT aggregates.
+Q: React controlled input? A: value tied to state plus onChange updating that state.
+Q: PHP session_regenerate_id why on login? A: Reduce session fixation risk.
+Q: C snprintf vs sprintf? A: snprintf takes a buffer size and reduces overflow risk.
+Q: map/filter/reduce in JS? A: Transform, keep matching items, and accumulate values without manual loops.
+
+## Drill block practice_qa-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 1.
+Q: Name three semantic HTML landmarks. A: header, main, footer (also nav, aside, article, section).
+
+## Drill block practice_qa-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 2.
+Q: How do you associate a label with an input? A: Match label for to the input id (or wrap the input in the label).
+
+## Drill block practice_qa-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 3.
+Q: Which form enctype is required for file uploads? A: multipart/form-data.
+
+## Drill block practice_qa-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 4.
+Q: What does box-sizing: border-box change? A: Width/height include padding and border.
+
+## Drill block practice_qa-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 5.
+Q: Flexbox is best for which layouts? A: One-dimensional alignment of items in a row or column.
+
+## Drill block practice_qa-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 6.
+Q: Give a fluid grid track recipe. A: repeat(auto-fit, minmax(16rem, 1fr))
+
+## Drill block practice_qa-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 7.
+Q: Why include viewport meta? A: So mobile browsers size the layout viewport to the device width.
+
+## Drill block practice_qa-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 8.
+Q: const vs let in JavaScript? A: const blocks rebinding; let allows reassignment; both are block-scoped.
+
+## Drill block practice_qa-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 9.
+Q: Why prefer ===? A: It compares without type coercion.
+
+## Drill block practice_qa-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 10.
+Q: Safe way to put plain text in the DOM? A: textContent (or createTextNode), not innerHTML with untrusted strings.
+
+## Drill block practice_qa-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 11.
+Q: Does fetch reject on HTTP 404? A: No; check res.ok or status.
+
+## Drill block practice_qa-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 12.
+Q: What does await do inside async functions? A: Pauses that function until the promise settles.
+
+## Drill block practice_qa-13
+Review point 13: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 13.
+Q: TypeScript types at runtime? A: Erased; they exist for compile-time checking only.
+
+## Drill block practice_qa-14
+Review point 14: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 14.
+Q: unknown vs any in TypeScript? A: unknown requires narrowing; any disables checking.
+
+## Drill block practice_qa-15
+Review point 15: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 15.
+Q: Python open encoding for text? A: Prefer encoding="utf-8" explicitly.
+
+## Drill block practice_qa-16
+Review point 16: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 16.
+Q: How to avoid SQL injection? A: Bound parameters / prepared statements only.
+
+## Drill block practice_qa-17
+Review point 17: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 17.
+Q: INNER JOIN vs LEFT JOIN? A: INNER matching rows only; LEFT keeps all left rows.
+
+## Drill block practice_qa-18
+Review point 18: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 18.
+Q: PHP password storage? A: password_hash and password_verify.
+
+## Drill block practice_qa-19
+Review point 19: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 19.
+Q: Why htmlspecialchars in PHP templates? A: Escape HTML special characters to reduce XSS risk.
+
+## Drill block practice_qa-20
+Review point 20: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 20.
+Q: Java try-with-resources purpose? A: Auto-close AutoCloseable resources to avoid leaks.
+
+## Drill block practice_qa-21
+Review point 21: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 21.
+Q: What is a Java record? A: Immutable data carrier with generated accessors and equality.
+
+## Drill block practice_qa-22
+Review point 22: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 22.
+Q: C string termination? A: Null-terminated char arrays; track sizes carefully.
+
+## Drill block practice_qa-23
+Review point 23: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 23.
+Q: C++ RAII idea? A: Resource lifetime tied to object lifetime via constructors/destructors.
+
+## Drill block practice_qa-24
+Review point 24: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 24.
+Q: C# type for currency? A: decimal.
+
+## Drill block practice_qa-25
+Review point 25: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 25.
+Q: React state updater form when depending on previous state? A: setCount(c => c + 1)
+
+## Drill block practice_qa-26
+Review point 26: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 26.
+Q: Why keys in React lists? A: Stable identity across renders for correct reconciliation.
+
+## Drill block practice_qa-27
+Review point 27: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 27.
+Q: Node lockfile purpose? A: Reproducible dependency trees.
+
+## Drill block practice_qa-28
+Review point 28: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 28.
+Q: Vue v-for needs what for stable identity? A: A unique :key.
+
+## Drill block practice_qa-29
+Review point 29: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 29.
+Q: Is jQuery required on modern sites? A: No; native DOM and fetch usually suffice.
+
+## Drill block practice_qa-30
+Review point 30: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 30.
+Q: Bootstrap grid column count? A: 12 columns per row in the classic grid.
+
+## Drill block practice_qa-31
+Review point 31: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 31.
+Q: JSON trailing commas? A: Invalid in standard JSON.
+
+## Drill block practice_qa-32
+Review point 32: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 32.
+Q: XXE defense? A: Disable external entity resolution when parsing untrusted XML.
+
+## Drill block practice_qa-33
+Review point 33: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: practice_qa. Iteration 33.
+Q: CSS logical property example? A: margin-inline-start instead of margin-left for RTL-friendly layout.

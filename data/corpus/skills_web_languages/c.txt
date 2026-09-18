@@ -1,0 +1,78 @@
+# C language essentials (original)
+
+C is a low-level systems language. Many runtimes and databases are written in C. Web apps rarely use raw C for handlers, but understanding C helps with memory and APIs.
+Hello: #include <stdio.h> int main(void) { printf("hi\n"); return 0; }
+Types: int, char, float, double, void. Sizes are platform-dependent; use stdint.h (int32_t) when fixed width matters.
+Pointers store addresses: int x = 3; int *p = &x; *p = 4;
+Arrays decay to pointers in most expressions. Careful with lengths — C does not bounds-check.
+Strings are null-terminated char arrays. Prefer snprintf over sprintf to limit writes.
+Memory: malloc/free from stdlib.h. Always free what you allocate; set pointers NULL after free if reused.
+structs group fields. typedef struct { int id; } Item;
+Header files declare interfaces; .c files define them. Include guards or #pragma once.
+Undefined behavior (buffer overflow, use-after-free) is catastrophic — defensive coding and tools (sanitizers) matter.
+File I/O: fopen/fread/fwrite/fclose. Check return codes.
+No exceptions: use return codes and errno conventions.
+For web: C may appear in native modules, crypto libraries, or embedded devices speaking HTTP — still validate all inputs.
+Practice: write a function that safely copies a string into a buffer with an explicit size using snprintf.
+Q: Why is C risky with strings? A: Manual buffers without bounds checks lead to overflows; use sized APIs and checks.
+Q: Who frees malloc memory? A: You do — every successful malloc needs a matching free on that path.
+
+## Drill block c-1
+Review point 1: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 1.
+Q: Who frees malloc memory? A: You do — every successful malloc needs a matching free on that path.
+
+## Drill block c-2
+Review point 2: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 2.
+Q: Why is C risky with strings? A: Manual buffers without bounds checks lead to overflows; use sized APIs and checks.
+
+## Drill block c-3
+Review point 3: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 3.
+Q: Who frees malloc memory? A: You do — every successful malloc needs a matching free on that path.
+
+## Drill block c-4
+Review point 4: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 4.
+Q: Why is C risky with strings? A: Manual buffers without bounds checks lead to overflows; use sized APIs and checks.
+
+## Drill block c-5
+Review point 5: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 5.
+Q: Who frees malloc memory? A: You do — every successful malloc needs a matching free on that path.
+
+## Drill block c-6
+Review point 6: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 6.
+Q: Why is C risky with strings? A: Manual buffers without bounds checks lead to overflows; use sized APIs and checks.
+
+## Drill block c-7
+Review point 7: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 7.
+Q: Who frees malloc memory? A: You do — every successful malloc needs a matching free on that path.
+
+## Drill block c-8
+Review point 8: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 8.
+Q: Why is C risky with strings? A: Manual buffers without bounds checks lead to overflows; use sized APIs and checks.
+
+## Drill block c-9
+Review point 9: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 9.
+Q: Who frees malloc memory? A: You do — every successful malloc needs a matching free on that path.
+
+## Drill block c-10
+Review point 10: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 10.
+Q: Why is C risky with strings? A: Manual buffers without bounds checks lead to overflows; use sized APIs and checks.
+
+## Drill block c-11
+Review point 11: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 11.
+Q: Who frees malloc memory? A: You do — every successful malloc needs a matching free on that path.
+
+## Drill block c-12
+Review point 12: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 12.
+Q: Why is C risky with strings? A: Manual buffers without bounds checks lead to overflows; use sized APIs and checks.
+
+## Drill block c-13
+Review point 13: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 13.
+Q: Who frees malloc memory? A: You do — every successful malloc needs a matching free on that path.
+
+## Drill block c-14
+Review point 14: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 14.
+Q: Why is C risky with strings? A: Manual buffers without bounds checks lead to overflows; use sized APIs and checks.
+
+## Drill block c-15
+Review point 15: restate the core idea in your own words, then write a 5-line example. Check edge cases: empty input, unicode text, and error paths. Confirm accessibility or defensive notes when the topic touches UI or data. Topic tag: c. Iteration 15.
+Q: Who frees malloc memory? A: You do — every successful malloc needs a matching free on that path.

@@ -1,0 +1,150 @@
+SKILL postgres Q: What does PRIMARY KEY do? A: Uniquely identifies each row.
+SKILL postgres Q: What does PRIMARY KEY do? A: Uniquely identifies each row.
+SKILL postgres Q: What does PRIMARY KEY do? A: Uniquely identifies each row.
+SKILL postgres Q: What does PRIMARY KEY do? A: Uniquely identifies each row.
+SKILL postgres Q: What does PRIMARY KEY do? A: Uniquely identifies each row.
+SKILL postgres Q: What does PRIMARY KEY do? A: Uniquely identifies each row.
+SKILL postgres Q: What does PRIMARY KEY do? A: Uniquely identifies each row.
+SKILL postgres Q: What does PRIMARY KEY do? A: Uniquely identifies each row.
+SKILL postgres Q: What does PRIMARY KEY do? A: Uniquely identifies each row.
+SKILL postgres Q: What does PRIMARY KEY do? A: Uniquely identifies each row.
+SKILL postgres Q: How prevent SQL injection? A: Use parameterized queries.
+SKILL postgres Q: How prevent SQL injection? A: Use parameterized queries.
+SKILL postgres Q: How prevent SQL injection? A: Use parameterized queries.
+SKILL postgres Q: How prevent SQL injection? A: Use parameterized queries.
+SKILL postgres Q: How prevent SQL injection? A: Use parameterized queries.
+SKILL postgres Q: How prevent SQL injection? A: Use parameterized queries.
+SKILL postgres Q: How prevent SQL injection? A: Use parameterized queries.
+SKILL postgres Q: How prevent SQL injection? A: Use parameterized queries.
+SKILL postgres Q: How prevent SQL injection? A: Use parameterized queries.
+SKILL postgres Q: How prevent SQL injection? A: Use parameterized queries.
+SKILL postgres Q: What is BEGIN/COMMIT? A: Transaction boundaries for atomic writes.
+SKILL postgres Q: What is BEGIN/COMMIT? A: Transaction boundaries for atomic writes.
+SKILL postgres Q: What is BEGIN/COMMIT? A: Transaction boundaries for atomic writes.
+SKILL postgres Q: What is BEGIN/COMMIT? A: Transaction boundaries for atomic writes.
+SKILL postgres Q: What is BEGIN/COMMIT? A: Transaction boundaries for atomic writes.
+SKILL postgres Q: What is BEGIN/COMMIT? A: Transaction boundaries for atomic writes.
+SKILL postgres Q: What is BEGIN/COMMIT? A: Transaction boundaries for atomic writes.
+SKILL postgres Q: What is BEGIN/COMMIT? A: Transaction boundaries for atomic writes.
+SKILL postgres Q: What is BEGIN/COMMIT? A: Transaction boundaries for atomic writes.
+SKILL postgres Q: What is BEGIN/COMMIT? A: Transaction boundaries for atomic writes.
+SKILL postgres Q: What is pg_dump? A: Logical database backup tool.
+SKILL postgres Q: What is pg_dump? A: Logical database backup tool.
+SKILL postgres Q: What is pg_dump? A: Logical database backup tool.
+SKILL postgres Q: What is pg_dump? A: Logical database backup tool.
+SKILL postgres Q: What is pg_dump? A: Logical database backup tool.
+SKILL postgres Q: What is pg_dump? A: Logical database backup tool.
+SKILL postgres Q: What is pg_dump? A: Logical database backup tool.
+SKILL postgres Q: What is pg_dump? A: Logical database backup tool.
+SKILL postgres Q: What is pg_dump? A: Logical database backup tool.
+SKILL postgres Q: What is pg_dump? A: Logical database backup tool.
+SKILL postgres Q: Why use indexes? A: Speed selective lookups and joins.
+SKILL postgres Q: Why use indexes? A: Speed selective lookups and joins.
+SKILL postgres Q: Why use indexes? A: Speed selective lookups and joins.
+SKILL postgres Q: Why use indexes? A: Speed selective lookups and joins.
+SKILL postgres Q: Why use indexes? A: Speed selective lookups and joins.
+SKILL postgres Q: Why use indexes? A: Speed selective lookups and joins.
+SKILL postgres Q: Why use indexes? A: Speed selective lookups and joins.
+SKILL postgres Q: Why use indexes? A: Speed selective lookups and joins.
+SKILL postgres Q: Why use indexes? A: Speed selective lookups and joins.
+SKILL postgres Q: Why use indexes? A: Speed selective lookups and joins.
+SKILL security_defensive Q: What is least privilege? A: Minimum permissions needed only.
+SKILL security_defensive Q: What is least privilege? A: Minimum permissions needed only.
+SKILL security_defensive Q: What is least privilege? A: Minimum permissions needed only.
+SKILL security_defensive Q: What is least privilege? A: Minimum permissions needed only.
+SKILL security_defensive Q: What is least privilege? A: Minimum permissions needed only.
+SKILL security_defensive Q: What is least privilege? A: Minimum permissions needed only.
+SKILL security_defensive Q: What is least privilege? A: Minimum permissions needed only.
+SKILL security_defensive Q: What is least privilege? A: Minimum permissions needed only.
+SKILL security_defensive Q: What is least privilege? A: Minimum permissions needed only.
+SKILL security_defensive Q: What is least privilege? A: Minimum permissions needed only.
+SKILL security_defensive Q: Where enforce authorization? A: Always on the server.
+SKILL security_defensive Q: Where enforce authorization? A: Always on the server.
+SKILL security_defensive Q: Where enforce authorization? A: Always on the server.
+SKILL security_defensive Q: Where enforce authorization? A: Always on the server.
+SKILL security_defensive Q: Where enforce authorization? A: Always on the server.
+SKILL security_defensive Q: Where enforce authorization? A: Always on the server.
+SKILL security_defensive Q: Where enforce authorization? A: Always on the server.
+SKILL security_defensive Q: Where enforce authorization? A: Always on the server.
+SKILL security_defensive Q: Where enforce authorization? A: Always on the server.
+SKILL security_defensive Q: Where enforce authorization? A: Always on the server.
+SKILL security_defensive Q: May we learn exploits? A: No. Defense and hardening only.
+SKILL security_defensive Q: May we learn exploits? A: No. Defense and hardening only.
+SKILL security_defensive Q: May we learn exploits? A: No. Defense and hardening only.
+SKILL security_defensive Q: May we learn exploits? A: No. Defense and hardening only.
+SKILL security_defensive Q: May we learn exploits? A: No. Defense and hardening only.
+SKILL security_defensive Q: May we learn exploits? A: No. Defense and hardening only.
+SKILL security_defensive Q: May we learn exploits? A: No. Defense and hardening only.
+SKILL security_defensive Q: May we learn exploits? A: No. Defense and hardening only.
+SKILL security_defensive Q: May we learn exploits? A: No. Defense and hardening only.
+SKILL security_defensive Q: May we learn exploits? A: No. Defense and hardening only.
+SKILL security_defensive Q: What not to log? A: Passwords, tokens, secrets.
+SKILL security_defensive Q: What not to log? A: Passwords, tokens, secrets.
+SKILL security_defensive Q: What not to log? A: Passwords, tokens, secrets.
+SKILL security_defensive Q: What not to log? A: Passwords, tokens, secrets.
+SKILL security_defensive Q: What not to log? A: Passwords, tokens, secrets.
+SKILL security_defensive Q: What not to log? A: Passwords, tokens, secrets.
+SKILL security_defensive Q: What not to log? A: Passwords, tokens, secrets.
+SKILL security_defensive Q: What not to log? A: Passwords, tokens, secrets.
+SKILL security_defensive Q: What not to log? A: Passwords, tokens, secrets.
+SKILL security_defensive Q: What not to log? A: Passwords, tokens, secrets.
+SKILL windows Q: List files in PowerShell? A: Get-ChildItem
+SKILL windows Q: List files in PowerShell? A: Get-ChildItem
+SKILL windows Q: List files in PowerShell? A: Get-ChildItem
+SKILL windows Q: List files in PowerShell? A: Get-ChildItem
+SKILL windows Q: List files in PowerShell? A: Get-ChildItem
+SKILL windows Q: List files in PowerShell? A: Get-ChildItem
+SKILL windows Q: List files in PowerShell? A: Get-ChildItem
+SKILL windows Q: List files in PowerShell? A: Get-ChildItem
+SKILL windows Q: List files in PowerShell? A: Get-ChildItem
+SKILL windows Q: List files in PowerShell? A: Get-ChildItem
+SKILL windows Q: When elevate? A: Only when admin rights are required.
+SKILL windows Q: When elevate? A: Only when admin rights are required.
+SKILL windows Q: When elevate? A: Only when admin rights are required.
+SKILL windows Q: When elevate? A: Only when admin rights are required.
+SKILL windows Q: When elevate? A: Only when admin rights are required.
+SKILL windows Q: When elevate? A: Only when admin rights are required.
+SKILL windows Q: When elevate? A: Only when admin rights are required.
+SKILL windows Q: When elevate? A: Only when admin rights are required.
+SKILL windows Q: When elevate? A: Only when admin rights are required.
+SKILL windows Q: When elevate? A: Only when admin rights are required.
+SKILL ubuntu Q: Install package? A: sudo apt update && sudo apt install name
+SKILL ubuntu Q: Install package? A: sudo apt update && sudo apt install name
+SKILL ubuntu Q: Install package? A: sudo apt update && sudo apt install name
+SKILL ubuntu Q: Install package? A: sudo apt update && sudo apt install name
+SKILL ubuntu Q: Install package? A: sudo apt update && sudo apt install name
+SKILL ubuntu Q: Install package? A: sudo apt update && sudo apt install name
+SKILL ubuntu Q: Install package? A: sudo apt update && sudo apt install name
+SKILL ubuntu Q: Install package? A: sudo apt update && sudo apt install name
+SKILL ubuntu Q: Install package? A: sudo apt update && sudo apt install name
+SKILL ubuntu Q: Install package? A: sudo apt update && sudo apt install name
+SKILL ubuntu Q: Check service? A: systemctl status name
+SKILL ubuntu Q: Check service? A: systemctl status name
+SKILL ubuntu Q: Check service? A: systemctl status name
+SKILL ubuntu Q: Check service? A: systemctl status name
+SKILL ubuntu Q: Check service? A: systemctl status name
+SKILL ubuntu Q: Check service? A: systemctl status name
+SKILL ubuntu Q: Check service? A: systemctl status name
+SKILL ubuntu Q: Check service? A: systemctl status name
+SKILL ubuntu Q: Check service? A: systemctl status name
+SKILL ubuntu Q: Check service? A: systemctl status name
+SKILL fullstack_agent Q: What is verify? A: Prove the change works with a check.
+SKILL fullstack_agent Q: What is verify? A: Prove the change works with a check.
+SKILL fullstack_agent Q: What is verify? A: Prove the change works with a check.
+SKILL fullstack_agent Q: What is verify? A: Prove the change works with a check.
+SKILL fullstack_agent Q: What is verify? A: Prove the change works with a check.
+SKILL fullstack_agent Q: What is verify? A: Prove the change works with a check.
+SKILL fullstack_agent Q: What is verify? A: Prove the change works with a check.
+SKILL fullstack_agent Q: What is verify? A: Prove the change works with a check.
+SKILL fullstack_agent Q: What is verify? A: Prove the change works with a check.
+SKILL fullstack_agent Q: What is verify? A: Prove the change works with a check.
+SKILL fullstack_agent Q: Before destructive DB change? A: Backup and confirm impact.
+SKILL fullstack_agent Q: Before destructive DB change? A: Backup and confirm impact.
+SKILL fullstack_agent Q: Before destructive DB change? A: Backup and confirm impact.
+SKILL fullstack_agent Q: Before destructive DB change? A: Backup and confirm impact.
+SKILL fullstack_agent Q: Before destructive DB change? A: Backup and confirm impact.
+SKILL fullstack_agent Q: Before destructive DB change? A: Backup and confirm impact.
+SKILL fullstack_agent Q: Before destructive DB change? A: Backup and confirm impact.
+SKILL fullstack_agent Q: Before destructive DB change? A: Backup and confirm impact.
+SKILL fullstack_agent Q: Before destructive DB change? A: Backup and confirm impact.
+SKILL fullstack_agent Q: Before destructive DB change? A: Backup and confirm impact.

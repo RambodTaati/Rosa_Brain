@@ -1,0 +1,5 @@
+Windows professional use: NTFS permissions, services, Task Manager, Event Viewer concepts.
+PowerShell: Get-ChildItem, Get-Content, Set-Content, Get-Service, Start-Service, Stop-Service, Get-Process.
+Elevate only when required. Prefer reversible changes. Quote paths with spaces.
+Firewall and updates matter. Scheduled Tasks automate recurring work.
+As an agent: confirm destructive actions and log what changed.
