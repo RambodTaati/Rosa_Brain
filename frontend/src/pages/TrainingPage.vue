@@ -6,6 +6,7 @@ type Dict = Record<string, unknown>
 
 const data = ref<Dict | null>(null)
 const resources = ref<Dict | null>(null)
+const agent = ref<Dict | null>(null)
 const error = ref('')
 const refreshing = ref(false)
 const corpusTab = ref('skills_postgres')
@@ -137,9 +138,10 @@ const chartPoints = computed(() => {
 async function load() {
   refreshing.value = true
   try {
-    const [learn, res] = await Promise.all([api.learning(), api.resources().catch(() => null)])
+    const [learn, res, ag] = await Promise.all([api.learning(), api.resources().catch(() => null), api.agentStatus().catch(() => null)])
     data.value = learn
     if (res) resources.value = res
+    if (ag) agent.value = ag
     error.value = ''
     if (corpusTabs.value.length && !corpusTabs.value.some((t) => t.id === corpusTab.value)) {
       corpusTab.value = corpusTabs.value[0].id
@@ -198,6 +200,17 @@ onUnmounted(() => {
         <span class="badge">آخرین رویداد: {{ fmtAge(data?.last_event_age_seconds) }}</span>
       </div>
       <p v-if="error" class="error" style="margin-top: 0.75rem">{{ error }}</p>
+    </div>
+
+    
+    <div class="card" v-if="agent">
+      <h3 style="margin-top:0">آمادگی Agent</h3>
+      <div class="row">
+        <span class="badge">tools: {{ (agent.tools as any)?.ok || (agent.tools as any)?.count || '—' }}</span>
+        <span class="badge">skills: {{ (agent.skills as any)?.prepared_enabled ?? (agent.skills as any)?.count ?? '—' }}</span>
+        <span class="badge">mcp: {{ (agent.mcp as any)?.count ?? (agent.mcp as any)?.enabled ?? '—' }}</span>
+      </div>
+      <p class="muted" style="margin:0.75rem 0 0">وضعیت واقعی Agent محلی (نه فقط درصد راند آموزشی).</p>
     </div>
 
     <div class="grid-2" v-if="data">

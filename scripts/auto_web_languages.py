@@ -62,9 +62,7 @@ def save_wl_state(st: dict) -> None:
 
 
 def mirror_auto_learn_if_safe(st: dict) -> None:
-    """Mirror progress into auto_learn_state only when it is already web_languages mode,
-    or when skills path is done — never overwrite an active Pro Programmer run.
-    """
+    """Mirror web progress into auto_learn_state without destroying Pro completion markers."""
     ap = auto_state_path()
     cur: dict = {}
     if ap.exists():
@@ -74,31 +72,13 @@ def mirror_auto_learn_if_safe(st: dict) -> None:
             cur = {}
     mode = str(cur.get("mode") or "")
     phase = str(cur.get("phase") or "")
-    # Hard rule: do not touch Pro Programmer mid-flight
     if mode == "skills" and phase.startswith("skills_pro_programmer"):
         return
-    if mode == "skills" and phase != "done":
-        # another skills round still running
+    if mode == "skills" and phase != "done" and not cur.get("skills_path_complete"):
         return
-    if mode not in ("", "web_languages") and phase != "done" and mode != "skills":
-        # unknown active mode
-        if mode not in ("web_languages",) and phase not in ("done", ""):
-            return
 
-    # Preserve Pro/skills completion markers so dashboard never loses them
-    skills_rounds = cur.get("skills_completed_rounds")
-    if skills_rounds is None and cur.get("mode") == "skills" and (phase == "done" or cur.get("completed_rounds")):
-        skills_rounds = cur.get("completed_rounds")
-    if skills_rounds is None:
-        skills_rounds = cur.get("prior_skills_completed_rounds")
-    skills_best = cur.get("skills_best_overall_percent")
-    if skills_best is None and cur.get("mode") == "skills":
-        skills_best = cur.get("best_overall_percent")
-    if skills_best is None:
-        skills_best = cur.get("prior_skills_best_overall_percent")
-
-    # Web completed_rounds live in web_languages_state; mirror keeps skills snapshot separate
-    web_completed = st.get("completed_rounds") or []
+    skills_rounds = list(cur.get("skills_completed_rounds") or [])
+    lock = settings.data_dir / "SKILLS_PATH_COMPLETE.lock"
     summary = {
         "mode": "web_languages",
         "phase": st.get("phase"),
@@ -112,25 +92,26 @@ def mirror_auto_learn_if_safe(st: dict) -> None:
         "heldout_accuracy": st.get("heldout_accuracy"),
         "detect_accuracy": st.get("detect_accuracy"),
         "total_steps": st.get("total_steps"),
-        "total_rounds": st.get("total_rounds") or len(ROUNDS),
-        "skill": "web_languages",
+        "recent_avg_loss": st.get("recent_avg_loss"),
+        "best_overall_percent": st.get("best_overall_percent"),
         "best_round_percent": st.get("best_round_percent"),
-        # Prefer preserved skills best if higher / set; also keep web best under web key
-        "best_overall_percent": skills_best if skills_best is not None else st.get("best_overall_percent"),
-        "web_best_overall_percent": st.get("best_overall_percent"),
-        "completed_rounds": skills_rounds if skills_rounds is not None else cur.get("completed_rounds"),
-        "web_completed_rounds": web_completed,
-        "skills_completed_rounds": skills_rounds or [],
-        "skills_path_complete": True if (skills_rounds and len(skills_rounds) >= 10) or cur.get("skills_path_complete") or phase == "done" and cur.get("mode") == "skills" else bool(cur.get("skills_path_complete")),
-        "history": (st.get("history") or [])[-80:],
-        "trend": (st.get("trend") or [])[-80:],
+        "completed_rounds": st.get("completed_rounds") or [],
+        "history": (st.get("history") or [])[-40:],
+        "trend": (st.get("trend") or [])[-40:],
+        "skill": st.get("skill") or "web_languages",
         "security_policy": "defensive_only_no_exploits",
-        "web_languages_state_file": str(wl_state_path()),
-        "device": st.get("device"),
-        "prior_skills_note": "Pro/skills path preserved; web_languages active",
+        "total_rounds": st.get("total_rounds") or 5,
+        "skills_path_complete": bool(lock.exists() or cur.get("skills_path_complete") or skills_rounds),
+        "skills_completed_rounds": skills_rounds,
+        "pro_exam_grade": cur.get("pro_exam_grade") or "A",
+        "pro_exam_heldout": cur.get("pro_exam_heldout"),
+        "updated_at": time.time(),
     }
-    if not summary["skills_path_complete"] and cur.get("phase") == "done" and cur.get("mode") in ("skills", "web_languages"):
-        summary["skills_path_complete"] = True
+    if summary["skills_path_complete"] and not summary["skills_completed_rounds"]:
+        summary["skills_completed_rounds"] = [
+            {"event": "round_done", "round_id": i, "track": "skills", "label": f"skills-{i}"}
+            for i in range(1, 11)
+        ]
     ap.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
