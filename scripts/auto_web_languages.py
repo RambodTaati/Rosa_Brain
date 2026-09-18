@@ -85,8 +85,22 @@ def mirror_auto_learn_if_safe(st: dict) -> None:
         if mode not in ("web_languages",) and phase not in ("done", ""):
             return
 
+    # Preserve Pro/skills completion markers so dashboard never loses them
+    skills_rounds = cur.get("skills_completed_rounds")
+    if skills_rounds is None and cur.get("mode") == "skills" and (phase == "done" or cur.get("completed_rounds")):
+        skills_rounds = cur.get("completed_rounds")
+    if skills_rounds is None:
+        skills_rounds = cur.get("prior_skills_completed_rounds")
+    skills_best = cur.get("skills_best_overall_percent")
+    if skills_best is None and cur.get("mode") == "skills":
+        skills_best = cur.get("best_overall_percent")
+    if skills_best is None:
+        skills_best = cur.get("prior_skills_best_overall_percent")
+
+    # Web completed_rounds live in web_languages_state; mirror keeps skills snapshot separate
+    web_completed = st.get("completed_rounds") or []
     summary = {
-        "mode": "web_languages",  # will preserve skills fields
+        "mode": "web_languages",
         "phase": st.get("phase"),
         "round_id": st.get("round_id"),
         "round_label": st.get("round_label"),
@@ -101,19 +115,22 @@ def mirror_auto_learn_if_safe(st: dict) -> None:
         "total_rounds": st.get("total_rounds") or len(ROUNDS),
         "skill": "web_languages",
         "best_round_percent": st.get("best_round_percent"),
-        "best_overall_percent": st.get("best_overall_percent"),
-        "completed_rounds": st.get("completed_rounds"),
+        # Prefer preserved skills best if higher / set; also keep web best under web key
+        "best_overall_percent": skills_best if skills_best is not None else st.get("best_overall_percent"),
+        "web_best_overall_percent": st.get("best_overall_percent"),
+        "completed_rounds": skills_rounds if skills_rounds is not None else cur.get("completed_rounds"),
+        "web_completed_rounds": web_completed,
+        "skills_completed_rounds": skills_rounds or [],
+        "skills_path_complete": True if (skills_rounds and len(skills_rounds) >= 10) or cur.get("skills_path_complete") or phase == "done" and cur.get("mode") == "skills" else bool(cur.get("skills_path_complete")),
         "history": (st.get("history") or [])[-80:],
         "trend": (st.get("trend") or [])[-80:],
         "security_policy": "defensive_only_no_exploits",
         "web_languages_state_file": str(wl_state_path()),
         "device": st.get("device"),
+        "prior_skills_note": "Pro/skills path preserved; web_languages active",
     }
-    # Preserve prior skills completion history if present and we are transitioning
-    if cur.get("mode") == "skills" and phase == "done":
-        summary["prior_skills_completed_rounds"] = cur.get("completed_rounds")
-        summary["prior_skills_note"] = "Pro/skills path done; web_languages active"
-    summary = _preserve_skills_fields(summary, cur)
+    if not summary["skills_path_complete"] and cur.get("phase") == "done" and cur.get("mode") in ("skills", "web_languages"):
+        summary["skills_path_complete"] = True
     ap.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
@@ -324,18 +341,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-
-# PRESERVE_SKILLS_COMPLETE
-def _preserve_skills_fields(summary: dict, cur: dict) -> dict:
-    summary["skills_path_complete"] = True
-    prev = cur.get("skills_completed_rounds") or cur.get("completed_rounds") if cur.get("skills_path_complete") else cur.get("skills_completed_rounds")
-    if cur.get("skills_completed_rounds"):
-        summary["skills_completed_rounds"] = cur.get("skills_completed_rounds")
-    elif cur.get("phase") == "done" and cur.get("completed_rounds"):
-        summary["skills_completed_rounds"] = cur.get("completed_rounds")
-    if cur.get("pro_exam_grade"):
-        summary["pro_exam_grade"] = cur.get("pro_exam_grade")
-    if cur.get("pro_exam_heldout") is not None:
-        summary["pro_exam_heldout"] = cur.get("pro_exam_heldout")
-    return summary

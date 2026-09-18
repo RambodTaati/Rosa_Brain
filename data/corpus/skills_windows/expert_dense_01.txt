@@ -1,0 +1,5 @@
+Windows admin (defensive). PowerShell: Get-Process, Get-Service, Get-EventLog/Get-WinEvent, Get-NetTCPConnection.
+Execution policy awareness; prefer signed scripts. Scheduled tasks via schtasks carefully. Services: sc.exe query / Get-Service.
+Registry: read with Get-ItemProperty; avoid blind writes. Event IDs: 4625 failed logon, 4688 process create (if audited).
+Disk: Get-Volume, Get-PSDrive. Network: Get-NetIPAddress, Test-NetConnection. Updates: UsoClient / Windows Update.
+ACL: Get-Acl/Set-Acl; principle of least privilege. Hyper-V / WSL basics. Path length and UTF-8 console (chcp 65001).

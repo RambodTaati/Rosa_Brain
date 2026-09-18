@@ -1,0 +1,5 @@
+Ubuntu/Linux admin (defensive). systemd: systemctl status/start/enable; journalctl -u. apt update && apt install carefully.
+Users: adduser, usermod -aG; sudoers.d fragments. sshd_config: PasswordAuthentication no when keys ready; AllowUsers.
+ufw default deny incoming; allow 22/80/443 as needed. fail2ban for ssh. Disk: df -h, lsblk, du -sh.
+Permissions: chmod/chown; umask; sticky bit on /tmp. Logs: /var/log/syslog, auth.log. cron vs systemd timers.
+Containers: docker ps (if installed) — isolate; never mount docker.sock into untrusted containers.

@@ -1,0 +1,9 @@
+Defensive secure coding (NO exploits — prevention only).
+Validate and encode output (HTML/JS/URL contexts separately). Prefer parameterized SQL and ORM. CSRF tokens on state-changing routes.
+AuthN: salted password hashes (Argon2id/bcrypt); MFA; short-lived access tokens + rotating refresh; store secrets outside repo.
+AuthZ: deny-by-default; check object ownership server-side; never trust client role claims alone.
+Upload: allowlist extensions/MIME; store outside web root; random names; size limits; scan if available.
+Deps: pin versions; audit CVEs; avoid eval/exec on user data; CSP, HSTS, Secure/HttpOnly cookies.
+Logging: no secrets/PII in logs; structured audit for auth failures. Rate-limit login and APIs.
+Threat model: STRIDE lightly — spoofing, tampering, repudiation, info disclosure, DoS, elevation — mitigate each.
+Windows/Ubuntu hardening: least privilege accounts, patch promptly, firewall default-deny inbound, disable unused services.

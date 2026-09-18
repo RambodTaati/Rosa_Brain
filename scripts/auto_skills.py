@@ -181,45 +181,87 @@ def train_round(mgr: ModelManager, st: dict, rnd: dict, chunk: int = 16) -> None
             return
 
 
+def _round_ids_done(st: dict) -> set:
+    return {c.get("round_id") for c in (st.get("completed_rounds") or []) if c.get("round_id") is not None}
+
+
+def _all_rounds_complete(st: dict) -> bool:
+    done = _round_ids_done(st)
+    needed = {r["id"] for r in ROUNDS}
+    return needed.issubset(done) or (str(st.get("phase") or "") == "done" and len(done) >= len(ROUNDS))
+
+
+def _refuse_destructive_reset(st: dict, reason: str) -> None:
+    """Never wipe non-empty completed_rounds; backup and exit."""
+    existing = st.get("completed_rounds") or []
+    if existing:
+        bak = settings.data_dir / f"auto_learn_state_refuse_wipe_{int(time.time())}.json"
+        try:
+            bak.write_text(json.dumps(st, ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception:
+            pass
+        print(json.dumps({
+            "event": "skills_refuse_destructive_reset",
+            "reason": reason,
+            "completed_rounds": len(existing),
+            "backup": str(bak),
+        }, ensure_ascii=False), flush=True)
+        raise SystemExit(0)
+
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--chunk", type=int, default=16)
     args = ap.parse_args()
-    lock = settings.data_dir / "SKILLS_PATH_COMPLETE.lock"
-    if lock.exists():
-        print(json.dumps({"event": "skills_locked_complete", "lock": str(lock)}, ensure_ascii=False), flush=True)
-        return
     mgr = ModelManager()
     loaded = mgr.load_if_exists()
     print(json.dumps({"event": "model", "loaded": loaded, "params": sum(p.numel() for p in mgr.net.parameters()), "device": mgr.device}, ensure_ascii=False), flush=True)
     st = load_state()
-    # REFUSE_DESTRUCTIVE_RESET
-    if st.get("phase") == "done" and st.get("completed_rounds"):
-        print(json.dumps({"event": "skills_already_done", "completed": len(st.get("completed_rounds") or [])}, ensure_ascii=False), flush=True)
-        return
-    if str(st.get("mode") or "") == "web_languages":
-        print(json.dumps({"event": "skills_skip_web_mode"}, ensure_ascii=False), flush=True)
-        return
-    if st.get("mode") != "skills":
-        # Never wipe non-empty completed_rounds
+    mode = str(st.get("mode") or "")
+    phase = str(st.get("phase") or "")
+
+    # Web languages mode: do NOT wipe — exit cleanly
+    if mode in ("web_languages", "web"):
+        print(json.dumps({
+            "event": "skills_skip_web_mode",
+            "mode": mode,
+            "phase": phase,
+            "message": "auto_skills: mode is web_languages; refusing to run or wipe",
+        }, ensure_ascii=False), flush=True)
+        raise SystemExit(0)
+
+    # Skills path already complete
+    if phase == "done" and _all_rounds_complete(st):
+        print(json.dumps({
+            "event": "skills_already_done",
+            "completed_rounds": sorted(_round_ids_done(st)),
+            "best_overall_percent": st.get("best_overall_percent"),
+            "message": "skills_already_done",
+        }, ensure_ascii=False), flush=True)
+        raise SystemExit(0)
+
+    if mode != "skills":
+        # Preserve any non-empty progress; never replace with empty completed_rounds
         if st.get("completed_rounds"):
-            print(json.dumps({"event": "skills_refuse_reset_has_completed", "mode": st.get("mode")}, ensure_ascii=False), flush=True)
-            return
+            _refuse_destructive_reset(st, f"mode={mode} but completed_rounds non-empty")
         bak = settings.data_dir / "auto_learn_state_before_skills.json"
         if not bak.exists() and state_path().exists():
             bak.write_text(state_path().read_text(encoding="utf-8-sig"), encoding="utf-8")
-        st = {
-            "mode": "skills",
-            "phase_steps": 0,
-            "history": [],
-            "trend": [],
-            "completed_rounds": [],
-            "best_overall_percent": 0,
-            "best_round_percent": 0,
-            "security_policy": "defensive_only_no_exploits",
-        }
-        save_state(st)
+        # Only initialize fresh if truly empty
+        if not st or (not st.get("completed_rounds") and phase not in ("done",)):
+            st = {
+                "mode": "skills",
+                "phase_steps": 0,
+                "history": st.get("history") or [],
+                "trend": st.get("trend") or [],
+                "completed_rounds": [],
+                "best_overall_percent": st.get("best_overall_percent") or 0,
+                "best_round_percent": 0,
+                "security_policy": "defensive_only_no_exploits",
+            }
+            save_state(st)
+        else:
+            _refuse_destructive_reset(st, f"refusing reset for mode={mode}")
 
     start_i = 0
     done_skill = {c.get("round_id") for c in st.get("completed_rounds") or []}

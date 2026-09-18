@@ -113,6 +113,59 @@ class SandboxTools:
         except subprocess.TimeoutExpired as exc:
             raise ToolError(f"timeout after {settings.max_shell_seconds}s") from exc
 
+    def search_workspace(
+        self,
+        query: str,
+        max_files: int = 40,
+        max_hits: int = 30,
+        max_file_bytes: int = 200_000,
+    ) -> dict[str, Any]:
+        """rg-like walk of workspace text files (local only, capped)."""
+        q = (query or "").strip()
+        if not q:
+            raise ToolError("empty search query")
+        q_lower = q.lower()
+        hits: list[dict[str, Any]] = []
+        scanned = 0
+        text_ext = {".py", ".ps1", ".md", ".txt", ".json", ".jsonl", ".yml", ".yaml", ".toml", ".ini", ".cfg", ".css", ".html", ".js", ".ts", ".tsx", ".vue", ".sql", ".sh", ".bat"}
+        for path in sorted(self.root.rglob("*")):
+            if len(hits) >= max_hits:
+                break
+            if not path.is_file():
+                continue
+            if path.suffix.lower() not in text_ext and path.suffix.lower() not in {".", ""}:
+                # allow extensionless small files
+                if path.suffix:
+                    continue
+            try:
+                if path.stat().st_size > max_file_bytes:
+                    continue
+            except OSError:
+                continue
+            scanned += 1
+            if scanned > max_files * 20:
+                break
+            try:
+                data = path.read_text(encoding="utf-8", errors="replace")
+            except Exception:
+                continue
+            if q_lower not in data.lower() and q not in data:
+                continue
+            # collect matching lines
+            matched_lines = []
+            for i, line in enumerate(data.splitlines(), 1):
+                if q_lower in line.lower():
+                    matched_lines.append({"line": i, "text": line[:240]})
+                    if len(matched_lines) >= 5:
+                        break
+            rel = str(path.relative_to(self.root)).replace("\\", "/")
+            hits.append({"path": rel, "matches": matched_lines})
+            if len(hits) >= max_hits:
+                break
+            if scanned >= max_files and not hits:
+                break
+        return {"query": q, "hits": hits, "files_scanned_cap": scanned, "hit_count": len(hits)}
+
     def dispatch(self, name: str, args: dict[str, Any]) -> dict[str, Any]:
         name = name.strip().lower()
         if name in ("list_dir", "ls", "dir"):
@@ -123,4 +176,10 @@ class SandboxTools:
             return self.write_file(str(args.get("path", "")), str(args.get("content", "")))
         if name in ("shell", "run_shell", "exec"):
             return self.run_shell(str(args.get("command", "")))
+        if name in ("search_workspace", "search", "rg", "find"):
+            return self.search_workspace(
+                str(args.get("query", args.get("q", ""))),
+                max_files=int(args.get("max_files", 40) or 40),
+                max_hits=int(args.get("max_hits", 30) or 30),
+            )
         raise ToolError(f"unknown tool: {name}")

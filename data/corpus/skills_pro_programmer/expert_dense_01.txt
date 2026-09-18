@@ -1,0 +1,5 @@
+Pro programmer craft. Clarity over cleverness. Pure functions where practical; explicit errors; typed boundaries.
+Tests: arrange-act-assert; name by behavior; fail messages useful. Refactors: small steps; keep green.
+API design: nouns for resources; idempotent PUT; pagination; problem+json errors. Concurrency: prefer queues over shared mutables.
+Perf: measure before optimize; big-O awareness; avoid N+1 queries; batch I/O. Docs: why > what. Git: small commits, bisect-friendly.
+Code review checklist: correctness, security, readability, tests, observability.

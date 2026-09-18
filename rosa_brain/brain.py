@@ -12,6 +12,7 @@ from rosa_brain.memory import MemoryStore
 from rosa_brain.model import ModelManager
 from rosa_brain.resources import get_status
 from rosa_brain.tools import SandboxTools, ToolError
+from rosa_brain.agent_runtime import LocalAgent
 
 
 class Brain:
@@ -22,6 +23,11 @@ class Brain:
         self.tools = SandboxTools()
         self.web = WebLearner(self.memory, self.model)
         self.experience = ExperienceStore(self.memory, self.model)
+        self.agent = LocalAgent(
+            tools=self.tools,
+            memory_search=lambda q, k: self.memory.search_semantic(q, top_k=k),
+            model_info=self.model.info,
+        )
 
     def think(self, user_text: str) -> dict[str, Any]:
         resources = get_status().to_dict()
@@ -100,19 +106,57 @@ class Brain:
         return {"ok": ok, "experience": lesson_rec}
 
     def chat(self, user_text: str) -> dict[str, Any]:
+        # Greetings: keep meaning-detection path; questions/requests: LocalAgent
+        meaning_pre = None
+        try:
+            meaning_pre = self._detect_meaning(user_text)
+        except Exception:
+            meaning_pre = None
+        lab = str((meaning_pre or {}).get("label") or "")
+        is_greeting = lab in ("intent_greeting", "greeting", "hello", "salam")
+        t = (user_text or "").strip().lower()
+        if t in ("سلام", "hi", "hello", "hey", "درود", "سلام!"):
+            is_greeting = True
+
+        if not is_greeting:
+            agent_out = self.agent.handle(user_text)
+            # If agent says chat but meaning detector wants greeting reply, fall through
+            if agent_out.get("intent") != "chat" or any(
+                x in t for x in ("/", "tool", "code", "چطور", "how", "postgres", "sql", "وضعیت")
+            ) or agent_out.get("intent") in ("tool", "code_help", "skill_use", "resources", "status", "project", "learn_web"):
+                reflection = self.reflect(user_text, {"intent": agent_out.get("intent"), "plan": agent_out.get("plan")}, {"reply": agent_out.get("reply"), "actions": agent_out.get("actions")})
+                return {
+                    "reply": agent_out.get("reply"),
+                    "intent": agent_out.get("intent"),
+                    "meaning": meaning_pre,
+                    "plan": agent_out.get("plan"),
+                    "actions": agent_out.get("actions"),
+                    "skills_used": agent_out.get("skills_used"),
+                    "readiness_summary": agent_out.get("readiness_summary"),
+                    "reflection": reflection,
+                    "resources": (agent_out.get("readiness") or {}).get("training") or self.think(user_text).get("resources"),
+                    "model": self.model.info(),
+                }
+
         thought = self.think(user_text)
         acted = self.act(thought, user_text)
         reflection = self.reflect(user_text, thought, acted)
+        ready = self.agent.readiness_report()
         return {
             "reply": acted["reply"],
             "intent": thought["intent"],
             "meaning": thought.get("meaning"),
             "plan": thought["plan"],
             "actions": acted["actions"],
+            "skills_used": [],
+            "readiness_summary": f"agent={ready['chat_agent'].get('ready')} skills={ready['skills'].get('prepared_enabled')}",
             "reflection": reflection,
             "resources": thought["resources"],
             "model": self.model.info(),
         }
+
+    def agent_status(self) -> dict[str, Any]:
+        return self.agent.readiness_report()
 
 
 

@@ -1,0 +1,5 @@
+Full-stack local agent patterns. API: FastAPI routes thin; business logic in modules; pydantic validation.
+Frontend: clear loading/error/empty states; never trust client-only checks. Workspace tools: sandbox paths; allowlist shell.
+Agent loop: perceive → plan → act (tools) → reflect (memory). Cap tool calls per turn. Structured replies beat free-form hallucinated code.
+Skills registry: enabled+prepared snippets injected into context. MCP: optional local servers; disable by default until configured.
+Projects: isolate workspace folders; do not cross project roots without explicit path.

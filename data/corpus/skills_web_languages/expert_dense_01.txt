@@ -1,0 +1,10 @@
+Web languages dense expert pack.
+HTML: semantic landmarks (header/nav/main/footer); forms with labels; accessibility alt/aria; never inline untrusted HTML.
+CSS: cascade/specificity; flex/grid; container queries; prefer rem; dark-mode via prefers-color-scheme; avoid !important.
+JS: const/let; async/await; fetch error handling; debounce input; module type=module; avoid document.write.
+TS: strict null checks; discriminated unions; unknown over any; utility types Pick/Omit/Partial.
+React: keys stable; effects with correct deps; controlled inputs; memo sparingly; context for DI not globals.
+Vue: refs/reactive; computed; props down events up; v-once carefully. Node: middleware order; env config; graceful shutdown.
+SQL in web apps: parameterized only; migrations; connection pool size. PHP: prepared statements PDO; escape output.
+JSON/XML: schema validate; size limits. Bootstrap/jQuery: prefer progressive enhancement; migrate jQuery to vanilla when possible.
+C/C++/C#/Java for web backends: bound buffers; UTF-8; never gets(); use parameterized DB APIs.

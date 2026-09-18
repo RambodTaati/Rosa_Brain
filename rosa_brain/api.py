@@ -114,6 +114,18 @@ def learning() -> dict[str, Any]:
     return get_learning_status()
 
 
+@app.get("/v1/agent/status")
+def agent_status() -> dict[str, Any]:
+    """Structured local-agent readiness (training, tools, skills, mcp, limitations)."""
+    brain = get_brain()
+    if hasattr(brain, "agent_status"):
+        return brain.agent_status()
+    # Fallback minimal
+    from rosa_brain.agent_runtime import LocalAgent
+    return LocalAgent(tools=brain.tools, model_info=brain.model.info).readiness_report()
+
+
+
 @app.get("/v1/resources")
 def resources() -> dict[str, Any]:
     from dataclasses import asdict
@@ -143,8 +155,28 @@ def chat(payload: ChatIn) -> dict[str, Any]:
         out = dict(out)
         out.setdefault("session_id", payload.session_id)
         out.setdefault("project_id", payload.project_id)
+        out.setdefault("skills_used", out.get("skills_used") or [])
+        if not out.get("readiness_summary") and hasattr(brain, "agent_status"):
+            try:
+                r = brain.agent_status()
+                out["readiness_summary"] = (
+                    f"agent={r.get('chat_agent',{}).get('ready')} "
+                    f"skills={r.get('skills',{}).get('prepared_enabled')} "
+                    f"tools={r.get('tools',{}).get('count')}"
+                )
+            except Exception:
+                out.setdefault("readiness_summary", "agent=unknown")
         return out
-    return {"reply": str(out), "session_id": payload.session_id, "project_id": payload.project_id}
+    return {
+        "reply": str(out),
+        "session_id": payload.session_id,
+        "project_id": payload.project_id,
+        "intent": "chat",
+        "plan": [],
+        "actions": [],
+        "skills_used": [],
+        "readiness_summary": "agent=unknown",
+    }
 
 
 @app.post("/v1/learn/web")

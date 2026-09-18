@@ -1,0 +1,11 @@
+PostgreSQL expert notes (dense, defensive ops).
+Use EXPLAIN (ANALYZE, BUFFERS) before tuning. Prefer btree for equality/range; GIN for jsonb/tsvector; GiST for ranges/geo.
+Never interpolate user input into SQL — use parameterized queries ($1) or ORM binds.
+Transactions: BEGIN; ... COMMIT; use SAVEPOINT for partial rollback. Isolation: READ COMMITTED default; SERIALIZABLE for critical financial.
+Indexes: partial indexes WHERE deleted_at IS NULL; covering INCLUDE (col). Avoid over-indexing write-heavy tables.
+VACUUM (ANALYZE) for bloat; autovacuum tune scale_factor. Watch dead tuples via pg_stat_user_tables.
+Connection pooling: PgBouncer transaction mode for web; session mode for prepared statements carefully.
+Migrations: expand-contract (add nullable → backfill → constrain). Never drop column in same release as code still reading it.
+Replication: streaming WAL; check pg_stat_replication lag. Backups: pg_basebackup + WAL archive; test restore.
+JSON: jsonb_path_ops for containment @>; generate_series for calendars. Window functions: ROW_NUMBER, LAG, SUM() OVER.
+Security: REVOKE PUBLIC; least-privilege roles; row-level security (RLS) policies; encrypt connections SSL.
